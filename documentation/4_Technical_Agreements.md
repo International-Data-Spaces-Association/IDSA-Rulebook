@@ -1,4 +1,4 @@
-# Technical agreements 
+# Technical agreements
 
 This section of the rulebook describes the technical arrangements
 required to implement an IDS-based data room. The IDS rulebook specifies
@@ -6,8 +6,9 @@ what is mandatory and what is optional to implement but keep some
 freedom how to realize these concepts (see also the section on the goals
 of IDS in the IDS RAM).
 
-![](media/media/image17.png){width="5.588888888888889in"
-height="2.8201388888888888in"}The technical agreements of the
+![](media/media/image17.png)
+
+The technical agreements of the
 IDS-framework consist of the Reference Architecture Model (RAM) that
 provides a technology-independent perspective and the
 technology-specific specification on IDS-G. The two provide guidance to
@@ -41,7 +42,7 @@ once per year. For more details see the table below.
   IDS-testbed             Fourth quarter of a     Working group
                           year                    certification
 
-  IDSA rulebook           Third quarter of a year Working group rulebook
+IDSA rulebook           Third quarter of a year Working group rulebook
   -----------------------------------------------------------------------
 
 ## IDS Reference Architecture Model (RAM)
@@ -99,12 +100,12 @@ committee in the future.
 
 The specifications in IDS-G distinguish between four different aspects:
 
--   **Components**: The framework for implementing IDS components as
+- **Components**: The framework for implementing IDS components as
     derived from the business layer in the RAM and described in the
     system layer, including the use of certain technologies and
     standards.
 
--   **Communication**: The interaction and communication of the IDS
+- **Communication**: The interaction and communication of the IDS
     components requires a clear specification to achieve
     interoperability. The communication section distinguishes between
     messages and message types and the interaction sequences between the
@@ -112,35 +113,35 @@ The specifications in IDS-G distinguish between four different aspects:
     synchronized. Based on these two aspects bindings to technologies
     are derived.
 
--   **Information model**: The IDS information model provides
+- **Information model**: The IDS information model provides
     fundamental concepts to describe data products based on the IDS core
     concepts and fundamental standards DCAT for data assets and ODRL for
     contract policies.
 
--   **Usage control**: Usage control is a fundamental mechanism in IDS.
+- **Usage control**: Usage control is a fundamental mechanism in IDS.
     This section describes the usage contracts and how they can be
     realized in IDS Connectors.
 
 The IDS-G specifications are available via GitHub[^10].
 
-## IDS Certification 
+## IDS Certification
 
 The IDS Certification is a perspective in the IDS-RAM and its approach
 is described in detail in the IDS Certification scheme (general
 structure, operational structure, and maintenance of the certification
 criteria).
 
--   The certification scheme[^11] describes the operational model and
+- The certification scheme[^11] describes the operational model and
     roles in the IDS Certification.
 
--   The rules of procedure [^12]include the formal outline of
+- The rules of procedure [^12]include the formal outline of
     organizational processes
 
--   Approval of evaluators[^13]
+- Approval of evaluators[^13]
 
--   Execution of evaluations
+- Execution of evaluations
 
--   The certification criteria[^14] list the formal aspects of
+- The certification criteria[^14] list the formal aspects of
     evaluations for the core components and the operational environment.
 
 While the certification scheme and the documents listed above describe
@@ -157,20 +158,20 @@ different security and assurance levels.
 
 This includes:
 
--   All evaluation facilities conduct transparent conformance tests in
+- All evaluation facilities conduct transparent conformance tests in
     the „IDS reference testbed"[^15] based on the regulations from the
     certification working group and approved by the IDSA technical
     steering committee.
 
--   All evaluation facilities assess compliance with the security
+- All evaluation facilities assess compliance with the security
     requirements listed in the IDS criteria catalog based on tests
     derived from the criteria. Tests that can be conducted automatically
     are part of the test suite[^16] of the IDS-testbed.
 
--   The evaluation facilities issue a certificate when conformance and
+- The evaluation facilities issue a certificate when conformance and
     security tests are passed.
 
--   To ensure that the evaluation facilities conduct the evaluations
+- To ensure that the evaluation facilities conduct the evaluations
     according to the specifications, the certification body must assess
     their competence.
 

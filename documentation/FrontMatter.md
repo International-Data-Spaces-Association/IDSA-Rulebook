@@ -1,6 +1,5 @@
 # IDSA Rulebook V2 #
 
-
 ## Publisher ##
 
 International Data Spaces Association
@@ -29,4 +28,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 ## Authors and Contributors ##
 
-* <tbd>
+* tbd

@@ -60,9 +60,9 @@ considerations of values and ethics into the rulebook, and carefully
 choose the path to the data economy weighing the impact on people and
 societies.
 
-**P** Political
+#### **P** Political
 
-[The political perspective in the European Union]{.underline}
+*The political perspective in the European Union*
 
 Data sharing and data sovereignty are at the core of the European Data
 Strategy^11^ (2020). Recognizing that industrial and commercial data are
@@ -114,7 +114,7 @@ One of the priority areas identified is "data standards enhancing data
 interoperability, data sharing and data reuse in support of the Common
 European Data Spaces".
 
-**E** Economic
+#### **E** Economic
 
 The overarching goals for IDSA include making more data available to
 more organizations and ecosystems, recognizing that the availability and
@@ -137,7 +137,7 @@ Often large benefits can be achieved at a later stage at the expense of
 efforts at an earlier stage. Consensual agreements in the data space can
 make this mutually beneficial.
 
-**S** Social
+#### **S** Social
 
 The social values embedded in the work of IDSA data spaces are European
 ideals such as freedom, inviolability, privacy, security, humanity, and
@@ -150,7 +150,7 @@ overarching societal value commitment is *pluralism* of *interoperable*
 and mutually *respectful* data spaces whose values and priorities are
 defined in an *inclusive* manner.
 
-**T** Technical
+#### **T** Technical
 
 Data spaces should be built on widely established and openly accessible
 protocols, standards, and technical frameworks. Interoperability
@@ -160,8 +160,8 @@ technical focus (like W3C, OASIS). W3C has developed processes and
 policies that promote the development of high-quality, consensus-based
 standards, many of which power the web and enterprise computing. ISO and
 IEC are adopting W3C technology and guidelines for a broad industry use.
-![](media/media/image5.png){width="6.893939195100613in"
-height="2.728850612423447in"}
+
+![](media/media/image5.png)
 
 When standards are adopted successfully, best practices show that the
 industry needs to establish feedback loops. Community-driven open source
@@ -184,7 +184,7 @@ implementation of all components - available under free licenses. We
 recommend hosting all technical developments there and ask to contribute
 to further development.
 
-**L** Legal
+#### **L** Legal
 
 There is a strong connection between political and legal factors.
 Legislation follows political decisions. Besides knowing the existing
@@ -202,7 +202,7 @@ including the Data Governance Act (DGA),[^2] the Proposal for Data Act
 legal framework becomes more challenging since each country has its own
 rules and regulations.
 
-**E** Environmental
+#### **E** Environmental
 
 Data usage - collecting, processing, or federation - has a huge and
 growing impact on our planet. The EU Data Strategy states that making
@@ -264,7 +264,7 @@ spaces.
   governance ​**    domain-specific regulation. Leaves room for geographical
                    differences while supporting maximum interoperability.​
 
-  **Soft           Brings all the generic data space building blocks and
+**Soft           Brings all the generic data space building blocks and
   infrastructure   concepts together, defines the legal basis and creates
   governance​**     the common framework on which all data spaces are built.​
   --------------------------------------------------------------------------
@@ -297,7 +297,7 @@ is well prepared. The IDSA website provides all information
 (<https://www.internationaldataspaces.org>). A hotline can help with
 questions (SupportOffice@internationaldatspaces.org).
 
-## Governance/legal framework 
+## Governance/legal framework
 
 Relationship of data usage control and other types of control
 enforcement and legal agreements
@@ -337,7 +337,7 @@ data subject with respect to the specific data in question, who has the
 right to grant access to or to share certain personal data or
 non-personal data in accordance with applicable Union or national law.
 
-### Service Provider (intermediary, operator, aggregator) 
+### Service Provider (intermediary, operator, aggregator)
 
 **Aggregator** -- combining data from multiple sources for computation
 at one partner (Specialization: data trustee)
@@ -348,20 +348,21 @@ done through technical, legal, and other means; it includes to exercise
 the rights of data subjects in relation to personal data; it excludes at
 least the following:
 
--   services that obtain data from data holders and aggregate, enrich,
+- services that obtain data from data holders and aggregate, enrich,
     or transform the data to add value and then license it to data
     users, without establishing a commercial relationship between data
     holders and data users
 
--   services that focus on the mediation of copyright-protected content
+- services that focus on the mediation of copyright-protected content
 
--   services exclusively used by one data holder to enable the use of
+- services exclusively used by one data holder to enable the use of
     the data held by that data holder, or used by multiple legal people
     in a closed group, including supplier or customer relationships or
     contracted collaborations, in particular those who want to ensure
     the functionalities of objects and devices connected to the IoT
     (Internet of Things)
 
--   ![](media/media/image7.png){width="5.0in"
-    height="3.0416666666666665in"}data sharing services offered by
+- data sharing services offered by
     public sector bodies that do not establish commercial relationships.
+
+![](media/media/image7.png)

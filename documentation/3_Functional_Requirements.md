@@ -1,4 +1,4 @@
-# Functional requirements for a data space 
+# Functional requirements for a data space
 
 *This section of the rule book describes the mandatory functional
 requirements as well as optional elements for building trusted data
@@ -39,7 +39,7 @@ might require centralized components with centralized control, while
 others might be designed so their participants have a maximum level of
 autonomy and maintain agency over how to share their data.
 
-### Achieving digital sovereignty
+## Achieving digital sovereignty
 
 Digital sovereignty starts with control over your identity.
 Identification mechanisms are the basis for finding attributes of a
@@ -81,29 +81,28 @@ when the data space crosses legal jurisdictions or industries.
 
 The foundational concepts of a data space:
 
--   Establishing trust
+- Establishing trust
 
--   Data discoverability
+- Data discoverability
 
--   Data contract negotiation
+- Data contract negotiation
 
--   Data sharing & usage
+- Data sharing & usage
 
--   Observability
+- Observability
 
--   Vocabularies and semantic models
+- Vocabularies and semantic models
 
 Additional elements that support these main functions of a data space
 can include these optional functional areas:
 
--   Application and processing services
+- Application and processing services
 
--   Marketplaces
+- Marketplaces
 
--   Data trustee and escrow services
+- Data trustee and escrow services
 
--   ![](media/media/image8.png){width="5.0in"
-    height="1.8166666666666667in"}Data incubation and service creation
+- ![Data incubation and service creation](media/media/image8.png)
 
 ### Establishing trust
 
@@ -156,7 +155,9 @@ issues them, such as a department of traffic issuing drivers licenses or
 a ministry of internal affairs handing out citizen ID cards. The
 underlying process is verifying a specific attribute.
 
-![](media/media/image9.png){width="5.0in" height="4.2in"}A trust anchor
+![](media/media/image9.png)
+
+A trust anchor
 is an entity that issues certifications about an attribute. The
 accompanying trust framework is the set of rules imposed by the trust
 anchor to comply with its policies. Only then is the applicant eligible
@@ -237,8 +238,9 @@ their data for participants who belong to the same industry association,
 allow to process data under the condition only anonymized results are
 produced, and then permits to share the results with a third party for
 processing if they meet a set of ISO
-standards.![](media/media/image10.png){width="5.0in"
-height="3.2916666666666665in"}
+standards.
+
+![](media/media/image10.png)
 
 As discussed above, the first line of policy defense is the membership
 policies (MP) and rules required to join a data space. These policies
@@ -311,8 +313,8 @@ appropriate level of technical components that ensure proper handling of
 the data.
 
   -------------------------------------------------------------------------
-  **Example**      **Protection   **Explanation**
-                   Need**         
+  **Example**      **Protection**Explanation**
+                   Need**
   ---------------- -------------- -----------------------------------------
   Public weather   low            Some data sets are already publicly
   data                            available and can be shared without
@@ -329,7 +331,7 @@ the data.
                                   potential danger to the individual in
                                   case of data misuse.
 
-  Machine          high           Industrial data is also usually of high
+Machine          high           Industrial data is also usually of high
   operations data                 value due to the sensitive business
                                   information it represents.
   -------------------------------------------------------------------------
@@ -483,13 +485,13 @@ Information exposed through participant self-descriptions (PSD) is used
 in many policy evaluations throughout the data space. A non-exhaustive
 list of examples is:
 
--   Information for the registration process to evaluate whether an
+- Information for the registration process to evaluate whether an
     applicant can become a participant.
 
--   Matching participant attributes to access catalog policies to only
+- Matching participant attributes to access catalog policies to only
     show items this participant is permitted to see.
 
--   Automated matching of attributes to policy requirements in the
+- Automated matching of attributes to policy requirements in the
     contract negotiation process.
 
 Self-descriptions can also be used to convey purely technical
@@ -517,41 +519,42 @@ The procedure to join a space will likely include the following steps
 for the applicant (details can vary due to the design and purpose of the
 data space):
 
--   Candidate discovers the data space and the corresponding DSSD\
+- Candidate discovers the data space and the corresponding DSSD\
     This can be achieved through human interaction, a website of the
     data space, finding the DID[^8] of the data space in some registry
     or through automated discovery protocol of existing participants
     among other things.
 
-1.  Candidate reads the DSSD and receives information about the policies
+1. Candidate reads the DSSD and receives information about the policies
     and rules of the data space, as well as technical configuration
     information for endpoints and protocols.
 
-2.  Candidate evaluates the policies and rules and prepares additional
+2. Candidate evaluates the policies and rules and prepares additional
     information needed for the requirements when applying for membership
     in the data space.
 
-3.  When all information and necessary proofs are collected the
+3. When all information and necessary proofs are collected the
     candidate applies for membership through the registry function of
     the DSA. The technical implementation of the data space registry
     might vary based on the requirements.
 
-4.  The DSA requests proofs for all policies. This might include VCs and
+4. The DSA requests proofs for all policies. This might include VCs and
     proof of technical capabilities, but also workflows including human
     interaction (e.g., signing a membership contract).
 
-5.  Once all policies have been satisfactorily processed the DSA issues
+5. Once all policies have been satisfactorily processed the DSA issues
     a VC/ proof of membership and sends it to the candidate, moving them
     from applicant to participant.
 
-6.  The new participant sets up all the necessary technical components
+6. The new participant sets up all the necessary technical components
     for participation in the data space.
 
-7.  ![](media/media/image11.png){width="5.0in"
-    height="3.841666666666667in"}The application process is complete,
+7. The application process is complete,
     the participant can start interacting with other participants
     (sharing data, browsing the catalog(s) for data of others,
     negotiating data contracts).
+
+![](media/media/image11.png)
 
 ### Creating a data space
 
@@ -572,38 +575,38 @@ for a group of participants.
 Many decisions need to be made when designing the data space, here some
 of the more common ones:
 
--   Is the membership closed to a small, known group or open to a larger
+- Is the membership closed to a small, known group or open to a larger
     range of participants?
 
--   Do you want a central party with additional privileges (e.g.,
+- Do you want a central party with additional privileges (e.g.,
     exclusion of participants for bad behavior) or is the independence
     of the participants and their autonomy the most important design
     factor?
 
--   What level of technical maturity is expected from the participants?
+- What level of technical maturity is expected from the participants?
 
--   What type of data is shared and for what purpose?
+- What type of data is shared and for what purpose?
 
 Answering these questions helps you make the design choices between
 architectures and deployment patterns of data spaces.
 
 Once all design decisions are made, the functional elements are planned:
 
--   Rules: What behavior and skills (technical and organizational) are
+- Rules: What behavior and skills (technical and organizational) are
     required?
 
--   Policies: the participation rules expressed and verified in policies
+- Policies: the participation rules expressed and verified in policies
 
--   Membership certification: What mechanism is used to verify a
+- Membership certification: What mechanism is used to verify a
     membership?
 
--   Participant registry: Where can participants see who is
+- Participant registry: Where can participants see who is
     participating?
 
--   Identity system: centralized or decentralized identities - control
+- Identity system: centralized or decentralized identities - control
     over participants
 
--   Catalog(s): one central, multiple federated or individual
+- Catalog(s): one central, multiple federated or individual
     decentralized catalogs?
 
 Working through the above list of mandatory functional elements will
@@ -611,33 +614,33 @@ clarify the architecture pattern for the data space, which will also
 mandate a specific design of the data space authority. Now the DSA needs
 to be implemented to create the data space:
 
-1.  Create an identity for the data space
+1. Create an identity for the data space
 
-2.  Provide a self-description
+2. Provide a self-description
 
-    -   Membership policies
+    - Membership policies
 
-    -   Trust anchors and trust frameworks
+    - Trust anchors and trust frameworks
 
-    -   Attributes that will help participants decide which level of
+    - Attributes that will help participants decide which level of
         trust to apply for
 
--   use of the technical components as required according to the design
+- use of the technical components as required according to the design
 
--   Participant registry
+- Participant registry
 
-    -   Registration service
+  - Registration service
 
-        -   Provide the workflow to apply for membership
+    - Provide the workflow to apply for membership
 
-        -   Validate whether applicants comply with membership
+    - Validate whether applicants comply with membership
             requirements
 
-        -   Issue membership credentials
+    - Issue membership credentials
 
-        -   Revoke membership credentials
+    - Revoke membership credentials
 
-3.  Provide a discovery mechanism for the data space (website, contact
+3. Provide a discovery mechanism for the data space (website, contact
     form, etc.)
 
 Once the DSA is instantiated, organizations can apply for membership.
@@ -647,8 +650,9 @@ sharing their own data in a controlled manner to ensure autonomy and
 agency over the data. This is the core functionality that any data space
 provides. Additional functions and services such as marketplaces, data
 escrow services, processing services and applications might be provided
-as optional elements.![](media/media/image12.png){width="5.0in"
-height="3.8666666666666667in"}
+as optional elements.
+
+![](media/media/image12.png)
 
 ### Data discovery
 
@@ -676,13 +680,14 @@ assets in catalogs at multiple sites.
 Catalogs don't provide the data asset itself, but they provide data
 contract offers (more on this in the section on data sharing below).
 
+![](media/media/image13.png)
+
 When choosing a target architecture for a data space, the design of the
 catalog function can fall somewhere along the spectrum between a central
 catalog, multiple federated catalogs, and many decentralized catalogs.
 Each has its own advantages and disadvantages. Compare the three main
 types of catalogs, depending on the implementation design of the DSA, to
-![](media/media/image13.png){width="6.298611111111111in"
-height="2.3159722222222223in"}evaluate their capabilities:
+evaluate their capabilities:
 
 +----------------------+----------------------+-----------------------+
 | Catalog architecture | Advantages           | Disadvantages         |
@@ -828,8 +833,7 @@ agreement is reached (e.g., an event notification that can only be
 consumed until the event in questions has occurred).
 
 ![Diagram Description automatically
-generated](media/media/image14.png){width="5.933333333333334in"
-height="6.241666666666666in"}
+generated](media/media/image14.png)
 
 **Data sharing execution**
 
@@ -950,9 +954,9 @@ Vocabularies are used to ensure that everyone means the same thing when
 using a specific term. There are multiple vocabularies that are needed
 in a data space, but two are particularly important:
 
--   Semantic models for policies
+- Semantic models for policies
 
--   Semantic models of the shared data assets
+- Semantic models of the shared data assets
 
 So far, this document mostly described how a data space works, what
 contracts are, what types of policies exist, and how to negotiate a
@@ -961,24 +965,24 @@ contract. The vocabularies describe the content of these elements.
 The first category is the vocabulary of policies, which can exist on
 multiple levels:
 
--   Semantic model for policies for membership rules\
+- Semantic model for policies for membership rules\
     For example, if a data space wants to restrict membership to
     companies with a HQ in certain countries. It must be clear what the
     policy is called and what values are allowed.
 
--   Policies that each member of the data space must understand to
+- Policies that each member of the data space must understand to
     interact with other participants. For example, policies that specify
     which industry vocabularies must be understood, and access policies.
 
--   A participant can publish additional information on semantic models
+- A participant can publish additional information on semantic models
     relevant for the interaction with this participant. This could be
     special access policies under which this participant publishes
     additional contracts. It could be an access policy that specifies
     access for direct suppliers of this participant.
 
--   Data contract
+- Data contract
 
--   Semantic model which needs to be understood for a specific contract
+- Semantic model which needs to be understood for a specific contract
     (e.g., special usage policy for a single contract)
 
 The vocabularies for each level can be easily referenced by the metadata
@@ -1009,7 +1013,7 @@ semantic models that each participant receives when joining the data
 space and which can be continuously updated through various
 synchronization mechanisms.
 
-![](media/media/image15.png){width="5.0in" height="4.466666666666667in"}
+![](media/media/image15.png)
 
 ### Optional functions
 
@@ -1076,7 +1080,7 @@ data space provides.
 
 ## Technical components of a data space
 
-### Data space authority services 
+### Data space authority services
 
 Several services are required that represent the functional role of the
 data space authority (DSA) to enable the management functions of a data
@@ -1089,17 +1093,17 @@ component designs that best support the needs of the data space.
 Regardless of the technical implementation and the specific architecture
 model, the following components are required:
 
--   Registration: A service providing the requirements of the data space
+- Registration: A service providing the requirements of the data space
     to apply for membership (includes the validation of attributes and
     their values of the participant self-description and checking their
     applicability against membership policies). This service can be
     machine based but can also include human workflows.
 
--   Membership credentials: a membership issuance and verification
+- Membership credentials: a membership issuance and verification
     service can be used to manage membership credentials. Also
     responsible for revocation of credentials.
 
--   Participant directory: Enables the discovery of other participants
+- Participant directory: Enables the discovery of other participants
     in the data space.
 
 ### Identity
@@ -1215,8 +1219,7 @@ be made with utmost care.
 ### "Central," or "federated/distributed," or "decentralized"
 
 ![Chart, bubble chart Description automatically
-generated](media/media/image13.png){width="6.3in"
-height="2.316666666666667in"}
+generated](media/media/image13.png)
 
 **Centralized data space authority**
 
@@ -1296,10 +1299,10 @@ space as a federated or partially federated model.
 When talking about distributed data spaces there is a distinction
 between "*Federation service"* and *"Federated service".*
 
--   Federation service supports the federation functionality of a data
+- Federation service supports the federation functionality of a data
     space and serves a functional role such as identity or catalog.
 
--   Federated service describes the implementation of any service as a
+- Federated service describes the implementation of any service as a
     distributed service in a data space, including but not limited to
     any of the federation services.
 
@@ -1436,8 +1439,9 @@ The figure below gives a comprehensive overview of the values within the
 decision areas when implementing a centralized, federated/distributed,
 or decentralized approach.
 
-![](media/media/image16.png){width="4.983333333333333in"
-height="2.941666666666667in"}Another way to compare the features and
+![](media/media/image16.png)
+
+Another way to compare the features and
 capabilities of the different designs is to separate the decision areas
 into a business and a technical perspective. Which design benefits the
 business value of the data space vs. which design aspects are a

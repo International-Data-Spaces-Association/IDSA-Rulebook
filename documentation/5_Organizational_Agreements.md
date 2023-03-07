@@ -32,7 +32,7 @@ trust frameworks are acceptable as roots of trust within the data space,
 so a potential participant can decide whether to trust the data space
 and its members.
 
-**[The example of IDS Certification]{.underline}**
+### The example of IDS Certification
 
 For the scenario described above, the IDS Certification Scheme developed
 by the IDSA is one available trust framework.

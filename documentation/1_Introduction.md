@@ -1,4 +1,4 @@
-#  Introduction
+# Introduction
 
 ## Who should read this rulebook?
 
@@ -23,8 +23,9 @@ data rights can be handled in these data spaces.
 
 ### Goals of the IDSA
 
-![](media/media/image3.png){width="6.3in" height="2.4875in"}The
-International Data Spaces Association (IDSA) has defined a data sharing
+![](media/media/image3.png)
+
+The International Data Spaces Association (IDSA) has defined a data sharing
 scheme (IDS), including a reference architecture, open source building
 blocks, and a certification process for creating and operating data
 spaces. IDS is based on commonly accepted data governance models
@@ -54,14 +55,14 @@ operation of data spaces. The aim is to describe clearly which rules are
 mandatory and which are optional guidelines. This governance framework
 includes functional, technical, operational, and legal dimensions:
 
--   Guidelines for the functionality of common services are presented as
+- Guidelines for the functionality of common services are presented as
     well as the definition, processes, and services of specific roles.
 
--   Guidelines how to implement or use a technical artefact of the IDSA.
+- Guidelines how to implement or use a technical artefact of the IDSA.
 
--   Guidelines for the work and collaboration within data services.
+- Guidelines for the work and collaboration within data services.
 
--   Guidelines for the legal basis in compliance with the regulatory
+- Guidelines for the legal basis in compliance with the regulatory
     environment to ensure trust and security.
 
 This framework applies to all IDS-related roles and their interaction in
@@ -77,7 +78,7 @@ participants. They are the source of common agreements.
 3\. All IDS users are getting guidance on how to proceed in realizing
 use cases based on a trustworthy infrastructure and governance.
 
-![](media/media/image4.png){width="6.3in" height="2.613888888888889in"}
+![](media/media/image4.png)
 
 ## Relationship with other initiatives
 
@@ -99,14 +100,14 @@ space framework as envisioned and defined by the DSBA.
 
 Further information on the landscape of data spaces are subject of a
 dedicated IDSA publication, the Data Space Landscape\[to be published
-end of February 2023\].
+end of March 2023\].
 
 ## Related documents
 
 You can find additional information about IDS related elements at other
 sources provided by IDSA:
 
-• The IDSA website (https://www.internationaldataspaces.org) reflects
+• The IDSA website (<https://www.internationaldataspaces.org>) reflects
 what we do, who we are and what International Data Spaces stands for.
 Use cases illustrate the possibilities of the data economy and outline
 the added value created by the IDS standard. The download center gives
@@ -116,5 +117,5 @@ with news, blog articles, events and our regularly published magazine
 DATA SPACES NOW!
 
 • The IDSA GitHub repositories
-(https://github.com/International-Data-Spaces-Association) see also
+(<https://github.com/International-Data-Spaces-Association>) see also
 section 3.4
