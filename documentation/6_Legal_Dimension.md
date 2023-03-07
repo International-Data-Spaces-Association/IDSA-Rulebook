@@ -2,7 +2,7 @@
 
 This section of the rulebook gives an overview of the regulatory framework and describes IDSA's approach of compliance with regulatory requirements and contractual agreements. {#this-section-of-the-rulebook-gives-an-overview-of-the-regulatory-framework-and-describes-idsas-approach-of-compliance-with-regulatory-requirements-and-contractual-agreements. .list-paragraph}
 
-**6.1 Regulatory framework**
+## 6.1 Regulatory framework
 
 The lack of a general legal status (access regime) for data, partial
 application of IP rights and trade secret protection and the
@@ -116,11 +116,8 @@ of data governance consisting of the following:
 
 i.  the substantive rights and obligations related to data transactions
     (rights to data)
-
 ii. the contractual dimension
-
 iii. the organizational aspects
-
 iv. the technical implementation.
 
 Beside the own responsibility of participants in a decentralized
@@ -136,7 +133,7 @@ regulatory developments and legal topics as well as to organize the
 collaboration and contribution of IDSA members regarding the legal
 dimension.
 
-**6.2 Legal Agreements & SITRA Rulebook**
+## 6.2 Legal Agreements & SITRA Rulebook
 
 The analysis of the relevant legal frameworks pertaining to data
 transactions reveals that there are many gaps and overlaps in the
@@ -211,7 +208,7 @@ regarding the suggested contract templates as the idea is to provide a
 general framework that should be amended according to the specific
 needs.
 
-**6.3 Contract templates for IDS**
+## 6.3 Contract templates for IDS
 
 Based on the SITRA templates IDSA will start drafting additional
 components for contract templates for IDS (that will be published after
