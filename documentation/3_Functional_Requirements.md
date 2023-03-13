@@ -313,8 +313,7 @@ appropriate level of technical components that ensure proper handling of
 the data.
 
   -------------------------------------------------------------------------
-  **Example**      **Protection**Explanation**
-                   Need**
+  **Example**      **Protection Need** **Explanation**
   ---------------- -------------- -----------------------------------------
   Public weather   low            Some data sets are already publicly
   data                            available and can be shared without
@@ -332,8 +331,8 @@ the data.
                                   case of data misuse.
 
 Machine          high           Industrial data is also usually of high
-  operations data                 value due to the sensitive business
-                                  information it represents.
+  operations                  value due to the sensitive business
+  data                                information it represents.
   -------------------------------------------------------------------------
 
 The atomic expressions of policies can be further broken down into a set
