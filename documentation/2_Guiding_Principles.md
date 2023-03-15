@@ -322,6 +322,8 @@ non-personal data in accordance with applicable Union or national law.
 **Aggregator** -- combining data from multiple sources for computation
 at one partner (Specialization: data trustee)
 
+![Roles in a data space: Aggregator](./media/Aggregator.png)
+
 **Intermediary** service aims to establish commercial relationships for
 data sharing between a number of data holders and data users. This is
 done through technical, legal, and other means; it includes to exercise
@@ -344,5 +346,3 @@ least the following:
 
 * data sharing services offered by
     public sector bodies that do not establish commercial relationships.
-
-![](media/media/image7.png)
