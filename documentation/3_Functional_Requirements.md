@@ -542,6 +542,8 @@ data space is organized in a centralized, decentralized, federated or
 hybrid manner, common denominators and basic functionalities can be
 found.
 
+![Overview of Data Space entities](./media/Dataspace.png)
+
 A data space establishes trust within a community to share data with
 each other. The definition of community can be very broad. It might be a
 tight knit, small community of one company and its suppliers, or a large
@@ -618,7 +620,7 @@ provides. Additional functions and services such as marketplaces, data
 escrow services, processing services and applications might be provided
 as optional elements.
 
-![Overview of Data Space entities](./media/Dataspace.png)
+![Variants for data space authorities](./media/Variants_for_dsa.png)
 
 ### Data discovery
 
@@ -646,8 +648,6 @@ assets in catalogs at multiple sites.
 Catalogs don't provide the data asset itself, but they provide data
 contract offers (more on this in the section on data sharing below).
 
-![](media/media/image13.png)
-
 When choosing a target architecture for a data space, the design of the
 catalog function can fall somewhere along the spectrum between a central
 catalog, multiple federated catalogs, and many decentralized catalogs.
@@ -655,75 +655,19 @@ Each has its own advantages and disadvantages. Compare the three main
 types of catalogs, depending on the implementation design of the DSA, to
 evaluate their capabilities:
 
-+----------------------+----------------------+-----------------------+
-| Catalog architecture | Advantages           | Disadvantages         |
-+======================+======================+=======================+
-| Centralized catalog  | -   No deployment by | -   A central         |
-|                      |     individual       |     gatekeeper can    |
-|                      |     participants     |     arbitrarily       |
-|                      |                      |     exclude           |
-|                      | -   Central control  |     participants and  |
-|                      |     -- a gatekeeper  |     their data from   |
-|                      |     can regulate     |     the catalog       |
-|                      |     which entries    |                       |
-|                      |     are permissible  | -   Single point of   |
-|                      |     and which are    |     failure           |
-|                      |     not              |                       |
-|                      |                      | -   Potential         |
-|                      | -   Easy discovery   |     performance       |
-|                      |     as only one      |     bottle neck       |
-|                      |     catalog needs to |                       |
-|                      |     be queried       | -   Security issues   |
-|                      |                      |     will affect all   |
-|                      |                      |     members at once   |
-+----------------------+----------------------+-----------------------+
-| Federated catalog    | -   Deployment by a  | -   Additional        |
-|                      |     limited number   |     replication       |
-|                      |     of participants, |     mechanisms are    |
-|                      |     while most       |     needed            |
-|                      |     participants     |                       |
-|                      |     don't need to    | -   A small group of  |
-|                      |     deploy any       |     operators of      |
-|                      |     catalog          |     federated catalog |
-|                      |     components       |     nodes can control |
-|                      |                      |     participation in  |
-|                      | -   Federated        |     the data space    |
-|                      |     control --       |                       |
-|                      |     voting           |                       |
-|                      |     mechanisms for   |                       |
-|                      |     content control  |                       |
-|                      |     can be           |                       |
-|                      |     implemented      |                       |
-+----------------------+----------------------+-----------------------+
-| Decentralized        | -   Every            | -   Every participant |
-| catalog              |     participant can  |     needs to run a    |
-|                      |     autonomously     |     catalog component |
-|                      |     decide which     |                       |
-|                      |     catalog items    | -   A list of         |
-|                      |     they share with  |     available         |
-|                      |     whom             |     catalogs needs to |
-|                      |                      |     be either         |
-|                      | -   No interference  |     centrally         |
-|                      |     in the           |     provided through  |
-|                      |     interaction      |     the DSA or        |
-|                      |     between two      |     discoverable      |
-|                      |     participants     |     through a         |
-|                      |     through a 3^rd^  |     peer-to-peer      |
-|                      |     party            |     protocol          |
-|                      |                      |                       |
-|                      | -   Data space as a  | -   Participants need |
-|                      |     whole is more    |     to search each    |
-|                      |     resilient        |     other's catalogs  |
-|                      |     towards          |     to see which      |
-|                      |     cyberattacks     |     items are         |
-|                      |     even though      |     available         |
-|                      |     individual       |                       |
-|                      |     members can      |                       |
-|                      |     experience       |                       |
-|                      |     outages          |                       |
-|                      |                      |                       |
-|                      | -   Easier to scale  |                       |
-+----------------------+----------------------+-----------------------+
+
+| **Catalog architecture** | **Advantages**           | **Disadvantages**         |
+| ---                  |   ---                | ---|
+| **Centralized catalog**  | No deployment by individual participants   | A central gatekeeper can arbitrarily exclude participants and their data from the catalog  | 
+|  | Central control – a gatekeeper can regulate which entries are permissible and which are not | Single point of failure  |
+| | Easy discovery as only one catalog needs to be queried | Potential performance bottle neck |
+|  |  | Security issues will affect all members at once |
+| **Federated catalog** | Deployment by a limited number of participants, while most participants don’t need to deploy any catalog components | Additional replication mechanisms are needed |
+|  | Federated control – voting mechanisms for content control can be implemented | A small group of operators of federated catalog nodes can control participation in the data space |
+| **Decentralized catalog** | Every participant can autonomously decide which catalog items they share with whom | Every participant needs to run a catalog component |
+|  | No interference in the interaction between two participants through a 3rd party | A list of available catalogs needs to be either centrally provided through the DSA or discoverable through a peer-to-peer protocol |
+|  | Data Space as a whole is more resilient towards cyberattacks even though individual members can experience outages | Participants need to crawl each other’s catalogs to see which items are available |
+|  | Easier to scale |  |
 
 #### Access policies
 
