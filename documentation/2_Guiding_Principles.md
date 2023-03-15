@@ -161,7 +161,7 @@ policies that promote the development of high-quality, consensus-based
 standards, many of which power the web and enterprise computing. ISO and
 IEC are adopting W3C technology and guidelines for a broad industry use.
 
-![](media/media/image5.png)
+![Collaborative Development of Architectures and Implementations in Data Spaces](./media/Collaborative_Development_of_Architectures_and_Implementations_in_Data_Spaces.png)
 
 When standards are adopted successfully, best practices show that the
 industry needs to establish feedback loops. Community-driven open source
