@@ -305,30 +305,13 @@ important to understand the data's classification, and regulatory
 controls to design not just the right policies but also to mandate the
 appropriate level of technical components that ensure proper handling of
 the data.
-
-  -------------------------------------------------------------------------
-  **Example**      **Protection**Explanation**
-                   Need**
-  ---------------- -------------- -----------------------------------------
-  Public weather   low            Some data sets are already publicly
-  data                            available and can be shared without
-                                  enabling others to derive sensitive data
-                                  about persons or business secrets.
-
-  Shipping         medium         Some data are valuable and at large scale
-  information                     likely to be highly protection worthy as
-                                  they can give insights into business
-                                  relations and transactions.
-
-  Personal health  high           Personal health data are highly
-  data                            protection worthy due to strong laws and
-                                  potential danger to the individual in
-                                  case of data misuse.
-
-Machine          high           Industrial data is also usually of high
-  operations data                 value due to the sensitive business
-                                  information it represents.
-  -------------------------------------------------------------------------
+  
+| **Example**  |    **ProtectionNeed** | **Explanation** |
+| :------------| :--------------------: | :---------------|
+| Public weather data | low | Some data sets are already publicly available and can be shared without enabling others to derive sensitive data about persons or business secrets. |
+|  Shipping information | medium  | Some data are valuable and at large scale likely to be highly protection worthy as they can give insights into business relations and transactions. |
+|  Personal health data |  high | Personal health data are highly protection worthy due to strong laws and potential danger to the individual in case of data misuse. |
+| Machine operations data | high | Industrial data is also usually of high value due to the sensitive business information it represents.|
 
 The atomic expressions of policies can be further broken down into a set
 of restrictions against which machine-readable attributes can be
