@@ -23,7 +23,7 @@ data rights can be handled in these data spaces.
 
 ### Goals of the IDSA
 
-![](media/media/image3.png)
+![Overview IDS enabled ecosystems](./media/Overview_IDS_enabled_ecosystems.png)
 
 The International Data Spaces Association (IDSA) has defined a data sharing
 scheme (IDS), including a reference architecture, open source building
