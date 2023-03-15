@@ -1,11 +1,11 @@
 # Functional requirements for a data space
 
-*This section of the rule book describes the mandatory functional
+This section of the rule book describes the mandatory functional
 requirements as well as optional elements for building trusted data
 spaces. It highlights the design decisions necessary to build and
 operate data spaces in centralized, federated or decentralized
 architectures and deployment patterns to show how various solutions are
-enabled by the building blocks of data spaces.*
+enabled by the building blocks of data spaces.
 
 Enterprises strive to have control over their data. Control is important
 when managing data internally, but even more in sharing data with
@@ -82,27 +82,21 @@ when the data space crosses legal jurisdictions or industries.
 The foundational concepts of a data space:
 
 - Establishing trust
-
 - Data discoverability
-
 - Data contract negotiation
-
 - Data sharing & usage
-
 - Observability
-
 - Vocabularies and semantic models
 
 Additional elements that support these main functions of a data space
 can include these optional functional areas:
 
 - Application and processing services
-
 - Marketplaces
-
 - Data trustee and escrow services
+- Data incubation and service creation
 
-- ![Data incubation and service creation](media/media/image8.png)
+![Foundational Concepts in data spaces](./media/Foundational_Concepts_in_data_spaces.png)
 
 ### Establishing trust
 
@@ -155,7 +149,7 @@ issues them, such as a department of traffic issuing drivers licenses or
 a ministry of internal affairs handing out citizen ID cards. The
 underlying process is verifying a specific attribute.
 
-![](media/media/image9.png)
+![Self Descriptions in data spaces](./media/Self_Descriptions_in_data_spaces.png)
 
 A trust anchor
 is an entity that issues certifications about an attribute. The
@@ -240,7 +234,7 @@ produced, and then permits to share the results with a third party for
 processing if they meet a set of ISO
 standards.
 
-![](media/media/image10.png)
+![Different policies  in data spaces](./media/Different_policies_in_data_spaces.png)
 
 As discussed above, the first line of policy defense is the membership
 policies (MP) and rules required to join a data space. These policies
