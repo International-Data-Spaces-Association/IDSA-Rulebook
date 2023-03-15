@@ -273,8 +273,7 @@ with examples of use cases and business models.
 
 In summary, using IDS with its data sovereignty is a competitive
 advantage for your own business and quite easy to do, since everything
-is well prepared. The IDSA website provides all information
-(<https://www.internationaldataspaces.org>). A hotline can help with
+is well prepared. The [IDSA website provides](https://www.internationaldataspaces.org) all information. A hotline can help with
 questions (SupportOffice@internationaldatspaces.org).
 
 ## Governance/legal framework
