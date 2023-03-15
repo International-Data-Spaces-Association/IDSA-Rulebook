@@ -742,8 +742,7 @@ might be data assets that can't be immediately shared after the
 agreement is reached (e.g., an event notification that can only be
 consumed until the event in questions has occurred).
 
-![Diagram Description automatically
-generated](media/media/image14.png)
+![Data sharing contract negotiation](media/media/image14.png)
 
 **Data sharing execution**
 
@@ -923,7 +922,7 @@ semantic models that each participant receives when joining the data
 space and which can be continuously updated through various
 synchronization mechanisms.
 
-![](media/media/image15.png)
+![Vocabularies and their relationship to data assets](./media/Vocabularies_and_data_assets.png)
 
 ### Optional functions
 
