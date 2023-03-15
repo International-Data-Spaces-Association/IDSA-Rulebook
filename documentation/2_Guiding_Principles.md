@@ -176,7 +176,7 @@ between use cases and used data products will improve interoperability.
 Distinguish between mandatory (MVD) and optional requirements (discuss
 essential principles and optional one)
 
-The \"Public money, public code\" campaign[^1] wants legislation to
+The ["Public money, public code" campaign](https://www.kocos.com/news/blog/articles/article/2021/10/18/some-facts-about-the-energy-consumption-of-digitalisation) wants legislation to
 require that publicly funded software developed for the public sector to
 be made publicly available under a free and open source software
 license. IDS-G is where the developer community finds the reference
@@ -196,9 +196,9 @@ Legal fields to bear in mind when sharing data include
 antitrust/competition, data protection and security, copyright,
 patents/intellectual property. The European Data Strategy mentioned
 above brings a higher level of regulation to data sharing in the EU,
-including the Data Governance Act (DGA),[^2] the Proposal for Data Act
-(DA-E),[^3] the Digital Markets Act (DMA),[^4] the Digital Services Act
-(DSA)[^5] and the AI Act[^6]. If a data space operates globally the
+including the [Data Governance Act (DGA)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R0868), the Proposal for [Data Act
+(DA-E)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2022%3A68%3AFIN), [the Digital Markets Act (DMA)](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=COM%3A2020%3A842%3AFIN), [the Digital Services Act
+(DSA)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0825) and the [AI Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A52021PC0206). If a data space operates globally the
 legal framework becomes more challenging since each country has its own
 rules and regulations.
 
@@ -234,9 +234,6 @@ emissions and add value. Avoiding rebound effects with digital
 technologies is an important goal. Continuous monitoring and sustainable
 design should ensure that the use of digital technologies has a net
 positive impact on the climate footprint.
-
-[^\[1\]^](applewebdata://2D16DB3E-29D0-4E74-8528-A77B8F453D9C#_ftnref1)
-<https://www.kocos.com/news/blog/articles/article/2021/10/18/some-facts-about-the-energy-consumption-of-digitalisation>
 
 ## Layers of data space governance
 
