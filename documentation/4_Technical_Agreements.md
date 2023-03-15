@@ -6,7 +6,7 @@ what is mandatory and what is optional to implement but keep some
 freedom how to realize these concepts (see also the section on the goals
 of IDS in the IDS RAM).
 
-![](media/media/image17.png)
+![IDSA Magic Triangle](./media/IDSAMagicTriangle.png)
 
 The technical agreements of the
 IDS-framework consist of the Reference Architecture Model (RAM) that
@@ -27,24 +27,14 @@ steering committee. To achieve reliability for industrial use of the IDS
 assets, major releases that contain fundamental changes may be conducted
 once per year. For more details see the table below.
 
-  -----------------------------------------------------------------------
-  Asset                   Major releases          Approving body
-  ----------------------- ----------------------- -----------------------
-  IDS-RAM                 Second quarter of a     Working group
-                          year                    architecture
-
-  IDS-G specifications    Fourth quarter of a     Working group
-                          year                    architecture
-
-  Certification scheme    Second quarter of a     Working group
-                          year                    certification
-
-  IDS-testbed             Fourth quarter of a     Working group
-                          year                    certification
-
-IDSA rulebook           Third quarter of a year Working group rulebook
-  -----------------------------------------------------------------------
-
+| Asset | Major releases | Approving body |
+| ----------------------- | ----------------------- | ----------------------- |
+| IDS-RAM  | Second quarter of a year |    Working group architecture |
+| IDS-G specifications  |  Fourth quarter of a year |    Working group architecture |
+| Certification scheme  |  Second quarter of a year |    Working group certification |
+| IDS-reference testbed  | Fourth quarter of a year |     Working group certification |
+| IDSA rulebook |  Third quarter of a year | Working group rulebook |
+  
 ## IDS Reference Architecture Model (RAM)
 
 Data sharing is essential for data-driven business ecosystems, as is the
@@ -78,7 +68,7 @@ Certification scheme as a foundation in the IDS. The governance
 perspective describes the responsibilities of roles in the IDS.
 
 The current version of the IDS-RAM that forms the basis for this
-rulebook is V4[^9].
+rulebook is [V4](https://docs.internationaldataspaces.org/ids-ram-4/).
 
 ## IDS specifications on IDS-G
 
@@ -86,14 +76,14 @@ IDS-G provides specifications and further documentation from IDSA to the
 public. While the RAM is technology independent, the specifications on
 IDS-G describe the binding of the RAM to technological concepts and
 focus on documentation and specifications for IDS based solutions.
-IDS-G's master branch is stable and therefore the reliable foundation
+IDS-G's main branch is stable and therefore the reliable foundation
 for the development and maintenance of IDS-based solutions. It is
 maintained under the umbrella of the IDSA technical steering committee.
 
 Additionally, IDS-G provides access to the IDSA open source projects.
 Currently, the following open source projects are available:
 
-\- IDS information model
+- IDS information model
 
 More open source projects will be set up by the IDSA technical steering
 committee in the future.
@@ -122,7 +112,7 @@ The specifications in IDS-G distinguish between four different aspects:
     This section describes the usage contracts and how they can be
     realized in IDS Connectors.
 
-The IDS-G specifications are available via GitHub[^10].
+The IDS-G specifications are available via [GitHub](https://github.com/International-Data-Spaces-Association/IDS-G).
 
 ## IDS Certification
 
@@ -131,17 +121,17 @@ is described in detail in the IDS Certification scheme (general
 structure, operational structure, and maintenance of the certification
 criteria).
 
-- The certification scheme[^11] describes the operational model and
+- The [certification scheme](https://github.com/International-Data-Spaces-Association/IDS-RAM_4_0/tree/main/documentation/4_Perspectives_of_the_Reference_Architecture_Model/4_2_Certification_Perspective/CertificationScheme) describes the operational model and
     roles in the IDS Certification.
 
-- The rules of procedure [^12]include the formal outline of
+- The [rules of procedure](https://github.com/International-Data-Spaces-Association/IDS-RAM_4_0/tree/main/documentation/4_Perspectives_of_the_Reference_Architecture_Model/4_2_Certification_Perspective/RulesOfProcedure) include the formal outline of
     organizational processes
 
-- Approval of evaluators[^13]
+- [Approval of evaluators](https://github.com/International-Data-Spaces-Association/IDS-RAM_4_0/tree/main/documentation/4_Perspectives_of_the_Reference_Architecture_Model/4_2_Certification_Perspective/ApprovalScheme)
 
 - Execution of evaluations
 
-- The certification criteria[^14] list the formal aspects of
+- The [certification criteria](https://internationaldataspaces.org/publications/white-papers/) list the formal aspects of
     evaluations for the core components and the operational environment.
 
 While the certification scheme and the documents listed above describe
@@ -159,14 +149,14 @@ different security and assurance levels.
 This includes:
 
 - All evaluation facilities conduct transparent conformance tests in
-    the „IDS reference testbed"[^15] based on the regulations from the
+    the [„IDS reference testbed"](https://github.com/International-Data-Spaces-Association/IDS-testbed) based on the regulations from the
     certification working group and approved by the IDSA technical
     steering committee.
 
 - All evaluation facilities assess compliance with the security
     requirements listed in the IDS criteria catalog based on tests
     derived from the criteria. Tests that can be conducted automatically
-    are part of the test suite[^16] of the IDS-testbed.
+    are part of the [test suite](https://github.com/International-Data-Spaces-Association/IDS-testbed/tree/master/Testsuite) of the IDS-testbed.
 
 - The evaluation facilities issue a certificate when conformance and
     security tests are passed.
