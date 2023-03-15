@@ -496,34 +496,34 @@ The procedure to join a space will likely include the following steps
 for the applicant (details can vary due to the design and purpose of the
 data space):
 
-- Candidate discovers the data space and the corresponding DSSD\
+1. Candidate discovers the data space and the corresponding DSSD\
     This can be achieved through human interaction, a website of the
-    data space, finding the DID[^8] of the data space in some registry
+    data space, finding the [DID](https://www.w3.org/TR/did-core/) of the data space in some registry
     or through automated discovery protocol of existing participants
     among other things.
 
-1. Candidate reads the DSSD and receives information about the policies
+2. Candidate reads the DSSD and receives information about the policies
     and rules of the data space, as well as technical configuration
     information for endpoints and protocols.
 
-2. Candidate evaluates the policies and rules and prepares additional
+3. Candidate evaluates the policies and rules and prepares additional
     information needed for the requirements when applying for membership
     in the data space.
 
-3. When all information and necessary proofs are collected the
+4. When all information and necessary proofs are collected the
     candidate applies for membership through the registry function of
     the DSA. The technical implementation of the data space registry
     might vary based on the requirements.
 
-4. The DSA requests proofs for all policies. This might include VCs and
+5. The DSA requests proofs for all policies. This might include VCs and
     proof of technical capabilities, but also workflows including human
     interaction (e.g., signing a membership contract).
 
-5. Once all policies have been satisfactorily processed the DSA issues
+6. Once all policies have been satisfactorily processed the DSA issues
     a VC/ proof of membership and sends it to the candidate, moving them
     from applicant to participant.
 
-6. The new participant sets up all the necessary technical components
+7. The new participant sets up all the necessary technical components
     for participation in the data space.
 
 7. The application process is complete,
@@ -531,7 +531,7 @@ data space):
     (sharing data, browsing the catalog(s) for data of others,
     negotiating data contracts).
 
-![](media/media/image11.png)
+![Onboarding in data spaces](./media/Onboarding_in_data_spaces.png)
 
 ### Creating a data space
 
@@ -592,29 +592,18 @@ mandate a specific design of the data space authority. Now the DSA needs
 to be implemented to create the data space:
 
 1. Create an identity for the data space
-
 2. Provide a self-description
 
-    - Membership policies
-
-    - Trust anchors and trust frameworks
-
-    - Attributes that will help participants decide which level of
+  - Membership policies
+  - Trust anchors and trust frameworks
+  - Attributes that will help participants decide which level of
         trust to apply for
-
-- use of the technical components as required according to the design
-
-- Participant registry
-
+  - use of the technical components as required according to the design
+  - Participant registry
   - Registration service
-
     - Provide the workflow to apply for membership
-
-    - Validate whether applicants comply with membership
-            requirements
-
+    - Validate whether applicants comply with membership requirements
     - Issue membership credentials
-
     - Revoke membership credentials
 
 3. Provide a discovery mechanism for the data space (website, contact
@@ -629,7 +618,7 @@ provides. Additional functions and services such as marketplaces, data
 escrow services, processing services and applications might be provided
 as optional elements.
 
-![](media/media/image12.png)
+![Overview of Data Space entities](./media/Dataspace.png)
 
 ### Data discovery
 
