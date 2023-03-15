@@ -243,31 +243,14 @@ the context of the OPEN DEI project funded by EU where data spaces
 experts teamed up to define cross-sectoral principles for building data
 spaces.
 
-  --------------------------------------------------------------------------
-  **Layer​**        **Description​**
-  ---------------- ---------------------------------------------------------
-  **Data space     Executes and implements the governance practices and
-  instance         rules of a data space instance. Oversees data space
-  governance**     functions and the rules.​
+| **Layer​**      |  **Description​**                                        |
+|:-------------  | :------------------------------------------------------ |
+| **Data space instance governance** |  Executes and implements the governance practices and rules of a data space instance. Oversees data space functions and the rules.​|
+|  **Data space ecosystem governance​** | Defines the rules for the data space instance. Creates the intra data space trust between collaborating organizations. Complements standardization and regulation focusing on business-driven rules. Defines the inter data space interoperability practices.​ |
+| **Data space domain governance​**   Establishes sector-specific data space principles and mechanisms including semantic interoperability and domain-specific regulation. Leaves room for geographical differences while supporting maximum interoperability.​ |
+|**Soft infrastructure governance​**| Brings all the generic data space building blocks and concepts together, defines the legal basis and creates the common framework on which all data spaces are built.​|
 
-  **Data space     Defines the rules for the data space instance. Creates
-  ecosystem        the intra data space trust between collaborating
-  governance​**     organizations. Complements standardization and regulation
-                   focusing on business-driven rules. Defines the inter data
-                   space interoperability practices.​
-
-  **Data space     Establishes sector-specific data space principles and
-  domain           mechanisms including semantic interoperability and
-  governance ​**    domain-specific regulation. Leaves room for geographical
-                   differences while supporting maximum interoperability.​
-
-**Soft           Brings all the generic data space building blocks and
-  infrastructure   concepts together, defines the legal basis and creates
-  governance​**     the common framework on which all data spaces are built.​
-  --------------------------------------------------------------------------
-
-[]{#_Toc126649306 .anchor}Figure 4 Four Layers to describe data spaces
-governance
+###### Table: Four Layers to describe data spaces governance
 
 ## Data economy with digital sovereignty
 
@@ -276,11 +259,11 @@ sovereignty for your business.
 
 There are some common rules and guidelines:
 
-\- Common definition on lifecycle agreements for IDS-based assets, the
+* Common definition on lifecycle agreements for IDS-based assets, the
 IDS standards and services. See appendix "Operational Agreements, Life
 Cycle".
 
-\- General definitions of necessary processes for development,
+* General definitions of necessary processes for development,
 certification, onboarding, operation and usage. See appendix
 "Operational agreements. Processes".
 
@@ -302,8 +285,8 @@ enforcement and legal agreements
 EU policies set the framework for data spaces, but each instance will
 need additional governance. This rulebook helps you put that governance
 in place. In this section, we briefly cover the relevant EU regulation
-for data spaces: DGA, DA, eIDAS2, GDPR, NIS2, others \<pls add!\>. In
-chapter 6, we cover the contractual aspects of setting up the governance
+for data spaces: DGA, DA, eIDAS2, GDPR, NIS2.
+In chapter 6, we cover the contractual aspects of setting up the governance
 for a data space instance.
 
 ## Role models
@@ -345,21 +328,21 @@ done through technical, legal, and other means; it includes to exercise
 the rights of data subjects in relation to personal data; it excludes at
 least the following:
 
-- services that obtain data from data holders and aggregate, enrich,
+* services that obtain data from data holders and aggregate, enrich,
     or transform the data to add value and then license it to data
     users, without establishing a commercial relationship between data
     holders and data users
 
-- services that focus on the mediation of copyright-protected content
+* services that focus on the mediation of copyright-protected content
 
-- services exclusively used by one data holder to enable the use of
+* services exclusively used by one data holder to enable the use of
     the data held by that data holder, or used by multiple legal people
     in a closed group, including supplier or customer relationships or
     contracted collaborations, in particular those who want to ensure
     the functionalities of objects and devices connected to the IoT
     (Internet of Things)
 
-- data sharing services offered by
+* data sharing services offered by
     public sector bodies that do not establish commercial relationships.
 
 ![](media/media/image7.png)
