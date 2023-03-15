@@ -857,7 +857,7 @@ Following the same pattern, additional optional functional roles can be
 implemented: a payment clearance service, notary services, regulatory
 reporting, and the like.
 
-### Vocabulary
+### Vocabularies
 
 Vocabularies are used to ensure that everyone means the same thing when
 using a specific term. There are multiple vocabularies that are needed
@@ -1028,36 +1028,19 @@ design decision. It impacts policies on autonomy and sovereignty as well
 as technical solution architectures for other components of a data
 space.
 
-+-----------------------+-----------------------+-----------------------+
-| Identity System       | Advantages            | Disadvantages         |
-+=======================+=======================+=======================+
-| Centralized identity  | -   Simple management | -   Low autonomy and  |
-| provider              |     for DSA           |     sovereignty of    |
-|                       |                       |     participants      |
-|                       | -   High degree of    |                       |
-|                       |     control for DSA   | -   Single point of   |
-|                       |                       |     failure           |
-|                       | -   Traditional,      |                       |
-|                       |     well-known        | -   Single point of   |
-|                       |     technology stack  |     attack            |
-|                       |                       |                       |
-|                       |                       | -   Harder to manage  |
-|                       |                       |     for participants  |
-+-----------------------+-----------------------+-----------------------+
-| Decentralized         | -   Full autonomy and | -   Complexity: DSA   |
-| identities            |     sovereignty for   |     management        |
-|                       |     participants      |     requires          |
-|                       |                       |     decentralized     |
-|                       | -   Low resourcing    |     protocols         |
-|                       |     need for DSA      |                       |
-|                       |                       | -   Lower degree of   |
-|                       | -   Easy to manage    |     control for DSA   |
-|                       |     for participants  |                       |
-|                       |                       | -   New and partially |
-|                       | -   Resilient         |     unfamiliar        |
-|                       |                       |     technology stack  |
-|                       | -   Harder to attack  |                       |
-+-----------------------+-----------------------+-----------------------+
+
+
+
+| **Identity System**       | **Advantages**            | **Disadvantages**        |
+|--- |--- | --- |
+| **Centralized identity**  | Simple management for DSA | Low autonomy and sovereignty of participants |
+|  | High degree of control for DSA    | Single point of failure |
+|  | Traditional, well-known technology stack | Single point of attack |
+|  |  | Harder to manage for participants |
+| **Decentralized  identities**       | Full autonomy and overeignty for participants | Complexity: DSA management requires decentralized protocols |
+|  | Low resourcing need for DSA | Lower degree of control for DSA |
+|  | Easy to manage for participants | New and partially unfamiliar technology stack|
+|  | Harder to attack |  |
 
 ### Catalog
 
@@ -1130,7 +1113,7 @@ be made with utmost care.
 ![Chart, bubble chart Description automatically
 generated](media/media/image13.png)
 
-**Centralized data space authority**
+#### Centralized data space authority
 
 In a centralized DSA design, the entity runs all services to operate the
 data space. These include services to identify participants, onboard new
@@ -1172,7 +1155,7 @@ the data space do not allow for full autonomy of participants in this
 design solution. However, depending on the purpose and goals of the data
 space this may not be a problem.
 
-**Federated / distributed data space authority**
+#### Federated / distributed data space authority
 
 The federated or distributed model retains some degree of centralized
 control but improves on the technical and security challenges. In this
@@ -1228,7 +1211,7 @@ unstable. A fully sovereign participant must be able to interact with
 other participants without depending on a third party once it is proven
 that the participant is following all rules.
 
-**Decentralized data space authority**
+#### Decentralized data space authority
 
 Using a decentralized design enables the highest level of autonomy and
 sovereignty. The core element enabling a participant to act autonomously
@@ -1348,7 +1331,7 @@ The figure below gives a comprehensive overview of the values within the
 decision areas when implementing a centralized, federated/distributed,
 or decentralized approach.
 
-![](media/media/image16.png)
+![Comparison of models for decision support](media/media/image16.png)
 
 Another way to compare the features and
 capabilities of the different designs is to separate the decision areas
