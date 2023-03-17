@@ -247,7 +247,7 @@ spaces.
 |:-------------  | :------------------------------------------------------ |
 | **Data space instance governance** |  Executes and implements the governance practices and rules of a data space instance. Oversees data space functions and the rules.​|
 |  **Data space ecosystem governance​** | Defines the rules for the data space instance. Creates the intra data space trust between collaborating organizations. Complements standardization and regulation focusing on business-driven rules. Defines the inter data space interoperability practices.​ |
-| **Data space domain governance​**   Establishes sector-specific data space principles and mechanisms including semantic interoperability and domain-specific regulation. Leaves room for geographical differences while supporting maximum interoperability.​ |
+| **Data space domain governance​**  | Establishes sector-specific data space principles and mechanisms including semantic interoperability and domain-specific regulation. Leaves room for geographical differences while supporting maximum interoperability.​ |
 |**Soft infrastructure governance​**| Brings all the generic data space building blocks and concepts together, defines the legal basis and creates the common framework on which all data spaces are built.​|
 
 ###### Table: Four Layers to describe data spaces governance
