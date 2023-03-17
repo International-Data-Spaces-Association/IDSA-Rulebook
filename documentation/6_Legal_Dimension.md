@@ -1,6 +1,6 @@
 # Legal dimension
 
-This section of the rulebook gives an overview of the regulatory framework and describes IDSA's approach of compliance with regulatory requirements and contractual agreements. {#this-section-of-the-rulebook-gives-an-overview-of-the-regulatory-framework-and-describes-idsas-approach-of-compliance-with-regulatory-requirements-and-contractual-agreements. .list-paragraph}
+This section of the rulebook gives an overview of the regulatory framework and describes IDSA's approach of compliance with regulatory requirements and contractual agreements.
 
 ## 6.1 Regulatory framework
 
@@ -8,35 +8,30 @@ The lack of a general legal status (access regime) for data, partial
 application of IP rights and trade secret protection and the
 restrictions of personal data protection result in a fragmented and
 incomplete regulatory framework. To address these shortcomings in data
-sharing and reuse, the EU Commission presented the "European strategy
-for data" in February 2020 describing the vision of a common European
-data space. The Commission has proposed different regulations on
+sharing and reuse, the EU Commission presented the "[European strategy
+for data](https://digital-strategy.ec.europa.eu/en/policies/strategy-data)" in February 2020 describing the vision of a common European
+data space. The Commission has proposed different regulations ([Digital Markets Act (DMA)](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=COM%3A2020%3A842%3AFIN), [Digital Services Act (DSA)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0825), [AI Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A52021PC0206.)) on
 harmonised rules for data governance, data access and use as part of the
-EU's digital strategy.
+[EU's digital strategy](https://digital-strategy.ec.europa.eu/en/policies/strategy-data).
 
-Beside other
-regulations[^[\[1\]]{.underline}^](https://dec-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=de%2DDE&rs=de%2DDE&wopisrc=https%3A%2F%2Fdigitalhubeu.sharepoint.com%2Fsites%2FWGRuleBook%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F290436b9648f465687a01597039f7b6b&wdenableroaming=1&mscc=1&hid=54137BA0-7010-5000-9D05-63CAAFC8E955&wdorigin=ItemsView&wdhostclicktime=1669115440578&jsapi=1&jsapiver=v1&newsession=1&corrid=1cef2421-43dd-4846-8e2c-53e2297bd584&usid=1cef2421-43dd-4846-8e2c-53e2297bd584&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Medium&ctp=LeastProtected#_ftn1),
-the Data Governance Act
-(DGA)[^[\[2\]]{.underline}^](https://dec-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=de%2DDE&rs=de%2DDE&wopisrc=https%3A%2F%2Fdigitalhubeu.sharepoint.com%2Fsites%2FWGRuleBook%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F290436b9648f465687a01597039f7b6b&wdenableroaming=1&mscc=1&hid=54137BA0-7010-5000-9D05-63CAAFC8E955&wdorigin=ItemsView&wdhostclicktime=1669115440578&jsapi=1&jsapiver=v1&newsession=1&corrid=1cef2421-43dd-4846-8e2c-53e2297bd584&usid=1cef2421-43dd-4846-8e2c-53e2297bd584&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Medium&ctp=LeastProtected#_ftn2)
+Beside other regulations the [Data Governance Act (DGA)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R0868)
 entered into force on 23 June 2022 and will be applicable from September
 2023 after a 15-months grace period. On 23 February 2022, the Commission
 proposed a regulation on harmonised rules for fair access and use of
-data, the Data Act Proposal
-(DA-E)[^[\[3\]]{.underline}^](https://dec-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=de%2DDE&rs=de%2DDE&wopisrc=https%3A%2F%2Fdigitalhubeu.sharepoint.com%2Fsites%2FWGRuleBook%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F290436b9648f465687a01597039f7b6b&wdenableroaming=1&mscc=1&hid=54137BA0-7010-5000-9D05-63CAAFC8E955&wdorigin=ItemsView&wdhostclicktime=1669115440578&jsapi=1&jsapiver=v1&newsession=1&corrid=1cef2421-43dd-4846-8e2c-53e2297bd584&usid=1cef2421-43dd-4846-8e2c-53e2297bd584&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Medium&ctp=LeastProtected#_ftn3).
+data, the [Data Act Proposal (DA-E)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2022%3A68%3AFIN).
 With both acts the Commission aims to make more data available for use,
 by setting up rules on who can use and access what data for which
 purposes across all economic sectors in the EU.
 
-The DGA aims to make more data available by regulating the reuse of
+The [DGA](https://digital-strategy.ec.europa.eu/en/policies/data-governance-act-explained) aims to make more data available by regulating the reuse of
 publicly/held, protected data, by promoting data sharing through the
 regulation of novel data intermediaries and by encouraging the sharing
-of data for altruistic
-purposes.[^[\[4\]]{.underline}^](https://dec-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=de%2DDE&rs=de%2DDE&wopisrc=https%3A%2F%2Fdigitalhubeu.sharepoint.com%2Fsites%2FWGRuleBook%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F290436b9648f465687a01597039f7b6b&wdenableroaming=1&mscc=1&hid=54137BA0-7010-5000-9D05-63CAAFC8E955&wdorigin=ItemsView&wdhostclicktime=1669115440578&jsapi=1&jsapiver=v1&newsession=1&corrid=1cef2421-43dd-4846-8e2c-53e2297bd584&usid=1cef2421-43dd-4846-8e2c-53e2297bd584&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Medium&ctp=LeastProtected#_ftn4)
+of data for altruistic purposes.
 It aims to make public sector data more widely available for local
 businesses, researchers and communities for the development of
 innovative data-driven services. A specific focus is on the public
 sector data which is subject to legal restrictions and thus out of the
-scope of the Open Data Directive[.]{.underline} Therefore, the proposal
+scope of the Open Data Directive. Therefore, the proposal
 covers public sector data which is legally protected on the grounds of:
 (a) commercial confidentiality including the trade secrets; (b)
 statistical confidentiality; (c) intellectual property rights of third
@@ -51,11 +46,11 @@ prescribing a right of access or reuse but lays out certain harmonized
 rules and conditions guiding member states for establishing mechanisms
 for the reuse of publicly held data.
 
-The DA-E aims to ensure fairness in the digital environment, stimulate a
+The [DA-E](https://ec.europa.eu/commission/presscorner/detail/en/ip_22_1113) aims to ensure fairness in the digital environment, stimulate a
 competitive data market, open opportunities for data-driven innovation
 and make data more accessible for all by providing consumers and
 businesses access to the data of their
-devices.[^[\[5\]]{.underline}^](https://dec-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=de%2DDE&rs=de%2DDE&wopisrc=https%3A%2F%2Fdigitalhubeu.sharepoint.com%2Fsites%2FWGRuleBook%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F290436b9648f465687a01597039f7b6b&wdenableroaming=1&mscc=1&hid=54137BA0-7010-5000-9D05-63CAAFC8E955&wdorigin=ItemsView&wdhostclicktime=1669115440578&jsapi=1&jsapiver=v1&newsession=1&corrid=1cef2421-43dd-4846-8e2c-53e2297bd584&usid=1cef2421-43dd-4846-8e2c-53e2297bd584&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Medium&ctp=LeastProtected#_ftn5)
+devices.
 The DA-E is regarded to be an essential building block of the European
 data spaces. It is guided by the understanding that B2B contractual
 agreements do not fully guarantee adequate access to data for SMEs or
@@ -70,32 +65,6 @@ data sharing and access in two dimensions: first, contracts as voluntary
 agreements and second, statutory access rights or obligations to make
 data available together with the general rules to be complied while
 performing these obligations or exercising the rights.
-
-[^1\]^](https://dec-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=de%2DDE&rs=de%2DDE&wopisrc=https%3A%2F%2Fdigitalhubeu.sharepoint.com%2Fsites%2FWGRuleBook%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F290436b9648f465687a01597039f7b6b&wdenableroaming=1&mscc=1&hid=54137BA0-7010-5000-9D05-63CAAFC8E955&wdorigin=ItemsView&wdhostclicktime=1669115440578&jsapi=1&jsapiver=v1&newsession=1&corrid=1cef2421-43dd-4846-8e2c-53e2297bd584&usid=1cef2421-43dd-4846-8e2c-53e2297bd584&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Medium&ctp=LeastProtected#_ftnref1)[<https://digital-strategy.ec.europa.eu/en/policies/strategy-data>[^\[1\]^](https://dec-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=de%2DDE&rs=de%2DDE&wopisrc=https%3A%2F%2Fdigitalhubeu.sharepoint.com%2Fsites%2FWGRuleBook%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F290436b9648f465687a01597039f7b6b&wdenableroaming=1&mscc=1&hid=54137BA0-7010-5000-9D05-63CAAFC8E955&wdorigin=ItemsView&wdhostclicktime=1669115440578&jsapi=1&jsapiver=v1&newsession=1&corrid=1cef2421-43dd-4846-8e2c-53e2297bd584&usid=1cef2421-43dd-4846-8e2c-53e2297bd584&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Medium&ctp=LeastProtected#_ftnref1)]{.underline}
-Digital Markets Act (DMA)
-[[https://eur-lex.europa.eu/legal-content/en/TXT/?uri=COM%3A2020%3A842%3AFIN]{.underline}](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=COM%3A2020%3A842%3AFIN);
-Digital Services Act (DSA)
-[[https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0825]{.underline}](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0825);
-AI Act
-[[https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A52021PC0206]{.underline}](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A52021PC0206).
-
-[^[\[2\]]{.underline}^](https://dec-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=de%2DDE&rs=de%2DDE&wopisrc=https%3A%2F%2Fdigitalhubeu.sharepoint.com%2Fsites%2FWGRuleBook%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F290436b9648f465687a01597039f7b6b&wdenableroaming=1&mscc=1&hid=54137BA0-7010-5000-9D05-63CAAFC8E955&wdorigin=ItemsView&wdhostclicktime=1669115440578&jsapi=1&jsapiver=v1&newsession=1&corrid=1cef2421-43dd-4846-8e2c-53e2297bd584&usid=1cef2421-43dd-4846-8e2c-53e2297bd584&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Medium&ctp=LeastProtected#_ftnref2)
-REGULATION (EU) 2022/868 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
-
-of 30 May 2022 on European data governance and amending Regulation (EU)
-2018/1724 (Data Governance Act);
-[[https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R0868]{.underline}](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R0868).
-
-[^[\[3\]]{.underline}^](https://dec-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=de%2DDE&rs=de%2DDE&wopisrc=https%3A%2F%2Fdigitalhubeu.sharepoint.com%2Fsites%2FWGRuleBook%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F290436b9648f465687a01597039f7b6b&wdenableroaming=1&mscc=1&hid=54137BA0-7010-5000-9D05-63CAAFC8E955&wdorigin=ItemsView&wdhostclicktime=1669115440578&jsapi=1&jsapiver=v1&newsession=1&corrid=1cef2421-43dd-4846-8e2c-53e2297bd584&usid=1cef2421-43dd-4846-8e2c-53e2297bd584&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Medium&ctp=LeastProtected#_ftnref3)
-Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
-on harmonised rules on fair access to and use of data (Data Act);
-[[https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2022%3A68%3AFIN]{.underline}](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2022%3A68%3AFIN).
-
-[^[\[4\]]{.underline}^](https://dec-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=de%2DDE&rs=de%2DDE&wopisrc=https%3A%2F%2Fdigitalhubeu.sharepoint.com%2Fsites%2FWGRuleBook%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F290436b9648f465687a01597039f7b6b&wdenableroaming=1&mscc=1&hid=54137BA0-7010-5000-9D05-63CAAFC8E955&wdorigin=ItemsView&wdhostclicktime=1669115440578&jsapi=1&jsapiver=v1&newsession=1&corrid=1cef2421-43dd-4846-8e2c-53e2297bd584&usid=1cef2421-43dd-4846-8e2c-53e2297bd584&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Medium&ctp=LeastProtected#_ftnref4)
-[[https://digital-strategy.ec.europa.eu/en/policies/data-governance-act-explained]{.underline}](https://digital-strategy.ec.europa.eu/en/policies/data-governance-act-explained).
-
-[^[\[5\]]{.underline}^](https://dec-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=de%2DDE&rs=de%2DDE&wopisrc=https%3A%2F%2Fdigitalhubeu.sharepoint.com%2Fsites%2FWGRuleBook%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F290436b9648f465687a01597039f7b6b&wdenableroaming=1&mscc=1&hid=54137BA0-7010-5000-9D05-63CAAFC8E955&wdorigin=ItemsView&wdhostclicktime=1669115440578&jsapi=1&jsapiver=v1&newsession=1&corrid=1cef2421-43dd-4846-8e2c-53e2297bd584&usid=1cef2421-43dd-4846-8e2c-53e2297bd584&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Medium&ctp=LeastProtected#_ftnref5)
-[[https://ec.europa.eu/commission/presscorner/detail/en/ip_22_1113]{.underline}](https://ec.europa.eu/commission/presscorner/detail/en/ip_22_1113).
 
 Beside these specific Acts, further legal aspects to consider when
 sharing data, including antitrust/competition, data protection and
@@ -114,11 +83,11 @@ principles, and organizational structures. To this end, the below
 ***four-pillar data governance framework*** outlines a "legal anatomy"
 of data governance consisting of the following:
 
-i.  the substantive rights and obligations related to data transactions
+1. the substantive rights and obligations related to data transactions
     (rights to data)
-ii. the contractual dimension
-iii. the organizational aspects
-iv. the technical implementation.
+2. the contractual dimension
+3. the organizational aspects
+4. the technical implementation.
 
 Beside the own responsibility of participants in a decentralized
 organization, IDSA discusses and aligns on legal matters with other
@@ -170,36 +139,34 @@ rulebook for a fair data economy in 2020 and has updated it several
 times since. The rulebook model is backed by Sitra's longterm work on
 the fair data economy and a large group of experts from companies and
 other organizations who have made valuable contributions to the rulebook
-model.[^17]
+model.
 
-The basic principles of the Sitra rulebook align well with the goals of
+The basic principles of the [Sitra rulebook](https://www.sitra.fi/en/publications/rulebook-for-a-fair-data-economy/) align well with the goals of
 this IDSA rulebook:
 
-> **Sovereignty**
->
-> IDS has made sovereignty of the data owner its most important design
-> principle. In the rulebook data provider has sovereignty over its
-> data. The instrument for the data provider to exercise its sovereignty
-> is through the data terms of use, in which the data provider can
-> decide to whom it grants access and under what conditions it releases
-> the data for use by others in the data network.
->
-> **Trust**
->
-> Enabling trust is the first of the foundational IDS concepts. Trust is
-> encompassed in the Sitra rulebook primarily through the balance
-> between the sovereign data providers and data users building new
-> business with the data. For instance, seizing the provision of data is
-> allowed, the termination period can be set to fit the needs of the
-> business or even initial fixed terms can be agreed upon. By default,
-> the data already distributed may still be used by the data user after
-> termination, but the provision of new data is seized. The balance is
-> also found in the clauses defining the boundary between data and
-> derived material in a way that it fits the context and needs of the
-> data provider and the data user. The Sitra rulebook also includes
-> clauses on auditing and extensive tools for ensuring that data
-> security and ethical principles are taken into account in the design
-> of data networks.
+**Sovereignty**
+
+IDS has made sovereignty of the data owner its most important design
+principle. In the rulebook data provider has sovereignty over its
+data. The instrument for the data provider to exercise its sovereignty
+is through the data terms of use, in which the data provider can
+decide to whom it grants access and under what conditions it releases
+the data for use by others in the data network.
+**Trust**
+Enabling trust is the first of the foundational IDS concepts. Trust is
+encompassed in the Sitra rulebook primarily through the balance
+between the sovereign data providers and data users building new
+business with the data. For instance, seizing the provision of data is
+allowed, the termination period can be set to fit the needs of the
+business or even initial fixed terms can be agreed upon. By default,
+the data already distributed may still be used by the data user after
+termination, but the provision of new data is seized. The balance is
+also found in the clauses defining the boundary between data and
+derived material in a way that it fits the context and needs of the
+data provider and the data user. The Sitra rulebook also includes
+clauses on auditing and extensive tools for ensuring that data
+security and ethical principles are taken into account in the design
+of data networks.
 
 Considering the IDS dimensions, the SITRA templates are a valuable basis
 to create the contract framework for data sharing based on IDS

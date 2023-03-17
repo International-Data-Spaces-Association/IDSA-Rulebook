@@ -1,11 +1,11 @@
 # Functional requirements for a data space
 
-*This section of the rule book describes the mandatory functional
+This section of the rule book describes the mandatory functional
 requirements as well as optional elements for building trusted data
 spaces. It highlights the design decisions necessary to build and
 operate data spaces in centralized, federated or decentralized
 architectures and deployment patterns to show how various solutions are
-enabled by the building blocks of data spaces.*
+enabled by the building blocks of data spaces.
 
 Enterprises strive to have control over their data. Control is important
 when managing data internally, but even more in sharing data with
@@ -82,27 +82,21 @@ when the data space crosses legal jurisdictions or industries.
 The foundational concepts of a data space:
 
 - Establishing trust
-
 - Data discoverability
-
 - Data contract negotiation
-
 - Data sharing & usage
-
 - Observability
-
 - Vocabularies and semantic models
 
 Additional elements that support these main functions of a data space
 can include these optional functional areas:
 
 - Application and processing services
-
 - Marketplaces
-
 - Data trustee and escrow services
+- Data incubation and service creation
 
-- ![Data incubation and service creation](media/media/image8.png)
+![Foundational Concepts in data spaces](./media/Foundational_Concepts_in_data_spaces.png)
 
 ### Establishing trust
 
@@ -155,7 +149,7 @@ issues them, such as a department of traffic issuing drivers licenses or
 a ministry of internal affairs handing out citizen ID cards. The
 underlying process is verifying a specific attribute.
 
-![](media/media/image9.png)
+![Self Descriptions in data spaces](./media/Self_Descriptions_in_data_spaces.png)
 
 A trust anchor
 is an entity that issues certifications about an attribute. The
@@ -240,7 +234,7 @@ produced, and then permits to share the results with a third party for
 processing if they meet a set of ISO
 standards.
 
-![](media/media/image10.png)
+![Different policies  in data spaces](./media/Different_policies_in_data_spaces.png)
 
 As discussed above, the first line of policy defense is the membership
 policies (MP) and rules required to join a data space. These policies
@@ -311,29 +305,13 @@ important to understand the data's classification, and regulatory
 controls to design not just the right policies but also to mandate the
 appropriate level of technical components that ensure proper handling of
 the data.
-
-  -------------------------------------------------------------------------
-  **Example**      **Protection Need** **Explanation**
-  ---------------- -------------- -----------------------------------------
-  Public weather   low            Some data sets are already publicly
-  data                            available and can be shared without
-                                  enabling others to derive sensitive data
-                                  about persons or business secrets.
-
-  Shipping         medium         Some data are valuable and at large scale
-  information                     likely to be highly protection worthy as
-                                  they can give insights into business
-                                  relations and transactions.
-
-  Personal health  high           Personal health data are highly
-  data                            protection worthy due to strong laws and
-                                  potential danger to the individual in
-                                  case of data misuse.
-
-Machine          high           Industrial data is also usually of high
-  operations                  value due to the sensitive business
-  data                                information it represents.
-  -------------------------------------------------------------------------
+  
+| **Example**  |    **ProtectionNeed** | **Explanation** |
+| :------------| :--------------------: | :---------------|
+| Public weather data | low | Some data sets are already publicly available and can be shared without enabling others to derive sensitive data about persons or business secrets. |
+|  Shipping information | medium  | Some data are valuable and at large scale likely to be highly protection worthy as they can give insights into business relations and transactions. |
+|  Personal health data |  high | Personal health data are highly protection worthy due to strong laws and potential danger to the individual in case of data misuse. |
+| Machine operations data | high | Industrial data is also usually of high value due to the sensitive business information it represents.|
 
 The atomic expressions of policies can be further broken down into a set
 of restrictions against which machine-readable attributes can be
@@ -518,34 +496,34 @@ The procedure to join a space will likely include the following steps
 for the applicant (details can vary due to the design and purpose of the
 data space):
 
-- Candidate discovers the data space and the corresponding DSSD\
+1. Candidate discovers the data space and the corresponding DSSD\
     This can be achieved through human interaction, a website of the
-    data space, finding the DID[^8] of the data space in some registry
+    data space, finding the [DID](https://www.w3.org/TR/did-core/) of the data space in some registry
     or through automated discovery protocol of existing participants
     among other things.
 
-1. Candidate reads the DSSD and receives information about the policies
+2. Candidate reads the DSSD and receives information about the policies
     and rules of the data space, as well as technical configuration
     information for endpoints and protocols.
 
-2. Candidate evaluates the policies and rules and prepares additional
+3. Candidate evaluates the policies and rules and prepares additional
     information needed for the requirements when applying for membership
     in the data space.
 
-3. When all information and necessary proofs are collected the
+4. When all information and necessary proofs are collected the
     candidate applies for membership through the registry function of
     the DSA. The technical implementation of the data space registry
     might vary based on the requirements.
 
-4. The DSA requests proofs for all policies. This might include VCs and
+5. The DSA requests proofs for all policies. This might include VCs and
     proof of technical capabilities, but also workflows including human
     interaction (e.g., signing a membership contract).
 
-5. Once all policies have been satisfactorily processed the DSA issues
+6. Once all policies have been satisfactorily processed the DSA issues
     a VC/ proof of membership and sends it to the candidate, moving them
     from applicant to participant.
 
-6. The new participant sets up all the necessary technical components
+7. The new participant sets up all the necessary technical components
     for participation in the data space.
 
 7. The application process is complete,
@@ -553,7 +531,7 @@ data space):
     (sharing data, browsing the catalog(s) for data of others,
     negotiating data contracts).
 
-![](media/media/image11.png)
+![Onboarding in data spaces](./media/Onboarding_in_data_spaces.png)
 
 ### Creating a data space
 
@@ -563,6 +541,8 @@ data space and the needs of its participants. Regardless of whether the
 data space is organized in a centralized, decentralized, federated or
 hybrid manner, common denominators and basic functionalities can be
 found.
+
+![Overview of Data Space entities](./media/Dataspace.png)
 
 A data space establishes trust within a community to share data with
 each other. The definition of community can be very broad. It might be a
@@ -614,29 +594,18 @@ mandate a specific design of the data space authority. Now the DSA needs
 to be implemented to create the data space:
 
 1. Create an identity for the data space
-
 2. Provide a self-description
 
-    - Membership policies
-
-    - Trust anchors and trust frameworks
-
-    - Attributes that will help participants decide which level of
+  - Membership policies
+  - Trust anchors and trust frameworks
+  - Attributes that will help participants decide which level of
         trust to apply for
-
-- use of the technical components as required according to the design
-
-- Participant registry
-
+  - use of the technical components as required according to the design
+  - Participant registry
   - Registration service
-
     - Provide the workflow to apply for membership
-
-    - Validate whether applicants comply with membership
-            requirements
-
+    - Validate whether applicants comply with membership requirements
     - Issue membership credentials
-
     - Revoke membership credentials
 
 3. Provide a discovery mechanism for the data space (website, contact
@@ -651,7 +620,7 @@ provides. Additional functions and services such as marketplaces, data
 escrow services, processing services and applications might be provided
 as optional elements.
 
-![](media/media/image12.png)
+![Variants for data space authorities](./media/Variants_for_dsa.png)
 
 ### Data discovery
 
@@ -679,8 +648,6 @@ assets in catalogs at multiple sites.
 Catalogs don't provide the data asset itself, but they provide data
 contract offers (more on this in the section on data sharing below).
 
-![](media/media/image13.png)
-
 When choosing a target architecture for a data space, the design of the
 catalog function can fall somewhere along the spectrum between a central
 catalog, multiple federated catalogs, and many decentralized catalogs.
@@ -688,75 +655,19 @@ Each has its own advantages and disadvantages. Compare the three main
 types of catalogs, depending on the implementation design of the DSA, to
 evaluate their capabilities:
 
-+----------------------+----------------------+-----------------------+
-| Catalog architecture | Advantages           | Disadvantages         |
-+======================+======================+=======================+
-| Centralized catalog  | -   No deployment by | -   A central         |
-|                      |     individual       |     gatekeeper can    |
-|                      |     participants     |     arbitrarily       |
-|                      |                      |     exclude           |
-|                      | -   Central control  |     participants and  |
-|                      |     -- a gatekeeper  |     their data from   |
-|                      |     can regulate     |     the catalog       |
-|                      |     which entries    |                       |
-|                      |     are permissible  | -   Single point of   |
-|                      |     and which are    |     failure           |
-|                      |     not              |                       |
-|                      |                      | -   Potential         |
-|                      | -   Easy discovery   |     performance       |
-|                      |     as only one      |     bottle neck       |
-|                      |     catalog needs to |                       |
-|                      |     be queried       | -   Security issues   |
-|                      |                      |     will affect all   |
-|                      |                      |     members at once   |
-+----------------------+----------------------+-----------------------+
-| Federated catalog    | -   Deployment by a  | -   Additional        |
-|                      |     limited number   |     replication       |
-|                      |     of participants, |     mechanisms are    |
-|                      |     while most       |     needed            |
-|                      |     participants     |                       |
-|                      |     don't need to    | -   A small group of  |
-|                      |     deploy any       |     operators of      |
-|                      |     catalog          |     federated catalog |
-|                      |     components       |     nodes can control |
-|                      |                      |     participation in  |
-|                      | -   Federated        |     the data space    |
-|                      |     control --       |                       |
-|                      |     voting           |                       |
-|                      |     mechanisms for   |                       |
-|                      |     content control  |                       |
-|                      |     can be           |                       |
-|                      |     implemented      |                       |
-+----------------------+----------------------+-----------------------+
-| Decentralized        | -   Every            | -   Every participant |
-| catalog              |     participant can  |     needs to run a    |
-|                      |     autonomously     |     catalog component |
-|                      |     decide which     |                       |
-|                      |     catalog items    | -   A list of         |
-|                      |     they share with  |     available         |
-|                      |     whom             |     catalogs needs to |
-|                      |                      |     be either         |
-|                      | -   No interference  |     centrally         |
-|                      |     in the           |     provided through  |
-|                      |     interaction      |     the DSA or        |
-|                      |     between two      |     discoverable      |
-|                      |     participants     |     through a         |
-|                      |     through a 3^rd^  |     peer-to-peer      |
-|                      |     party            |     protocol          |
-|                      |                      |                       |
-|                      | -   Data space as a  | -   Participants need |
-|                      |     whole is more    |     to search each    |
-|                      |     resilient        |     other's catalogs  |
-|                      |     towards          |     to see which      |
-|                      |     cyberattacks     |     items are         |
-|                      |     even though      |     available         |
-|                      |     individual       |                       |
-|                      |     members can      |                       |
-|                      |     experience       |                       |
-|                      |     outages          |                       |
-|                      |                      |                       |
-|                      | -   Easier to scale  |                       |
-+----------------------+----------------------+-----------------------+
+
+| **Catalog architecture** | **Advantages**           | **Disadvantages**         |
+| ---                  |   ---                | ---|
+| **Centralized catalog**  | No deployment by individual participants   | A central gatekeeper can arbitrarily exclude participants and their data from the catalog  | 
+|  | Central control – a gatekeeper can regulate which entries are permissible and which are not | Single point of failure  |
+| | Easy discovery as only one catalog needs to be queried | Potential performance bottle neck |
+|  |  | Security issues will affect all members at once |
+| **Federated catalog** | Deployment by a limited number of participants, while most participants don’t need to deploy any catalog components | Additional replication mechanisms are needed |
+|  | Federated control – voting mechanisms for content control can be implemented | A small group of operators of federated catalog nodes can control participation in the data space |
+| **Decentralized catalog** | Every participant can autonomously decide which catalog items they share with whom | Every participant needs to run a catalog component |
+|  | No interference in the interaction between two participants through a 3rd party | A list of available catalogs needs to be either centrally provided through the DSA or discoverable through a peer-to-peer protocol |
+|  | Data Space as a whole is more resilient towards cyberattacks even though individual members can experience outages | Participants need to crawl each other’s catalogs to see which items are available |
+|  | Easier to scale |  |
 
 #### Access policies
 
@@ -831,8 +742,7 @@ might be data assets that can't be immediately shared after the
 agreement is reached (e.g., an event notification that can only be
 consumed until the event in questions has occurred).
 
-![Diagram Description automatically
-generated](media/media/image14.png)
+![Data sharing contract negotiation](media/media/image14.png)
 
 **Data sharing execution**
 
@@ -947,7 +857,7 @@ Following the same pattern, additional optional functional roles can be
 implemented: a payment clearance service, notary services, regulatory
 reporting, and the like.
 
-### Vocabulary
+### Vocabularies
 
 Vocabularies are used to ensure that everyone means the same thing when
 using a specific term. There are multiple vocabularies that are needed
@@ -1012,7 +922,7 @@ semantic models that each participant receives when joining the data
 space and which can be continuously updated through various
 synchronization mechanisms.
 
-![](media/media/image15.png)
+![Vocabularies and their relationship to data assets](./media/Vocabularies_and_data_assets.png)
 
 ### Optional functions
 
@@ -1118,36 +1028,19 @@ design decision. It impacts policies on autonomy and sovereignty as well
 as technical solution architectures for other components of a data
 space.
 
-+-----------------------+-----------------------+-----------------------+
-| Identity System       | Advantages            | Disadvantages         |
-+=======================+=======================+=======================+
-| Centralized identity  | -   Simple management | -   Low autonomy and  |
-| provider              |     for DSA           |     sovereignty of    |
-|                       |                       |     participants      |
-|                       | -   High degree of    |                       |
-|                       |     control for DSA   | -   Single point of   |
-|                       |                       |     failure           |
-|                       | -   Traditional,      |                       |
-|                       |     well-known        | -   Single point of   |
-|                       |     technology stack  |     attack            |
-|                       |                       |                       |
-|                       |                       | -   Harder to manage  |
-|                       |                       |     for participants  |
-+-----------------------+-----------------------+-----------------------+
-| Decentralized         | -   Full autonomy and | -   Complexity: DSA   |
-| identities            |     sovereignty for   |     management        |
-|                       |     participants      |     requires          |
-|                       |                       |     decentralized     |
-|                       | -   Low resourcing    |     protocols         |
-|                       |     need for DSA      |                       |
-|                       |                       | -   Lower degree of   |
-|                       | -   Easy to manage    |     control for DSA   |
-|                       |     for participants  |                       |
-|                       |                       | -   New and partially |
-|                       | -   Resilient         |     unfamiliar        |
-|                       |                       |     technology stack  |
-|                       | -   Harder to attack  |                       |
-+-----------------------+-----------------------+-----------------------+
+
+
+
+| **Identity System**       | **Advantages**            | **Disadvantages**        |
+|--- |--- | --- |
+| **Centralized identity**  | Simple management for DSA | Low autonomy and sovereignty of participants |
+|  | High degree of control for DSA    | Single point of failure |
+|  | Traditional, well-known technology stack | Single point of attack |
+|  |  | Harder to manage for participants |
+| **Decentralized  identities**       | Full autonomy and overeignty for participants | Complexity: DSA management requires decentralized protocols |
+|  | Low resourcing need for DSA | Lower degree of control for DSA |
+|  | Easy to manage for participants | New and partially unfamiliar technology stack|
+|  | Harder to attack |  |
 
 ### Catalog
 
@@ -1220,7 +1113,7 @@ be made with utmost care.
 ![Chart, bubble chart Description automatically
 generated](media/media/image13.png)
 
-**Centralized data space authority**
+#### Centralized data space authority
 
 In a centralized DSA design, the entity runs all services to operate the
 data space. These include services to identify participants, onboard new
@@ -1262,7 +1155,7 @@ the data space do not allow for full autonomy of participants in this
 design solution. However, depending on the purpose and goals of the data
 space this may not be a problem.
 
-**Federated / distributed data space authority**
+#### Federated / distributed data space authority
 
 The federated or distributed model retains some degree of centralized
 control but improves on the technical and security challenges. In this
@@ -1318,7 +1211,7 @@ unstable. A fully sovereign participant must be able to interact with
 other participants without depending on a third party once it is proven
 that the participant is following all rules.
 
-**Decentralized data space authority**
+#### Decentralized data space authority
 
 Using a decentralized design enables the highest level of autonomy and
 sovereignty. The core element enabling a participant to act autonomously
@@ -1438,7 +1331,7 @@ The figure below gives a comprehensive overview of the values within the
 decision areas when implementing a centralized, federated/distributed,
 or decentralized approach.
 
-![](media/media/image16.png)
+![Comparison of models for decision support](media/media/image16.png)
 
 Another way to compare the features and
 capabilities of the different designs is to separate the decision areas
