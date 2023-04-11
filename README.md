@@ -19,4 +19,4 @@ The IDSA rulebook serves several purposes regarding the development and operatio
 ## How to Contribute to IDS Rulebook?
 We value your feedback and encourage all interested parties to review, comment, and contribute to the ongoing development of this rulebook. Collaboration and open communication are essential to our success, and your input is vital to refining and enhancing the rulebook, making it a more comprehensive and valuable resource for all. You can provide feedback on IDS Rulebook by [creating an issue in this repository](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/issues/new).
 
-One can become a contributor by joining the Rule Book Working Group. This is possible via contacting One should contact the co-chairs who are listed on [IDSA Website](https://internationaldataspaces.org/make/working-groups/).
+One can become a contributor by joining the Rule Book Working Group. This is possible via contacting the co-chairs listed on [IDSA Website](https://internationaldataspaces.org/make/working-groups/).
