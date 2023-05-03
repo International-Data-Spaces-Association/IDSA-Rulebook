@@ -1,4 +1,6 @@
-# IDSA Rulebook Version 2 #
+# README #
+
+## IDSA Rulebook Version 2 ##
 
 ## Table of contents ##
 
