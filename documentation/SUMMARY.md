@@ -2,7 +2,7 @@
 
 ## Front Matter
 
-* [README](./README.md)
+* [Cover](./README.md)
 * [Front Matter](./FrontMatter.md)
 * [Contributing Projects](./Contributing_Projects.md)
 
