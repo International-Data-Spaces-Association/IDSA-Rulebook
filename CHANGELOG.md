@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 
 
-## [Unreleased]
+## June 2023
 ---
 
 ### Added
@@ -29,7 +29,7 @@ All notable changes to this project will be documented in this file.
 
 * in case of vulnerabilities.
 
-## Version 2.0 Public Beta Release
+## [Version 2.0](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/releases/tag/Rulebook_V2)
 ---
 
 ### Added
