@@ -1,6 +1,6 @@
 # Legal dimension
 
-This section of the rulebook gives an overview of the regulatory framework and describes IDSA's approach of compliance with regulatory requirements and contractual agreements.
+This section of the Rulebook gives an overview of the regulatory framework and describes IDSA's approach of compliance with regulatory requirements and contractual agreements.
 
 ## 6.1 Regulatory framework
 
@@ -142,19 +142,19 @@ other organizations who have made valuable contributions to the rulebook
 model.
 
 The basic principles of the [Sitra rulebook](https://www.sitra.fi/en/publications/rulebook-for-a-fair-data-economy/) align well with the goals of
-this IDSA rulebook:
+this IDSA Rulebook:
 
 **Sovereignty**
 
 IDS has made sovereignty of the data owner its most important design
-principle. In the rulebook data provider has sovereignty over its
+principle. In the Rulebook data provider has sovereignty over its
 data. The instrument for the data provider to exercise its sovereignty
 is through the data terms of use, in which the data provider can
 decide to whom it grants access and under what conditions it releases
 the data for use by others in the data network.
 **Trust**
 Enabling trust is the first of the foundational IDS concepts. Trust is
-encompassed in the Sitra rulebook primarily through the balance
+encompassed in the Sitra Rulebook primarily through the balance
 between the sovereign data providers and data users building new
 business with the data. For instance, seizing the provision of data is
 allowed, the termination period can be set to fit the needs of the
@@ -179,14 +179,14 @@ needs.
 
 Based on the SITRA templates IDSA will start drafting additional
 components for contract templates for IDS (that will be published after
-this rulebook). Such templates will be attached to this rulebook and
+this Rulebook). Such templates will be attached to this Rulebook and
 regularly updated reflecting new developments.
 
 The IDS contract framework will not duplicate all components of the
 SITRA rulebook. The full set of SITRA rulebook templates are intended to
 be used in the creation and set-up of a data space, including governance
 models of the data ecosystem. These may not be necessary for the
-purposes of the IDSA rulebook. Therefore, the IDS contract framework
+purposes of the IDSA Rulebook. Therefore, the IDS contract framework
 will focus on additional components and guidance highlighted in
 different use cases of data sharing implemented under the IDS
 specifications. These may include domain-specific dataset terms of use

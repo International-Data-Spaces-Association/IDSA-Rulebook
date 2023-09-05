@@ -1,6 +1,6 @@
 # Summary and outlook
 
-This IDSA rulebook version 2 recognizes the growing need for structural
+This IDSA Rulebook version 2 recognizes the growing need for structural
 approaches to accessing and sharing data while maintaining data
 sovereignty. The use of guiding principles helps identify solutions for
 this growing market. It includes the understanding of the current
@@ -15,7 +15,7 @@ This is complemented by the governance view on the rights and
 obligations for data spaces as a whole and the data space instances.
 
 The analysis of the legal framework for data spaces is ongoing and
-subject to continuous debate and will be part of this rulebook in future
+subject to continuous debate and will be part of this Rulebook in future
 versions.
 
 IDSA and its partners are supported by the Data Spaces Support Centre
@@ -23,7 +23,7 @@ IDSA and its partners are supported by the Data Spaces Support Centre
 
 Based on the recent IDSA work, additional publications provide more
 insights into data spaces. The data space landscape reports on technical
-and semantic interoperability and will be part of future rulebooks. The
+and semantic interoperability and will be part of future Rulebooks. The
 relationship between the different stakeholders in the data space
 landscape and how they form a comprehensive framework will be further
 investigated.

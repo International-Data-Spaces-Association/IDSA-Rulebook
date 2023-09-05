@@ -1,7 +1,7 @@
 # Technical agreements
 
-This section of the rulebook describes the technical arrangements
-required to implement an IDS-based data room. The IDS rulebook specifies
+This section of the Rulebook describes the technical arrangements
+required to implement an IDS-based data room. The IDS Rulebook specifies
 what is mandatory and what is optional to implement but keep some
 freedom how to realize these concepts (see also the section on the goals
 of IDS in the IDS RAM).
@@ -17,7 +17,7 @@ certification criteria and the IDS-testbed helps validate compliance
 with the RAM and the specification. This is IDSA's so-called magic
 triangle, which is extended with the portfolio of open-source building
 blocks, such as commercial solutions that are certified but not
-mandatorily available as FOSS. The rulebook itself provides a frame for
+mandatorily available as FOSS. The Rulebook itself provides a frame for
 the magic triangle by describing the overarching concept of data spaces.
 
 The mentioned IDSA assets have a defined release time to ensure
@@ -33,7 +33,7 @@ once per year. For more details see the table below.
 | IDS-G specifications  |  Fourth quarter of a year |    Working group architecture |
 | Certification scheme  |  Second quarter of a year |    Working group certification |
 | IDS-reference testbed  | Fourth quarter of a year |     Working group certification |
-| IDSA rulebook |  Third quarter of a year | Working group rulebook |
+| IDSA Rulebook |  Third quarter of a year | Working group Rulebook |
   
 ## IDS Reference Architecture Model (RAM)
 
@@ -68,7 +68,7 @@ Certification scheme as a foundation in the IDS. The governance
 perspective describes the responsibilities of roles in the IDS.
 
 The current version of the IDS-RAM that forms the basis for this
-rulebook is [V4](https://docs.internationaldataspaces.org/ids-ram-4/).
+Rulebook is [V4](https://docs.internationaldataspaces.org/ids-ram-4/).
 
 ## IDS specifications on IDS-G
 
