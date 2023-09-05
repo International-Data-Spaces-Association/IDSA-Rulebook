@@ -1,6 +1,6 @@
 # Functional requirements for a data space
 
-This section of the rule book describes the mandatory functional
+This section of the Rulebook describes the mandatory functional
 requirements as well as optional elements for building trusted data
 spaces. It highlights the design decisions necessary to build and
 operate data spaces in centralized, federated or decentralized

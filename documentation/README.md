@@ -17,7 +17,7 @@
 
 ## Purpose & Motivation ##
 
-The IDSA rulebook serves several purposes regarding the development and operation of data spaces. The aim is to describe clearly which rules are mandatory and which are optional guidelines. This governance framework includes functional, technical, operational, and legal dimensions:
+The IDSA Rulebook serves several purposes regarding the development and operation of data spaces. The aim is to describe clearly which rules are mandatory and which are optional guidelines. This governance framework includes functional, technical, operational, and legal dimensions:
 
 * Guidelines for the functionality of common services are presented as well as the definition, processes, and services of specific roles.
 
@@ -29,9 +29,9 @@ The IDSA rulebook serves several purposes regarding the development and operatio
 
 ## How to Contribute to IDS Rulebook? ##
 
-We value your feedback and encourage all interested parties to review, comment, and contribute to the ongoing development of this rulebook. Collaboration and open communication are essential to our success, and your input is vital to refining and enhancing the rulebook, making it a more comprehensive and valuable resource for all. You can provide feedback on IDS Rulebook by [creating an issue in this repository](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/issues/new).
+We value your feedback and encourage all interested parties to review, comment, and contribute to the ongoing development of this Rulebook. Collaboration and open communication are essential to our success, and your input is vital to refining and enhancing the Rulebook, making it a more comprehensive and valuable resource for all. You can provide feedback on IDS Rulebook by [creating an issue in this repository](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/issues/new).
 
-One can become a contributor by joining the Rule Book Working Group as member of [International Data Spaces Associatoin](https://internationaldataspaces.org/). This is possible via contacting the co-chairs listed on [IDSA Website](https://internationaldataspaces.org/make/working-groups/).
+One can become a contributor by joining the Rulebook Working Group as member of [International Data Spaces Associatoin](https://internationaldataspaces.org/). This is possible via contacting the co-chairs listed on [IDSA Website](https://internationaldataspaces.org/make/working-groups/).
 
 Please also visit our [Code of Conduct](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/CODE_OF_CONDUCT.md) and the [Contibuting information](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/CONTRIBUTING.md).
 

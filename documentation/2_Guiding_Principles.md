@@ -1,6 +1,6 @@
 # Guiding principles
 
-The IDSA rulebook is based on a set of generic principles and underlying
+The IDSA Rulebook is based on a set of generic principles and underlying
 values. The key aspects are related to the governance of data spaces and
 the roles actors can have.
 
@@ -48,7 +48,7 @@ PESTLE stands for **p**olitical, **e**conomic, **s**ocial,
 **t**echnical, **l**egal and **e**nvironmental. For each section, we
 *describe* the (European) values embedded in IDS-compliant data spaces
 and do *not prescribe* specific purposes for which these data spaces may
-be used. This allows users of this rulebook to critically reflect the
+be used. This allows users of this Rulebook to critically reflect the
 values embedded in their own data space.
 
 Solid values and ethics are fundamental to any technical implementation;
@@ -56,7 +56,7 @@ their absence has led to catastrophic effects on humanity. The use of
 data needs good governance goals. We are deeply rooted in the European
 values of freedom, inviolability, privacy, security, humanity, and
 respect (without claiming to be exhaustive) and therefore include
-considerations of values and ethics into the rulebook, and carefully
+considerations of values and ethics into the Rulebook, and carefully
 choose the path to the data economy weighing the impact on people and
 societies.
 
@@ -282,7 +282,7 @@ Relationship of data usage control and other types of control
 enforcement and legal agreements
 
 EU policies set the framework for data spaces, but each instance will
-need additional governance. This rulebook helps you put that governance
+need additional governance. This Rulebook helps you put that governance
 in place. In this section, we briefly cover the relevant EU regulation
 for data spaces: DGA, DA, eIDAS2, GDPR, NIS2.
 In chapter 6, we cover the contractual aspects of setting up the governance
@@ -290,7 +290,7 @@ for a data space instance.
 
 ## Role models
 
-Roles in this rulebook describe functions, and no status. The model
+Roles in this Rulebook describe functions, and no status. The model
 definition of roles should provide clarity about tasks and capabilities
 and support the understanding of architectures and interfaces. Roles may
 not always exist in their pure form - mixed forms are often experienced
