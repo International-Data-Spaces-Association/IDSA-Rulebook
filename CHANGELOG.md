@@ -11,7 +11,8 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
-* for changes in existing functionality.
+* Changed way of writing, we use IDSA Rulebook
+* Removing Version String, we will continuously maintain the document
 
 ### Deprecated
 
