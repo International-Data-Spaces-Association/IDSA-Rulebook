@@ -176,7 +176,7 @@ between use cases and used data products will improve interoperability.
 Distinguish between mandatory (MVD) and optional requirements (discuss
 essential principles and optional one)
 
-The ["Public money, public code" campaign](https://www.kocos.com/news/blog/articles/article/2021/10/18/some-facts-about-the-energy-consumption-of-digitalisation) wants legislation to
+The ["Public money, public code" campaign](https://publiccode.eu/en/) wants legislation to
 require that publicly funded software developed for the public sector to
 be made publicly available under a free and open source software
 license. IDS-G is where the developer community finds the reference
