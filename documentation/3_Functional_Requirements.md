@@ -57,7 +57,7 @@ without relying on a single central point of control. To enable a
 federated system, services are implemented where multiple participants
 share the responsibility for necessary functionality for all.
 
-The data space authority (DSA) is responsible for establishing the
+The data space governance authority (DSA) is responsible for establishing the
 policies and rules of the data space. This role can be carried out by
 one entity, but also by multiple or even all participants. In a
 centralized data space, this could be the operating company. In a
@@ -66,7 +66,7 @@ federator(s) agreeing on the rules, while in a fully decentralized data
 space, various mechanisms are available to the participants. The
 mechanisms in a decentralized data space enable participants to agree on
 the set of policies and their enforcement, thus sharing responsibility
-for the data space authority function.
+for the data space governance authority function.
 
 When evaluating different data space architectures and deployment
 models, the individual set of rules that serves as the basis is
@@ -126,7 +126,7 @@ A data space needs to define policies that specify what attributes an
 applicant must meet to become a trusted participant. This is achieved
 through a data space self-description (DSSD), that allows new members to
 provide attributes in their participant self-description (PSD) in a
-format that can be understood by the data space authority (DSA).
+format that can be understood by the data space governance authority (DSA).
 Therefore, the DSSD must include a reference to a semantic model that
 describes the acceptable policies, their names, the potential value, and
 the format in which those values are accepted.
@@ -417,7 +417,7 @@ be clearly identifiable for the participants and potential members, but
 also because the identity is the root element to which the DSSD is tied.
 As mentioned above, the decision on how the functional elements are
 implemented and expressed through the functional role of the data space
-authority is highly dependent on the needs of the data space and is the
+governance authority is highly dependent on the needs of the data space and is the
 most important decision to be made when designing a data space.
 
 #### Participant information
@@ -590,7 +590,7 @@ Once all design decisions are made, the functional elements are planned:
 
 Working through the above list of mandatory functional elements will
 clarify the architecture pattern for the data space, which will also
-mandate a specific design of the data space authority. Now the DSA needs
+mandate a specific design of the data space governance authority. Now the DSA needs
 to be implemented to create the data space:
 
 1. Create an identity for the data space
@@ -989,10 +989,10 @@ data space provides.
 
 ## Technical components of a data space
 
-### Data space authority services
+### Data space governance authority services
 
 Several services are required that represent the functional role of the
-data space authority (DSA) to enable the management functions of a data
+data space governance authority (DSA) to enable the management functions of a data
 space. These services may be designed as centralized, federated
 (distributed) or decentralized services (See below for more information
 on the differences between these solution designs). Depending on which
@@ -1050,7 +1050,7 @@ without the use of a catalog by sending the offer directly via a
 separate channel (e-mail, notification). A catalog will be a common
 component to implement data discoverability. It can be implemented as a
 managed service by one or more selected participants, hosted by the data
-space authority, or operated in a fully decentralized fashion by every
+space governance authority, or operated in a fully decentralized fashion by every
 participant that offers data contracts (see the visual representation of
 various implementation designs of the DSA above). The type of catalog
 architecture used depends on the design of the data space as well as the
@@ -1113,7 +1113,7 @@ be made with utmost care.
 ![Chart, bubble chart Description automatically
 generated](media/media/image13.png)
 
-#### Centralized data space authority
+#### Centralized data space governance authority
 
 In a centralized DSA design, the entity runs all services to operate the
 data space. These include services to identify participants, onboard new
@@ -1155,7 +1155,7 @@ the data space do not allow for full autonomy of participants in this
 design solution. However, depending on the purpose and goals of the data
 space this may not be a problem.
 
-#### Federated / distributed data space authority
+#### Federated / distributed data space governance authority
 
 The federated or distributed model retains some degree of centralized
 control but improves on the technical and security challenges. In this
@@ -1211,7 +1211,7 @@ unstable. A fully sovereign participant must be able to interact with
 other participants without depending on a third party once it is proven
 that the participant is following all rules.
 
-#### Decentralized data space authority
+#### Decentralized data space governance authority
 
 Using a decentralized design enables the highest level of autonomy and
 sovereignty. The core element enabling a participant to act autonomously

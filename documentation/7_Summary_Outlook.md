@@ -8,7 +8,7 @@ European regulation and legislation but does not stop there as data
 spaces are meant to be international.
 
 The functional analysis of both parts, the creation of a data space and
-the data space authority, as well as the requirements and obligations of
+the data space governance authority, as well as the requirements and obligations of
 a participant in a data space is a central piece of this document. The
 comprehensive outline provides guidance for the creation of data spaces.
 This is complemented by the governance view on the rights and
