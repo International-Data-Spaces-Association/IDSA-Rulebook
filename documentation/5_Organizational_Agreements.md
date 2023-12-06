@@ -67,14 +67,16 @@ levels for component certification and operational certification, the
 certification criteria, and the process to approve the evaluation
 facilities are provided in Chapter 2.
 
-## Running data space instances 
+## Running data space instances
 
-### Intra- and inter data space instance governance 
+### Intra- and inter data space instance governance
 
-It must be recognized that the role of IDS and IDSA is to fulfill (1)
-within the broader landscape of existing data sharing initiatives and
-(2) the ambition of a federation of interoperable data spaces. This
-implies that IDSA considers its development and deployment initiatives
+It must be recognized that the role of IDS and IDSA is to fulfill
+
+1. within the broader landscape of existing data sharing initiatives and
+2. the ambition of a federation of interoperable data spaces.
+
+This implies that IDSA considers its development and deployment initiatives
 in the broader context of these two areas:
 
 The striving for interoperability within a data space (intra) so that
@@ -83,6 +85,8 @@ data sharing initiative and preparing for interoperability between
 multiple data space instances or data sharing initiatives (inter) to
 pave the way for the federation of interoperable data spaces - as
 pursued by the European data strategy.
+
+> update references
 
 The Data Governance Act \[2\] also recommends both an intra data space
 (domain) governance authority and an inter data space (central)
@@ -104,6 +108,8 @@ space interoperability), and embedding them in the European ambition of
 a federation of interoperable data spaces (inter data space
 interoperability).
 
+> Figure needs to be updated and caption, reference to DSSC Building Blocks and OpenDEI
+
 ![](media/media/image18.png){width="6.114584426946632in"
 height="1.8853291776027996in"}
 
@@ -117,7 +123,9 @@ on the right in Figure 1:
 
 An approach to systematically address the interoperability challenges is
 provided by the new European interoperability framework developed by the
-European Commission \[8\] and shown in Figure 21.
+European Commission \[8\] and shown in the figure below.
+
+> Figure needs to be updated and caption
 
 ![](media/media/image19.png){width="6.455695538057743in"
 height="2.125in"}
@@ -125,40 +133,46 @@ height="2.125in"}
 []{#_Ref126648124 .anchor}Figure 21 Layered functional model as aligned
 with the New European Interoperability Framework \[8\].
 
-As Figure 21 shows, the framework distinguishes four functional levels
+> Update figure caption
+
+As shown in the figure above, the framework distinguishes four functional levels
 under an overarching integrated governance approach:
 
--   *Technical level,* to provide software and hardware components for
+- *Technical level,* to provide software and hardware components for
     controlled, sovereign and secure sharing of data.
 
--   *Semantic level,* to ensure that format and meaning of shared data
+- *Semantic level,* to ensure that format and meaning of shared data
     is preserved and understood.
 
--   *Organizational level,* to let stakeholders align goals,
+- *Organizational level,* to let stakeholders align goals,
     expectations, responsibilities, and business processes.
 
--   *Legal level,* to make sure that organizations under different legal
+- *Legal level,* to make sure that organizations under different legal
     jurisdictions and frameworks can share data with common legally
     binding conditions.
 
 Governance on the identified topics distinguishes between two
 development lines for data space instances:
 
--   *Intra data space interoperability,* between the data space
+- *Intra data space interoperability,* between the data space
     authority, processing, and data sharing building blocks within a
     single data space instance.
 
--   *Inter data space interoperability,* between multiple data space
+- *Inter data space interoperability,* between multiple data space
     instances at each of the functional levels as distinguished in the
     framework shown in Figure 2.
 
 To enable interoperability between data spaces, each of the functional
-levels shown in Figure 2 contains topics that require adequate
+levels shown contains topics that require adequate
 governance. For each of the levels, these topics are identified in the
 following paragraphs. Their governance aspects are addressed in the next
 chapter.
 
+> what is duty of participant and what is the duty of the Data Space
+
 ### Technical level
+
+> update text
 
 The technical level covers the software and hardware components for
 controlled, sovereign and secure sharing of data. It consists of five
@@ -172,52 +186,19 @@ different aspect of a certain activity and are used in the next section
 to provide a multidimensional overview of the intra and inter data
 spaces governance.
 
-+-------------+--------------------------------------------------------+
-| **Table 2:  |                                                        |
-| IDSA        |                                                        |
-| governance  |                                                        |
-| in          |                                                        |
-| struments** |                                                        |
-+=============+========================================================+
-| **G         | **Governance instrument description**                  |
-| overnance** |                                                        |
-|             |                                                        |
-| **i         |                                                        |
-| nstrument** |                                                        |
-+-------------+--------------------------------------------------------+
-| *Stand      | Ensuring that the tasks, processes, and guidelines     |
-| ardization* | around this activity are formalized, documented, and   |
-|             | aligned between data spaces instances and the IDSA.    |
-|             | The standardization efforts can generally be used as a |
-|             | blueprint or starting point for the stakeholders.      |
-+-------------+--------------------------------------------------------+
-| *Cer        | Validating that stakeholders act according to the      |
-| tification* | standardized way of working. Certification is divided  |
-|             | into component certification (certification of         |
-|             | technical/software components) and organizational      |
-|             | certification (organizational and legal processes).    |
-+-------------+--------------------------------------------------------+
-| *D          | The activity may require (software) development tasks  |
-| evelopment* | as part of the realization, which should be compliant  |
-|             | with the standardization activities and best followed  |
-|             | by a certification.                                    |
-+-------------+--------------------------------------------------------+
-| *           | The operations are about the exploitation and usage of |
-| Operations* | the developed components. The operations can be        |
-|             | certified as part of the organizational certification. |
-+-------------+--------------------------------------------------------+
-| *Com        | The dissemination of the activity is an important      |
-| munication* | aspect which might include the awareness of the        |
-|             | standardization and certification, but also contains   |
-|             | marketing aspects.                                     |
-+-------------+--------------------------------------------------------+
-| *Support*   | The support activities include the structured          |
-|             | assistance from stakeholders involved in the           |
-|             | operation, development, certification, and             |
-|             | communication activities.                              |
-+-------------+--------------------------------------------------------+
+| **Governance Instrument** | **Governance instrument description**      |
+|--------------------------------- |---------------------------------|
+| *Standardization* | Ensuring that the tasks, processes, and guidelines around this activity are formalized, documented, and  aligned between data spaces instances and the IDSA. The standardization efforts can generally be used as a  blueprint or starting point for the stakeholders.|
+| *Certification* | Validating that stakeholders act according to the standardized way of working. Certification is divided into component certification (certification of technical/software components) and organizational certification (organizational and legal processes).    |
+| *Development* | The activity may require (software) development tasks as part of the realization, which should be compliant with the standardization activities and best followed by a certification. |
+| *Operations*           | The operations are about the exploitation and usage of the developed components. The operations can be certified as part of the organizational certification. |
+| *Communication*        | The dissemination of the activity is an important aspect which might include the awareness of the standardization and certification, but also contains marketing aspects. |
+| *Support*   | The support activities include the structured assistance from stakeholders involved in the operation, development, certification, and communication activities. |
+
 
 ### Governance for inter data space interoperability
+
+> update text
 
 There will be no single data space. Individual sectors or communities
 are expected to develop their own data space instances. Being able to
@@ -230,7 +211,9 @@ right of Figure 3.
 
 #### Interoperability architecture considerations
 
-##### Harmonization 
+##### Harmonization
+
+> rephrase proxy as tool for connecting to data spaces, participant agent
 
 The Data Sharing Coalition is an open and growing international
 initiative in which, a large variety of organizations are collaborating
