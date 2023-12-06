@@ -531,7 +531,7 @@ data space):
     (sharing data, browsing the catalog(s) for data of others,
     negotiating data contracts).
 
-![Onboarding in data spaces](./media/Onboarding_in_data_spaces.png)
+![Onboarding in data spaces](./media/DataSpaceOnboarding.png)
 
 ### Creating a data space
 
@@ -542,7 +542,7 @@ data space is organized in a centralized, decentralized, federated or
 hybrid manner, common denominators and basic functionalities can be
 found.
 
-![Overview of Data Space entities](./media/Dataspace.png)
+![Overview of Data Space entities](./media/DataSpace-withDSGovernanceAuthority.png)
 
 A data space establishes trust within a community to share data with
 each other. The definition of community can be very broad. It might be a
@@ -620,7 +620,7 @@ provides. Additional functions and services such as marketplaces, data
 escrow services, processing services and applications might be provided
 as optional elements.
 
-![Variants for data space authorities](./media/Variants_for_dsa.png)
+![Variants for data space governance authorities](./media/Variants_for_dsga.png)
 
 ### Data discovery
 
@@ -1028,9 +1028,6 @@ design decision. It impacts policies on autonomy and sovereignty as well
 as technical solution architectures for other components of a data
 space.
 
-
-
-
 | **Identity System**       | **Advantages**            | **Disadvantages**        |
 |--- |--- | --- |
 | **Centralized identity**  | Simple management for DSA | Low autonomy and sovereignty of participants |
@@ -1110,8 +1107,7 @@ be made with utmost care.
 
 ### "Central," or "federated/distributed," or "decentralized"
 
-![Chart, bubble chart Description automatically
-generated](media/media/image13.png)
+![Variants for Data Space Governance Authorities](media/Variants_for_dsga.png)
 
 #### Centralized data space governance authority
 
