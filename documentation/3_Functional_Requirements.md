@@ -1037,7 +1037,7 @@ space.
 |  | High degree of control for DSA    | Single point of failure |
 |  | Traditional, well-known technology stack | Single point of attack |
 |  |  | Harder to manage for participants |
-| **Decentralized  identities**       | Full autonomy and overeignty for participants | Complexity: DSA management requires decentralized protocols |
+| **Decentralized  identities**       | Full autonomy and sovereignty for participants | Complexity: DSA management requires decentralized protocols |
 |  | Low resourcing need for DSA | Lower degree of control for DSA |
 |  | Easy to manage for participants | New and partially unfamiliar technology stack|
 |  | Harder to attack |  |
