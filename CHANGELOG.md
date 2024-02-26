@@ -1,8 +1,38 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
+
+## January 2024
+
+---
+
+### Added
+
+* for new features.
+
+### Changed
+
+* Changed data space authority to data space *governance* authority to align the term with the work of the Data Spaces Support Centre
+
+### Deprecated
+
+* for soon-to-be removed features.
+
+### Removed
+
+* for now removed features.
+
+### Fixed
+
+* for any bug fixes.
+
+### Security
+
+* in case of vulnerabilities.
 
 
 ## June 2023
+
 ---
 
 ### Added
@@ -31,6 +61,7 @@ All notable changes to this project will be documented in this file.
 * in case of vulnerabilities.
 
 ## [Version 2.0](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/releases/tag/Rulebook_V2)
+
 ---
 
 ### Added
