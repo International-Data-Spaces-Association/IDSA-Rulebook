@@ -10,7 +10,7 @@ restrictions of personal data protection result in a fragmented and
 incomplete regulatory framework. To address these shortcomings in data
 sharing and reuse, the EU Commission presented the "[European strategy
 for data](https://digital-strategy.ec.europa.eu/en/policies/strategy-data)" in February 2020 describing the vision of a common European
-data space. The Commission has proposed different regulations ([Digital Markets Act (DMA)](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=COM%3A2020%3A842%3AFIN), [Digital Services Act (DSA)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0825), [AI Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A52021PC0206.)) on
+data space. The Commission has proposed different regulations ([Digital Markets Act (DMA)](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=COM%3A2020%3A842%3AFIN), [Digital Services Act (DSA)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0825), [AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206) on
 harmonised rules for data governance, data access and use as part of the
 [EU's digital strategy](https://digital-strategy.ec.europa.eu/en/policies/strategy-data).
 

@@ -99,8 +99,7 @@ space framework as envisioned and defined by the DSBA.
 ### The Data Space Landscape
 
 Further information on the landscape of data spaces are subject of a
-dedicated IDSA publication, the Data Space Landscape\[to be published
-end of March 2023\].
+dedicated IDSA publication, [the Data Space Landscape](https://internationaldataspaces.org/wp-content/uploads/dlm_uploads/IDSA-Position-Paper-Data-Spaces-Landscape-1.pdf).
 
 ## Related documents
 
