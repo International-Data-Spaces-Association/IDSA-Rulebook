@@ -57,7 +57,7 @@ without relying on a single central point of control. To enable a
 federated system, services are implemented where multiple participants
 share the responsibility for necessary functionality for all.
 
-The data space governance authority (DSA) is responsible for establishing the
+The data space governance authority (DSGA) is responsible for establishing the
 policies and rules of the data space. This role can be carried out by
 one entity, but also by multiple or even all participants. In a
 centralized data space, this could be the operating company. In a
@@ -126,7 +126,7 @@ A data space needs to define policies that specify what attributes an
 applicant must meet to become a trusted participant. This is achieved
 through a data space self-description (DSSD), that allows new members to
 provide attributes in their participant self-description (PSD) in a
-format that can be understood by the data space governance authority (DSA).
+format that can be understood by the data space governance authority (DSGA).
 Therefore, the DSSD must include a reference to a semantic model that
 describes the acceptable policies, their names, the potential value, and
 the format in which those values are accepted.
@@ -161,7 +161,7 @@ issued by its government.
 
 Deciding which trust anchors and trust frameworks, and thus which rules
 and procedures of issuing and validating attributes are used, is the
-responsibility of the DSA and of the participants of the data space.
+responsibility of the DSGA and of the participants of the data space.
 Details can be found in the certification section. For the data space
 functionality, the concepts of trust anchor and trust framework form the
 basis for the attribute-based trust mechanism.
@@ -174,7 +174,7 @@ anchors and trust frameworks? Based on this, a potential participant can
 make the decision whether to trust the data space and its members or
 not.
 
-The DSA is also responsible for issuing membership credentials. It
+The DSGA is also responsible for issuing membership credentials. It
 ensures that an appropriate mechanism is provided for identifying and
 verifying membership. In a centralized data space this could be the
 issuance of a data space specific identity to interact with other
@@ -182,7 +182,7 @@ members. In a largely decentralized architecture, it could be the
 issuance of a tamper-proof credential, such as a W3C verifiable
 credential (VC) which provides proof of the attribute of membership.
 
-The DSA also performs other functional roles not directly related to
+The DSGA also performs other functional roles not directly related to
 building trust but necessary for the operation of a data space. These
 are primarily the mandatory function of regulating the lifecycle of
 membership (participant discoverability, issuing of membership
@@ -192,7 +192,7 @@ marketplaces, providing vocabularies or other services required by the
 data space members.
 
 The communities coming together in the data space needs to make
-decisions for the setup. Whether a centralized DSA is required, or a
+decisions for the setup. Whether a centralized DSGA is required, or a
 more federated or even fully decentralized model is appropriate must be
 reasoned over when the data space is founded, as these architectural
 choices are very hard to change later. Where on this spectrum of
@@ -219,7 +219,7 @@ Therefore, data spaces must define their own policies and communicate
 them clearly. Participants may always choose additional policies in
 their data contracts to further restrict access and use.
 
-In a centrally managed data space, the DSA might simply define the
+In a centrally managed data space, the DSGA might simply define the
 ontology of policies. In a decentralized data space, there might be an
 additional negotiation protocol that enables participants to agree on
 the policy for their interaction.
@@ -242,7 +242,7 @@ ensure that only companies with certain attributes they can verifiably
 prove, can join. These could be policies that verify the applicant's
 nationality, industry certification, membership in industry
 associations, but also policies that would require human interactions
-and complex workflows, such as a valid contract with the DSA that must
+and complex workflows, such as a valid contract with the DSGA that must
 be negotiated before an applicant can become a participant.
 
 Once an applicant becomes a participant, the next set of policies
@@ -374,7 +374,7 @@ policies and self-descriptions can be evaluated ad hoc to ensure the
 necessary trust level). Additional trust frameworks (e.g., the Gaia-X
 trust framework) can be used to provide additional compliance
 mechanisms. The data space could even be its own trust anchor. The
-participants decide whether to trust the DSA and its trust anchors.
+participants decide whether to trust the DSGA and its trust anchors.
 
 The first level at which policies take effect in a data space is the
 membership level. The next level is the catalog: Every participant
@@ -429,7 +429,7 @@ participant self-description (PSD) that follows a known format and
 protocol, as well as an ontology that describes the semantics of the
 attributes.
 
-The format of the PSD can be defined through the DSA and may be a part
+The format of the PSD can be defined through the DSGA and may be a part
 of the membership policies for the data space. In many cases, the format
 and ontology of the PSD also depend on the selected trust anchors and
 trust framework. For example, a data space that wants to use Gaia-X as a
@@ -438,7 +438,7 @@ self-description structure and the meaning of the Gaia-X
 self-description attribute definitions. A data space might require
 multiple self-description ontologies (e.g., one trust anchor specific
 and one industry specific) which can lead to ambiguity or conflict of
-definitions, which have to be resolved by the DSA.
+definitions, which have to be resolved by the DSGA.
 
 The technical representation and communication of the PSD may vary from
 one data space to another and will be influenced or mandated by the
@@ -512,14 +512,14 @@ data space):
 
 4. When all information and necessary proofs are collected the
     candidate applies for membership through the registry function of
-    the DSA. The technical implementation of the data space registry
+    the DSGA. The technical implementation of the data space registry
     might vary based on the requirements.
 
-5. The DSA requests proofs for all policies. This might include VCs and
+5. The DSGA requests proofs for all policies. This might include VCs and
     proof of technical capabilities, but also workflows including human
     interaction (e.g., signing a membership contract).
 
-6. Once all policies have been satisfactorily processed the DSA issues
+6. Once all policies have been satisfactorily processed the DSGA issues
     a VC/ proof of membership and sends it to the candidate, moving them
     from applicant to participant.
 
@@ -590,7 +590,7 @@ Once all design decisions are made, the functional elements are planned:
 
 Working through the above list of mandatory functional elements will
 clarify the architecture pattern for the data space, which will also
-mandate a specific design of the data space governance authority. Now the DSA needs
+mandate a specific design of the data space governance authority. Now the DSGA needs
 to be implemented to create the data space:
 
 1. Create an identity for the data space
@@ -611,7 +611,7 @@ to be implemented to create the data space:
 3. Provide a discovery mechanism for the data space (website, contact
     form, etc.)
 
-Once the DSA is instantiated, organizations can apply for membership.
+Once the DSGA is instantiated, organizations can apply for membership.
 After a participant joins, there are two main activities that all
 participants are interested in: discovering data shared by others and
 sharing their own data in a controlled manner to ensure autonomy and
@@ -652,7 +652,7 @@ When choosing a target architecture for a data space, the design of the
 catalog function can fall somewhere along the spectrum between a central
 catalog, multiple federated catalogs, and many decentralized catalogs.
 Each has its own advantages and disadvantages. Compare the three main
-types of catalogs, depending on the implementation design of the DSA, to
+types of catalogs, depending on the implementation design of the DSGA, to
 evaluate their capabilities:
 
 
@@ -665,7 +665,7 @@ evaluate their capabilities:
 | **Federated catalog** | Deployment by a limited number of participants, while most participants don’t need to deploy any catalog components | Additional replication mechanisms are needed |
 |  | Federated control – voting mechanisms for content control can be implemented | A small group of operators of federated catalog nodes can control participation in the data space |
 | **Decentralized catalog** | Every participant can autonomously decide which catalog items they share with whom | Every participant needs to run a catalog component |
-|  | No interference in the interaction between two participants through a 3rd party | A list of available catalogs needs to be either centrally provided through the DSA or discoverable through a peer-to-peer protocol |
+|  | No interference in the interaction between two participants through a 3rd party | A list of available catalogs needs to be either centrally provided through the DSGA or discoverable through a peer-to-peer protocol |
 |  | Data Space as a whole is more resilient towards cyberattacks even though individual members can experience outages | Participants need to crawl each other’s catalogs to see which items are available |
 |  | Easier to scale |  |
 
@@ -847,7 +847,7 @@ actions are automatically logged by the system and can be tracked and
 monitored. This would enable a trust relationship in which auditors can
 be audited by participants.
 
-To simplify the observability of a data space, the DSA can mandate that
+To simplify the observability of a data space, the DSGA can mandate that
 participants make their audit data available as events or streams per
 default. Then trusted auditors would not need to request publication but
 could simply negotiate the relevant contracts, which are only accessible
@@ -929,7 +929,7 @@ synchronization mechanisms.
 In addition to the functional elements of a data space, many optional
 roles and components exist. The entities providing these functions must
 join the data space like any other participant and fulfill all
-requirements, policies and procedures enforced by the DSA to establish
+requirements, policies and procedures enforced by the DSGA to establish
 trust.
 
 Depending on the services provided, these additional elements may need
@@ -992,7 +992,7 @@ data space provides.
 ### Data space governance authority services
 
 Several services are required that represent the functional role of the
-data space governance authority (DSA) to enable the management functions of a data
+data space governance authority (DSGA) to enable the management functions of a data
 space. These services may be designed as centralized, federated
 (distributed) or decentralized services (See below for more information
 on the differences between these solution designs). Depending on which
@@ -1030,12 +1030,12 @@ space.
 
 | **Identity System**       | **Advantages**            | **Disadvantages**        |
 |--- |--- | --- |
-| **Centralized identity**  | Simple management for DSA | Low autonomy and sovereignty of participants |
-|  | High degree of control for DSA    | Single point of failure |
+| **Centralized identity**  | Simple management for DSGA | Low autonomy and sovereignty of participants |
+|  | High degree of control for DSGA    | Single point of failure |
 |  | Traditional, well-known technology stack | Single point of attack |
 |  |  | Harder to manage for participants |
-| **Decentralized  identities**       | Full autonomy and overeignty for participants | Complexity: DSA management requires decentralized protocols |
-|  | Low resourcing need for DSA | Lower degree of control for DSA |
+| **Decentralized  identities**       | Full autonomy and overeignty for participants | Complexity: DSGA management requires decentralized protocols |
+|  | Low resourcing need for DSGA | Lower degree of control for DSGA |
 |  | Easy to manage for participants | New and partially unfamiliar technology stack|
 |  | Harder to attack |  |
 
@@ -1049,7 +1049,7 @@ component to implement data discoverability. It can be implemented as a
 managed service by one or more selected participants, hosted by the data
 space governance authority, or operated in a fully decentralized fashion by every
 participant that offers data contracts (see the visual representation of
-various implementation designs of the DSA above). The type of catalog
+various implementation designs of the DSGA above). The type of catalog
 architecture used depends on the design of the data space as well as the
 needs and capabilities of the participants.
 
@@ -1084,13 +1084,13 @@ observer as this is a role within the data space and not a component.
 ### Vocabulary
 
 The semantic model for the policies and self-descriptions required to
-join the data space is provided by the DSA. It may also provide semantic
+join the data space is provided by the DSGA. It may also provide semantic
 models that need to be understood throughout the data space and might be
 mandatory for the publication and use of specific data contracts.
 
-The DSA must decide how semantic models are provided, whether by
+The DSGA must decide how semantic models are provided, whether by
 reference to a known, standardized schema externally or through a
-vocabulary service provided by the DSA or specific participants.
+vocabulary service provided by the DSGA or specific participants.
 
 Individual participants may provide additional vocabulary services to
 enable the discovery of semantic models needed to successfully share
@@ -1100,7 +1100,7 @@ semantic model of the shared data must be understood by the consumer to
 properly manage consent for GDPR.
 
 As mentioned before, the importance of the implementation design of the
-DSA and the components of a data space cannot be emphasized enough. The
+DSGA and the components of a data space cannot be emphasized enough. The
 implications for autonomy, sovereignty, reliability, security, and many
 other factors are far reaching, so the decision on the design needs to
 be made with utmost care.
@@ -1111,7 +1111,7 @@ be made with utmost care.
 
 #### Centralized data space governance authority
 
-In a centralized DSA design, the entity runs all services to operate the
+In a centralized DSGA design, the entity runs all services to operate the
 data space. These include services to identify participants, onboard new
 participants, manage memberships, provide semantic models, discover data
 and optional services like marketplaces and audits.
@@ -1213,7 +1213,7 @@ Using a decentralized design enables the highest level of autonomy and
 sovereignty. The core element enabling a participant to act autonomously
 is the identity system. By using a decentralized identity system each
 participant is responsible to maintain identity information that can be
-verified by other participants or the DSA, rather than relying on a
+verified by other participants or the DSGA, rather than relying on a
 centralized identity provider.
 
 Once decentralized identities are established, all other functional
@@ -1222,7 +1222,7 @@ barriers to participant sovereignty.
 
 It should be noted that in a decentralized data space a lot of the
 responsibility for operating essential functional roles shifts from the
-DSA to the participants. For example, in a centralized model, the DSA is
+DSGA to the participants. For example, in a centralized model, the DSGA is
 expected to operate the catalog of available data assets, while in a
 decentralized model, each participant is responsible for publishing its
 available data directly and in turn, each participant needs to ask all
@@ -1263,7 +1263,7 @@ the number of negotiated contracts.
 #### Control
 
 In this context, a high level of control means that the entity operating
-the DSA can control access to the services as well as the content they
+the DSGA can control access to the services as well as the content they
 provide. This is in direct contrast to sovereignty, where the control
 lies with the individual participant.
 
@@ -1298,8 +1298,8 @@ decision areas for planning, implementing and operating a data space:
 
 With a centralized design the entity operating identity and catalog
 services has a lot of control. It is easy to setup, only one entity
-needs to deal with the DSA services, and participants can simply query
-one catalog and rely on the DSA as a trust anchor to issue a participant
+needs to deal with the DSGA services, and participants can simply query
+one catalog and rely on the DSGA as a trust anchor to issue a participant
 ID. But this design impairs participant sovereignty, is less resilient
 and difficult to scale as the central services will grow exponentially
 in their resource requirements as more participants join.
