@@ -86,13 +86,11 @@ multiple data space instances or data sharing initiatives (inter) to
 pave the way for the federation of interoperable data spaces - as
 pursued by the European data strategy.
 
-> update references
-
-The Data Governance Act \[2\] also recommends both an intra data space
+The [Data Governance Act](https://digital-strategy.ec.europa.eu/en/policies/data-governance-act) also recommends both an intra data space
 (domain) governance authority and an inter data space (central)
-governance authority. As cited from \[6\],
+governance authority.
 
-'The recently proposed Data Governance Act \[2\] confirms the notion of
+'The recently proposed [Data Governance Act](https://digital-strategy.ec.europa.eu/en/policies/data-governance-act) confirms the notion of
 a governance structure constituted by multiple entities. For European
 data spaces, it is recommended to have a (domain) governance authority
 for each data space and a central governance authority overseeing all
@@ -108,13 +106,8 @@ space interoperability), and embedding them in the European ambition of
 a federation of interoperable data spaces (inter data space
 interoperability).
 
-> Figure needs to be updated and caption, reference to DSSC Building Blocks and OpenDEI
-
-![](media/media/image18.png){width="6.114584426946632in"
-height="1.8853291776027996in"}
-
-[]{#_Toc126649322 .anchor}Figure 20 Relationship of OpenDEI Building
-Blocks and data space instances
+![Relationship of OpenDEI Building
+Blocks and data space instances](media/media/image18.png)
 
 This structure of a data space reflects the role of the IDS data space
 framework in relation to the broadly used data sharing agreement
@@ -122,18 +115,11 @@ framework that is emerging as the cloud processing framework, as shown
 on the right in Figure 1:
 
 An approach to systematically address the interoperability challenges is
-provided by the new European interoperability framework developed by the
-European Commission \[8\] and shown in the figure below.
+provided by the [new European interoperability framework](https://ec.europa.eu/isa2/eif_en/) developed by the
+European Commission and shown in the figure below.
 
-> Figure needs to be updated and caption
-
-![](media/media/image19.png){width="6.455695538057743in"
-height="2.125in"}
-
-[]{#_Ref126648124 .anchor}Figure 21 Layered functional model as aligned
-with the New European Interoperability Framework \[8\].
-
-> Update figure caption
+![Layered functional model as aligned
+with the New European Interoperability Framework ](media/EuropeanInteroperabilityFramework.png)
 
 As shown in the figure above, the framework distinguishes four functional levels
 under an overarching integrated governance approach:
@@ -168,11 +154,14 @@ governance. For each of the levels, these topics are identified in the
 following paragraphs. Their governance aspects are addressed in the next
 chapter.
 
-> what is duty of participant and what is the duty of the Data Space
+In general, the participant in a data space covers the technical and
+semantic interoperability aspects, while the Data Space Governance
+Authority defines the organizational and legal aspects.
+Based on the governance scheme, the participants participate in the
+defintion of the policies and rules of a data space, including the
+framework or agreements on all four levels.
 
 ### Technical level
-
-> update text
 
 The technical level covers the software and hardware components for
 controlled, sovereign and secure sharing of data. It consists of five
@@ -195,7 +184,6 @@ spaces governance.
 | *Communication*        | The dissemination of the activity is an important aspect which might include the awareness of the standardization and certification, but also contains marketing aspects. |
 | *Support*   | The support activities include the structured assistance from stakeholders involved in the operation, development, certification, and communication activities. |
 
-
 ### Governance for inter data space interoperability
 
 > update text
@@ -206,188 +194,16 @@ seamlessly share data over these data space instances brings clear
 benefits. It extends the reach and scope of accessible data and allows
 the development of new business models and services across sectors and
 regions. Interoperability between data space instances adds major value,
-resulting in a federation of interoperable data spaces as shown on the
-right of Figure 3.
+resulting in a federation of interoperable data spaces.
 
-#### Interoperability architecture considerations
-
-##### Harmonization
-
-> rephrase proxy as tool for connecting to data spaces, participant agent
-
-The Data Sharing Coalition is an open and growing international
-initiative in which, a large variety of organizations are collaborating
-to drive cross-domain data sharing at scale. Its results on cross-domain
-data sharing were recently published in the "Data Sharing Canvas" \[7\].
-
-The Data Sharing Canvas compared various harmonization options. Full
-harmonization of data spaces, in which existing data spaces adjust their
-implementations to follow a common cross data space design, is the ideal
-solution to achieve multilateral interoperability. However, it impacts
-all data space participants, requiring significant investments and will
-therefore not be adopted. Bilateral harmonization of data spaces, in
-which individual data spaces organize custom interoperability
-bilaterally depend on individual participants implementing specific
-harmonized solutions and will therefore limit large scale data sharing
-across data spaces. As an alternative partial harmonization, which
-introduces the new role "data space proxy", overcomes these limitations
-of full and bilateral harmonization. The proxy absorbs the complexity of
-harmonization for data spaces and its participants as much as possible
-by implementing all harmonization requirements. This enables a data
-provider in one data space to share data with a data consumer in another
-data space, while limiting the impact on existing data providers and
-data consumers.
-
-The main function of the proxies is to translate data space specific
-transactions to their harmonized equivalents:
-
--   Proxies translate data space specific language into a harmonized
-    language in the harmonization domain to enable multilateral
-    end-to-end interoperability,
-
--   Proxies facilitate trust across data spaces by conforming to the
-    rules and agreements of the trust framework,
-
--   Proxies enable the discovery of data providers across data spaces.
-
-The proxies implemented by all data spaces form a network, the
-harmonization domain, which enables each data space to share data
-effortlessly with other data spaces.
-
-##### Interaction topologies
-
-To ensure interoperability between data space instances, the
-intermediary roles of these will have to interact and to exchange
-(meta)data. These interactions may be designed through various metadata
-role interaction topologies (MRIT). The decision to implement a specific
-type of MRIT results in a governance role for the IDSA and other IDS
-stakeholders in their development or deployment. They are shown in
-Figure 6.
-
-There are two basic types of MRITs applicable for exchanging (meta)data
-between intermediary roles from different data space instances, as shown
-in the figure:
-
--   *Intermediary-to-Intermediary MRIT (I2I-MRIT),* where the exchange
-    of (meta)data between the intermediary roles is done on a bilateral,
-    peer-to-peer basis.
-
-An example is the broker service provider that bilaterally exchange
-(meta)data on available data sources.
-
--   *Bridged MRIT (B-MRIT),* where the exchange of (meta)data between
-    the intermediary roles uses an overarching bridging function.
-
-An example of this is the legal framework with associated participant
-registry for managing these data spaces instances and their
-participants, which legally adhere to an overarching legal framework.
-
-Different interaction topologies may be best suited for the
-interoperability of the various data space capabilities, requiring a
-different governance role for IDSA in developing or deploying these
-topologies.
-
-#### Concluding on the intra data space development
-
-The exact relationship between data spaces and the IDSA may vary, but
-generally the IDSA can provide guidelines, frameworks, or policies for
-structuring processes within a data space instance. The data space
-itself is responsible for executing this process.
-
-A complete set of APIs for interacting with the various building blocks
-and capabilities of the data space structure (as shown in Figure 1)
-should be identified and defined. This will be done under the
-responsibility of the IDSA technical steering committee (IDSA-TSC) and
-reported on within the future releases of the IDSA Rule Book \[11\].
-This may go beyond the current scope of APIs defined by the IDSA.
-Specific attention should be given to:
-
--   An API for the policy execution framework (PEF) to be used by data
-    apps for using the PEF's data control and sovereignty features, as
-    identified for the application execution environment (AEE) in Table
-    4.
-
--   APIs for managing and accessing data space membership identities (as
-    provided by the DAPS and ParIS functions) to be used in the
-    authorization flows for individual data transactions, as identified
-    for the data space membership (DAPS, ParIS) in Table 4.
-
--   An API for accessing (cloud) processing capabilities for locally
-    executing data apps, as identified for cloud integration (GAIA-X) in
-    Table 4.
-
-An adequate and future-proof governance process for managing the IDSA
-standards is needed. The IDSA standards need management and maintenance,
-including further development with backward compatibility of versions.
-This process will be further explained in the future versions of the
-IDSA rulebook \[11\].
-
-#### Concluding on the inter data space development
-
-The Data Sharing Coalition \[7\] suggests the proxy model in combination
-with a harmonization domain and protocols as the architecture to enable
-interoperability between data space instances for inter data space
-interoperability, as shown in Figure 5. As the need for inter data space
-interoperability is rapidly growing, the IDSA must assess how the
-development of (IDS-based) data spaces and the role of IDSA in
-co-developing the data space proxy interfaces and harmonization
-protocols are impacted. The IDSA governance model of the inter data
-space architectures and standards needs to be defined.
-
-An overarching data space scheme defining and implementing joint legal
-and operational agreements between adhering data spaces instances is
-central to achieve this interoperability. It provides a legal framework
-individual data space instances (and their subscribers) agree to adhere
-to.
-
-The role of IDSA as the overarching data space scheme owner should be
-assessed and adequate governance be provided. The IDSA may perform an
-ongoing operational task in fulfilling this role.
-
-The need for inter data space interoperability has been identified as
-relevant for various European research and development initiatives. For
-instance, the Data Sharing Coalition \[7\] and the OPEN DEI initiative
-(in the future releases of their 'Design Principles for Data Spaces'
-\[6\]) are expected to explicitly address this topic. An active role of
-IDSA and its stakeholders should be pursued in these European
-initiatives.
-
-### General approach
-
-Interoperability within and across AI data spaces: Development lines of
-AI data spaces provide the building blocks for managing trust, data
-sovereignty and agreements to share data and algorithms - to execute AI
-algorithms and data apps. Given the European ambition to federate
-European data spaces, both single and multiple data spaces require
-adequate governance to realize interoperability within and across data
-spaces. Therefore, a distinction is made between two development lines
-for data spaces:
-
-• Intra data space interoperability, between the various building blocks
-within an individual AI data space instance. The definition of
-federation ("A change from one central data powerhouse to
-democratization of data" NLAIC) indicates that individual AI data space
-instances have a high degree of autonomy for their own internal
-agreements and ICT landscape. Intra data space interoperability provides
-a reference architecture based on common building blocks and path for
-developing AI data space instances in an efficient and aligned manner,
-providing a rich set of features to support AI challenges and
-requirements. It leaves individual data spaces the option to deviate
-internally from the reference architecture.
-
-• Inter data space interoperability, between multiple data space
-instances. Interoperability between AI data space instances is key for
-the federation of AI data spaces to seamlessly interconnect. This is the
-goal of the NLAIC data sharing working group in realizing a
-cross-sectoral data sharing infrastructure for AI and aligns with the EU
-data strategy. Inter data space interoperability requires prescriptive
-guidelines for individual data space instances to ensure
-interoperability between them.
+The federation of data spaces require a common set of reusable standards
+and technologies for the data spaces to adopt to become interoperable.
+Furthermore, data spaces need to harmonize and accept common policies and
+rules to be able to federate with each other.
 
 ### Conclusions
 
-The now completed European OPEN DEI project (let by the European
-Commission) aimed at defining the building blocks and standards for data
+The now completed European [OPEN DEI](https://www.opendei.eu/) project aimed at defining the building blocks and standards for data
 spaces, to realize interoperability between the building blocks within
 specific data space instances (intra data space interoperability) and
 between various data space instances (inter data space
@@ -401,3 +217,10 @@ governance for data space instances in the broader context of:
 >
 > -the embedding within the European ambition of a federation of
 > interoperable data spaces and inter data space interoperability.
+
+The [Data Spaces Support Centre (DSSC)](https://dssc.eu/) as a funded project by the
+European Commisson, has the aim to provide a Blueprint for data spaces
+based on the OPEN DEI Building blocks. The DSSC Blueprint contains legal,
+organizational, business, and techncial building blocks. This structure shall
+support in the creation of interoperable data spaces, addressing the needs
+of inter- and intra data space interoperability.
