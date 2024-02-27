@@ -1,6 +1,6 @@
 # Guiding principles
 
-The IDSA rulebook is based on a set of generic principles and underlying
+The IDSA Rulebook is based on a set of generic principles and underlying
 values. The key aspects are related to the governance of data spaces and
 the roles actors can have.
 
@@ -48,7 +48,7 @@ PESTLE stands for **p**olitical, **e**conomic, **s**ocial,
 **t**echnical, **l**egal and **e**nvironmental. For each section, we
 *describe* the (European) values embedded in IDS-compliant data spaces
 and do *not prescribe* specific purposes for which these data spaces may
-be used. This allows users of this rulebook to critically reflect the
+be used. This allows users of this Rulebook to critically reflect the
 values embedded in their own data space.
 
 Solid values and ethics are fundamental to any technical implementation;
@@ -56,7 +56,7 @@ their absence has led to catastrophic effects on humanity. The use of
 data needs good governance goals. We are deeply rooted in the European
 values of freedom, inviolability, privacy, security, humanity, and
 respect (without claiming to be exhaustive) and therefore include
-considerations of values and ethics into the rulebook, and carefully
+considerations of values and ethics into the Rulebook, and carefully
 choose the path to the data economy weighing the impact on people and
 societies.
 
@@ -161,7 +161,7 @@ policies that promote the development of high-quality, consensus-based
 standards, many of which power the web and enterprise computing. ISO and
 IEC are adopting W3C technology and guidelines for a broad industry use.
 
-![](media/media/image5.png)
+![Collaborative Development of Architectures and Implementations in Data Spaces](./media/Collaborative_Development_of_Architectures_and_Implementations_in_Data_Spaces.png)
 
 When standards are adopted successfully, best practices show that the
 industry needs to establish feedback loops. Community-driven open source
@@ -176,7 +176,7 @@ between use cases and used data products will improve interoperability.
 Distinguish between mandatory (MVD) and optional requirements (discuss
 essential principles and optional one)
 
-The \"Public money, public code\" campaign[^1] wants legislation to
+The ["Public money, public code" campaign](https://publiccode.eu/en/) wants legislation to
 require that publicly funded software developed for the public sector to
 be made publicly available under a free and open source software
 license. IDS-G is where the developer community finds the reference
@@ -196,9 +196,9 @@ Legal fields to bear in mind when sharing data include
 antitrust/competition, data protection and security, copyright,
 patents/intellectual property. The European Data Strategy mentioned
 above brings a higher level of regulation to data sharing in the EU,
-including the Data Governance Act (DGA),[^2] the Proposal for Data Act
-(DA-E),[^3] the Digital Markets Act (DMA),[^4] the Digital Services Act
-(DSA)[^5] and the AI Act[^6]. If a data space operates globally the
+including the [Data Governance Act (DGA)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R0868), the Proposal for [Data Act
+(DA-E)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2022%3A68%3AFIN), [the Digital Markets Act (DMA)](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=COM%3A2020%3A842%3AFIN), [the Digital Services Act
+(DSA)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020PC0825) and the [AI Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A52021PC0206). If a data space operates globally the
 legal framework becomes more challenging since each country has its own
 rules and regulations.
 
@@ -235,9 +235,6 @@ technologies is an important goal. Continuous monitoring and sustainable
 design should ensure that the use of digital technologies has a net
 positive impact on the climate footprint.
 
-[^\[1\]^](applewebdata://2D16DB3E-29D0-4E74-8528-A77B8F453D9C#_ftnref1)
-<https://www.kocos.com/news/blog/articles/article/2021/10/18/some-facts-about-the-energy-consumption-of-digitalisation>
-
 ## Layers of data space governance
 
 The layers of data space governance (Figure 4) are inspired by the
@@ -246,31 +243,14 @@ the context of the OPEN DEI project funded by EU where data spaces
 experts teamed up to define cross-sectoral principles for building data
 spaces.
 
-  --------------------------------------------------------------------------
-  **Layer​**        **Description​**
-  ---------------- ---------------------------------------------------------
-  **Data space     Executes and implements the governance practices and
-  instance         rules of a data space instance. Oversees data space
-  governance**     functions and the rules.​
+| **Layer​**      |  **Description​**                                        |
+|:-------------  | :------------------------------------------------------ |
+| **Data space instance governance** |  Executes and implements the governance practices and rules of a data space instance. Oversees data space functions and the rules.​|
+|  **Data space ecosystem governance​** | Defines the rules for the data space instance. Creates the intra data space trust between collaborating organizations. Complements standardization and regulation focusing on business-driven rules. Defines the inter data space interoperability practices.​ |
+| **Data space domain governance​**  | Establishes sector-specific data space principles and mechanisms including semantic interoperability and domain-specific regulation. Leaves room for geographical differences while supporting maximum interoperability.​ |
+|**Soft infrastructure governance​**| Brings all the generic data space building blocks and concepts together, defines the legal basis and creates the common framework on which all data spaces are built.​|
 
-  **Data space     Defines the rules for the data space instance. Creates
-  ecosystem        the intra data space trust between collaborating
-  governance​**     organizations. Complements standardization and regulation
-                   focusing on business-driven rules. Defines the inter data
-                   space interoperability practices.​
-
-  **Data space     Establishes sector-specific data space principles and
-  domain           mechanisms including semantic interoperability and
-  governance ​**    domain-specific regulation. Leaves room for geographical
-                   differences while supporting maximum interoperability.​
-
-**Soft           Brings all the generic data space building blocks and
-  infrastructure   concepts together, defines the legal basis and creates
-  governance​**     the common framework on which all data spaces are built.​
-  --------------------------------------------------------------------------
-
-[]{#_Toc126649306 .anchor}Figure 4 Four Layers to describe data spaces
-governance
+###### Table: Four Layers to describe data spaces governance
 
 ## Data economy with digital sovereignty
 
@@ -279,11 +259,11 @@ sovereignty for your business.
 
 There are some common rules and guidelines:
 
-\- Common definition on lifecycle agreements for IDS-based assets, the
+* Common definition on lifecycle agreements for IDS-based assets, the
 IDS standards and services. See appendix "Operational Agreements, Life
 Cycle".
 
-\- General definitions of necessary processes for development,
+* General definitions of necessary processes for development,
 certification, onboarding, operation and usage. See appendix
 "Operational agreements. Processes".
 
@@ -293,8 +273,7 @@ with examples of use cases and business models.
 
 In summary, using IDS with its data sovereignty is a competitive
 advantage for your own business and quite easy to do, since everything
-is well prepared. The IDSA website provides all information
-(<https://www.internationaldataspaces.org>). A hotline can help with
+is well prepared. The [IDSA website provides](https://www.internationaldataspaces.org) all information. A hotline can help with
 questions (SupportOffice@internationaldatspaces.org).
 
 ## Governance/legal framework
@@ -303,15 +282,15 @@ Relationship of data usage control and other types of control
 enforcement and legal agreements
 
 EU policies set the framework for data spaces, but each instance will
-need additional governance. This rulebook helps you put that governance
+need additional governance. This Rulebook helps you put that governance
 in place. In this section, we briefly cover the relevant EU regulation
-for data spaces: DGA, DA, eIDAS2, GDPR, NIS2, others \<pls add!\>. In
-chapter 6, we cover the contractual aspects of setting up the governance
+for data spaces: DGA, DA, eIDAS2, GDPR, NIS2.
+In chapter 6, we cover the contractual aspects of setting up the governance
 for a data space instance.
 
 ## Role models
 
-Roles in this rulebook describe functions, and no status. The model
+Roles in this Rulebook describe functions, and no status. The model
 definition of roles should provide clarity about tasks and capabilities
 and support the understanding of architectures and interfaces. Roles may
 not always exist in their pure form - mixed forms are often experienced
@@ -342,27 +321,27 @@ non-personal data in accordance with applicable Union or national law.
 **Aggregator** -- combining data from multiple sources for computation
 at one partner (Specialization: data trustee)
 
+![Roles in a data space: Aggregator](./media/Aggregator.png)
+
 **Intermediary** service aims to establish commercial relationships for
 data sharing between a number of data holders and data users. This is
 done through technical, legal, and other means; it includes to exercise
 the rights of data subjects in relation to personal data; it excludes at
 least the following:
 
-- services that obtain data from data holders and aggregate, enrich,
+* services that obtain data from data holders and aggregate, enrich,
     or transform the data to add value and then license it to data
     users, without establishing a commercial relationship between data
     holders and data users
 
-- services that focus on the mediation of copyright-protected content
+* services that focus on the mediation of copyright-protected content
 
-- services exclusively used by one data holder to enable the use of
+* services exclusively used by one data holder to enable the use of
     the data held by that data holder, or used by multiple legal people
     in a closed group, including supplier or customer relationships or
     contracted collaborations, in particular those who want to ensure
     the functionalities of objects and devices connected to the IoT
     (Internet of Things)
 
-- data sharing services offered by
+* data sharing services offered by
     public sector bodies that do not establish commercial relationships.
-
-![](media/media/image7.png)
