@@ -937,6 +937,19 @@ to issue additional credentials, introduce additional trust anchors, or
 require specific data contracts. There is a wide variety of optional
 roles and services. Some especially useful ones are described here.
 
+In general such optional functions can be distinguished as intermediary
+functions or value-creating functions. Intermediaries can participate in
+data spaces as value-creating services or functions.
+
+**Intermediaries** are considered as optional in data spaces. Due to certain
+regulations like the Data Governance Act, such intermediaries may require
+addtional governance.
+
+**Value-adding services** may be realized by intermediaries or as function
+of a data space participant. Such value-adding services are not subject
+to the IDSA Rulebook, but are explained in the [DSSC Blueprint Version 1](https://dssc.eu/)
+in more detail. The IDSA Rulebook provides a limited explanation below.
+
 #### Marketplaces
 
 Data sharing always takes place peer-to-peer in a data space with data
