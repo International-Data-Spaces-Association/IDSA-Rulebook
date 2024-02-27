@@ -7,10 +7,10 @@ reluctance to share data for fear of misuse and security concerns.
 
 Functional requirements are an element of trust and are investigated
 from the functional perspective, clarifying responsibilities and
-mechanisms in Chapter 3. This chapter discusses the operational
+mechanisms in [Chapter 3](./3_Functional_Requirements.md). This chapter discusses the operational
 implications using IDS Certification as an example.
 
-Chapter 3 mentions two important aspects: The first is the data space
+[Chapter 3](./3_Functional_Requirements.md) mentions two important aspects: The first is the data space
 authority (DSA), which ensures trust in a data space. The second is the
 system enabling it, the attribute-based trust mechanism, which is based
 on the fundamental concepts of trust anchor and trust framework. The
