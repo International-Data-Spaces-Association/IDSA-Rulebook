@@ -39,6 +39,14 @@ might require centralized components with centralized control, while
 others might be designed so their participants have a maximum level of
 autonomy and maintain agency over how to share their data.
 
+> The functional requirements section refers to all involved roles as
+> 'participant' in a data space. This underlines the need for all parties
+> involved in a data space and in the exchange, sharing, and usage of data
+> to adhere to a common set of rules, the policies provided by the data provider,
+> the rights granted by a data rights holder, and given regulations.
+> 
+> An overview on roles in a data space is given in [section 2 on guiding principles](./2_Guiding_Principles.md#role-models).
+
 ## Achieving digital sovereignty
 
 Digital sovereignty starts with control over your identity.
