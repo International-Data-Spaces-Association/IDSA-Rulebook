@@ -65,7 +65,7 @@ process is defined by the IDSA certification working group.
 All the details on the IDS Certification scheme, the trust and assurance
 levels for component certification and operational certification, the
 certification criteria, and the process to approve the evaluation
-facilities are provided in Chapter 2.
+facilities are provided in [Chapter 2](./2_Guiding_Principles.md).
 
 ## Running data space instances
 
