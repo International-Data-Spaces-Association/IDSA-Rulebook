@@ -364,3 +364,37 @@ do therefore stick to the agreements in a data space. Such services aim to
 enable the value-creation process with a broad set of basic or advanced data
 processing services. Such optional functionalities are described in [functional requirements
 section]() and in the [DSSC Blueprint Version 1](dssc.eu).
+
+### Additional Roles in a Data Space
+
+The DSSC Blueprint Version 1 provides a sophisticated anaylsis of additional roles
+in data spaces, which are not subject of the IDSA Rulebook. Further information on such roles
+are available in the DSSC glossary. Those roles are grouped into the key analysis areas of the DSSC Blueprint,
+legal, organizational, business, and technical.
+
+#### Roles from legal defintions
+
+Such roles originate from regulations, like GDPR or DGA:
+* Data Holder or Data Rights Holders are natural or legal persons, holding rights on the data.
+* Data Recipients are legal or natural persons that act as data consumers and data users. 
+* Data Users are natural or legal persons, which use the data under the given policies and regulations. 
+* Data Subjects are defined in GDPR.
+* Data Intermediation services or Data Intermediaries are subject of the Data Governance Act. (see [Reflections on the DGA and Data Intermediaries(]https://internationaldataspaces.org/download/42325/?tmstv=1708096468))
+
+#### Core Roles
+
+* Data Transaction participant, the term Data Transaction needs further clarification to be intergrated in the IDSA Rulebook.
+* Data space governance authority is described in detail in the remainder of the IDSA Rulebook.
+* Data rights holder and their intermediaries are not covered in the IDSA Rulebook.
+* Data provider are covered in the [IDSA Rulebook above](#data-provider-essential).
+* Data recipient are covered as [Data Consumers in the IDSA Rulebook](#data-consumer-essential) above.
+* Data space participant are described in the IDSA Rulebook. 
+
+#### Services & service provider roles
+
+* Data space enabling Service, see section above.
+* Data space intermediary, see section above.
+* Connection-providing Intermediary is not described in the IDSA Rulebook.
+* Personal data Intermediary are bit described in the IDSA Rulebook. 
+* Clearing house service providers are described in the IDS RAM and subject of the overservability capability in the functional requirements section of the IDSA Rulebook. 
+* Marketplace and other value creation services are covered in the IDSA Rulebook above and in the optional capailites section of the functional requirements. 
