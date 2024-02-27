@@ -357,7 +357,7 @@ least the following:
 
 Such intermediaries may be regulated by local governments like the DGA in
 the European Union. A detailled analysis can be found in the paper 
-[Reflections on the DGA and Data Intermediaries(]https://internationaldataspaces.org/download/42325/?tmstv=1708096468).
+[Reflections on the DGA and Data Intermediaries](https://internationaldataspaces.org/download/42325/?tmstv=1708096468).
 
 **Value-added service providers** act as a participant in the data space and
 do therefore stick to the agreements in a data space. Such services aim to
@@ -379,7 +379,7 @@ Such roles originate from regulations, like GDPR or DGA:
 * Data Recipients are legal or natural persons that act as data consumers and data users. 
 * Data Users are natural or legal persons, which use the data under the given policies and regulations. 
 * Data Subjects are defined in GDPR.
-* Data Intermediation services or Data Intermediaries are subject of the Data Governance Act. (see [Reflections on the DGA and Data Intermediaries(]https://internationaldataspaces.org/download/42325/?tmstv=1708096468))
+* Data Intermediation services or Data Intermediaries are subject of the Data Governance Act. (see [Reflections on the DGA and Data Intermediaries](https://internationaldataspaces.org/download/42325/?tmstv=1708096468))
 
 #### Core Roles
 
