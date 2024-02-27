@@ -276,17 +276,15 @@ advantage for your own business and quite easy to do, since everything
 is well prepared. The [IDSA website provides](https://www.internationaldataspaces.org) all information. A hotline can help with
 questions (SupportOffice@internationaldatspaces.org).
 
-## Governance/legal framework
+## Data Space Governance Framework
 
-Relationship of data usage control and other types of control
-enforcement and legal agreements
+The Data Space Governance Framework is the defined set of policies, rules, and 
+regualtions that participants in a data space have to adhere to. It is the core
+agreement between all parties, which defines a data space. The Data Space Governance 
+Authority is mandated to maintain and enforce the Data Space Governance Framework.
 
-EU policies set the framework for data spaces, but each instance will
-need additional governance. This Rulebook helps you put that governance
-in place. In this section, we briefly cover the relevant EU regulation
-for data spaces: DGA, DA, eIDAS2, GDPR, NIS2.
-In chapter 6, we cover the contractual aspects of setting up the governance
-for a data space instance.
+The [functional requirements](./3_Functional_Requirements.md#policies) section explains how such a framework needs to be translated into
+a common set of policies. 
 
 ## Role models
 
