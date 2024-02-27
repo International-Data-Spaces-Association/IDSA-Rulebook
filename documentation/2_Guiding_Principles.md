@@ -316,12 +316,21 @@ data subject with respect to the specific data in question, who has the
 right to grant access to or to share certain personal data or
 non-personal data in accordance with applicable Union or national law.
 
-### Service Provider (intermediary, operator, aggregator)
+### Service Provider (intermediary, operator, value-adding services)
 
-**Aggregator** -- combining data from multiple sources for computation
-at one partner (Specialization: data trustee)
+In a data space multiple service providers can offer [optional capabilities](./3_Functional_Requirements.md#optional-functions)
+to enable data sharing and data transactions. Some services may be considered as
+essential, depending on the data space governance framework. Those may
+be services required to operate a data space, to intermediate in data transactions,
+or support the value creation process in a data space. Fundamentally, all such
+service providers are considered to be a participant in a data space and therefore
+bound to the agreed policies and rules of a given data space.
 
-![Roles in a data space: Aggregator](./media/Aggregator.png)
+**Operators** provide essential services to a data space like Trust Services. Such
+services are typically mandated by the Data Space Governance Authority and are agreed
+as service providers for a given data space. Nevertheless, the agreement on such operators
+may be derived from a certain regualation, that needs to be implemented by a data space
+governance scheme. 
 
 **Intermediary** service aims to establish commercial relationships for
 data sharing between a number of data holders and data users. This is
@@ -345,3 +354,13 @@ least the following:
 
 * data sharing services offered by
     public sector bodies that do not establish commercial relationships.
+
+Such intermediaries may be regulated by local governments like the DGA in
+the European Union. A detailled analysis can be found in the paper 
+[Reflections on the DGA and Data Intermediaries(]https://internationaldataspaces.org/download/42325/?tmstv=1708096468).
+
+**Value-added service providers** act as a participant in the data space and
+do therefore stick to the agreements in a data space. Such services aim to
+enable the value-creation process with a broad set of basic or advanced data
+processing services. Such optional functionalities are described in [functional requirements
+section]() and in the [DSSC Blueprint Version 1](dssc.eu).
