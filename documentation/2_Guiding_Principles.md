@@ -278,8 +278,8 @@ questions (SupportOffice@internationaldatspaces.org).
 
 ## Data Space Governance Framework
 
-The Data Space Governance Framework is the defined set of policies, rules, and 
-regualtions that participants in a data space have to adhere to. It is the core
+The Data Space Governance Framework is the defined set of technical policies, 
+business rules, and regulations that participants in a data space have to adhere to. It is the core
 agreement between all parties, which defines a data space. The Data Space Governance 
 Authority is mandated to maintain and enforce the Data Space Governance Framework.
 
