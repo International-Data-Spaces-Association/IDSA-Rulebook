@@ -951,7 +951,7 @@ data spaces as value-creating services or functions.
 
 **Intermediaries** are considered as optional in data spaces. Due to certain
 regulations like the Data Governance Act, such intermediaries may require
-addtional governance.
+additional governance.
 
 **Value-adding services** may be realized by intermediaries or as function
 of a data space participant. Such value-adding services are not subject
