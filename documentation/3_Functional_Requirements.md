@@ -39,6 +39,14 @@ might require centralized components with centralized control, while
 others might be designed so their participants have a maximum level of
 autonomy and maintain agency over how to share their data.
 
+> The functional requirements section refers to all involved roles as
+> 'participant' in a data space. This underlines the need for all parties
+> involved in a data space and in the exchange, sharing, and usage of data
+> to adhere to a common set of rules, the policies provided by the data provider,
+> the rights granted by a data rights holder, and given regulations.
+> 
+> An overview on roles in a data space is given in [section 2 on guiding principles](./2_Guiding_Principles.md#role-models).
+
 ## Achieving digital sovereignty
 
 Digital sovereignty starts with control over your identity.
@@ -936,6 +944,19 @@ Depending on the services provided, these additional elements may need
 to issue additional credentials, introduce additional trust anchors, or
 require specific data contracts. There is a wide variety of optional
 roles and services. Some especially useful ones are described here.
+
+In general such optional functions can be distinguished as intermediary
+functions or value-creating functions. Intermediaries can participate in
+data spaces as value-creating services or functions.
+
+**Intermediaries** are considered as optional in data spaces. Due to certain
+regulations like the Data Governance Act, such intermediaries may require
+additional governance.
+
+**Value-adding services** may be realized by intermediaries or as function
+of a data space participant. Such value-adding services are not subject
+to the IDSA Rulebook, but are explained in the [DSSC Blueprint Version 1](https://dssc.eu/)
+in more detail. The IDSA Rulebook provides a limited explanation below.
 
 #### Marketplaces
 
