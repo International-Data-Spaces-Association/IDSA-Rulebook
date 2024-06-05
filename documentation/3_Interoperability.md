@@ -112,9 +112,9 @@ participant. With less autonomy and agency, more interoperability
 responsibility moves to the DSGA and legal organization layers thus
 lessening the burden of interoperability on the participant.
 
-Therefore, it is fair to say that more autonomy and agency of
+**Therefore, it is fair to say that more autonomy and agency of
 participants also comes with increased responsibilities for the
-participants.
+participants.**
 
 ## Interoperability Models
 
