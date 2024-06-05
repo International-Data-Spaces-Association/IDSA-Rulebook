@@ -64,7 +64,7 @@ practices for Data Spaces.
 
 ## Guiding principles for Data Spaces
 
-As described in the previous sections, there are guiding principles in
+As described in the previous sections, there are [guiding principles,(https://docs.internationaldataspaces.org/ids-knowledgebase/v/idsa-rulebook/idsa-rulebook/2_guiding_principles)] in
 Data Spaces that are not only shaping the [functional requirements,(https://docs.internationaldataspaces.org/ids-knowledgebase/v/idsa-rulebook/idsa-rulebook/3_functional_requirements)], but
 also take effect in reasoning over interoperability. Those guiding
 principles are the foundation of any interoperability framework for
