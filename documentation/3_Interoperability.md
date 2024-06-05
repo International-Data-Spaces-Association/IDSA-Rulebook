@@ -15,12 +15,7 @@ that ensure the protection and accountability of data providers and data
 consumers. As Data Spaces become more prevalent and diverse, there is
 also a growing need for intra- and cross-Data Spaces interoperability.
 
-But what are a Data Spaces exactly? As we have established in the previous
-chapters, Data Spaces are a logical collection of participants that share
-a common context or domain and offer data sharing contracts and
-capabilities to access their data assets in a trusted way to other
-participants. Different Data Spaces may have different goals,
-architectures, business models, and governance structures, depending on
+Different Data Spaces may have different goals, architectures, business models, and governance structures, depending on
 the authority or community that drives them. To avoid
 fragmentation and duplication of efforts, participants in these
 Data Spaces need to communicate in an interoperable way with each other
