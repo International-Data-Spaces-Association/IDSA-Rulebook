@@ -97,24 +97,24 @@ even be Data Spaces without any organization at the legal layer, purely
 governed by measures provided through the Data Space Governance Authority
 (DSGA).
 
-The DGA is a logical function in the Data Space and while it will be
-quite common to combine the DGA with the legal organization of the
-Data Space, it is also possible that a DGA exists without any legal
-organization operating it. E.g. a DGA could be just a set of policies
+The DSGA is a logical function in the Data Space and while it will be
+quite common to combine the DSGA with the legal organization of the
+Data Space, it is also possible that a DSGA exists without any legal
+organization operating it. E.g. a DSGA could be just a set of policies
 passed around between Data Space participants without any single owner,
 just being agreed on by a consensus algorithm between participants.
 
-The DGA is also responsible for the semantic models of the Data Space and
+The DSGA is also responsible for the semantic models of the Data Space and
 thus has a huge influence on the interoperability at that layer.
 
 Taking the guiding principles above into account leads us to the
 conclusion that interoperability is a shared responsibility between the
-participants and the DGA.
+participants and the DSGA.
 
 With more autonomy and agency, a participant can act with the more
 responsibility for ensuring interoperability layers with the
 participant. With less autonomy and agency, more interoperability
-responsibility moves to the DGA and legal organization layers thus
+responsibility moves to the DSGA and legal organization layers thus
 lessening the burden of interoperability on the participant.
 
 Therefore, it is fair to say that more autonomy and agency of
@@ -136,12 +136,12 @@ the discussion between two main interoperability models:
 
 Intra-Data Space interoperability is about the interoperability within a
 Data Space. This focuses on how participants interact with each other,
-and as well as with the DGA. The DGA defines what rules govern the
-Data Space. This includes also which version of the Data Space Protocol
+and as well as with the DSGA. The DSGA defines what rules govern the
+Data Space. This includes also which version of the [Data Space Protocol,(https://docs.internationaldataspaces.org/ids-knowledgebase/v/dataspace-protocol)]
 needs to be used, what identity protocols and standard to use, which
 Trust Frameworks are accepted, what semantic models need to be
 understood and so on. Participants have the responsibility to at least
-support and understand the protocols and models that the DGA mandates
+support and understand the protocols and models that the DSGA mandates
 but can also support additional versions and semantic models.
 
 Cross-Data Space Interoperability refers to the interoperability required
@@ -154,9 +154,9 @@ Data Spaces. This implies that the participant is able to support all the
 protocols and semantic models that both Data Spaces require. Should those
 not be identical it is up to the participant to be able to support the
 right protocols and their version in each Data Space and potentially do
-any necessary mappings. Another option is when the DGA, as well as the
+any necessary mappings. Another option is when the DSGA, as well as the
 legal entity operating the Data Space (if such exists) can support
-participants by agreeing with other DGAs and legal entities from other
+participants by agreeing with other DSGAs and legal entities from other
 Data Spaces on supported protocols and semantic models. This can greatly
 reduce the burden on the participants in sharing data to and using data
 from multiple Data Spaces.
@@ -170,7 +170,7 @@ The Regulation of the European Parliament and of the Council on
 harmonized rules on fair access to and use of data ([Data Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022PC0068))
 references both standards in its provisions for interoperability.
 
-Chapter VIII of the Data Act provides for essential requirements to be
+[Chapter VIII of the Data Act,(https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2022%3A68%3AFIN)] provides for essential requirements to be
 complied with regarding interoperability for operators of data spaces
 and data processing service providers as well as for essential
 requirements for smart contracts. The chapter also enables open
@@ -208,7 +208,7 @@ specifications define the schemas and protocols required for entities to
 publish data, negotiate agreements, and access data as part of a
 federation of technical systems that form a Data Space.
 
-The DGA will specify which version(s) of the DSP are mandatory for
+The DSGA will specify which version(s) of the DSP are mandatory for
 participants of a Data Space. This guarantees that at a technical layer
 participants will be able to interact in a Data Space.
 
@@ -232,7 +232,7 @@ processes etc).
 
 To successfully participate in a Data Space a participant needs to at
 least understand the semantic model used for policies within the
-Data Space. This is usually pre-defined through the DGA and acceptance of
+Data Space. This is usually pre-defined through the DSGA and acceptance of
 the semantic model of the Data Space policies is very often going to be a
 pre-requisite to join the Data Space.
 
@@ -253,7 +253,7 @@ representation, or whatever else has been chosen); if one participants
 is coding the United Kingdom as "UK" while another uses "GB", the danger
 of misalignment and miscommunication is obvious.
 
-If two DGAs negotiate and agree on the same semantic model for policies
+If two DSGAs negotiate and agree on the same semantic model for policies
 for their respective Data Spaces it will greatly simplify the access of
 data in the two different Data Spaces.
 
@@ -306,7 +306,7 @@ overarching Data Space, but introducing additional policies for the sub
 Data Space. E.g. think of an industrial Data Space where one participant
 wants to share data only with their direct suppliers instead of the
 entire Data Space. This can be realized as a separate Data Space or within
-the larger industrial Data Space by having an additional DGA with
+the larger industrial Data Space by having an additional DSGA with
 additional membership policies and specifying additional semantic models
 and processes. In our example one participant could specify that for a
 specific set of data other participants need to prove that they are
@@ -339,7 +339,7 @@ sophisticated data management will be required.
 
 ## Trust Frameworks and Trust Anchors
 
-As the DGA also defines which Trust Frameworks and which Trust Anchors
+As the DSGA also defines which Trust Frameworks and which Trust Anchors
 can be used by participants within a Data Space all the before mentioned
 interoperability facets also apply to Trust Frameworks and Trust
 Anchors. As it is very likely that Trust Frameworks and Trust Anchors
@@ -353,20 +353,20 @@ interoperability in Data Spaces is with the participant, however,
 everyone involved in a Data Space can support interoperability by
 aligning with other parties:
 
-**Data Space organization to other Data Space organizations**: negotiate
+**Data Space to other Data Space**: negotiate
 legal equivalency of processes and rules between the two organizations.
 
-**Data Space organization to Trust Frameworks and Trust Anchors:** Align
+**Data Space to Trust Frameworks and Trust Anchors:** Align
 on mapping between policies and legal provisions and processes.
 
-**Data Space organization to DGAs:** Align on governance models and
+**Data Spaces to DSGAs:** Align on governance models and
 organizational processes.
 
 **Trust Framework to other Trust Frameworks:** Share semantic models for
 policies and align on identity and trust protocols required.
 
-**Trust Framework to DGAs:** Agree on standardized identity and trust
+**Trust Framework to DSGAs:** Agree on standardized identity and trust
 protocols and a common set of semantic models.
 
-**DGA to other DGAs:** Share semantic models for policies and agree on
+**DSGA to other DSGAs:** Share semantic models for policies and agree on
 functional processes.
