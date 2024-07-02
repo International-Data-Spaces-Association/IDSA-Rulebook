@@ -4,12 +4,12 @@
 
 Data is one of the most valuable assets in the digital economy, but its
 potential value can only be realized if it can move and interact with
-other data to produce insights that create value. For this it must be
+other data to produce insights that create value. For this, it must be
 possible for data to be shared and reused in a trusted way.
-Interoperability, the ability of different systems and organizations to
-exchange, understand and use data, is essential for enabling data
+Interoperability is the ability of different systems and organizations to
+exchange, understanding, and use of data, is essential for enabling data
 sharing and creating value in data ecosystems. Data Spaces help to
-establish a common understanding of trust, provide a mechanism to
+establish a common understanding of trust, and provide a mechanism to
 establish sharing contracts, which include access and usage policies
 that ensure the protection and accountability of data providers and data
 consumers. As Data Spaces become more prevalent and diverse, there is
@@ -81,10 +81,10 @@ again:
 
 To better understand the model above we need to understand Data Spaces
 differently at different layers. There is a legal layer where a
-Data Space is governed by legal contracts to join a consortium which is
+Data Space is governed by legal contracts to join a consortium that is
 responsible for the Data Space. This can be a not-for-profit organization
 where participants join as members to jointly agree on what the rules of
-the Data Space are, but also can be driven by a single entity which
+the Data Space are, but also can be driven by a single entity that
 dictates the rules of the Data Space. Both models and everything in
 between is possible and tradeoffs need to be reasoned over and decisions
 made when the legal layer of the Data Space is being defined. There can
@@ -97,7 +97,7 @@ quite common to combine the DSGA with the legal organization of the
 Data Space, it is also possible that a DSGA exists without any legal
 organization operating it. E.g. a DSGA could be just a set of policies
 passed around between Data Space participants without any single owner,
-just being agreed on by a consensus algorithm between participants.
+just been agreed on by a consensus algorithm between participants.
 
 The DSGA is also responsible for the semantic models of the Data Space and
 thus has a huge influence on the interoperability at that layer.
@@ -129,13 +129,13 @@ the discussion between two main interoperability models:
 
 ![Interoperability Models](./media/Interoperability_Models.png)
 
-Intra-Data Space interoperability is about the interoperability within a
+Cross Data Space interoperability is about the interoperability within a
 Data Space. This focuses on how participants interact with each other,
 and as well as with the DSGA. The DSGA defines what rules govern the
 Data Space. This includes also which version of the [Data Space Protocol,(https://docs.internationaldataspaces.org/ids-knowledgebase/v/dataspace-protocol)]
-needs to be used, what identity protocols and standard to use, which
+needs to be used, what identity protocols and standards to use, which
 Trust Frameworks are accepted, what semantic models need to be
-understood and so on. Participants have the responsibility to at least
+understood, and so on. Participants have the responsibility to at least
 support and understand the protocols and models that the DSGA mandates
 but can also support additional versions and semantic models.
 
@@ -153,7 +153,7 @@ any necessary mappings. Another option is when the DSGA, as well as the
 legal entity operating the Data Space (if such exists) can support
 participants by agreeing with other DSGAs and legal entities from other
 Data Spaces on supported protocols and semantic models. This can greatly
-reduce the burden on the participants in sharing data to and using data
+reduce the burden on the participants in sharing data with and using data
 from multiple Data Spaces.
 
 ## Interoperability Standards
@@ -167,7 +167,7 @@ references both standards in its provisions for interoperability.
 
 [Chapter VIII of the Data Act,(https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2022%3A68%3AFIN)] provides for essential requirements to be
 complied with regarding interoperability for operators of data spaces
-and data processing service providers as well as for essential
+and data processing service providers as well as essential
 requirements for smart contracts. The chapter also enables open
 interoperability specifications and European standards for the
 interoperability of data processing services to promote a seamless
@@ -186,11 +186,11 @@ And second the European Interoperability Framework facets:
 
 Note, that while the EIF has only four layers, it is clearly visible
 that with the five layers of ISO/IEC 19941 the technical layer is split
-into two sub layers: the transport and the syntax.
+into two sub-layers: the transport and the syntax.
 
 ## Interoperability facets in Data Spaces
 
-Let's investigate the 4 facets of interoperability as to how they can be
+Let's investigate the 4 facets of interoperability and how they can be
 applied to Data Spaces.
 
 ### Technical
@@ -212,9 +212,9 @@ protocols can be defined to guarantee minimum technical interoperability
 within a Data Space.
 
 If two Data Spaces mandate their participants to use the same protocols
-it will be make the participation technically easier as participants
+it will make the participation technically easier as participants
 might re-use the same technical components to access data in different
-Data Spaces, instead of having to maintain separate technical system for
+Data Spaces, instead of having to maintain separate technical systems for
 each Data Space.
 
 ### Semantic
@@ -239,17 +239,17 @@ participate in a Data Space.
 
 The semantic model of the actual data being shared is not a mandatory
 required element, but it greatly enhances the value of the Data Space and
-the data shared within as it enables all participants know what each
+the data shared within as it enables all participants to know what each
 data element means, and how it is constructed. For example, if a field
-refers to "country code", it is necessary that the participants of that
-particular data sharing transaction know how that value is coded (e.g.
-ISO two letter or three letter abbreviation, some numeric
-representation, or whatever else has been chosen); if one participants
+refers to "country code", it is necessary that the participants in that
+particular data-sharing transaction know how that value is coded (e.g.
+ISO two-letter or three-letter abbreviation, some numeric
+representation, or whatever else has been chosen); if one participant
 is coding the United Kingdom as "UK" while another uses "GB", the danger
 of misalignment and miscommunication is obvious.
 
 If two DSGAs negotiate and agree on the same semantic model for policies
-for their respective Data Spaces it will greatly simplify the access of
+for their respective Data Spaces, it will greatly simplify the access of
 data in the two different Data Spaces.
 
 ### Organizational
@@ -279,23 +279,23 @@ Data Spaces doesn't mean that the policy has legal equivalency in both
 Data Spaces.
 
 A participant in multiple Data Spaces will have the responsibility of
-keeping track which data came from which Data Space and what the legal
+keeping track of which data came from which Data Space and what the legal
 responsibility of handling this data is.
 
 Agreements between legal organizations managing a Data Space can reduce
-the burden on the participants by agreeing on legal equivalency of
+the burden on the participants by agreeing on the legal equivalency of
 policies in both Data Spaces.
 
 ## Interdependency models in Data Spaces
 
 As shown above, the burden of ensuring interoperability and the
-adherence to all rules of individual Data Spaces is in the responsibility
+adherence to all rules of individual Data Spaces is the responsibility
 of a participant. However, the complexity of achieving interoperability
 across multiple Data Spaces also greatly depends on how those are
 related.
 
 The simplest model is probably a hierarchical direct-dependency of
-Data Spaces. In a larger Data Space a smaller sub-Data Space could be
+Data Spaces. In a larger Data Space, a smaller sub-Data Space could be
 created with additional rules, utilizing the governance model of the
 overarching Data Space, but introducing additional policies for the sub
 Data Space. E.g. think of an industrial Data Space where one participant
@@ -303,18 +303,18 @@ wants to share data only with their direct suppliers instead of the
 entire Data Space. This can be realized as a separate Data Space or within
 the larger industrial Data Space by having an additional DSGA with
 additional membership policies and specifying additional semantic models
-and processes. In our example one participant could specify that for a
+and processes. In our example, one participant could specify that for a
 specific set of data other participants need to prove that they are
-suppliers of this participant and understand a specific semantic models
+suppliers of this participant and understand specific semantic models
 and processes provided by this participant. This can be regarded as a
-hierarchical relationship between two Data Spaces. In this case
+hierarchical relationship between two Data Spaces. In this case,
 interoperability should be straightforward to achieve.
 
 Another model is Data Space peers. Two Data Spaces operating in different
 domains, but with a substantial overlap of participants, which also
 require data from both Data Spaces for many use cases. To reduce the
 burden on participants guaranteeing interoperability, the two Data Spaces
-might agree on same requirements for protocols, semantic models and also
+might agree on the same requirements for protocols, semantic models, and also
 on organizational processes, including agreements on legal equivalency.
 
 Last but not least, there is the case of completely unrelated Data Spaces
@@ -325,7 +325,7 @@ processes in both Data Spaces and potentially will need to provide
 completely separate technical environments to access data in different
 Data Spaces.
 
-No matter how Data Spaces are related and cross-Data Space
+No matter how Data Spaces are related and cross-data Space
 interoperability will be achieved, it is always going to be the
 responsibility of the participant to keep track of which data was
 acquired through which Data Space and what obligations came with it.
@@ -335,7 +335,7 @@ sophisticated data management will be required.
 ## Trust Frameworks and Trust Anchors
 
 As the DSGA also defines which Trust Frameworks and which Trust Anchors
-can be used by participants within a Data Space all the before mentioned
+can be used by participants within a Data Space with all the aforementioned
 interoperability facets also apply to Trust Frameworks and Trust
 Anchors. As it is very likely that Trust Frameworks and Trust Anchors
 will support multiple Data Spaces it is especially important that the
