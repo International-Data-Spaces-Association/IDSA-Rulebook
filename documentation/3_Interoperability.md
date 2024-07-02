@@ -354,26 +354,20 @@ This leads eventually to commonly adopted concepts and standards.
 Recognizing the different levels of interoperability as described above, a general adoption or maturity model can be derived:
 
 **1. Agreements between 2 participants** are highly tailored to certain use cases, but can provide a foundation for broader adoption.
-**2. Agreements in a group of participants** are the foundation to increase interoperability by increasing the number of adopters.   
-**3. Agreements within a common framework** increase interoperability using the same technical or organizational framework. 
-**4. Agreements between service providers** support the broad adoption by providing interoperable solutions (as a service) to facilitate their reusability in the market and thus drive common interoperable functionalities. 
-**5. General agreements in a Data Space as part of  the Data Space Governance Framework** implement default interoperability aspects which releases the participant from implementing alternative approaches or choosing between different approaches. 
+
+**2. Agreements in a group of participants** are the foundation to increase interoperability by increasing the number of adopters.
+
+**3. Agreements within a common framework** increase interoperability using the same technical or organizational framework.
+
+**4. Agreements between service providers** support the broad adoption by providing interoperable solutions (as a service) to facilitate their reusability in the market and thus drive common interoperable functionalities.
+
+**5. General agreements in a Data Space as part of  the Data Space Governance Framework** implement default interoperability aspects which releases the participant from implementing alternative approaches or choosing between different approaches.
+
 **6 Agreements between different Data Space Governance Authorities** establish bridges between data spaces.
 
-**Data Space to other Data Space**: negotiate
-legal equivalency of processes and rules between the two organizations.
-
-**Data Space to Trust Frameworks and Trust Anchors:** Align
-on mapping between policies and legal provisions and processes.
-
-**Data Spaces to DSGAs:** Align on governance models and
-organizational processes.
-
-**Trust Framework to other Trust Frameworks:** Share semantic models for
-policies and align on identity and trust protocols required.
-
-**Trust Framework to DSGAs:** Agree on standardized identity and trust
-protocols and a common set of semantic models.
-
-**DSGA to other DSGAs:** Share semantic models for policies and agree on
-functional processes.
+* **Data Space to other Data Space**: negotiate legal equivalency of processes and rules between the two organizations.
+* **Data Space to Trust Frameworks and Trust Anchors:** Align on mapping between policies and legal provisions and processes.
+* **Data Spaces to DSGAs:** Align on governance models and organizational processes.
+* **Trust Framework to other Trust Frameworks:** Share semantic models for policies and align on identity and trust protocols required.
+* **Trust Framework to DSGAs:** Agree on standardized identity and trust protocols and a common set of semantic models.
+* **DSGA to other DSGAs:** Share semantic models for policies and agree on functional processes.
