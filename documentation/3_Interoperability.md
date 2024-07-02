@@ -356,7 +356,7 @@ Recognizing the different levels of interoperability as described above, a gener
 **1. Agreements between 2 participants** are highly tailored to certain use cases, but can provide a foundation for broader adoption.
 **2. Agreements in a group of participants** are the foundation to increase interoperability by increasing the number of adopters.   
 **3. Agreements within a common framework** increase interoperability using the same technical or organizational framework. 
-**4. Agreements between service providers** support the broad adoption by providing interoperable solutions (as a service) to lighten the reusability in the market. 
+**4. Agreements between service providers** support the broad adoption by providing interoperable solutions (as a service) to facilitate their reusability in the market and thus drive common interoperable functionalities. 
 **5. General agreements in a Data Space as part of  the Data Space Governance Framework** implement default interoperability aspects which releases the participant from implementing alternative approaches or choosing between different approaches. 
 **6 Agreements between different Data Space Governance Authorities** ....
 
