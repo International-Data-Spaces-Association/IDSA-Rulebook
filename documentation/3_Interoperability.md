@@ -59,8 +59,8 @@ practices for Data Spaces.
 
 ## Guiding principles for Data Spaces
 
-As described in the previous sections, there are [guiding principles,(https://docs.internationaldataspaces.org/ids-knowledgebase/v/idsa-rulebook/idsa-rulebook/2_guiding_principles)] in
-Data Spaces that are not only shaping the [functional requirements,(https://docs.internationaldataspaces.org/ids-knowledgebase/v/idsa-rulebook/idsa-rulebook/3_functional_requirements)], but
+As described in the previous sections, there are [guiding principles](https://docs.internationaldataspaces.org/ids-knowledgebase/v/idsa-rulebook/idsa-rulebook/2_guiding_principles) in
+Data Spaces that are not only shaping the [functional requirements](https://docs.internationaldataspaces.org/ids-knowledgebase/v/idsa-rulebook/idsa-rulebook/3_functional_requirements), but
 also take effect in reasoning over interoperability. Those guiding
 principles are the foundation of any interoperability framework for
 Data Spaces. Let's have a closer look at those fundamental principles
@@ -132,7 +132,7 @@ the discussion between two main interoperability models:
 Cross Data Space interoperability is about the interoperability within a
 Data Space. This focuses on how participants interact with each other,
 and as well as with the DSGA. The DSGA defines what rules govern the
-Data Space. This includes also which version of the [Data Space Protocol,(https://docs.internationaldataspaces.org/ids-knowledgebase/v/dataspace-protocol)]
+Data Space. This includes also which version of the [Data Space Protocol](https://docs.internationaldataspaces.org/ids-knowledgebase/v/dataspace-protocol)
 needs to be used, what identity protocols and standards to use, which
 Trust Frameworks are accepted, what semantic models need to be
 understood, and so on. Participants have the responsibility to at least
@@ -162,10 +162,10 @@ There are two noteworthy standards when it comes to interoperability,
 first the [ISO/IEC 19941 -- Cloud Computing Interoperability and
 Portability](https://standards.iso.org/ittf/PubliclyAvailableStandards/c066639_ISO_IEC_19941_2017.zip) and second the [European Interoperability Framework](https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf).
 The Regulation of the European Parliament and of the Council on
-harmonized rules on fair access to and use of data ([Data Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022PC0068))
+harmonized rules on fair access to and use of data ( [Data Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022PC0068) )
 references both standards in its provisions for interoperability.
 
-[Chapter VIII of the Data Act,(https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2022%3A68%3AFIN)] provides for essential requirements to be
+[Chapter VIII of the Data Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2022%3A68%3AFIN) provides for essential requirements to be
 complied with regarding interoperability for operators of data spaces
 and data processing service providers as well as essential
 requirements for smart contracts. The chapter also enables open
