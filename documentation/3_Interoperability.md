@@ -343,10 +343,22 @@ applicable protocol versions and semantic models are clearly defined.
 
 ## Improving Interoperability
 
-As already established above, the main responsibility for
-interoperability in Data Spaces is with the participant, however,
-everyone involved in a Data Space can support interoperability by
-aligning with other parties:
+As already established above, the main responsibility for interoperability in Data Spaces is with the participant, however, everyone involved in a Data Space can support interoperability by aligning with other parties.
+
+Aspects of interoperability in Data Spaces can be achieved by utilizing common frameworks, models, standards, processes, or services, like Trust Frameworks. 
+Those need to be mandated by participants of a Data Space as agreements in the Data Space Governance Framework executed and managed by the Data Space Governance Authority. 
+
+The agreements in the Data Space Governance Framework of one Data Space can and should be reused or acknowledged by other Data Spaces. 
+This leads eventually to commonly adopted concepts and standards. 
+
+Recognizing the different levels of interoperability as described above, a general adoption or maturity model can be derived:
+
+**1. Agreements between 2 participants** are highly tailored to certain use cases, but can provide a foundation for broader adoption.
+**2. Agreements in a group of participants** are the foundation to increase interoperability by increasing the number of adopters.   
+**3. Agreements within a common framework** increase interoperability using the same technical or organizational framework. 
+**4. Agreements between service providers** support the broad adoption by providing interoperable solutions (as a service) to lighten the reusability in the market. 
+**5. General agreements in a Data Space as part of  the Data Space Governance Framework** implement default interoperability aspects which releases the participant from implementing alternative approaches or choosing between different approaches. 
+**6 Agreements between different Data Space Governance Authorities** ....
 
 **Data Space to other Data Space**: negotiate
 legal equivalency of processes and rules between the two organizations.
