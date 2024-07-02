@@ -358,7 +358,7 @@ Recognizing the different levels of interoperability as described above, a gener
 **3. Agreements within a common framework** increase interoperability using the same technical or organizational framework. 
 **4. Agreements between service providers** support the broad adoption by providing interoperable solutions (as a service) to facilitate their reusability in the market and thus drive common interoperable functionalities. 
 **5. General agreements in a Data Space as part of  the Data Space Governance Framework** implement default interoperability aspects which releases the participant from implementing alternative approaches or choosing between different approaches. 
-**6 Agreements between different Data Space Governance Authorities** ....
+**6 Agreements between different Data Space Governance Authorities** establish bridges between data spaces.
 
 **Data Space to other Data Space**: negotiate
 legal equivalency of processes and rules between the two organizations.
