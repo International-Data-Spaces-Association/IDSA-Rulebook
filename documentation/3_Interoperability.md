@@ -53,7 +53,7 @@ syntactic), semantic, organizational, and legal:
     have diverging interpretations in different data ecosystems.
 
 In this chapter, we discuss the challenges and opportunities of
-achieving inter- and cross- Data Space interoperability at these levels,
+achieving cross- and intra- Data Space interoperability at these levels,
 and propose a roadmap for developing a common framework and best
 practices for Data Spaces.
 
