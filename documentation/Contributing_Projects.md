@@ -2,7 +2,7 @@
 
 These projects contributed to the IDSA Rulebook.
 
-** Thank you! **
+**Thank you!**
 
 ## Industrial Data Space ##
 
