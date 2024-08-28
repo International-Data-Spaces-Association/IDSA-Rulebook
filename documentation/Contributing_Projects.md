@@ -2,55 +2,55 @@
 
 These projects contributed to the IDSA Rulebook.
 
-** Thank you! **
+**Thank you!**
 
 ## Industrial Data Space ##
 
 ![Industrial Data Space](./media/image3.jpeg)
 
-[Industrial Data Space](www.fraunhofer.de/en/research/lighthouse-projects-fraunhofer-initiatives/industrial-data-space.html)
+[Industrial Data Space](http://www.fraunhofer.de/en/research/lighthouse-projects-fraunhofer-initiatives/industrial-data-space.html)
 
 ## Industrial Data Space + ##
 
 ![Industrial Data Space](./media/image6.jpeg)
 
-[Industrial Data Space](www.fraunhofer.de/en/research/lighthouse-projects-fraunhofer-initiatives/industrial-data-space.html)
+[Industrial Data Space](http://www.fraunhofer.de/en/research/lighthouse-projects-fraunhofer-initiatives/industrial-data-space.html)
 
 ## Industrial Data Space 3 ##
 
 ![Industrial Data Space](./media/image6.jpeg)
 
-[Industrial Data Space](www.fraunhofer.de/en/research/lighthouse-projects-fraunhofer-initiatives/industrial-data-space.html)
+[Industrial Data Space](http://www.fraunhofer.de/en/research/lighthouse-projects-fraunhofer-initiatives/industrial-data-space.html)
 
 ## BOOST 4.0 ##
 
 ![Boost 4.0](./media/image6.jpeg)
 
-[BOOST 4.0](www.boost40.eu)
+[BOOST 4.0](http://www.boost40.eu)
 
 ## AMable ##
 
 ![AMable](./media/image5.jpeg)
 
-[AMable](www.amable.eu)
+[AMable](http://www.amable.eu)
 
 ## MIDIH ##
 
 ![MIDIH](./media/image7.png)
 
-[Manufacturing Industry Digital Innovation Hubs](www.midih.eu)
+[Manufacturing Industry Digital Innovation Hubs](http://www.midih.eu)
 
 ## Research Center Data Spaces ##
 
 ![Research Center Data Spaces](./media/image8.jpeg)
 
-[Research Center Data Spaces](www.cit.fraunhofer.de)
+[Research Center Data Spaces](http://www.cit.fraunhofer.de)
 
 ## DEMAND ##
 
 ![DEMAND](./media/image9.jpeg)
 
-[DEMAND](www.demand-projekt.de)
+[DEMAND](http://www.demand-projekt.de)
 
 ## MUSKETEER ##
 
