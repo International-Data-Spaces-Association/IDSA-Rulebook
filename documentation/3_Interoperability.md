@@ -129,7 +129,7 @@ the discussion between two main interoperability models:
 
 ![Interoperability Models](./media/Interoperability_Models.png)
 
-Cross Data Space interoperability is about the interoperability within a
+Intra Data Space interoperability is about the interoperability within a
 Data Space. This focuses on how participants interact with each other,
 and as well as with the DSGA. The DSGA defines what rules govern the
 Data Space. This includes also which version of the [Data Space Protocol](https://docs.internationaldataspaces.org/ids-knowledgebase/v/dataspace-protocol)
