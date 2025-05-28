@@ -104,7 +104,7 @@ can include these optional functional areas:
 - Data trustee and escrow services
 - Data incubation and service creation
 
-![Foundational Concepts in data spaces](./media/Foundational_Concepts_in_data_spaces.png)
+![Foundational Concepts in data spaces](./media/Foundational_Concepts_in_data_spaces.jpg)
 
 ### Establishing trust
 
@@ -157,7 +157,7 @@ issues them, such as a department of traffic issuing drivers licenses or
 a ministry of internal affairs handing out citizen ID cards. The
 underlying process is verifying a specific attribute.
 
-![Self Descriptions in data spaces](./media/Self_Descriptions_in_data_spaces.png)
+![Self Descriptions in data spaces](./media/Self_Descriptions_in_data_spaces.jpg)
 
 A trust anchor
 is an entity that issues certifications about an attribute. The
@@ -242,7 +242,7 @@ produced, and then permits to share the results with a third party for
 processing if they meet a set of ISO
 standards.
 
-![Different policies  in data spaces](./media/Different_policies_in_data_spaces.png)
+![Different policies  in data spaces](./media/Different_policies_in_data_spaces.jpg)
 
 As discussed above, the first line of policy defense is the membership
 policies (MP) and rules required to join a data space. These policies
@@ -539,7 +539,7 @@ data space):
     (sharing data, browsing the catalog(s) for data of others,
     negotiating data contracts).
 
-![Onboarding in data spaces](./media/DataSpaceOnboarding.png)
+![Onboarding in data spaces](./media/DataSpaceOnboarding.jpg)
 
 ### Creating a data space
 
@@ -550,7 +550,7 @@ data space is organized in a centralized, decentralized, federated or
 hybrid manner, common denominators and basic functionalities can be
 found.
 
-![Overview of Data Space entities](./media/DataSpace-withDSGovernanceAuthority.png)
+![Overview of Data Space entities](./media/DataSpace-withDSGovernanceAuthority.jpg)
 
 A data space establishes trust within a community to share data with
 each other. The definition of community can be very broad. It might be a
@@ -628,7 +628,7 @@ provides. Additional functions and services such as marketplaces, data
 escrow services, processing services and applications might be provided
 as optional elements.
 
-![Variants for data space governance authorities](./media/Variants_for_dsga.png)
+![Variants for data space governance authorities](./media/Variants_for_dsga.jpg)
 
 ### Data discovery
 
@@ -930,7 +930,7 @@ semantic models that each participant receives when joining the data
 space and which can be continuously updated through various
 synchronization mechanisms.
 
-![Vocabularies and their relationship to data assets](./media/Vocabularies_and_data_assets.png)
+![Vocabularies and their relationship to data assets](./media/Vocabularies_and_data_assets.jpg)
 
 ### Optional functions
 
@@ -1128,7 +1128,7 @@ be made with utmost care.
 
 ### "Central," or "federated/distributed," or "decentralized"
 
-![Variants for Data Space Governance Authorities](media/Variants_for_dsga.png)
+![Variants for Data Space Governance Authorities](media/Variants_for_dsga.jpg)
 
 #### Centralized data space governance authority
 

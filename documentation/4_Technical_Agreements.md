@@ -6,7 +6,7 @@ what is mandatory and what is optional to implement but keep some
 freedom how to realize these concepts (see also the section on the goals
 of IDS in the IDS RAM).
 
-![IDSA Magic Triangle](./media/IDSAMagicTriangle.png)
+![IDSA Magic Triangle](./media/IDSAMagicTriangle.jpg)
 
 The technical agreements of the
 IDS-framework consist of the Reference Architecture Model (RAM) that
