@@ -76,5 +76,4 @@ An example of a very good commit might look like this: `feat![login]: add awesom
 
 
 ## Versioning
-IDSA uses the [SemVer](https://semver.org/) for versioning. The release versions
-are tagged with their respective version.
+The Rulebook does not use a versioning scheme beyond the versioning of GitHub committs.
