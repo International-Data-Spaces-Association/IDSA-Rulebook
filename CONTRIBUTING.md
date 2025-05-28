@@ -76,4 +76,4 @@ An example of a very good commit might look like this: `feat![login]: add awesom
 
 
 ## Versioning
-The Rulebook does not use a versioning scheme beyond the versioning of GitHub committs.
+The Rulebook does not use a versioning scheme beyond the versioning of GitHub commits.
