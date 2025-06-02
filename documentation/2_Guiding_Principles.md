@@ -396,3 +396,72 @@ Such roles originate from regulations, like GDPR or DGA:
 * Personal data Intermediary are not described in the IDSA Rulebook.
 * Clearing house service providers are described in the IDS RAM and subject of the obverservability capability in the functional requirements section of the IDSA Rulebook.
 * Marketplace and other value creation services are covered in the IDSA Rulebook above and in the optional capabilites section of the functional requirements.
+
+# Understanding Roles and Layers in Data Spaces
+
+Data spaces are multi-layered ecosystems that rely on the seamless integration of technical protocols, business processes, and legal frameworks. One of the foundational challenges in governing data spaces lies in the consistent definition and use of key concepts such as **"roles," "policies,"** and **"contracts."** These terms often carry different meanings across domains. This chapter establishes a clear separation between technical and non-technical interpretations of such concepts to support the development of interoperable and trustworthy data spaces.
+
+## Layers of a Data Space
+
+Data spaces can be structured into three primary layers, each serving distinct functions:
+
+1. **Technical Layer** – Encompasses the architecture and protocols (e.g., Data Space Protocol (DSP), Decentralized Claims Protocol (DCP)) that facilitate secure and interoperable data exchanges.
+2. **Business/Operational Layer** – Manages the services, interactions, and workflows that enable value generation and marketplace activity.
+3. **Legal and Governance Layer** – Enforces rights, obligations, and regulatory compliance across participants.
+
+
+![Layers of Data Spaces](./media/media/image20.png)
+
+These layers interact but must be conceptually separated to ensure clarity and reduce ambiguity in roles and responsibilities.
+
+## Clarifying the Concept of Roles
+
+The term **"role"** is context-dependent and must be clearly scoped:
+
+- At the **technical level**, there is only one fundamental role: **participant**. A participant acts as a **data provider**, a **data consumer**, or both within the data exchange protocol.
+- At the **business level**, participants may take roles such as **data intermediary**, **marketplace operator**, **auditor**, or **service provider**.
+- These business roles do not exist independently at the technical layer but are mapped onto the core participant role based on the services performed.
+
+Maintaining this distinction ensures that governance models remain technically sound while accommodating diverse business scenarios.
+
+## Distinguishing Data Spaces from Trusted Data Transactions
+
+A clear differentiation must be made between **data spaces** and **trusted data transactions (TDTs)**:
+
+- **Data spaces** are decentralized infrastructures that enable sovereign data exchange based on open standards. They preserve participant autonomy and operate without mandatory intermediaries.
+- **Trusted data transactions**, often associated with the *Data Governance Act* and specifications from initiatives such as *Gaia-X*, emphasize **data intermediaries** and **service orchestration**. These models prioritize regulatory alignment and controlled environments.
+
+While trusted data transactions may operate within data spaces, they are conceptually distinct. Equating them risks narrowing the scope of data space implementations and excluding more decentralized or peer-to-peer configurations.
+
+## Participation and Representation
+
+Participants in a data space are defined by their ability to exchange data via technical protocols. This has several implications:
+
+- **Organizations**, not individuals, are considered technical participants. These organizations are represented by **software agents** capable of executing data space protocols.
+- **Natural persons** interact with data spaces indirectly through applications or services operated by organizations.
+- **Trust anchors**, **identity providers**, and **regulators** may influence data transactions but do not participate directly unless they act through technical interfaces governed by data space rules.
+
+This model preserves the integrity of technical interactions while allowing flexibility in higher layers.
+
+## The Role of External Actors
+
+Entities that provide static resources—such as ontologies, schemas, or public credentials—may support the data space but are not considered participants unless they actively engage via governed interfaces. For example:
+
+- A web service that hosts a data sharing ontology is not a participant but serves as an **external reference**.
+- A trust framework provider may act as a **participant** if it delivers services subject to data space governance policies.
+
+Participation requires **governance commitment** and **technical integration**.
+
+## Implications for the Rulebook
+
+The Rulebook should reflect these principles clearly:
+
+- The only **technical role** is the **participant**, which may act as data provider, consumer, or both.
+- **Business roles** are supplementary and must be defined within the business or legal governance layers.
+- **Visual representations** of data space structures must be clearly labeled to indicate whether they depict technical, business, or legal perspectives.
+
+Such clarity supports interoperability, ensures accurate alignment with regulatory frameworks, and promotes broad adoption across sectors.
+
+## Conclusion
+
+Effective data space governance depends on the precise use of terminology and clear separation of concerns across layers. Establishing the **participant** as the core technical role, while accommodating richer business and regulatory interactions above it, ensures a scalable and interoperable foundation. This layered perspective will guide the elaboration of rules, responsibilities, and interactions in subsequent chapters of the Rulebook.
