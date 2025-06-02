@@ -409,6 +409,9 @@ Data spaces can be structured into three primary layers, each serving distinct f
 2. **Business/Operational Layer** – Manages the services, interactions, and workflows that enable value generation and marketplace activity.
 3. **Legal and Governance Layer** – Enforces rights, obligations, and regulatory compliance across participants.
 
+
+![Layers of Data Spaces](./media/media/image20.png)
+
 These layers interact but must be conceptually separated to ensure clarity and reduce ambiguity in roles and responsibilities.
 
 ## Clarifying the Concept of Roles
