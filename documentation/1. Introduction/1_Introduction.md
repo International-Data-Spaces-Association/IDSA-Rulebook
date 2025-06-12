@@ -78,7 +78,7 @@ participants. They are the source of common agreements.
 3. All IDS users are getting guidance on how to proceed in realizing
 use cases based on a trustworthy infrastructure and governance.
 
-![](media/media/image4.png)
+![Purpose and scope](../media/media/image4.png)
 
 ## Relationship with other initiatives
 
