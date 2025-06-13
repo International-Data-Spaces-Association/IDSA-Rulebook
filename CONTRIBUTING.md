@@ -74,6 +74,10 @@ changes to a type.
 
 An example of a very good commit might look like this: `feat![login]: add awesome breaking feature`
 
+## Figures
+
+Please be aware that figures with a transparent background are displayed differently when the user decides to use the dark or the light mode. 
+Figures should always use a non transparent background. 
 
 ## Versioning
 IDSA uses the [SemVer](https://semver.org/) for versioning. The release versions
