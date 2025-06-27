@@ -393,9 +393,9 @@ Such roles originate from regulations, like GDPR or DGA:
 * Data space enabling Service, see section above.
 * Data space intermediary, see section above.
 * Connection-providing Intermediary is not described in the IDSA Rulebook.
-* Personal data Intermediary are not described in the IDSA Rulebook.
-* Clearing house service providers are described in the IDS RAM and subject of the obverservability capability in the functional requirements section of the IDSA Rulebook.
-* Marketplace and other value creation services are covered in the IDSA Rulebook above and in the optional capabilites section of the functional requirements.
+* Personal data intermediaries are not described in the IDSA Rulebook.
+* Clearing house service providers are described in the IDS RAM and subject of the observability capability in the functional requirements section of the IDSA Rulebook.
+* Marketplace and other value creation services are covered in the IDSA Rulebook above and in the optional capabilities section of the functional requirements.
 
 # Understanding Roles and Layers in Data Spaces
 
@@ -406,7 +406,7 @@ Data spaces are multi-layered ecosystems that rely on the seamless integration o
 Data spaces can be structured into three primary layers, each serving distinct functions:
 
 1. **Technical Layer** – Encompasses the architecture and protocols (e.g., Data Space Protocol (DSP), Decentralized Claims Protocol (DCP)) that facilitate secure and interoperable data exchanges.
-2. **Business/Operational Layer** – Manages the services, interactions, and workflows that enable value generation and marketplace activity.
+2. **Economic Layer** – Manages the services, interactions, and workflows that enable value generation and marketplace activity. Notably, terms for this layer are also Business or Operational Layer.
 3. **Legal and Governance Layer** – Enforces rights, obligations, and regulatory compliance across participants.
 
 
@@ -429,7 +429,7 @@ Maintaining this distinction ensures that governance models remain technically s
 A clear differentiation must be made between **data spaces** and **trusted data transactions (TDTs)**:
 
 - **Data spaces** are decentralized infrastructures that enable sovereign data exchange based on open standards. They preserve participant autonomy and operate without mandatory intermediaries.
-- **Trusted data transactions**, often associated with the *Data Governance Act* and specifications from initiatives such as *Gaia-X*, emphasize **data intermediaries** and **service orchestration**. These models prioritize regulatory alignment and controlled environments.
+- **Trusted data transactions**, as under current standardization in the European Commission's Standardization Request on a Trusted Data Framework in CEN/CENELEC JTC 25, can also be  associated with the EU *Data Governance Act*. They can also be related to **data intermediaries** and **service orchestration**. Such models prioritize regulatory alignment and controlled environments.
 
 While trusted data transactions may operate within data spaces, they are conceptually distinct. Equating them risks narrowing the scope of data space implementations and excluding more decentralized or peer-to-peer configurations.
 
