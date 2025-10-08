@@ -14,7 +14,7 @@
    * [Layers of data space governance](./2.%20Guiding_Principles/2.2%20Layers_of_data_space_governance.md)
    * [Data economy with digital sovereignty](./2.%20Guiding_Principles/2.3%20Data_economy_with_digital_sovereignty.md)
    * [Data space governance framework](./2.%20Guiding_Principles/2.4%20Data_Space_Governance_Framework.md)
-   * [Role models](./2.%20Guiding_Principles/2.5%20Role%20Models.md)
+   * [Role models](./2.%20Guiding_Principles/2.5%20Role_Models.md)
 * [Functional Requirements](./3.%20Functional_Requirements/3.%20Functional_Requirements.md)
    * [Achieving digital sovereignty](./3.%20Functional_Requirements/3.1%20Achieving_digital_sovereignty.md)
    * [Foundational concepts](./3.%20Functional_Requirements/3.2%20Foundational_concepts_of_a_data_space.md)
