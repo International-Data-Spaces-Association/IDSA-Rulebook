@@ -28,7 +28,7 @@
    * [Observability](./3.%20Functional_Requirements/3.9%20Observability.md)
    * [Vocabularies](./3.%20Functional_Requirements/3.10%20Vocabularies.md)
    * [Interoperability in Data Spaces](./3.%20Functional_Requirements/3.11%20Interoperability_in_data_spaces.md)
-* [Technical Agreements](./4.%20Technical%20Agreements/)
+* [Technical Agreements](./4.%20Technical_Agreements/4.%20Technical_Agreements.md)
    * [IDS RAM](4.%20Technical_Agreements/4.1%20IDS_Reference_Architecture_Model_(RAM).md)
    * [IDS Specifications on IDS-G](4.%20Technical_Agreements/4.2%20IDS_specifications_on_IDS-G.md)
    * [IDS Certification](4.%20Technical_Agreements/4.3%20IDS_Certification.md)
