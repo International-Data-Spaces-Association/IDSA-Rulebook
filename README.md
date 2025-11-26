@@ -1,20 +1,22 @@
 # IDSA Rulebook
-Welcome to the IDSA Rulebook page on Github! We are excited to announce the release of our Rulebook, which is a live document and will continue to evolve over time based on feedback and input from our community. 
+Welcome to the IDSA Rulebook page on Github! This is a live document and will continue to evolve over time based on feedback and input from our community. 
 
 ## Check IDSA Rulebook on IDSA Website
 :blue_book: [IDS Rulebook](https://docs.internationaldataspaces.org/idsa-rulebook-v2/) 
 If you prefer a rendered and easier-to-read version of this content (rather than reading it via Github), we invite you to [check out our page on IDSA Website](https://docs.internationaldataspaces.org/idsa-rulebook-v2/), where you can access the same information available on Github in a more reader-friendly format. 
 
 ## Purpose & motivation
-The IDSA Rulebook serves several purposes regarding the development and operation of data spaces. The aim is to describe clearly which rules are mandatory and which are optional guidelines. This governance framework includes functional, technical, operational, and legal dimensions:
+The IDSA Rulebook serves several purposes regarding the development and operation of data spaces. The aim is to describe clearly which rules are mandatory and which are optional guidelines. This framework includes functional and operational dimensions:
 
-- Guidelines for the functionality of common services are presented as well as the definition, processes, and services of specific roles.
+- How is the governance model of a data space established>
 
-- Guidelines how to implement or use a technical artefact of the IDSA.
+- What is the role of a participant in a data space?
+
+- How are data sharing agreements negotiated and how is it shared?
+
+- Guidelines for the functionality of common services are presented.
 
 - Guidelines for the work and collaboration within data services.
-
-- Guidelines for the legal basis in compliance with the regulatory environment to ensure trust and security.
 
 ## How to contribute to IDSA Rulebook?
 
