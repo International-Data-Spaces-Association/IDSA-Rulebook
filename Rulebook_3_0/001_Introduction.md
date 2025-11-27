@@ -54,7 +54,7 @@ You can find additional information about data space elements from IDSA in the f
 
 ## Relationship with other organizations, projects & initiatives
 
-### How Do Initiatives Relate in the field of Data Spaces?
+### How do initiatives relate in the field of Data Spaces?
 The field of Data Spaces and trusted data sharing is rapidly evolving. As industries, research institutions, and governments seek to collaborate across organizational and national boundaries, the need for interoperable approaches to data exchange has become critical. Multiple initiatives and groups are contributing to this ecosystem, each playing a distinct but complementary role. Together, they create the foundation for standardized, reliable, and scalable Data Space solutions.
 This section explains how these initiatives relate to one another, highlighting their contributions to specifications, standards, open-source implementations, and testing frameworks.
 It includes organizations, projects or standards that have made a significant contribution to or own a dependency for the IDSA Rulebook. This section will be regularly updated as the ecosystem grows and further contributions are made or when new dependencies arise.

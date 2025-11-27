@@ -4,29 +4,40 @@
 
 ## Table of contents ##
 
-* [Front Matter](./FrontMatter.md)
-* [Contributing Projects](./Contributing_Projects.md)
+* [Front Matter](FrontMatter.md)
+* [Contributing Projects](Contributing_Projects.md)
 
-* [Introduction](./1_Introduction.md)
-* [Guiding Principles](./2_Guiding_Principles.md)
-* [Functional Requirements](./3_Functional_Requirements.md)
-* [Interoperability in Data Spaces](./3_Interoperability.md)
-* [Technical Agreements](./4_Technical_Agreements.md)
-* [Organizational Agreements](./5_Organizational_Agreements.md)
-* [Legal Dimension](./6_Legal_Dimension.md)
-* [Summary and Outlook](./7_Summary_Outlook.md)
+* [Introduction](001_Introduction.md)
+* [Guiding Principles](002_GuidingPrinciples.md)
+    * [What is a Data Space](003_WhatIsADataspace.md)
+    * [Layers in Data Spaces](004_Layers.md)
+    * [Roles](005_Roles.md)
+
 
 ## Purpose & Motivation ##
 
-The IDSA Rulebook serves several purposes regarding the development and operation of data spaces. The aim is to describe clearly which rules are mandatory and which are optional guidelines. This governance framework includes functional, technical, operational, and legal dimensions:
+The IDSA Rulebook serves several purposes regarding the development and operation of data spaces. The aim is to describe clearly which rules are mandatory and which are optional guidelines. This governance framework includes functional, technical, and operational dimensions:
 
-* Guidelines for the functionality of common services are presented as well as the definition, processes, and services of specific roles.
+* Core Concepts of Data Spaces
+    * Governance of a Data Space 
+    * Autonomy and Agency of Participants
+    * Creating Trust between Participants
 
-* Guidelines on how to implement or use a technical artifact of the IDSA.
+* Guidelines on the core operation of a dataspace
+    * Onboarding Participants
+    * Discovering Data Sharing Offers
+    * Negotiating Data Sharing Agreements
+    * Sharing Data
 
-* Guidelines for the work and collaboration within data services.
+* Guidelines for the operation of common value-adding services
+    * Observability
+    * Vocabularies
+    * Marketplaces
 
-* Guidelines for the legal basis in compliance with the regulatory environment to ensure trust and security.
+* Guidlines for the integration of Dataspace Trust Frameworks
+    * Role of Trust Frameworks
+    * Functionality of Trust Frameworks
+    * Multiplicity of Trust Frameworks
 
 ## How to Contribute to IDS Rulebook? ##
 
@@ -35,10 +46,6 @@ We value your feedback and encourage all interested parties to review, comment, 
 One can become a contributor by joining the Rulebook Working Group as a member of [International Data Spaces Association](https://internationaldataspaces.org/). This is possible via contacting the co-chairs listed on [IDSA Website](https://internationaldataspaces.org/make/working-groups/).
 
 Please also visit our [Code of Conduct](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/CODE_OF_CONDUCT.md) and the [Contibuting information](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/CONTRIBUTING.md).
-
-## Changelog ##
-
-We maintain a [Changelog](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/CHANGELOG.md) to keep track of updates to the document.
 
 ## License ##
 

@@ -8,11 +8,6 @@ All content published here is provided and approved by the Working Group Ruleboo
 
 Please note that we have a [code of conduct](CODE_OF_CONDUCT.md) that all contributors should stick to.
 
-## Changelog
-
-We document changes in the [CHANGELOG.md](CHANGELOG.md) on root level which is formatted and
-maintained according to the rules documented on http://keepachangelog.com.
-
 ## Issues
 
 You always have to create an issue if you want to propose a correction, improvement, or feature.
@@ -20,15 +15,7 @@ Briefly and clearly describe the purpose of your contribution in the correspondi
 The pre-defined [labels](#labels) improve the understanding of your intentions and help to follow
 the scope of your changes.
 
-**Bug Report**: As mentioned above, bug reports should be submitted as an issue. To give others
-the chance to reproduce the error in order to find a solution as quickly as possible, the report
-should at least include the following information:
-* Description: What did you expect and what happened instead?
-* Steps to reproduce (system specs included)
-* Relevant logs and/or media (optional): e.g. an image
-
 ## Labels
-
 
 The [labels](https://github.com/International-Data-Spaces-Association/idsa/labels) are listed at the
 [issues](https://github.com/International-Data-Spaces-Association/idsa/issues).
@@ -51,28 +38,17 @@ developer that takes on the issue. New issues should be initially marked with `s
 
 After creating an issue yourself or if you want to address an existing issue, you have to create a
 branch with a unique number and name that assigns it to an issue. Therefore, follow the guidelines
-at https://deepsource.io/blog/git-branch-naming-conventions/. After your changes, update the
-`README.md`, Wiki, and `CHANGELOG.md` with necessary details. Then, create a pull request and note
-that **committing to the main branch is not allowed**. Please use the feature `linked issues` to
+at https://deepsource.io/blog/git-branch-naming-conventions/. 
+Make your changes in your branch, invite others to collaborate on those changes.
+Then, create a pull request and note that **committing to the main branch is not allowed**. Please use the feature `linked issues` to
 link issues and pull requests.
 
-Pull requests have to be approved by the IDSA Head Office.
+Pull requests have to be approved by 2 reviews from either the IDSA Head Office or the Working Group Leads.
 
 ## Commits
 
 We encourage all contributors to stick to the commit convention following the specification on
-[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). In general, use  the
-imperative in the present tense. A quick overview of the schema:
-```
-<type>[optional scope]: <description>
-[optional body]
-[optional footer(s)]
-```
-
-Types: `fix`, `feat`, `chore`, `test`, `refactor`, `docs`, `release`. Append `!` for breaking
-changes to a type.
-
-An example of a very good commit might look like this: `feat![login]: add awesome breaking feature`
+[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). In general, use  the imperative in the present tense. 
 
 ## Figures
 
@@ -82,3 +58,10 @@ Figures should always use a non transparent background.
 ## Versioning
 The IDSA Rulebook will adopt an incremental and flexible update model rather than adhering to a rigid versioning scheme, as different sections will evolve at varying speeds. 
 Leveraging Git as the version control system (VCS), all modifications will be fully traceable, ensuring a transparent audit trail of historical changes. Periodically, we will tag and publish release versions to provide a stable reference point for discussions beyond the core contributor group.
+
+## Non-linear layout
+The IDSA Rulebook is a non-linear document. Sections should reference other sections as needed and link to those referenced sections. 
+
+Each topic of the IDSA Rulebook shall be created in its own file for easier linking and asynchronous updating. Additional new topics can be added.
+
+Please, pay attention to update the the [Readme.md](README.md), as well as [Summary.md](SUMMARY.md) if you add additional topicss or remove existing ones. When removing existing ones, please, check for broken references in other files.
