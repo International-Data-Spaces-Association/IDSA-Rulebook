@@ -3,6 +3,12 @@
 ## Technical Role - Participant
 As established in the chapter on [Layers](004_Layers.md) the only technical role is the **Participant**. However, there are many different roles possible in the economic and legislative layers of a data space. This chapter explains the most important ones.
 
+## Data Space Governance Authority
+
+The Data Space Governance Authority (DSGA) is a special, functional role within a data space. It can be understood as the "legislative" of the data space by having the functional responsibility to define the rules and processes of the data space. 
+
+It serves a logical purpose within the Data Space Governance Framework but has no single definition of how it is implemented. To fully explain the role of the DSGA and not to distract from the Participant roles it is described in detail in its own chapter: [Data Space Governance Authority(DSG)](http://link-to-dsga-chapter.md)
+
 ## Common Business Roles
 
 Business roles in this Rulebook describe functions, and no status. The model
@@ -37,9 +43,9 @@ The data holder and data provider can be separate organizations (e.g. in cases w
 
 In a data space optional service providers can offer [optional capabilities](http://link_to__value_added_services_chapter) to enable data sharing or to provide business services. Fundamentally, all such service providers are considered to be a participant in a data space and therefore bound to the agreed policies and rules of a given data space. Their implementation must be representable as a participant at the technical level.
 
-**Intermediary** services are services that are acting on behalf of participants in the data space. This can be a range of activities within the data space: negotiating a data sharing contract on behalf of a participant, implementing technical infrastructure on behalf of the participant and making decisions on behalf of a participant, thus impacting their digital sovereingnty.
+**Intermediaries** are services that are acting on behalf of participants in the data space. This can be a range of activities within the data space: negotiating a data sharing contract on behalf of a participant, implementing technical infrastructure on behalf of the participant and making decisions on behalf of a participant, thus impacting their digital sovereingnty.
 
-Such intermediaries may be regulated by local governments like the EU Data Governance Act in the European Union. A detailed analysis can be found in the paper [Reflections on the DGA and Data Intermediaries](https://internationaldataspaces.org/download/42325/?tmstv=1708096468).
+Such intermediaries may be regulated by local governments like the EU Data Governance Act in the European Union, which defines a specific "Data Intermediary" role. A detailed analysis can be found in the paper [Reflections on the DGA and Data Intermediaries](https://internationaldataspaces.org/download/42325/?tmstv=1708096468).
 
 **Value-added service providers** act as a participant in the data space and
 do therefore conform to the data space governance framework. Such services aim to
@@ -62,6 +68,12 @@ Roles might also be described by legal regulation. An example of such regulation
 * Data Subjects are defined in GDPR.
 * Data Intermediation services or Data Intermediaries are subject of the Data Governance Act. (see [Reflections on the DGA and Data Intermediaries](https://internationaldataspaces.org/download/42325/?tmstv=1708096468))
 
-#### Data Space Governance Authority
 
-The Data Space Governance Authority (DSGA) is a special, functional role within a data space. It serves a logical purpose within the Data Space Governance Framework but has no single definition of how it is implemented. it is described in detail in its own chapter: [Data Space Governance Authority(DSG)](http://link-to-dsga-chapter.md)
+
+## Summary
+
+In line with the description of the [role models](005_Roles.md) and the [layered approach](#layers-of-a-data-space), the diagram below presents an overview on roles in data spaces and their affilation to the layers.
+
+![Overview on roles and their affiliation to layers in data spaces](./media/Role%20Overview%20Rulebook.jpg)
+
+This diagram is a foundation to depict the typical use cases of the roles in relation to data spaces. 

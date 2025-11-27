@@ -57,7 +57,7 @@ Participants in a data space are defined by their ability to automate the negoti
 
 - As data spaces are fully decentralized and participants are responsible for their own **decentralized identity (DID)** there are **no identity providers** in a data space. Participants provide proof of their identity to others through the use of claims (e.g. expressed through verifiable credentials) and not through a common identity provider. Access to resources is managed through authentication tokens issued directly by the participants sharing those resources.
 
-## The Role of External Actors
+## External Actors
 
 Entities that provide static resources (such as ontologies, schemas, or public credentials) may support the data space but are not considered participants unless they actively engage via governed interfaces implementing the standardized data space protocols. For example:
 
@@ -82,14 +82,6 @@ The Rulebook reflects these principles clearly:
 - **Clarity:** Visual representations and descriptions in the IDSA Rulebook must be clearly labeled to indicate whether they depict technical, business, or legal perspectives.
 
 Such clarity supports interoperability, ensures accurate alignment with regulatory frameworks, and promotes broad adoption across sectors.
-
-## Overview on roles and Layers
-
-In line with the description of the [role models](005_Roles.md) and the [layered approach](#layers-of-a-data-space), the diagram below presents an overview on roles in data spaces and their affilation to the layers.
-
-![Overview on roles and their affiliation to layers in data spaces](./media/Role%20Overview%20Rulebook.jpg)
-
-This diagram is a foundation to depict the typical use cases of the roles in relation to data spaces. 
 
 ## Conclusion
 
