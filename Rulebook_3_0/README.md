@@ -4,15 +4,16 @@
 
 ## Table of contents ##
 
-* [Front Matter](FrontMatter.md)
-* [Contributing Projects](Contributing_Projects.md)
-
 * [Introduction](001_Introduction.md)
-* [Guiding Principles](002_GuidingPrinciples.md)
+* [Foundational Principles](002_GuidingPrinciples.md)
     * [What is a Data Space](003_WhatIsADataspace.md)
     * [Layers in Data Spaces](004_Layers.md)
     * [Roles](005_Roles.md)
+    * [Data Space Governance Authority](006_DSGA.md)
+    * [Data Space Trust Frameworks](007_Dataspace_Trust_Frameworks.md)
+    * [Decentralized Design](008_Decentraliztion.md)
 * [Functional Requirements](100_Functional_Requirements.md)
+
 
 ## Purpose & Motivation ##
 
@@ -50,6 +51,10 @@ Please also visit our [Code of Conduct](https://github.com/International-Data-Sp
 ## License ##
 
 The IDSA Rulebook is published under the [Creative Commons License 4 CC-BY](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/LICENSE.md).
-## Sources ##
 
-Please find the resources for the IDSA Rulebook on [GitHub](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook).
+## Imprint
+* [Imprint](FrontMatter.md)
+* [Contributing Projects](Contributing_Projects.md)
+* [IDSA Rulebook Sources - GitHub](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook)
+
+
