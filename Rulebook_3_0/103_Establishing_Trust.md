@@ -1,15 +1,19 @@
-### Establishing trust
+# Establishing trust
 
-Establishing trust is fundamental to a data space. To create value from
-data, it needs to interact with other data and then supports decision
-making. The different entities must trust each other - without trust,
-data will not be shared. Data spaces can create context-specific trust
-where trust did not exist before or where it is difficult to establish
--- for example between competitors.
+**Establishing trust is the fundamental reason for data spaces to exist!**
 
-#### Attribute based trust
+To create value, data needs to interact with other data and then support decision
+making to enable actions that will create value. The potential to create value increases if data is more diverse, which often requires that multiple actors need to come together and share their data with each other. However, like in any human relationship: Before sharing comes trust. Without trust the risk of something going wrong seems to high and unmanageable. Creating trust reduces risk. Reduced risk lowers the barrier for sharing data.
 
-Establishing trust based on attributes is a control mechanism. A
+**Increaseing Trust lowers Risk**
+
+Data spaces can create context-specific trust where trust did not exist before or where it is difficult to establish -- for example between competitors. Therefore data spaces reduce the risk of sharing data and through that enable the creation of value.
+
+## Attribute-based trust
+
+Attribute-based trust is a way to establish trustworthiness between two parties based on specific attributes rather than a fixed identity. It functions as a control mechanism with minimal disclosure - only proving that certain conditions are met without revealing full details. 
+
+A
 participant's level of trust is determined by evaluating participant's
 attributes, data contract, data asset, and environment attributes. This
 evaluates the potential risk of sharing data with another participant.
@@ -49,7 +53,7 @@ different information systems with customized rules. It allows
 participants flexibility to build and use different implementations
 based on their requirements.
 
-#### Data space policies and rules
+## Data space policies and rules
 
 As introduced above, data spaces require membership policies (MP) as
 first barrier to their data space. There must also be a trust basis to
