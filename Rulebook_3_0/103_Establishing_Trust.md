@@ -1,5 +1,7 @@
 # Establishing trust
 
+Humans build trust with each other by evaluating attributes of the other person: attributes that are immediately verifiable (e.g., a language spoken) or attributes that require an external authority to verify them (e.g., a passport). To build trust, these attributes are matched against rules (personal, internal, implicit and/or explicit). If a sufficient number of policies are met, trust is established. Based on the attributes that have been evaluated, different levels of trust can be negotiated.
+
 **Establishing trust is the fundamental reason for data spaces to exist!**
 
 To create value, data needs to interact with other data and then support decision

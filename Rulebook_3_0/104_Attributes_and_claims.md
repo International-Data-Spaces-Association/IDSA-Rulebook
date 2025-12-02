@@ -1,12 +1,6 @@
-#### Attributes & self-descriptions
+# Attributes & Claims
 
-When people build trust with each other, they evaluate attributes of the
-other person: attributes that are immediately verifiable (e.g., a
-language spoken) or attributes that require an external authority to
-verify them (e.g., a passport). To build trust, these attributes are
-matched against (personal) policies. If a sufficient number of policies
-are met, trust is established. Based on the attributes that have been
-evaluated, different levels of trust can be negotiated.
+
 
 To create trust in a data space a very similar process is used. It is
 necessary to evaluate attributes of participants and match them with the

@@ -18,7 +18,9 @@
     * [Establishing Trust](103_Establishing_Trust.md)
     * [Attributes and Claims](104_Attributes_and_claims.md)
     * [Policies](105_Policies.md)
+    * [Establishin Membership in a Dataspace](106_Dataspace_Membership.md)
 
+* [Glossary](910_Glossary.md)
 * [Summary and Outlook](999_Summary_Outlook.md)
 
 
