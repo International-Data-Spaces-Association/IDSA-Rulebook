@@ -1,4 +1,4 @@
-#### Policies
+# Policies
 
 Policies ensure a trusted data ecosystem within a data space. They are
 used at multiple levels and at almost any interaction point. The two
