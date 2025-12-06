@@ -1,3 +1,22 @@
+### Catalog
+
+The catalog component supports the search for available data contracts.
+Information about data contracts can be exchanged between participants
+without the use of a catalog by sending the offer directly via a
+separate channel (e-mail, notification). A catalog will be a common
+component to implement data discoverability. It can be implemented as a
+managed service by one or more selected participants, hosted by the data
+space governance authority, or operated in a fully decentralized fashion by every
+participant that offers data contracts (see the visual representation of
+various implementation designs of the DSGA above). The type of catalog
+architecture used depends on the design of the data space as well as the
+needs and capabilities of the participants.
+
+Hybrid catalog models combining central and distributed catalogs with
+individual decentralized catalogs are possible, but must be carefully
+designed to avoid unnecessarily increasing the complexity of
+participating in the data space.
+
 ### Catalog(s)
 
 Sharing data among participants requires the provision of metadata --
