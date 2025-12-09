@@ -39,4 +39,4 @@
    * [Legal Agreements and SITRA Rulebook](./6.%20Legal_Dimension/6.2%20Legal_Agreements_&_SITRA_Rulebook.md)
    * [Contract templates for IDS](./6.%20Legal_Dimension/6.3%20Contract_templates_for_IDS.md)
 * [Summary and Outlook](./7.%20Summary_Outlook/7_Summary_Outlook.md)
-* [Annex 1: AI and Dataspaces: Shaping the Future of Trusted, Decentralized Intelligence](./Position_and_Think Papers/AI Agents & Data Spaces.md) 
+* [Annex 1: AI and Dataspaces: Shaping the Future of Trusted, Decentralized Intelligence](./Position_and_Think%20Papers/AI%20Agents%20%26%20Data%20Spaces.md) 
