@@ -18,7 +18,17 @@
     * [Policies](105_Policies.md)
     * [Establishing Membership in a Data Space](106_Dataspace_Membership.md)
     * [Identity in Data Spaces](107_Identity.md)
-
+    * [Data Space Participation](108_Data_space_participation.md)
+    * [Data Sharing](110_Data_sharing.md)
+    * [Creating a Data Space](114_Creating_a_data_space.md)
+    * [Interoperability in Data Spaces](115_Interoperability_in_data_spaces.md)
+    * [Data Discovery Services](120_DataDiscoveryServices.md)
+    * [Observability](121_Observability.md)
+    * [Vocabularies](122_Vocabularies.md)
+    * [Marketplace](123_Marketplace.md)
+    * [Processing Services](124_ProcessingServices.md)
+    * [Connector](125_Connector.md)
+    * [AI Agents](130_AI_Agents.md)
 * [Glossary](910_Glossary.md)
 * [Summary and Outlook](999_Summary_Outlook.md)
 
