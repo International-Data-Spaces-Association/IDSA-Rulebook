@@ -1,3 +1,6 @@
+#  WORK IN PROGRESS!!!
+
+
 - benefits of decentralization
 - onboarding
 - participant registry (none)
