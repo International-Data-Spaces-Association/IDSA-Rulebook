@@ -5,10 +5,11 @@ Trust in a decentralized data space is a situational, time-bound, and purpose-sp
 
 Trust is:
 
-- Not global.
-- Not transitive by default.
-- Not permanent.
-- Not equivalent to identity, certification, or prior membership.
+- **Not global**: each decision to trust is local to one specific data sharing contract.
+- **Not transitive**: each decision to trust applies only to the two parties involved in the data sharing contract.
+- **Not reciprocal**: if one participants A decides to trust another participant B it doesn't enforce that B also must trust A.  
+- **Not permanent**: the trust decision can change if the pre-requisits change
+- **Not equivalent to identity, certification, or prior membership**: those elements can be attributes used to create trust.
 
 ## Non‑Assumptions
 A conforming decentralized data space must not assume:
@@ -28,9 +29,9 @@ The data plane is agnostic to trust logic and trust state.
 Trust decisions may influence if, when, and how data plane interactions are initiated or continued.
 
 
-## Trust Claims
+## Claims
 Trust is derived by claim reconciliation at interaction time.
-Valid trust claim inputs include:
+Valid claim inputs include:
 
 - Verifiable claims (representing evidence about identity, attributes, roles, attestations).
 - Declared policies and obligations.
