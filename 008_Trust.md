@@ -1,0 +1,130 @@
+# Trust in Data Spaces
+
+## Definition
+Trust in a decentralized data space is a situational, time-bound, and purpose-specific assessment of whether another participant can be relied upon to act within declared constraints for a specific interaction.
+
+Trust is:
+
+- Not global.
+- Not transitive by default.
+- Not permanent.
+- Not equivalent to identity, certification, or prior membership.
+
+## Non‑Assumptions
+A conforming decentralized data space must not assume:
+
+- A central authority, broker, registry, or trust anchor.
+- Pre-established federation membership.
+- Static certification or onboarding events as sufficient for trust.
+- Homogeneous policy languages or enforcement stacks.
+- That trust can be inferred solely from cryptographic identity.
+
+Any architecture relying on these assumptions is not representative of a data space.
+
+## Separation of Concerns
+Trust assessment must be confined to the control plane.
+
+The data plane is agnostic to trust logic and trust state.
+Trust decisions may influence if, when, and how data plane interactions are initiated or continued.
+
+
+## Trust Claims
+Trust is derived by claim reconciliation at interaction time.
+Valid trust claim inputs include:
+
+- Verifiable claims (representing evidence about identity, attributes, roles, attestations).
+- Declared policies and obligations.
+- Observed runtime behavior from prior interactions.
+- Third-party assertions with verifiable provenance (expressed as verifiable claims).
+- Contextual factors (purpose, jurisdiction, risk class, data category).
+
+Absence of an input must be interpreted as negative trust.
+
+## Trust Formation
+Trust formation is an explicit, local process.
+Each participant:
+
+- Evaluates incoming claims and policies against its own constraints.
+- Determines acceptability for a specific action and scope.
+- Maintains its own trust state without global publication.
+
+- Trust formation must be repeatable and auditable by the evaluating party.
+- Trust outcomes must be explainable in terms of accepted and rejected claims.
+
+## Trust is a Runtime Property
+Trust exists only while its assumptions hold.
+Therefore:
+
+Trust can be continuously re-evaluated for long-running interactions.
+Material changes in claims, policies, context, or behavior should trigger re-evaluation.
+Cached trust decisions should have explicit validity bounds.
+
+There is no concept of “once trusted, always trusted”.
+
+## Trust and Policy Interaction
+Policies do not enforce trust; they express expectations.
+Trust emerges from:
+
+- Comparing declared policies with verifiable claims.
+- Assessing whether obligations can realistically be met.
+- Evaluating enforcement mechanisms offered by the counterparty.
+
+Policy compliance must be treated as probabilistic unless directly observable.
+Trust decisions should explicitly capture residual risk.
+
+## Revocation and Trust Withdrawal
+Trust can be revoked at any time.
+Triggers for withdrawal include:
+
+- Claim revocation or expiry.
+- Policy violations or non-compliance signals.
+- Context changes invalidating prior assumptions.
+- Inability to re-validate critical assertions.
+
+### Revocation:
+
+- Propagates to ongoing interactions.
+- Can require termination, degradation, or isolation of data access.
+- Doesn't depend on centralized revocation services.
+
+## Failure Modes
+Architectures implementing Trust should explicitly handle:
+
+- False-positive trust due to over-reliance on credentials.
+- False-negative trust due to incomplete information.
+- Asymmetric trust where only one side evaluates rigorously.
+- Stale trust decisions in long-lived processes.
+- Strategic misrepresentation of policies or capabilities.
+
+Ignoring these failure modes renders trust claims non-credible.
+
+## Interoperability Constraints
+To remain interoperable:
+
+- Trust mechanisms must rely on minimal shared and discoverable semantics.
+- Claim formats must be extensible and schematically loose.
+- Trust logic must not  assume shared policy languages, implementations or engines.
+
+Interoperability emerges at the protocol boundary, not the trust model.
+
+## Governance Implications
+Trust is inseparable from governance.
+Therefore:
+
+- Dataspace Trust Frameworks (DTFs) must define acceptable trust evidence categories.
+- Dispute resolution must acknowledge divergent trust assessments.
+- Cross-domain interactions must tolerate incompatible trust conclusions.
+
+Consensus on outcomes is optional; consistency of process is mandatory.
+
+## Explicit Invariants
+A decentralized dataspace conforming to this model therefore must uphold:
+
+- Local autonomy of trust decisions.
+- Explicit trust scope and duration.
+- Continuous re-evaluation and revocation.
+- No mandatory central trust services.
+- No implicit trust via participation alone.
+
+**These invariants take precedence over compatibility with prior dataspaces models.**
+
