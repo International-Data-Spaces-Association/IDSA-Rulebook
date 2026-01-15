@@ -41,16 +41,23 @@ Valid claim inputs include:
 
 Absence of an input must be interpreted as negative trust.
 
-## Trust Formation
+## Trust establishment mechanisms
+Trust establishment in data spaces relies on the exchange and verification of claims, dynamic policy negotiation, and evidence collection. 
+
 Trust formation is an explicit, local process.
+
 Each participant:
 
 - Evaluates incoming claims and policies against its own constraints.
 - Determines acceptability for a specific action and scope.
 - Maintains its own trust state without global publication.
 
-- Trust formation must be repeatable and auditable by the evaluating party.
-- Trust outcomes must be explainable in terms of accepted and rejected claims.
+Trust formation must be repeatable and enable auditable by the evaluating participant. The audit logs might have to be shared through data space [observability](121_Observability.md)
+
+Trust outcomes must be explainable in terms of accepted and rejected claims.
+
+Trust mechanisms must support decentralized identities without centralized identity providers, gatekeepers or brokers. Policy and claims exchange uses interoperable, machine-readable protocols and formats.
+
 
 ## Trust is a Runtime Property
 Trust exists only while its assumptions hold.
