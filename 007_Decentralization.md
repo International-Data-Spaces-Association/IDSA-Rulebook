@@ -1,142 +1,52 @@
-#  WORK IN PROGRESS!!!
+# Decentralization Principles for Data Spaces
 
+## The benefit of decentralized data spaces
+In an era defined by rapid digital transformation and complex data ecosystems, the architecture of data spaces must empower participants with maximum autonomy and agency to support their digital sovereignty. A fully decentralized data space architecture stands out as the optimal approach, ensuring that all stakeholders retain control over their data, participate on equal footing, and benefit from robust interoperability while providing the necessary control, agility, robustness and performance needed for a world of trusted data sharing, community based data ecosystems, cooperative data sharing and interconnected, autonomous software agents driven by AI. 
 
-- benefits of decentralization
-- onboarding
-- participant registry (none)
+The core principles and practical advantages of decentralization in data spaces are well aligned with the [ISO 20151 - “data space concepts and characteristics”](https://www.iso.org/standard/86589.html) standard. 
 
-#### Decentralized data space governance authority
+## Maximizing Participant Autonomy and Agency (Sovereignty)
+At the heart of decentralized data space architecture is the principle of participant autonomy and agency. Each organization or entity operates independently, and is fully capable of deciding when to share which data assets with whom, under what circumstances and which rules apply to the usage of the shared data. Participants are managing their own credentials decribing their identity, without reliance on an external party controlling the their identity through a singular identity provider. They manage their interactions without centralized authorities or services. This approach protects digital sovereignty, allowing participants to decide how, when, and with whom their data is shared — critical for compliance, privacy, and strategic control. 
 
-Using a decentralized design enables the highest level of autonomy and
-sovereignty. The core element enabling a participant to act autonomously
-is the identity system. By using a decentralized identity system each
-participant is responsible to maintain identity information that can be
-verified by other participants or the DSGA, rather than relying on a
-centralized identity provider.
+## Protocols for Interoperability: Leveraging DSP and DCP
+Interoperability is essential for data spaces to function as collaborative, decentralized meshes of participants. With connector implementations leveraging [data space Protocol (DSP)](https://eclipse-dataspace-protocol-base.github.io/dataspaceProtocol) and [Decentralized Claims Protocol (DCP)](https://eclipse-dataspace-dcp.github.io/decentralized-claims-protocol) to facilitate seamless, standardized interactions between participants. 
 
-Once decentralized identities are established, all other functional
-services can also to be decentralized, minimizing or even eliminating
-barriers to participant sovereignty.
+Technical interoperability between individual participants can be guaranteed irrespective of the data space which is operating as a governance and business context on top of the mesh of participants. These protocols enable connectors to exchange data and services without vendor lock-in, ensuring that integrations remain flexible, secure, and future-proof.
 
-It should be noted that in a decentralized data space a lot of the
-responsibility for operating essential functional roles shifts from the
-DSGA to the participants. For example, in a centralized model, the DSGA is
-expected to operate the catalog of available data assets, while in a
-decentralized model, each participant is responsible for publishing its
-available data directly and in turn, each participant needs to ask all
-other participants about their available assets.
+Let’s revisit the mental model of layers of a data space. At the technical layer a data space consists of a decentralized mesh of individual nodes, which are acting with full autonomy and agency. Only in the higher layers of business and legislation processes the segmentation into separated trust contexts are manifesting. Such trust contexts can be “strong borders”, representing boundaries between data spaces in different nations, but also can be “weaker borders”, representing a segmentation into individual use cases within a data space. No matter where the segmentation takes place, all use cases are unified by the common, interoperable technology, founded on a solid base of the DSP and DCP.
+ 
+![Layers of a data space](./media/Layers.png)
 
-Another advantage of a decentralized system is that it is usually more
-resilient to errors or bad actors, since problems in individual nodes do
-not automatically affect all participants of the data space. Finally, a
-decentralized system does not require an ever-increasing number of
-centralized services. Each node is self-contained and provides all the
-endpoints necessary to interact with it. A data space can grow and scale
-much more efficiently than a centralized design, where the resources to
-provide central services must grow exponentially.
+## Roles in the data space: Governance Authority and Participant
+As described in the chapter on [Roles](005_Roles.md) Decentralized data space architectures define only two essential roles: the [**Data space Governance Authority (DSGA)**](006_DSGA.md) and the [**Participant**](005_Roles.md). The DSGA establishes rules and specifies which [**Dataspace Trust Frameworks (DTFs)**](009_Dataspace_Trust_Frameworks.md) will be used,  who operates the accepted [Onboarding Services](140_Decentralized_Patterns_Onboarding.md) and which mandatory business processes exist, while participants actively engage in the data space to negotiate data sharing contracts and execute existing agreements. Notably, service provider organizations can host governance and onboarding services, providing the necessary legal and business frameworks for onboarding and compliance.
 
-### Decision areas
+Any business role within the data space, e.g. Provider, Consumer, Auditor, Marketplace, and many others can be built as a specialization of the technical role of the participant. 
 
-#### Sovereignty
+There is no need for custom technical architectures or specialized protocols to satisfy those business roles and their requirements. No additional architectural components (e.g. central or federated catalogs, identity providers, etc…) are needed to create an operational data space. On the contrary, adding such special architectural components reintroduces centralization and fragility to the data spaces and becomes a single point of control and potential failure, very often resulting in performance bottlenecks or preferred attack points during cybersecurity events.
 
-The goal of digital sovereignty is autonomy, which is different from
-independence -- it means acting with choice. It includes control over
-when and where data is stored and how it can be accessed. Sovereignty
-and autonomy are not binary concepts but move along a spectrum. The goal
-is to increase sovereignty and autonomy until a desired threshold is
-reached. In that sense, the concept is similar to that of privacy.
+## Trust Frameworks and Credential Management
+Trust within the data space is governed by at least one [**Dataspace Trust Framework (DTF)**](009_Dataspace_Trust_Frameworks.md). DTFs contain the rules that are fundamental to trust creation within the data space. An empty DTF/no DTF also qualifies as a DTF as no rules can be interpreted as data being shared with anyone without conditions (e.g.: Open Data). 
 
-#### Resilience
+DTFs can be built hierachically by partial DTFs, external DTFs, DTF building blocks, etc. It is the responsibility of the [**DSGA**](006_DSGA.md) to and/or the participant to resolve potential conflicts between used DTFs to arrive at a final set of rules without ambiguity. If a data asset is offered under two different rule sets it is being represented as two different contract offers.
 
-Resilience in a data space is about the ability of the ecosystem and
-individual actors to continue functioning in the event of unforeseen
-problems.
+Instead of maintaining membership lists, the architecture relies on onboarding credentials — requested/issued and managed by participants themselves, checked and validated by onboarding services and signed by signatory services, the credential issuance service of the DTFs. This model ensures that each participant is responsible for their own credential lifecycle, promoting autonomy and reducing administrative overhead.
 
-#### Scalability
+Credential verification is handled on-demand, reinforcing the decentralized nature of the data space and minimizing the risk of single points of failure or control.
 
-Scalability of a data space is not about the volume of data but about
-the number of participants, the amount of the data assets shared, and
-the number of negotiated contracts.
+## Advanced Business Functions: Mapping to Participant Roles
+Advanced business cases such as participant matching, observer roles, and data marketplaces can be easily mapped to the participant role. For example:
+-	[**Marketplace/Matching Participants**](123_Marketplaces.md): Multiple participants can provide a service that allows the  discovery of and connection with other participants using catalogs and vocabularies, without central mediation. Each participant that wants to participate in a marketplace or a matching service shares their metadata through a data sharing contract with the Marketplace/Matching Service Provider Participant, who then in return will offer a data sharing contract with the potential matches. All within the rules of the data space, ensuring that autonomy and agency is preserved. Having multiple, independent such Service Providers will greatly enhance the freedom of choice and resiliency of the data ecosystem.
+-	[**Observers**](121_Observability.md): Entities wishing to observe or audit interactions within the data space can do so by joining as participants with observer-specific credentials. Participants that are negotiating a contract that requires auditing can then both negotiate a data sharing agreement with the Observer participant to share their individual log files of the transaction. The Observer will provide the service of auditing and reconciling those log files and in return issue a data sharing agreement with the two participants where the results of the audit will be shared. Again, all perfectly within the rules and processes of the data space, fully preserving participant autonomy and agency.
+-	[**Data Escrow Service Providers**](124_ProcessingServices.md): Data escrow operations are managed by participants acting as service providers, who are offering a trusted data escrow environment - a confidential compute environment where two or more participants can share their data and have computation being performed on the data without any of those participants ever having access to all data at once. The Data Escrow Service Provider participant guarantees the operation of the environment, and the distribution of results. With special encryption methods it can also be guaranteed that the Data Escrow Service Provider never gets to see the actual data. This is enabling joint analysis of data  while ensuring the highest level of data privacy. E.g., in medical research scenarios or financial services.
 
-#### Control
+When designing the data space business functions it is important to pay attention that the introduction of mandatory value-added services might introduce unwanted centralization or federation thus leading to undesirable concentration of control and accidental single point of failures/attack that can negatively affect the participants in the data space. It is highly recommended to enable an open market of competing value-added services to ensure higher resiliency and avoid centralization of control.
 
-In this context, a high level of control means that the entity operating
-the DSGA can control access to the services as well as the content they
-provide. This is in direct contrast to sovereignty, where the control
-lies with the individual participant.
+## Global data space Connector Mesh
+As decentralized architectures proliferate, a global mesh of data space connectors is emerging. Each data space maintains its own legal and trust boundaries, ensuring that governance and compliance are localized and context-specific. At the same time, the underlying technologies—connectors, protocols, credential management systems—are reusable across multiple data spaces, maximizing efficiency and reducing duplication.
+This mesh enables organizations to participate in multiple data spaces seamlessly, leveraging consistent standards and interoperable technologies.
 
-#### Simplicity
+## Use Case Segmentation
+Segmentation within the data space is achieved via use case-specific credentials which might be issued by credential issuers that are providing specialized DTFs for a specific use case. For instance, in the automotive supply chain, manufacturers, suppliers, and logistics providers each hold credentials tailored to their role and use case. Use cases could be anything from specific business processes, regulatory requirements to smaller communities created by the supply chain of a specific company. This segmentation ensures that data access, sharing, and collaboration are precisely controlled, supporting advanced business models such as just-in-time delivery, quality assurance, and regulatory compliance.
 
-Well-established technologies and architecture models are easier to
-deploy because implementing teams have experience with them. The
-interaction model between participants as well as the business model of
-the data space are included in this category.
-
-#### Discoverability
-
-Discoverability is the measure of how many steps are necessary to find
-the data offered in the data space. Since data asset information can
-always be exchanged directly between participants, this measure only
-considers how complex a query would be to find all data assets currently
-offered in the data space.
-
-### Decision support
-
-As all decision areas are connected and partially work against each
-other, it is necessary to look at them holistically and not focus on one
-area. Make sure you weigh the importance of these decisions according to
-your business and technical needs. The technical maturity of the planned
-participants is an important factor. Many organizations are willing to
-compromise on their digital sovereignty in exchange for convenience and
-business value.
-
-Many models exist in between the main three implementation designs. The
-following charts highlight some of the interdependencies between the
-decision areas for planning, implementing and operating a data space:
-
-With a centralized design the entity operating identity and catalog
-services has a lot of control. It is easy to setup, only one entity
-needs to deal with the DSGA services, and participants can simply query
-one catalog and rely on the DSGA as a trust anchor to issue a participant
-ID. But this design impairs participant sovereignty, is less resilient
-and difficult to scale as the central services will grow exponentially
-in their resource requirements as more participants join.
-
-The distributed design sits in the middle of the spectrum. Control is
-not exercised by a single entity but by multiple federators and thus not
-a single entity can make arbitrary decisions. However, participants
-still do not have full control over their actions, so sovereignty is
-still impaired. Resilience and scalability are improved by having
-multiple nodes of the data space services that can either be setup as
-partitions or as replicas. Discoverability must take into account the
-partitioning of the catalog and might become more complex.
-
-The aim of the decentralized design is to maximize the sovereignty of
-individual participants and grant them as much autonomy as possible.
-This reduction in dependency on central services automatically leads to
-higher resilience and better scalability. However, it adds complexity
-for the individual participant, as all participants now need to operate
-service nodes that participate in the discovery process of available
-data. Some data spaces might require additional control over
-participants and their actions, which is harder to achieve in a
-decentralized implementation.
-
-The figure below gives a comprehensive overview of the values within the
-decision areas when implementing a centralized, federated/distributed,
-or decentralized approach.
-
-![Comparison of models for decision support](../media/media/image16.png)
-
-Another way to compare the features and
-capabilities of the different designs is to separate the decision areas
-into a business and a technical perspective. Which design benefits the
-business value of the data space vs. which design aspects are a
-technical necessity? A careful compromise design-decision can be voted
-on by the founding parties of the data space to reach the optimal
-implementation.
-
-These three models are just examples of possible implementation designs.
-Every data space should be tailored to the needs of its participants.
-Any entity that wishes to participate in a data space should investigate
-the implementation design in detail to ensure the design grants them the
-aspired level of sovereignty and supports its business goals.
+## Decentralization as the default
+A fully decentralized data space architecture delivers unmatched benefits in participant autonomy, digital sovereignty, and interoperability. By aligning with ISO 20151, leveraging DSP and DCP protocols, and streamlining roles and credential management, organizations can build robust, flexible, and future-ready data ecosystems. As the global connector mesh expands and technology is reused across domains, the potential for innovation and collaboration grows exponentially. Segmentation via use case-specific credentials ensures that each participant operates within precise trust boundaries and as effectively as possible, paving the way for the next generation of digital business.
