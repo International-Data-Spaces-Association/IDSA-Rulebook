@@ -96,6 +96,13 @@ important to understand data classification, and regulatory
 controls to design not just the right policies but also to mandate the
 appropriate level of technical components that ensure proper handling of
 the data without inccuring unnecessary cost or constructing detrimental barrieres to sharing.
+
+**Enforcement guidance (example mapping):**
+- **Low sensitivity:** Monitoring and contractual remedies; participants are expected to perform periodic verification and rely on legal enforcement when misuse is detected.
+- **Medium sensitivity:** Robust logging, decentralized observability, periodic automated checks, and contractual remediation; independent observers or auditors can be used for dispute resolution.
+- **High sensitivity:** Strong technical enforcement (e.g., confined compute, mandatory encryption, short trust validity), on-demand revalidation of claims, and involvement of observers/auditors as participants. Real-time or per-execution checks are recommended.
+
+Who monitors: enforcement and verification are primarily the responsibility of participants. Decentralized observability services, auditor participants, or notarization services can be used to provide independent evidence; the DSGA should define expected verification intervals and monitoring roles for each sensitivity class.
   
 | **Example**  |    **ProtectionNeed** | **Explanation** |
 | :------------| :--------------------: | :---------------|

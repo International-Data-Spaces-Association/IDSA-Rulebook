@@ -16,7 +16,7 @@ A DSGA should not prescribe implicit central services or federations. The DSGA a
 
 **Important**: An Operator of a value-added data space service is NOT a DSGA. They can operate a service that supports the implementation of the governance model provided by the DSGA.
 
-A DSGA is a collection of information about a data space governance model, not its implementation. It can contain information about how to implement the governance model, but it is not the implementation.
+A DSGA is a formal specification of the governance model and rules of a data space; it describes policies, trust frameworks, and operational processes. While the DSGA itself is not a deployed runtime service, it must be instantiated (operationalized) through one or more implementation patterns — for example participant-enforced controls, service-provider implementations, or an operations company — and the chosen instantiation must be documented, transparent, and explain how enforcement is achieved.
 
 ## Implementation of the DSGA
 

@@ -76,7 +76,8 @@ to be implemented to create the data space:
 3. Provide a discovery mechanism for the data space (website, contact
     form, etc.)
 
-Once the DSGA is instantiated, organizations can apply for membership.
+Once at least one Onboarding Service implementing the DSGA is instantiated, organizations can apply for membership.
+The functional elements listed above are mandatory capabilities for a functioning data space, but they may be implemented in decentralized or centralized ways. When a centralized or federated implementation is chosen, the DSGA must document the reasons for that choice and describe mitigating measures to protect participant autonomy and agency.
 After a participant joins, there are two main activities that all
 participants are interested in: discovering data shared by others and
 sharing their own data in a controlled manner to ensure autonomy and

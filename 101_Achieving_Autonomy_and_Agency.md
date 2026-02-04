@@ -6,7 +6,7 @@ The [Manifesto of international data spaces](https://docs.internationalDataSpace
 
 > Any central or federated control impairs the participant autonomy & agency, reducing their ability to act within the data space. 
 
-Thus data spaces are inherently decentralized with no central or federated services, especially identity providers but instead realying on **decentralized identities (DIDs)**, giving maximum control over their identity to each individual participant.
+IDSA recommends decentralized architectures and decentralized identities (DIDs) as the preferred approach to maximize participant autonomy and agency. In practice, the DSGA may define acceptable forms of identity evidence, trust anchors, and onboarding processes as governance constraints; these are documented governance choices that participants can evaluate when deciding whether to join or interact in a data space.
 
 DIDs and associated mechanisms are the basis for sharing attributes describing a
 participant and providing evidence about the claims of those attributes in a data space. The participants claims provides vital information to

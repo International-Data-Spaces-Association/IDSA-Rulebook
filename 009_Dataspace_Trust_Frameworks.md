@@ -28,6 +28,8 @@ Failure modes may include:
 - **Policy Incompatibility**: If reconciliation fails, interactions are aborted with clear error codes.
 - **Claim Compromise**: Detected via integrity checks; compromised claims invalidate trust chains.
 
+When multiple Dataspace Trust Frameworks (DTFs) apply to an interaction, the DSGA must define explicit reconciliation rules. Absent explicit guidance, a conservative default is to require the intersection of constraints (the most restrictive applicable constraints) to be satisfied. The DSGA should also define escalation paths (e.g., arbitration, human review, or a voting mechanism) for irreconcilable conflicts and document the expected outcomes and timelines in the governance material.
+
 ### Governance Coupling
 
 DTFs integrate technical and governance layers:

@@ -29,3 +29,5 @@ presentations. The exact serialization format and service endpoints
 depend on the implementation of the data space and the trust anchors in
 use.
 
+Note: The disadvantages listed for decentralized identities describe governance and operational trade-offs, not a loss of participant agency. DSGAs may define accepted trust anchors and onboarding processes; participants remain free to accept or decline those trust anchors and thereby preserve agency in their decision to join or interact.
+

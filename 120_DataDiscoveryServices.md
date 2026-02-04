@@ -52,7 +52,7 @@ evaluate their capabilities:
 | **Federated catalog** | Deployment by a limited number of participants, while most participants don’t need to deploy any catalog components | Additional replication mechanisms are needed |
 |  | Federated control – voting mechanisms for content control can be implemented | A small group of operators of federated catalog nodes can control participation in the data space |
 | **Decentralized catalog** | Every participant can autonomously decide which catalog items they share with whom | Every participant needs to run a catalog component |
-|  | No interference in the interaction between two participants through a 3rd party | A list of available catalogs needs to be either centrally provided through the DSGA or discoverable through a peer-to-peer protocol |
+|  | No interference in the interaction between two participants through a 3rd party | A list of available catalogs needs to be either  provided through the DSGA or discoverable through a peer-to-peer protocol. The DSGA should specify the chosen catalog architecture and justify any centralized or federated choices, documenting the associated trade-offs and the mitigations used to preserve participant autonomy and neutrality.
 |  | Data Space as a whole is more resilient towards cyberattacks even though individual members can experience outages | Participants need to crawl each other’s catalogs to see which items are available |
 |  | Easier to scale |  |
 

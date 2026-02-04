@@ -56,7 +56,7 @@ Trust formation must be repeatable and enable auditable by the evaluating partic
 
 Trust outcomes must be explainable in terms of accepted and rejected claims.
 
-Trust mechanisms must support decentralized identities without centralized identity providers, gatekeepers or brokers. Policy and claims exchange uses interoperable, machine-readable protocols and formats.
+Trust mechanisms must support decentralized identities without mandatory reliance on a centralized or federated identity provider, gatekeeper, or broker. Participants and the DSGA may define and accept multiple trust anchors (credential issuers) as part of the Dataspace Trust Framework; reliance on an accepted anchor is a deliberate governance choice and does not imply implicit central control. Policy and claims exchange uses interoperable, machine-readable protocols and formats.
 
 
 ## Trust is a Runtime Property
@@ -65,9 +65,9 @@ Therefore:
 
 Trust can be continuously re-evaluated for long-running interactions.
 Material changes in claims, policies, context, or behavior should trigger re-evaluation.
-Cached trust decisions should have explicit validity bounds.
+Cached trust decisions should have explicit validity bounds. A participant MAY reuse a cached trust assessment for similar future interactions only if the scope, risk class, and validity period are explicit, conservatively limited, and documented; cached assessments must be re-evaluated on any material change to claims, policies, or context.
 
-There is no concept of “once trusted, always trusted”.
+There is no concept of “once trusted, always trusted”. Participants should define verification frequency according to the sensitivity of the data and the risk of the interaction (for high-sensitivity assets require on-demand or per-execution revalidation; for lower-sensitivity assets periodic revalidation may be acceptable). Revocation signals must be handled promptly by participants; the DSGA or chosen DTFs should document expected propagation and verification intervals for different risk classes.
 
 ## Trust and Policy Interaction
 Policies do not enforce trust; they express expectations.

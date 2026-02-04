@@ -1,7 +1,7 @@
 # Decentralization Principles for Data Spaces
 
 ## The benefit of decentralized data spaces
-In an era defined by rapid digital transformation and complex data ecosystems, the architecture of data spaces must empower participants with maximum autonomy and agency to support their digital sovereignty. A fully decentralized data space architecture stands out as the optimal approach, ensuring that all stakeholders retain control over their data, participate on equal footing, and benefit from robust interoperability while providing the necessary control, agility, robustness and performance needed for a world of trusted data sharing, community based data ecosystems, cooperative data sharing and interconnected, autonomous software agents driven by AI. 
+In an era defined by rapid digital transformation and complex data ecosystems, the architecture of data spaces must empower participants with maximum autonomy and agency to support their digital sovereignty. IDSA recommends decentralized data space architectures as the preferred approach because they best preserve participant control, equal treatment, and robust interoperability. Alternative architectures may be used where operational or regulatory constraints justify them, but any departure from decentralization must be documented and the impact on participant autonomy mitigated by the DSGA.
 
 The core principles and practical advantages of decentralization in data spaces are well aligned with the [ISO 20151 - “data space concepts and characteristics”](https://www.iso.org/standard/86589.html) standard. 
 

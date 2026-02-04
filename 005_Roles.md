@@ -39,6 +39,11 @@ right to grant access to or to share certain data in accordance with applicable 
 
 The data holder and data provider can be separate organizations (e.g. in cases where intermediares are being introduced) but often will be two perspectives on the roles of the same participant, depending on context.
 
+**Role mapping guidance:**
+- **Data Holder:** the legal owner or rights holder of the data (responsible for legal compliance and consent decisions).
+- **Data Provider:** the entity that makes the data technically available (responsible for data access, availability, and technical controls).
+- **When roles differ:** Contracts must explicitly allocate responsibilities (consent, liability, enforcement, and notification) and the DSGA may require that member self-descriptions include role assignments to make responsibilities discoverable.
+
 ### Service Provider (intermediary, value-adding services)
 
 In a data space optional service providers can offer [optional capabilities](http://link_to__value_added_services_chapter) to enable data sharing or to provide business services. Fundamentally, all such service providers are considered to be a participant in a data space and therefore bound to the agreed policies and rules of a given data space. Their implementation must be representable as a participant at the technical level.
@@ -46,6 +51,11 @@ In a data space optional service providers can offer [optional capabilities](htt
 **Intermediaries** are services that are acting on behalf of participants in the data space. This can be a range of activities within the data space: negotiating a data sharing contract on behalf of a participant, implementing technical infrastructure on behalf of the participant and making decisions on behalf of a participant, thus impacting their digital sovereingnty.
 
 Such intermediaries may be regulated by local governments like the EU Data Governance Act in the European Union, which defines a specific "Data Intermediary" role. A detailed analysis can be found in the paper [Reflections on the DGA and Data Intermediaries](https://internationaldataspaces.org/download/42325/?tmstv=1708096468).
+
+**Intermediary usage guidance:**
+- **Optional:** Intermediaries may be used voluntarily by participants to simplify operations or reduce cost. When optional, their use is a matter of participant choice and does not reduce the baseline autonomy provided by the data space.
+- **Mandatory (Regulatory):** If law or regulation requires an intermediary role, the DSGA must explicitly document this requirement and provide safeguards (e.g., audit rights, transparent processes, alternative providers where feasible) to limit negative impacts on participant autonomy.
+- **Impact mitigation:** Where intermediaries are required or offer substantial control over interactions, the DSGA should require explicit documentation of the scope of delegated authority, revocation mechanisms, and participant redress processes.
 
 **Value-added service providers** act as a participant in the data space and
 do therefore conform to the data space governance framework. Such services aim to
