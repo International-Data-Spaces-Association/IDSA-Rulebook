@@ -12,7 +12,7 @@ While the DSGA is a logical role defining a governance model, this governance mo
 
 ## Core Principle - Decentralization
 
-A DSGA should not prescribe implicit central services or federations. The DSGA applies to all participants and defers responsibility for implementing the governance model and its enforcement authority across participants, using consensus-based reconciliation to resolve conflicts.
+A DSGA should not prescribe mandatory central services or federations without providing clear justification and documented mitigation measures. The DSGA applies to all participants and defers responsibility for implementing the governance model and its enforcement authority across participants, using consensus-based reconciliation to resolve conflicts.
 
 **Important**: An Operator of a value-added data space service is NOT a DSGA. They can operate a service that supports the implementation of the governance model provided by the DSGA.
 

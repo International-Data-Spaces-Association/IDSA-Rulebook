@@ -29,8 +29,7 @@ The term **"role"** is context-dependent and must be clearly scoped:
     
     A participant acts as a **data provider**, a **data consumer**, or both within the Dataspace Protocol.
 
-- At the **business level**, participants may take any role relevant for the business context.
-
+    Note: In this Rulebook, **"participant"** denotes the technical role representing a legal organization that operates software agents on behalf of that organization. When the document discusses business or legal roles (e.g., provider, consumer, DSGA functions), those usages are explicitly qualified and belong to higher layers (economic or regulatory).
     This includes roles such as **data intermediary**, **marketplace operator**, **auditor**, or **service provider**, but also explicitly the **data provider** and **data consumer** role in the context of the business transcation.
 
     These business roles do not exist at the technical layer but are mapped onto the core participant role based on the actions performed and services offered.
@@ -69,7 +68,7 @@ Entities that provide static resources (such as ontologies, schemas, or public c
 
 - **Trust anchors**, **regulators** and similar legal entities may influence data transactions but do not participate directly unless they act through technical interfaces governed by data space rules. Most commonly they provide external services which are referenced in the data space (e.g. common data lookup services, registries, etc...)
 
-This model guarantees the adherance to the governance model and thus supports trust while preserving digital sovereignty of each participant and the integrity of technical interactions. Flexibility is created through processes in teh economic layer which supports extensive customization. There is no mandatory central or federated service that can restrict the autonomy and agency of an organization.
+This model guarantees the adherance to the governance model and thus supports trust while preserving digital sovereignty of each participant and the integrity of technical interactions. Flexibility is created through processes in the economic layer which supports extensive customization. The DSGA must not mandate central or federated services that restrict participant autonomy or agency without explicit justification; any such choice must be documented and accompanied by mitigation measures to preserve participant control.
 
 Participation requires **governance commitment** and **technical integration**.
 

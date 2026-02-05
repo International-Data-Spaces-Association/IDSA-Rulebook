@@ -13,6 +13,12 @@ The Rulebook offers practical guidance for those working with diverse forms of d
 
 The IDSA Rulebook supports the creation, operation, and growth of data spaces by distinguishing mandatory requirements from optional, value-adding practices. Its scope spans technical, commercial, and legal dimensions:
 
+Reading guide for normative language used in this Rulebook:
+- “must” indicates a mandatory requirement for conforming implementations or for compliance where explicitly stated.
+- “should” indicates a recommended best practice that is expected unless a justified exception is documented.
+- “may” indicates an option or permissive practice.
+- “recommended” and “preferred” are non-binding guidance intended to reduce risk or improve interoperability.
+
 - Common technical guidance, including functional requirements and specifications.
 - Recommendations for applying IDSA technical artefacts and for alignment with partner frameworks.
 - Operational guidance for collaboration, roles, and processes that enable data space ecosystems.

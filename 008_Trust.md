@@ -39,7 +39,7 @@ Valid claim inputs include:
 - Third-party assertions with verifiable provenance (expressed as verifiable claims).
 - Contextual factors (purpose, jurisdiction, risk class, data category).
 
-Absence of an input must be interpreted as negative trust.
+By default, and unless a DSGA/DTF explicitly specifies an alternative, the absence of an input SHOULD be treated as negative (or unknown) for the purposes of trust evaluation; DSGAs and DTFs must document the chosen default and any exceptions.
 
 ## Trust establishment mechanisms
 Trust establishment in data spaces relies on the exchange and verification of claims, dynamic policy negotiation, and evidence collection. 

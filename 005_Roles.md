@@ -1,7 +1,7 @@
 # Roles
 
 ## Technical Role - Participant
-As established in the chapter on [Layers](004_Layers.md) the only technical role is the **Participant**. However, there are many different roles possible in the economic and legislative layers of a data space. This chapter explains the most important ones.
+As established in the chapter on [Layers](004_Layers.md) the only technical role is the **Participant**. In this Rulebook, a **Participant** denotes the technical role that represents a legal organization (not a natural person) and is capable of operating the required software agents; where an individual acts, they do so as a legal entity or via an organization that represents them. However, there are many different roles possible in the economic and legislative layers of a data space. This chapter explains the most important ones.
 
 ## Data Space Governance Authority
 
