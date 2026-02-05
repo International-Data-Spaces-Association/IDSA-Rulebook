@@ -11,21 +11,24 @@ orientation.
 
 ### Our Standards
 
-Examples of behavior that contributes to creating a positive environment
-include:
+Examples of behavior that contributes to creating a positive environment include:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+- **Using welcoming and inclusive language:** Choose words and phrasing that avoid bias and encourage participation from diverse audiences.
+
+- **Being respectful of differing viewpoints and experiences:** Read issues, discussions and contributions assuming good intent and respond with consideration to differing backgrounds and perspectives.
+
+- **Gracefully accepting constructive criticism:** Receive feedback with a problem-solving attitude and respond professionally to suggestions for improvement.
+
+- **Focusing on what is best for the community:** Prioritize the collective health and sustainability of the project over individual preferences.
+
+- **Showing empathy towards other community members:** Be considerate of others’ circumstances and challenges when interacting or responding.
 
 Examples of unacceptable behavior by participants include:
 
 * The use of sexualized language or imagery and unwelcome sexual attention or
 advances
 * Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
+* Harassment, whether public or private, including insulting, threatening, or sustained hostile behaviour, is unacceptable and may result in corrective action.
 * Publishing others' private information, such as a physical or electronic
   address, without explicit permission
 * Other conduct which could reasonably be considered inappropriate in a

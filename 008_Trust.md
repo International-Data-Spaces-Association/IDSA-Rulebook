@@ -5,22 +5,30 @@ Trust in a decentralized data space is a situational, time-bound, and purpose-sp
 
 Trust is:
 
-- **Not global**: each decision to trust is local to one specific data sharing contract.
-- **Not transitive**: each decision to trust applies only to the two parties involved in the data sharing contract.
-- **Not reciprocal**: if one participants A decides to trust another participant B it doesn't enforce that B also must trust A.  
-- **Not permanent**: the trust decision can change if the pre-requisits change
-- **Not equivalent to identity, certification, or prior membership**: those elements can be attributes used to create trust.
+- **Not global:** Trust determinations are specific to a single data sharing contract and apply only to the parties that negotiate and execute that contract; they do not automatically extend to other contracts or to different counter-parties.
 
-## Non‑Assumptions
-A conforming decentralized data space must not assume:
+- **Not transitive:** A trust relationship established between two participants (for example, A trusts B) does not imply or create trust between either party and a third party (for example, B and C); each relationship requires its own independent assessment.
 
-- A central authority, broker, registry, or trust anchor.
-- Pre-established federation membership.
-- Static certification or onboarding events as sufficient for trust.
-- Homogeneous policy languages or enforcement stacks.
-- That trust can be inferred solely from cryptographic identity.
+- **Not reciprocal:** A unilateral decision by participant A to trust participant B does not compel B to trust A; mutual trust requires independent and explicit evaluations by each party.
 
-Any architecture relying on these assumptions is not representative of a data space.
+- **Not permanent:** Trust assessments are time- and context-bound; changes in evidence, claims, policies, compliance status, or operational context may invalidate prior assessments and should trigger re-evaluation according to documented rules.
+
+- **Not equivalent to identity, certification, or prior membership:** Identity credentials, certifications, and membership status can serve as evidence for trust but are not alone sufficient to establish trust without additional contextual evidence, policy alignment, and runtime verification.
+
+## Non-Assumptions
+A conforming decentralized data space must not assume the following as sufficient or universal substitutes for trust. Each item below explains why it is insufficient on its own:
+
+- **A central authority, broker, registry, or trust anchor:** Centralized services may provide useful evidence or convenience, but reliance on them creates a single point of control and does not replace per-contract, evidence-based trust decisions.
+
+- **Pre-established federation membership:** Membership in a federation may indicate a baseline of trustworthiness but does not guarantee that a specific participant satisfies the policy or technical requirements of any given contract or context.
+
+- **Static certification or onboarding events as sufficient for trust:** One-off certifications or onboarding checks are useful provenance, but they do not capture runtime behaviour, compliance drift, or post-issuance changes and therefore cannot alone assure ongoing trust.
+
+- **Homogeneous policy languages or enforcement stacks:** Shared policy languages may aid interoperability, yet different parties may implement or interpret policies differently; trust frameworks must tolerate heterogeneity and reconcile policy semantics.
+
+- **That trust can be inferred solely from cryptographic identity:** Cryptographic identity proves control of keys, not adherence to policies or intent; trust requires additional attestations, claims, and evidentiary evaluation.
+
+Any architecture that depends exclusively on the assumptions above is not representative of a fully decentralized data space and is likely to fail to provide robust, context-aware trust.
 
 ## Separation of Concerns
 Trust assessment must be confined to the control plane.

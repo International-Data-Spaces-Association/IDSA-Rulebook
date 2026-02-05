@@ -5,11 +5,15 @@
 A **Dataspace Trust Framework (DTF)** consists of a set of policies and reconciliation mechanisms for claims, as well as business process definitions that enable data space participants to establish trust and maintain mutual assurance in data sharing interactions. Trust is treated as a dynamic runtime property, derived from verifiable claims and policy alignments, rather than static certifications or centralized attestations.
 
 Key terms:
-- **Claim**: A verifiable assertion about a participant's attribute, e.g.: identity, capabilities, or data attributes, expressed in a machine-readable format.
-- **Policy**: A set of rules governing data access, usage, and sharing, or describing required attributes and behaviors.
-- **Reconciliation**: The process of aligning policies and claims through negotiation or transformation, evaluating compliance, satisfying the requirements of the reconciling participants without requiring global consensus.
-- **Autonomy & Agency** (commonly referred to as *Sovereignty*): The ability of a participant to retain control over their data and decisions, including unilateral revocation of access or participation. 
-- **Failure mode**: Scenarios where trust cannot be established, such as unresolvable policy conflicts or compromised claims, leading to interaction termination.
+- **Claim:** A machine-readable, cryptographically verifiable assertion issued by a trusted authority about a participant or an asset (for example, an identity attribute, certification, or dataset provenance). Claims serve as primary evidence in trust evaluations and must include provenance and validity metadata.
+
+- **Policy:** A formal expression of rules and constraints that govern data access, usage, and sharing. Policies must be expressed in machine-readable languages and define required attributes, permitted actions, obligations, and enforcement expectations.
+
+- **Reconciliation:** The deterministic or negotiated process that aligns policies and claims between parties to determine whether a proposed interaction complies with both parties’ constraints. Reconciliation may involve policy transformation, attribute mapping, or escalation to manual review.
+
+- **Autonomy & Agency (Sovereignty):** The capability of a participant to control its data, make independent policy choices, select preferred service providers, and unilaterally suspend or revoke access to shared assets according to its governance and legal constraints.
+
+- **Failure mode:** A class of scenarios that prevent trust from being established or maintained—examples include irreconcilable policy conflicts, compromised or unverifiable claims, or material deviations from declared behavior—which should be handled by well-defined escalation and termination procedures.
 
 ### Core Principles
 

@@ -16,11 +16,15 @@ Additionally several core principles apply to the guidance presented in the IDSA
 
 **Easy to use**: reduce friction of implementing data spaces with a focus on portability and replicability
 
-IDSA applies four key governance principles: 
-- accountability
-- transparency
-- fairness
-- responsibility
+IDSA applies four key governance principles:
+
+- **Accountability:** Parties must be answerable for their actions and commitments, provide verifiable evidence of compliance, and maintain clear governance contact points for remediation and escalation.
+
+- **Transparency:** Governance processes, policies, and operational procedures should be documented, discoverable, and auditable to enable informed participation and public scrutiny where appropriate.
+
+- **Fairness:** Rules and operational processes must avoid undue advantage, ensure equitable treatment of participants, and provide impartial dispute resolution mechanisms.
+
+- **Responsibility:** Participants and governance bodies are accountable for implementing policies, enforcing obligations, and providing timely remediation where violations occur.
 
 As a result, IDSA offers free use of IDS specifications and related open resources for all, open governance processes in which everyone can participate, and transparent
 decision making - preferably by consensus.

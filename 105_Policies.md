@@ -22,11 +22,13 @@ Dataspace Trust Frameworks (DTFs) can provide policy building blocks to simplify
 
 ## Policy Design
 
-Policies generally express three possible constraints: 
+Policies generally express three classes of constraints used to control interactions:
 
-- prohibitions
-- obligations
-- permissions. 
+- **Prohibitions:** Explicit assertions of forbidden actions (for example, "data may not be exported outside the EEA"), which must be enforced and may be paired with monitoring and sanctions.
+
+- **Obligations:** Required actions or checks that a participant must perform (for example, logging, periodic revalidation, or notification), often with accompanying deadlines and verifiable evidence.
+
+- **Permissions:** Explicitly allowed actions that define the scope of permitted processing or sharing (for example, "aggregate-only analytics allowed"), which define the positive authorization space for consumers.
 
 Constraints expressing a rule can be combined into more complex rules, which then form the applicable policy.
 For example, a data space participant may only allow access to
@@ -118,12 +120,16 @@ compared.
 ### Policies for segmentation
 Policies can also act as a fine filter to segment data sharing scenarios and use cases. Adding a single policy that checks for the membership credential of a distinct group is the equivalent to restricting this specific contract to that closed group of organizations. Segmentation through policies can be used by an organization to easily manage the sharing context of their data assets and can be applied at many different layers and segments. Here are some examples of what segmentation can be achieved with policies:
 
-- data space (through the membership credential as a boundary)
-- business use case (by a credential representing a specific business use case)
-- individual participant (a policy can filter to specific participants)
-- technologies (ensure only compatible connectors can establish communication)
-- geographic (requiring credentials representing specific jursidictions)
-- industry associations
-- security certifications
+- **Data space boundary:** Enforce segmentation by membership credentials, ensuring only participants who possess a valid membership credential for the data space can access protected resources.
+
+- **Business use case:** Restrict access to contracts or datasets by requiring credentials or attributes that represent participation in a particular business use case or consortium.
+
+- **Individual participant filtering:** Apply policies that target specific participants by identity attributes or credentials (for example, to whitelist a participant).
+
+- **Technology compatibility:** Limit interactions to connectors or endpoints that meet defined technical interoperability or security profiles, ensuring compatible communications.
+
+- **Geographic constraints:** Require credentials or attributes indicating jurisdictional compliance, preventing access where legal or regulatory restrictions apply.
+
+- **Industry association or certification requirements:** Enforce access based on membership of an industry association or possession of required security certifications.
 
 ... and many more. The possiblities to enforce control and segmentation are unbounded.

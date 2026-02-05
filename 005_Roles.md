@@ -57,15 +57,15 @@ Such intermediaries may be regulated by local governments like the EU Data Gover
 - **Mandatory (Regulatory):** If law or regulation requires an intermediary role, the DSGA must explicitly document this requirement and provide safeguards (e.g., audit rights, transparent processes, alternative providers where feasible) to limit negative impacts on participant autonomy.
 - **Impact mitigation:** Where intermediaries are required or offer substantial control over interactions, the DSGA should require explicit documentation of the scope of delegated authority, revocation mechanisms, and participant redress processes.
 
-**Value-added service providers** act as a participant in the data space and
-do therefore conform to the data space governance framework. Such services aim to
-support the value-creation process with a broad set of basic or advanced data
-processing services. Common examples are:
+**Value-added service providers** act as participants in the data space and therefore conform to the data space governance framework. Such services support value creation with a broad set of discovery, processing, and governance capabilities. Common examples and their expected functions include:
 
-- Data Discovery Services (Catalogs, Search Engines, Registries)
-- Lookup Services (Vocabularies, shared information)
-- Observability Services (Auditor, Notary)
-- Commercial Services (Marketplace, Auctions, Match Making)
+- **Data Discovery Services (catalogs, search engines, registries):** Provide standardized metadata, search interfaces, and registry functions that allow participants to locate datasets and service offerings. These services should provide interoperable metadata schemas, and support attribute-based-access-control visibility rules.
+
+- **Lookup Services (vocabularies, shared information):** Maintain authoritative semantic resources such as controlled vocabularies, ontologies, and code lists that ensure consistent interpretation of attributes and data elements across participants. Lookup services should be versioned, discoverable, and accompanied by governance information describing scope and maintenance procedures.
+
+- **Observability Services (audit, notary):** Offer verifiable logging, attestation, and auditing capabilities that help detect misuse, support dispute resolution, and provide forensic evidence. Observability services must balance provenance and transparency with privacy and minimisation principles.
+
+- **Commercial Services (marketplaces, auctions, match-making):** Facilitate commercial discovery, negotiation, and transaction orchestration for data products and value-added services while operating within the governance and policy constraints of the data space. These services must not introduce mandatory central controls unless such centralization is explicitly justified and documented by the DSGA.
 
 Such optional functionalities are described in the section on [value-added services](http://link-to-value-added-services).
 

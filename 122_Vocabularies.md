@@ -1,12 +1,12 @@
 # Vocabularies
 
 Vocabularies are used to ensure that everyone means the same thing when
-using a specific term. There are multiple vocabularies that are needed
-in a data space, but two are particularly important:
+using a specific term. There are multiple vocabularies that may be used
+in a data space, but two are particularly noteworthy:
 
-- Semantic models for policies
+- **Semantic models for policies:** Structured models that define the terms, attribute names, and allowed values used in policy expressions; these models make policy requirements machine-interpretable and reduce ambiguity during reconciliation.
 
-- Semantic models of the shared data assets
+- **Semantic models of the shared data assets:** Domain-specific data models and ontologies that define the meaning and structure of shared datasets, enabling consumers to interpret and process data correctly and to enforce usage policies based on data semantics.
 
 So far, this document mostly described how a data space works, what
 contracts are, what types of policies exist, and how to negotiate a
@@ -30,10 +30,7 @@ multiple levels:
     additional contracts. It could be an access policy that specifies
     access for direct suppliers of this participant.
 
-- Data contract
-
-- Semantic model which needs to be understood for a specific contract
-    (e.g., special usage policy for a single contract)
+ - Within the Data contract as a machine-readable specification that describes the contractual terms, associated policy constraints, and the semantic models required to interpret the asset. The data model, vocabulary, or usage rules that must be understood to correctly interpret and enforce contract-specific policies (for example, an industry-specific usage restriction expressed as a domain ontology).
 
 The vocabularies for each level can be easily referenced by the metadata
 publishing mechanism at the respective level. A data space can reference

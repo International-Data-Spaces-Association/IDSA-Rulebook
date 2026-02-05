@@ -34,24 +34,19 @@ of the more common ones:
 Answering these questions helps you make the design choices between
 architectures and deployment patterns of data spaces.
 
-Once all design decisions are made, the functional elements are planned:
+Once all design decisions are made, the following functional elements must be specified and documented:
 
-- Rules: What behavior and skills (technical and organizational) are
-    required?
+- **Rules:** Define the expected behaviours, roles, and minimum technical and organizational capabilities required of participants (for example, required legal contracts, organizational certifications, staff skills, security practices, or operational governance targets).
 
-- Policies: the participation rules expressed and verified in policies
+- **Policies:** Specify the participation, access, contract, and usage policies that will be enforced by the data space participants and describe how these policies are verified and evolved.
 
-- Membership certification: What mechanism is used to verify a
-    membership?
+- **Membership certification:** Describe the mechanism and evidence required to verify and certify membership (for example, identity documentation, audits, or third-party attestations), including issuance, renewal, and revocation processes.
 
-- Participant registry: Where can participants see who is
-    participating?
+- **Participant registry:** Establish if, where and how authorized participants and their self-descriptions are published or discoverable, and which attributes are visible to different query roles.
 
-- Identity system: centralized or decentralized identities - control
-    over participants
+- **Identity system:** Decide whether identities will be managed via decentralized identifiers (DIDs), centralized identity services (not recommended), or a hybrid approach, and document the control, governance, and privacy implications of each option.
 
-- Catalog(s): one central, multiple federated or individual
-    decentralized catalogs?
+- **Catalog(s):** Specify the catalog model (single central catalog(note recommended), multiple federated catalogs, or per-participant catalogs), their APIs, metadata standards, and how catalog visibility and access controls will be applied.
 
 Working through the above list of mandatory functional elements will
 clarify the architecture pattern for the data space, which will also
@@ -61,17 +56,19 @@ to be implemented to create the data space:
 1. Create an identity for the data space
 2. Provide a self-description
 
-  - Membership policies
-  - Trust anchors and trust frameworks
-  - Attributes that will help participants decide which level of
-        trust to apply for
-  - use of the technical components as required according to the design
-  - Participant registry
-  - Registration service
-    - Provide the workflow to apply for membership
-    - Validate whether applicants comply with membership requirements
-    - Issue membership credentials
-    - Revoke membership credentials
+    The self-description for the data space should include the following documented elements:
+
+    - **Membership policies:** The eligibility criteria and evidence required for organizations to join, including any onboarding checks, audit requirements, and renewal conditions.
+
+    - **Trust anchors and trust frameworks:** A list of accepted credential issuers, Dataspace Trust Frameworks (DTFs), and the rules by which claims and attestations are validated.
+
+    - **Attributes used for trust decisions:** A clear listing of attributes, their meaning, and how they map to policy constraints so participants can determine how trust levels are calculated.
+
+    - **Technical component requirements:** The required interfaces, protocols, and implementations (for example, connector capabilities) necessary to interact with the data space.
+
+    - **Participant registry:** If a participant registry is required; the location and format of the participant registry or discovery endpoints, and which attributes are published for discovery versus private ones accessible only to existing members.
+
+    - **Registration service and related workflows:** The documented workflow to request membership, the validation procedures used to determine compliance with membership requirements, the process for issuance of membership credentials, and the rules and procedures to revoke credentials when necessary.
 
 3. Provide a discovery mechanism for the data space (website, contact
     form, etc.)
