@@ -31,7 +31,7 @@ This document maps open GitHub issues to rulebook documentation and identifies w
 
 **Current Coverage:**
 - [009_Dataspace_Trust_Frameworks.md](009_Dataspace_Trust_Frameworks.md) — Comprehensive new chapter covering:
-  - Definition of DTF with key terms (Claim, Policy, Reconciliation, Autonomy, Failure mode)
+  - Definition of DTF with key terms
   - Core principles (decentralized socio-technical systems, minimal shared semantics)
   - Trust establishment and maintenance mechanisms
   - Failure modes and reconciliation rules
@@ -42,18 +42,16 @@ This document maps open GitHub issues to rulebook documentation and identifies w
 
 **Remaining Work:**
 - ⚠️ **Review and validate** — Community review needed on:
-  - Clarity of responsibility boundaries between DSGA and DTF
+  - Clarity of relationship between DSGA and DTF
   - Practical examples of claim reconciliation workflows
   - Explicit guidance on plurality of Trust Frameworks (how multiple DTFs coexist)
-  - Cross-dataspace trust scenarios and conflict resolution patterns
   
 - ⚠️ **Potential expansion needed** for:
-  - Role responsibilities of DTF governance bodies (who enforces, who audits, who escalates?)
+  - Role responsibilities of governance bodies (who enforces, who audits, who escalates?)
   - Practical examples of DTF implementation in different regional/sectoral contexts
-  - Identity proof selection mechanisms (linked to issue #69 in GitHub)
   - Relationship between DTF policies and data sharing contract enforcement
 
-**Next Step:** Request community review of [009_Dataspace_Trust_Frameworks.md](009_Dataspace_Trust_Frameworks.md) and [008_Trust.md](008_Trust.md) via pull request comments. Potentially create supplementary document on "DTF Governance Responsibilities" or "Multi-DTF Scenarios" if feedback indicates gaps.
+**Next Step:** Request community review of [009_Dataspace_Trust_Frameworks.md](009_Dataspace_Trust_Frameworks.md) and [008_Trust.md](008_Trust.md) via pull request comments. Potentially create supplementary document on "Governance Responsibilities" or "Multi-DTF Scenarios" if feedback indicates gaps.
 
 ---
 
@@ -73,11 +71,10 @@ This document maps open GitHub issues to rulebook documentation and identifies w
 - Mention in [008_Trust.md](008_Trust.md) and governance concepts
 
 **Remaining Work:**
-- ⚠️ **NEEDS dedicated document** — Issue comments indicate need for standalone "Intermediaries in IDSA Dataspaces" white paper/document:
+- ⚠️ **May need a dedicated document** — Issue comments indicate need for standalone "Intermediaries in IDSA Dataspaces" white paper/document:
   - Detailed treatment of intermediary roles and responsibilities
   - Sovereignty and governance implications
   - Legal framework alignment (DGA, GDPR)
-  - Case scenarios: intermediaries for data holders, data consumers, service provision
   - Economic and trust implications of intermediation
   - How intermediaries interact with data contracts and DTF policies
   
@@ -86,6 +83,7 @@ This document maps open GitHub issues to rulebook documentation and identifies w
   - How PII/personal data handling through intermediaries differs from standard data sharing
   - Safeguards and audit mechanisms for intermediary activities
   - Revocation and exit strategies
+  - Aggregator patterns
 
 **Proposed Solution:** Create new document:
 - **File:** `011_Intermediaries.md` (or `126_Intermediaries.md` in functional section)
@@ -97,7 +95,7 @@ This document maps open GitHub issues to rulebook documentation and identifies w
   - Risk mitigation and audit approaches
   - Relationship to sovereignty and autonomy
   
-**Next Step:** Assign @viivilahteenoja or community contributor to draft `011_Intermediaries.md`. Issue explicitly requested a separate document/white paper for this topic. Target for Rulebook 3.0.1 or next iteration.
+**Next Step:** Assign @viivilahteenoja or additional community contributor to draft `011_Intermediaries.md`. Issue explicitly requested a separate document/white paper for this topic. Target for future iteration.
 
 ---
 
@@ -162,7 +160,7 @@ This document maps open GitHub issues to rulebook documentation and identifies w
 4. Set timeline for initial draft completion (EU first, then others)
 5. Establish review and update process (given regulatory/market volatility)
 
-**Target:** Rulebook 3.0.1 or 3.1 (after core rulebook stabilizes).
+**Target:** Rulebook 3.1 (after core rulebook stabilizes).
 
 ---
 
