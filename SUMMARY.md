@@ -4,6 +4,8 @@
 
 Below are the primary documents in this repository; each entry links to the file and includes a one-sentence description to help readers understand the document's purpose.
 
+# Fundamentals
+
 - [001_Introduction.md](001_Introduction.md) — Orientation: explains the Rulebook's purpose, intended audience, and how to read its normative language.
 - [002_GuidingPrinciples.md](002_GuidingPrinciples.md) — Core Principles: articulates the governance principles and values that guide design and operational choices.
 - [003_WhatIsADataspace.md](003_WhatIsADataspace.md) — Concept: defines a data space, key properties, and the relationship between autonomy, agency, and intermediaries.
@@ -14,6 +16,9 @@ Below are the primary documents in this repository; each entry links to the file
 - [008_Trust.md](008_Trust.md) — Trust Model: presents the runtime trust model, claim reconciliation, revocation, and failure modes.
 - [009_Dataspace_Trust_Frameworks.md](009_Dataspace_Trust_Frameworks.md) — Trust Frameworks: defines Dataspace Trust Frameworks (DTFs), reconciliation rules, and evidence categories.
 - [010_Planes.md](010_Planes.md) — Planes Overview: details control, data, management, and application planes and their interactions.
+
+# Functional Requirements
+
 - [100_Functional_Requirements.md](100_Functional_Requirements.md) — Functional Requirements: lists mandatory and optional technical and operational requirements for data spaces.
 - [101_Achieving_Autonomy_and_Agency.md](101_Achieving_Autonomy_and_Agency.md) — Autonomy & Agency: practical mechanisms and design considerations to preserve participant sovereignty.
 - [102_Foundational_concepts_of_a_data_space.md](102_Foundational_concepts_of_a_data_space.md) — Foundations: summarizes the essential functional areas and building blocks of a data space.
@@ -34,9 +39,12 @@ Below are the primary documents in this repository; each entry links to the file
 - [125_Connector.md](125_Connector.md) — Connector Specification: responsibilities, interfaces, and interoperability expectations for Dataspace Connectors.
 - [130_AI_Agents.md](130_AI_Agents.md) — AI Agents: considerations for autonomous agents interacting with data spaces and governance implications.
 - [140_Decentralized_Patterns_Onboarding.md](140_Decentralized_Patterns_Onboarding.md) — Onboarding Patterns: decentralized onboarding best practices and reference patterns.
+
+# Summary
+
 - [999_Summary_Outlook.md](999_Summary_Outlook.md) — Summary & Outlook: summarises key takeaways and outlines future work and open questions.
 
-## Governance & repository documents
+# Governance & repository documents
 
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) — Expected community behaviour, reporting channels, and enforcement principles.
 - [CONTRIBUTING.md](CONTRIBUTING.md) — Contribution workflow, issue and PR guidelines for the Rulebook.
