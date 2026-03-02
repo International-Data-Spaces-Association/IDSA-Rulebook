@@ -79,7 +79,7 @@ This document maps open GitHub issues to rulebook documentation and identifies w
   - How intermediaries interact with data contracts and DTF policies
   
 - ⚠️ **Clarification needed:**
-  - Why intermediaries are NOT core to IDSA Rulebook (but recognized as existing)
+  - Why intermediaries are NOT core to IDSA Rulebook (but recognised as existing)
   - How PII/personal data handling through intermediaries differs from standard data sharing
   - Safeguards and audit mechanisms for intermediary activities
   - Revocation and exit strategies
@@ -144,8 +144,8 @@ This document maps open GitHub issues to rulebook documentation and identifies w
    - Regional bodies (ASEAN, AU, etc.)
 
 **Outstanding Questions** (from issue #91 discussion):
-- How detailed should "Key Initiatives and Infrastructure" be? (avoid listing data centers)
-- What specifically should "Legal and Regulatory Dimension" cover? (acts, regulatory organizations, compliance frameworks)
+- How detailed should "Key Initiatives and Infrastructure" be? (avoid listing data centres)
+- What specifically should "Legal and Regulatory Dimension" cover? (acts, regulatory organisations, compliance frameworks)
 - What details for "Data Sovereignty and Governance"?
 - How should "Interoperability in Data Spaces" distinguish between IDSA-wide technical standards (DSP/DCP) and regional profiles?
 - What content expected for "Trust, Privacy, and Security" beyond pointing to IDSA concepts?

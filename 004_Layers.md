@@ -29,7 +29,7 @@ The term **"role"** is context-dependent and must be clearly scoped:
     
     A participant acts as a **data provider**, a **data consumer**, or both within the Dataspace Protocol.
 
-    Note: In this Rulebook, **"participant"** denotes the technical role representing a legal organization that operates software agents on behalf of that organization. When the document discusses business or legal roles (e.g., provider, consumer, DSGA functions), those usages are explicitly qualified and belong to higher layers (economic or regulatory).
+    Note: In this Rulebook, **"participant"** denotes the technical role representing a legal organisation that operates software agents on behalf of that organisation. When the document discusses business or legal roles (e.g., provider, consumer, DSGA functions), those usages are explicitly qualified and belong to higher layers (economic or regulatory).
     This includes roles such as **data intermediary**, **marketplace operator**, **auditor**, or **service provider**, but also explicitly the **data provider** and **data consumer** role in the context of the business transcation.
 
     These business roles do not exist at the technical layer but are mapped onto the core participant role based on the actions performed and services offered.
@@ -42,7 +42,7 @@ A clear differentiation must be made between **Data Spaces** and **Trusted Data 
 
 - **Data Spaces** are decentralized environments that enable participants to share data while ensuring their autonomy and agency. See the chapter [What is a Data Space](003_WhatIsADataspace.md) for details.
 
-- **Trusted Data Transactions**, as under current standardization in the European Commission's Standardization Request on a Trusted Data Framework in CEN/CENELEC JTC 25, can also be  associated with the EU *Data Governance Act*. They can also be related to data intermediaries and service orchestration. Such models prioritize regulatory alignment and controlled environments.
+- **Trusted Data Transactions**, as under current standardisation in the European Commission's Standardisation Request on a Trusted Data Framework in CEN/CENELEC JTC 25, can also be  associated with the EU *Data Governance Act*. They can also be related to data intermediaries and service orchestration. Such models prioritise regulatory alignment and controlled environments.
 
 While TDTs may operate within data spaces, they are conceptually distinct. Equating them risks narrowing the scope of data space implementations and excluding more decentralized or peer-to-peer configurations. Data spaces designed, built and operated according to the IDSA Rulebook enable the implementation of TDTs but don't mandate it. Also the implementation of a TDT is not dependent on the use of a data space. Both are independent concepts that can be used at the same time.
 
@@ -50,25 +50,25 @@ While TDTs may operate within data spaces, they are conceptually distinct. Equat
 
 Participants in a data space are defined by their ability to automate the negotiation and execution of data sharing agreements via technical protocols. This has several implications:
 
-- **Organizations**, not individuals, are considered technical participants. These organizations are represented by **software agents** capable of executing standardized data space protocols.
+- **Organisations**, not individuals, are considered technical participants. These organisations are represented by **software agents** capable of executing standardised data space protocols.
 
-Note: For technical participation, "organization" includes incorporated entities, not-for-profit bodies, public sector organizations, and registered sole traders or self-employed individuals acting as legal entities. Individuals may participate only when acting as a legal entity and if they are able to operate all required software agents directly or via an organization that represents them (for example, a service provider).
+Note: For technical participation, "organisation" includes incorporated entities, not-for-profit bodies, public sector organisations, and registered sole traders or self-employed individuals acting as legal entities. Individuals may participate only when acting as a legal entity and if they are able to operate all required software agents directly or via an organisation that represents them (for example, a service provider).
 
-- **Natural persons** interact with data spaces indirectly through applications or services operated by organizations. Their participation is strictly limited to the Economic and Legislative Layer. Software agents can represent a natural person but not impersonate it.
+- **Natural persons** interact with data spaces indirectly through applications or services operated by organisations. Their participation is strictly limited to the Economic and Legislative Layer. Software agents can represent a natural person but not impersonate it.
 
 - As data spaces are fully decentralized and participants are responsible for their own **decentralized identity (DID)**, there are **no identity providers** in a data space. Participants provide proof of their identity to others through the use of claims (e.g. expressed through verifiable credentials) and not through a common identity provider. Access to resources is managed through authentication tokens issued directly by the participants sharing those resources.
 
 ## External Actors
 
-Entities that provide static resources (such as ontologies, schemas, or public credentials) may support the data space but are not considered participants unless they actively engage via governed interfaces implementing the standardized data space protocols. For example:
+Entities that provide static resources (such as ontologies, schemas, or public credentials) may support the data space but are not considered participants unless they actively engage via governed interfaces implementing the standardised data space protocols. For example:
 
 - A web service that hosts a data sharing ontology is not a participant but serves as an **external reference**.
 
-- A dataspace trust framework provider usually acts as an external reference. However, it may act as a **participant** if it delivers services subject to data space governance policies provided through an implementation of standardized data space protocols.
+- A dataspace trust framework provider usually acts as an external reference. However, it may act as a **participant** if it delivers services subject to data space governance policies provided through an implementation of standardised data space protocols.
 
 - **Trust anchors**, **regulators** and similar legal entities may influence data transactions but do not participate directly unless they act through technical interfaces governed by data space rules. Most commonly they provide external services which are referenced in the data space (e.g. common data lookup services, registries, etc...)
 
-This model guarantees the adherance to the governance model and thus supports trust while preserving digital sovereignty of each participant and the integrity of technical interactions. Flexibility is created through processes in the economic layer which supports extensive customization. The DSGA must not mandate central or federated services that restrict participant autonomy or agency without explicit justification; any such choice must be documented and accompanied by mitigation measures to preserve participant control.
+This model guarantees the adherance to the governance model and thus supports trust while preserving digital sovereignty of each participant and the integrity of technical interactions. Flexibility is created through processes in the economic layer which supports extensive customisation. The DSGA must not mandate central or federated services that restrict participant autonomy or agency without explicit justification; any such choice must be documented and accompanied by mitigation measures to preserve participant control.
 
 Participation requires **governance commitment** and **technical integration**.
 

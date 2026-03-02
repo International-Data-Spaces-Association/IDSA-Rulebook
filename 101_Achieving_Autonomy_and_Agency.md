@@ -6,7 +6,7 @@ The [Manifesto of international data spaces](https://docs.internationalDataSpace
 
 > Any central or federated control impairs the participant autonomy & agency, reducing their ability to act within the data space. 
 
-IDSA recommends decentralized architectures and decentralized identities (DIDs) as the preferred approach to maximize participant autonomy and agency. In practice, the DSGA may define acceptable forms of identity evidence, trust anchors, and onboarding processes as governance constraints; these are documented governance choices that participants can evaluate when deciding whether to join or interact in a data space.
+IDSA recommends decentralized architectures and decentralized identities (DIDs) as the preferred approach to maximise participant autonomy and agency. In practice, the DSGA may define acceptable forms of identity evidence, trust anchors, and onboarding processes as governance constraints; these are documented governance choices that participants can evaluate when deciding whether to join or interact in a data space.
 
 DIDs and associated mechanisms are the basis for sharing attributes describing a
 participant and providing evidence about the claims of those attributes in a data space. The participants claims provides vital information to
@@ -16,7 +16,7 @@ space. It allows the participant to exert control, to choose which data
 to share with whom, when and under what conditions. This ensures the
 participant has agency over its assets.
 
-Instead on relying on a central party to manage authentication and authorization participants are responsible to manage their own information and to provide this information to other parties in a standardized way.
+Instead on relying on a central party to manage authentication and authorisation participants are responsible to manage their own information and to provide this information to other parties in a standardised way.
 
 Every participant is free to choose whether to trust the claims provided by another participant. The core of data spaces is about the mechanisms that enable the verification of participant claims to foster trust.
 

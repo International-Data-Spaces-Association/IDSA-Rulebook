@@ -28,7 +28,7 @@ Policies generally express three classes of constraints used to control interact
 
 - **Obligations:** Required actions or checks that a participant must perform (for example, logging, periodic revalidation, or notification), often with accompanying deadlines and verifiable evidence.
 
-- **Permissions:** Explicitly allowed actions that define the scope of permitted processing or sharing (for example, "aggregate-only analytics allowed"), which define the positive authorization space for consumers.
+- **Permissions:** Explicitly allowed actions that define the scope of permitted processing or sharing (for example, "aggregate-only analytics allowed"), which define the positive authorisation space for consumers.
 
 Constraints expressing a rule can be combined into more complex rules, which then form the applicable policy.
 For example, a data space participant may only allow access to
@@ -42,16 +42,16 @@ further processing if they meet a set of security standards.
 ### Membership Policies
 As discussed above, the first line of policy constraints are the membership
 policies and processes required to join a data space. These policies
-ensure that only organizations with specific attributes they can verifiably
+ensure that only organisations with specific attributes they can verifiably
 prove, can join. These can be policies that verify the applicant's
 HQ location, industry certification, membership in industry
 associations, but also policies that would require human interactions
-and complex workflows, such as a valid contract with an organization implementing the DSGA that must be negotiated before an applicant can become a participant.
+and complex workflows, such as a valid contract with an organisation implementing the DSGA that must be negotiated before an applicant can become a participant.
 
 ### Access policies for data discovery
 Once an applicant becomes a participant, the next layer of policies
 becomes relevant: access policies. An access policy defines which attributes
-must be available to discover and access data contracts within a data catalogue. A participant that does not have access to a specific data contract should also not be able to discover the contract offer in the catalog. 
+must be available to discover and access data contracts within a data catalog. A participant that does not have access to a specific data contract should also not be able to discover the contract offer in the catalog. 
 
 Optional services, like a marketplace, must adhere to this principle as well and only show items based on matching access policies and participant attributes. 
 
@@ -118,7 +118,7 @@ of restrictions against which machine-readable attributes can be
 compared.
 
 ### Policies for segmentation
-Policies can also act as a fine filter to segment data sharing scenarios and use cases. Adding a single policy that checks for the membership credential of a distinct group is the equivalent to restricting this specific contract to that closed group of organizations. Segmentation through policies can be used by an organization to easily manage the sharing context of their data assets and can be applied at many different layers and segments. Here are some examples of what segmentation can be achieved with policies:
+Policies can also act as a fine filter to segment data sharing scenarios and use cases. Adding a single policy that checks for the membership credential of a distinct group is the equivalent to restricting this specific contract to that closed group of organisations. Segmentation through policies can be used by an organisation to easily manage the sharing context of their data assets and can be applied at many different layers and segments. Here are some examples of what segmentation can be achieved with policies:
 
 - **Data space boundary:** Enforce segmentation by membership credentials, ensuring only participants who possess a valid membership credential for the data space can access protected resources.
 

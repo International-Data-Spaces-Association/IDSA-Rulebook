@@ -1,7 +1,7 @@
 # Roles
 
 ## Technical Role - Participant
-As established in the chapter on [Layers](004_Layers.md) the only technical role is the **Participant**. In this Rulebook, a **Participant** denotes the technical role that represents a legal organization (not a natural person) and is capable of operating the required software agents; where an individual acts, they do so as a legal entity or via an organization that represents them. However, there are many different roles possible in the economic and legislative layers of a data space. This chapter explains the most important ones.
+As established in the chapter on [Layers](004_Layers.md) the only technical role is the **Participant**. In this Rulebook, a **Participant** denotes the technical role that represents a legal organisation (not a natural person) and is capable of operating the required software agents; where an individual acts, they do so as a legal entity or via an organisation that represents them. However, there are many different roles possible in the economic and legislative layers of a data space. This chapter explains the most important ones.
 
 ## Data Space Governance Authority
 
@@ -28,16 +28,16 @@ Data consumers are the recepients of a data sharing activity. In the IDSA Rulebo
 
 The closely realted term "data user" describes a natural or legal person who has lawful access to certain personal or non-personal data and has the right,  to use that data for commercial or non-commercial purposes.
 
-The data user and data consumer can be separate organizations but often will be two perspectives on the roles of the same participant, depending on the context.
+The data user and data consumer can be separate organisations but often will be two perspectives on the roles of the same participant, depending on the context.
 
 ### Data provider
 
-Data providers are the organizations that make data technically available for a data sharing activity. In the IDSA Rulebook the data provider is the party acting as the provider of a data sharing contract.
+Data providers are the organisations that make data technically available for a data sharing activity. In the IDSA Rulebook the data provider is the party acting as the provider of a data sharing contract.
 
 The closely related term "data holder" describes a natural or legal person, who is not a data subject with respect to the specific data in question, who has the
 right to grant access to or to share certain data in accordance with applicable law.
 
-The data holder and data provider can be separate organizations (e.g. in cases where intermediares are being introduced) but often will be two perspectives on the roles of the same participant, depending on context.
+The data holder and data provider can be separate organisations (e.g. in cases where intermediares are being introduced) but often will be two perspectives on the roles of the same participant, depending on context.
 
 **Role mapping guidance:**
 - **Data Holder:** the legal owner or rights holder of the data (responsible for legal compliance and consent decisions).
@@ -59,7 +59,7 @@ Such intermediaries may be regulated by local governments like the EU Data Gover
 
 **Value-added service providers** act as participants in the data space and therefore conform to the data space governance framework. Such services support value creation with a broad set of discovery, processing, and governance capabilities. Common examples and their expected functions include:
 
-- **Data Discovery Services (catalogs, search engines, registries):** Provide standardized metadata, search interfaces, and registry functions that allow participants to locate datasets and service offerings. These services should provide interoperable metadata schemas, and support attribute-based-access-control visibility rules.
+- **Data Discovery Services (catalogs, search engines, registries):** Provide standardised metadata, search interfaces, and registry functions that allow participants to locate datasets and service offerings. These services should provide interoperable metadata schemas, and support attribute-based-access-control visibility rules.
 
 - **Lookup Services (vocabularies, shared information):** Maintain authoritative semantic resources such as controlled vocabularies, ontologies, and code lists that ensure consistent interpretation of attributes and data elements across participants. Lookup services should be versioned, discoverable, and accompanied by governance information describing scope and maintenance procedures.
 

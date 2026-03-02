@@ -69,10 +69,10 @@ compliance with usage policies.
 
 The transfer itself needs to ensure security, performance, and
 manageability. For example, a data stream can be provided from multiple
-data centers to enable a highly available data sharing architecture.
+data centres to enable a highly available data sharing architecture.
 
 When data is not moved but a "code to data" approach is selected, the
-push and pull behavior is reversed: The consumer participant provides a
+push and pull behaviour is reversed: The consumer participant provides a
 data asset containing code (source code, compiled library, signed
 container) to the participant providing the data. This can be
 implemented like any other data asset transfer with a push or pull

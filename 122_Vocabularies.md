@@ -66,7 +66,7 @@ synchronization mechanisms.
 
 In addition to the functional elements of a data space, many optional
 roles and components exist. The entities providing these functions must
-join the data space like any other participant and fulfill all
+join the data space like any other participant and fulfil all
 requirements, policies and procedures enforced by the DSGA to establish
 trust.
 

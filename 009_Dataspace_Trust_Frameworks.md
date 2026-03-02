@@ -13,17 +13,17 @@ Key terms:
 
 - **Autonomy & Agency (Sovereignty):** The capability of a participant to control its data, make independent policy choices, select preferred service providers, and unilaterally suspend or revoke access to shared assets according to its governance and legal constraints.
 
-- **Failure mode:** A class of scenarios that prevent trust from being established or maintained—examples include irreconcilable policy conflicts, compromised or unverifiable claims, or material deviations from declared behavior—which should be handled by well-defined escalation and termination procedures.
+- **Failure mode:** A class of scenarios that prevent trust from being established or maintained—examples include irreconcilable policy conflicts, compromised or unverifiable claims, or material deviations from declared behaviour—which should be handled by well-defined escalation and termination procedures.
 
 ### Core Principles
 
-DTFs operate on the assumption that dataspaces are fully decentralized socio-technical systems, where technical protocols are coupled with governance mechanisms. Control plane activities (e.g., policy negotiation, claim verification) are separated from data plane operations (e.g., actual data transfer or access to a protected resource) to minimize coupling and enhance scalability.
+DTFs operate on the assumption that dataspaces are fully decentralized socio-technical systems, where technical protocols are coupled with governance mechanisms. Control plane activities (e.g., policy negotiation, claim verification) are separated from data plane operations (e.g., actual data transfer or access to a protected resource) to minimise coupling and enhance scalability.
 
 Interoperability is achieved through minimal shared semantics, such as a common vocabulary for claims, rather than heavy global schemas. This allows for evolutionary changes without breaking existing implementations and supports the implementation of domain specific data spaces and DTFs.
 
 ### Trust Establishment and Maintenance
 
-Trust is established through iterative claim exchange and policy reconciliation as described in the [Trust](008_Trust.md) section. Summarizable by those important points:
+Trust is established through iterative claim exchange and policy reconciliation as described in the [Trust](008_Trust.md) section. Summarisable by those important points:
 1. **Claim Issuance and Verification**: Participants issue claims about themselves or their data. Verification occurs via cryptographic proofs (e.g., digital signatures) or decentralized oracles, without reliance on central authorities.
 2. **Policy Alignment**: Policies are expressed as logical constraints. Reconciliation uses a negotiation protocol to find mutually acceptable terms.
 3. **Runtime Monitoring**: Trust is maintained through continuous monitoring of invariants, such as data usage logs or revocation signals. Violations trigger automatic revocation or escalation to human oversight.
@@ -37,7 +37,7 @@ When multiple Dataspace Trust Frameworks (DTFs) apply to an interaction, the DSG
 ### Governance Coupling
 
 DTFs integrate technical and governance layers:
-- **Socio-Technical Invariants**: Rules must be enforceable either through technological means or business processes at both protocol and organizational levels (e.g., a policy requiring audit logs must have corresponding legal agreements and data sharing agreements for the audit log data).
+- **Socio-Technical Invariants**: Rules must be enforceable either through technological means or business processes at both protocol and organisational levels (e.g., a policy requiring audit logs must have corresponding legal agreements and data sharing agreements for the audit log data).
 - **Evolution Handling**: DTFs support versioned policies and claims.
 - **Revocation Mechanisms**: Participants can revoke trust unilaterally.
 

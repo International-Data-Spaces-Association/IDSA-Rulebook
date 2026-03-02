@@ -6,7 +6,7 @@ Data is one of the most valuable assets in the digital economy, but its
 potential value can only be realized if it can move and interact with
 other data to produce insights that create value. For this, it must be
 possible for data to be shared and reused in a trusted way.
-Interoperability is the ability of different systems and organizations to
+Interoperability is the ability of different systems and organisations to
 exchange, understanding, and use of data, is essential for enabling data
 sharing and creating value in data ecosystems. Data Spaces help to
 establish a common understanding of trust, and provide a mechanism to
@@ -30,7 +30,7 @@ Two well-known frameworks that define interoperability levels are the
 standard for cloud computing interoperability and portability, and the
 European Interoperability Framework for public services. Both frameworks
 identify four main levels of interoperability: technical (transport &
-syntactic), semantic, organizational, and legal:
+syntactic), semantic, organisational, and legal:
 
 - Technical interoperability refers to the physical and logical
     connections between systems and data sources, such as protocols,
@@ -41,7 +41,7 @@ syntactic), semantic, organizational, and legal:
 - Semantic interoperability refers to the meaning and interpretation
     of the data, such as concepts, relationships, and ontologies.
 
-- Organizational interoperability refers to the processes, policies,
+- Organisational interoperability refers to the processes, policies,
     and governance of data sharing, such as roles, responsibilities, and
     agreements.
 
@@ -65,7 +65,7 @@ principles are the foundation of any interoperability framework for
 Data Spaces. Let's have a closer look at those fundamental principles
 again:
 
-1. Self-determined control of data use (Data Sovereignty as also part of [ISO/IEC CD TS 10866, Framework and concepts for organizational autonomy and digital sovereignty](https://www.iso.org/standard/83757.html) ) is of
+1. Self-determined control of data use (Data Sovereignty as also part of [ISO/IEC CD TS 10866, Framework and concepts for organisational autonomy and digital sovereignty](https://www.iso.org/standard/83757.html) ) is of
     utmost importance and should be the ideal vision that each Data Space
     thrives to enable.
 
@@ -81,20 +81,20 @@ again:
 To better understand the model above we need to understand Data Spaces
 differently at different layers. There is a legal layer where a
 Data Space is governed by legal contracts to join a consortium that is
-responsible for the Data Space. This can be a not-for-profit organization
+responsible for the Data Space. This can be a not-for-profit organisation
 where participants join as members to jointly agree on what the rules of
 the Data Space are, but also can be driven by a single entity that
 dictates the rules of the Data Space. Both models and everything in
 between is possible and tradeoffs need to be reasoned over and decisions
 made when the legal layer of the Data Space is being defined. There can
-even be Data Spaces without any organization at the legal layer, purely
+even be Data Spaces without any organisation at the legal layer, purely
 governed by measures provided through the Data Space Governance Authority
 (DSGA).
 
 The DSGA is a logical function in the Data Space and while it will be
-quite common to combine the DSGA with the legal organization of the
+quite common to combine the DSGA with the legal organisation of the
 Data Space, it is also possible that a DSGA exists without any legal
-organization operating it. E.g. a DSGA could be just a set of policies
+organisation operating it. E.g. a DSGA could be just a set of policies
 passed around between Data Space participants without any single owner,
 just been agreed on by a consensus algorithm between participants.
 
@@ -108,7 +108,7 @@ participants and the DSGA.
 With more autonomy and agency, a participant can act with the more
 responsibility for ensuring interoperability layers with the
 participant. With less autonomy and agency, more interoperability
-responsibility moves to the DSGA and legal organization layers thus
+responsibility moves to the DSGA and legal organisation layers thus
 lessening the burden of interoperability on the participant.
 
 **Therefore, it is fair to say that more autonomy and agency of
@@ -161,7 +161,7 @@ There are two noteworthy standards when it comes to interoperability,
 first the [ISO/IEC 19941 -- Cloud Computing Interoperability and
 Portability](https://standards.iso.org/ittf/PubliclyAvailableStandards/c066639_ISO_IEC_19941_2017.zip) and second the [European Interoperability Framework](https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf).
 The Regulation of the European Parliament and of the Council on
-harmonized rules on fair access to and use of data ( [Data Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022PC0068) )
+harmonised rules on fair access to and use of data ( [Data Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022PC0068) )
 references both standards in its provisions for interoperability.
 
 [Chapter VIII of the Data Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2022%3A68%3AFIN) provides for essential requirements to be
@@ -251,18 +251,18 @@ If two DSGAs negotiate and agree on the same semantic model for policies
 for their respective Data Spaces, it will greatly simplify the access of
 data in the two different Data Spaces.
 
-### Organizational
+### Organisational
 
-For a Data Space to be well governed a clear definition of organizational
+For a Data Space to be well governed a clear definition of organisational
 processes is required. Again, all participants in a Data Space will have
 to follow the same processes.
 
-If two Data Spaces define the same organizational processes it will
+If two Data Spaces define the same organisational processes it will
 greatly simplify the participation in multiple Data Spaces.
 
 #### Cross-Data Space interoperability
 
-If multiple Data Spaces define the same organizational processes, this
+If multiple Data Spaces define the same organisational processes, this
 will greatly simplify the participation in these Data Spaces.
 
 ### Legal
@@ -281,7 +281,7 @@ A participant in multiple Data Spaces will have the responsibility of
 keeping track of which data came from which Data Space and what the legal
 responsibility of handling this data is.
 
-Agreements between legal organizations managing a Data Space can reduce
+Agreements between legal organisations managing a Data Space can reduce
 the burden on the participants by agreeing on the legal equivalency of
 policies in both Data Spaces.
 
@@ -295,7 +295,7 @@ related.
 
 The simplest model is probably a hierarchical direct-dependency of
 Data Spaces. In a larger Data Space, a smaller sub-Data Space could be
-created with additional rules, utilizing the governance model of the
+created with additional rules, utilising the governance model of the
 overarching Data Space, but introducing additional policies for the sub
 Data Space. E.g. think of an industrial Data Space where one participant
 wants to share data only with their direct suppliers instead of the
@@ -314,7 +314,7 @@ domains, but with a substantial overlap of participants, which also
 require data from both Data Spaces for many use cases. To reduce the
 burden on participants guaranteeing interoperability, the two Data Spaces
 might agree on the same requirements for protocols, semantic models, and also
-on organizational processes, including agreements on legal equivalency.
+on organisational processes, including agreements on legal equivalency.
 
 Last but not least, there is the case of completely unrelated Data Spaces
 where one or just a few participants have the need to access data from
@@ -344,19 +344,19 @@ applicable protocol versions and semantic models are clearly defined.
 
 As already established above, the main responsibility for interoperability in Data Spaces is with the participant, however, everyone involved in a Data Space can support interoperability by aligning with other parties.
 
-Aspects of interoperability in Data Spaces can be achieved by utilizing common frameworks, models, standards, processes, or services, like Trust Frameworks. 
+Aspects of interoperability in Data Spaces can be achieved by utilising common frameworks, models, standards, processes, or services, like Trust Frameworks. 
 Those need to be mandated by participants of a Data Space as agreements in the Data Space Governance Framework executed and managed by the Data Space Governance Authority. 
 
 The agreements in the Data Space Governance Framework of one Data Space can and should be reused or acknowledged by other Data Spaces. 
 This leads eventually to commonly adopted concepts and standards. 
 
-Recognizing the different levels of interoperability as described above, a general adoption or maturity model can be derived:
+Recognising the different levels of interoperability as described above, a general adoption or maturity model can be derived:
 
 **1. Agreements between 2 participants** are highly tailored to certain use cases, but can provide a foundation for broader adoption.
 
 **2. Agreements in a group of participants** are the foundation to increase interoperability by increasing the number of adopters.
 
-**3. Agreements within a common framework** increase interoperability using the same technical or organizational framework.
+**3. Agreements within a common framework** increase interoperability using the same technical or organisational framework.
 
 **4. Agreements between service providers** support the broad adoption by providing interoperable solutions (as a service) to facilitate their reusability in the market and thus drive common interoperable functionalities.
 
@@ -364,9 +364,9 @@ Recognizing the different levels of interoperability as described above, a gener
 
 **6 Agreements between different Data Space Governance Authorities** establish bridges between data spaces.
 
-* **Data Space to other Data Space**: negotiate legal equivalency of processes and rules between the two organizations.
+* **Data Space to other Data Space**: negotiate legal equivalency of processes and rules between the two organisations.
 * **Data Space to Trust Frameworks and Trust Anchors:** Align on mapping between policies and legal provisions and processes.
-* **Data Spaces to DSGAs:** Align on governance models and organizational processes.
+* **Data Spaces to DSGAs:** Align on governance models and organisational processes.
 * **Trust Framework to other Trust Frameworks:** Share semantic models for policies and align on identity and trust protocols required.
-* **Trust Framework to DSGAs:** Agree on standardized identity and trust protocols and a common set of semantic models.
+* **Trust Framework to DSGAs:** Agree on standardised identity and trust protocols and a common set of semantic models.
 * **DSGA to other DSGAs:** Share semantic models for policies and agree on functional processes.

@@ -24,6 +24,6 @@ Additional value-adding services that support these main functions of a data spa
 
 - **Data trustees and escrow services:** Neutral service providers that hold, mediate, or process data under predefined governance constraints (for example, confined compute or escrowed storage) to enable joint analysis while preserving confidentiality.
 
-- **Other optional value-added services:** Additional capabilities such as notary, or auditing services, and specialized domain-specific tooling which may be selected to meet particular participant requirements.
+- **Other optional value-added services:** Additional capabilities such as notary, or auditing services, and specialised domain-specific tooling which may be selected to meet particular participant requirements.
 
 ![Foundational Concepts in data spaces](./media/Foundational_Concepts_in_data_spaces.png)

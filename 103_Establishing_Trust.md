@@ -15,7 +15,7 @@ Data spaces can create context-specific trust where trust did not exist before o
 
 Attribute-based trust is a way to establish trustworthiness between two parties based on specific attributes rather than a fixed identity. It functions as a control mechanism with minimal disclosure -  proving that certain conditions are met without revealing full details on every interaction. 
 
-It's mechanism can be summarized in a couple of simple statements:
+It's mechanism can be summarised in a couple of simple statements:
 
 - A Participant holds a collection of attributes
 - A data sharing contract is a collection of policies
@@ -41,7 +41,7 @@ possible to generally prescribe in the IDSA Rulebook how to handle extended, com
 
 >Attribute-based trust provides a dynamic, context- and risk-aware trust
 >model, that enables precise control by including attributes from many
->different information systems with customized rules. It allows
+>different information systems with customised rules. It allows
 >participants flexibility to build and use different implementations
 >based on their requirements.
 >

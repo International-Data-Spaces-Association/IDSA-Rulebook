@@ -21,7 +21,7 @@ Below are the primary documents in this repository; each entry links to the file
 
 - [100_Functional_Requirements.md](100_Functional_Requirements.md) — Functional Requirements: lists mandatory and optional technical and operational requirements for data spaces.
 - [101_Achieving_Autonomy_and_Agency.md](101_Achieving_Autonomy_and_Agency.md) — Autonomy & Agency: practical mechanisms and design considerations to preserve participant sovereignty.
-- [102_Foundational_concepts_of_a_data_space.md](102_Foundational_concepts_of_a_data_space.md) — Foundations: summarizes the essential functional areas and building blocks of a data space.
+- [102_Foundational_concepts_of_a_data_space.md](102_Foundational_concepts_of_a_data_space.md) — Foundations: summarises the essential functional areas and building blocks of a data space.
 - [103_Establishing_Trust.md](103_Establishing_Trust.md) — Establishing Trust: attribute and claim-based processes used to form trust between participants.
 - [104_Attributes_and_claims.md](104_Attributes_and_claims.md) — Attributes & Claims: guidance on self-descriptions, trust anchors, and verifiable credentials.
 - [105_Policies.md](105_Policies.md) — Policies: policy types, design patterns, enforcement guidance, sensitivity classes, and segmentation examples.

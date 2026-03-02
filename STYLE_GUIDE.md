@@ -9,7 +9,7 @@ Core conventions
 - Tone: Formal, neutral, instructional. Use present tense for definitions and requirements (e.g., "A DSGA defines ...").
 - Sentences: Use complete sentences (subject + verb + predicate). Avoid noun fragments for definitions and guidance.
 - Normative language: Follow the legend in `001_Introduction.md`. Use **must** for requirements, **should** for recommended practices that expect justification for exceptions, and **may** to indicate options.
-- Vocabulary consistency: Prefer "participant" (technical role) and "organization" (legal entity) and use "DSGA" and "DTF" consistently for governance authorities and trust frameworks.
+- Vocabulary consistency: Prefer "participant" (technical role) and "organisation" (legal entity) and use "DSGA" and "DTF" consistently for governance authorities and trust frameworks.
 - Examples: When giving examples, prefix with "For example:" and keep them brief.
 - Abbreviations & acronyms: Spell out on first occurrence with the acronym in parentheses (e.g., "Data Space Governance Authority (DSGA)").
 - Bulleted lists: Expand terse bullets (<10 words) into at least one full sentence that explains the concept for novice readers.

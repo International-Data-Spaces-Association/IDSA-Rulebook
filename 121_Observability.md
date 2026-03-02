@@ -1,11 +1,11 @@
 # Observability
 
-Many times it is necessary to make the data sharing process observable. This can be done for legal reasons to prove that data has been shared only with authorized entities, or for business reasons to provide a marketplace and billing function through a trusted third party.
+Many times it is necessary to make the data sharing process observable. This can be done for legal reasons to prove that data has been shared only with authorised entities, or for business reasons to provide a marketplace and billing function through a trusted third party.
 
 Depending on the architecture of the data space, multiple solutions are
 possible. A centralized or federated observer (sometimes called a clearing house) has two main shortcomings when implementing large-scale data spaces: It presents an additional vulnerability that could affect the sharing of mission critical data. Also a central observer which has data on all data sharing contracts represents potentially valuable knowledge about the participants. This can be exploited for financial gain, making it a target for bad actors.
 
-A decentralized architecture can minimize the risks associated with a centralized or federated observer model.
+A decentralized architecture can minimise the risks associated with a centralized or federated observer model.
 
 In a decentralized observer architecture, every participant keeps the
 information about the agreed contracts and their execution in their own

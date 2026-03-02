@@ -12,9 +12,9 @@ A data space adds value beyond individual data sharing by enabling collective tr
 the design of a data space.
 
 Different business, regulatory, legal, or technical requirements
-necessitate different business processes, governance frameworks and solution approaches. Some data spaces might require specialized, value-added services to provide critical business services, or fulfill a regulatory mandate while others might be designed so their participants have a maximum level of autonomy and maintain agency over how to share their data.
+necessitate different business processes, governance frameworks and solution approaches. Some data spaces might require specialised, value-added services to provide critical business services, or fulfil a regulatory mandate while others might be designed so their participants have a maximum level of autonomy and maintain agency over how to share their data.
 
-The architecture and functional requirements of data spaces as depicted in the IDSA Rulebook supports a wide variety of design decisions while emphasizing a common technical foundation that guarantees interoperability and reduces friction for organizations that want to participate in many different data spaces.
+The architecture and functional requirements of data spaces as depicted in the IDSA Rulebook supports a wide variety of design decisions while emphasizing a common technical foundation that guarantees interoperability and reduces friction for organisations that want to participate in many different data spaces.
 
 > **As described in the chapters on [Layers](004_Layers.md) and [Roles](005_Roles.md) involved business roles are implemented through the technical participant in a data space.**
 >

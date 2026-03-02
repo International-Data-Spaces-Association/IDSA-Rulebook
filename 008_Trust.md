@@ -45,7 +45,7 @@ Valid claim inputs include:
 
 - Verifiable claims (representing evidence about identity, attributes, roles, attestations).
 - Declared policies and obligations.
-- Observed runtime behavior from prior interactions.
+- Observed runtime behaviour from prior interactions.
 - Third-party assertions with verifiable provenance (expressed as verifiable claims).
 - Contextual factors (purpose, jurisdiction, risk class, data category).
 
@@ -74,7 +74,7 @@ Trust exists only while its assumptions hold.
 Therefore:
 
 Trust can be continuously re-evaluated for long-running interactions.
-Material changes in claims, policies, context, or behavior should trigger re-evaluation.
+Material changes in claims, policies, context, or behaviour should trigger re-evaluation.
 Cached trust decisions should have explicit validity bounds. A participant MAY reuse a cached trust assessment for similar future interactions only if the scope, risk class, and validity period are explicit, conservatively limited, and documented; cached assessments must be re-evaluated on any material change to claims, policies, or context.
 
 There is no concept of “once trusted, always trusted”. Participants should define verification frequency according to the sensitivity of the data and the risk of the interaction (for high-sensitivity assets require on-demand or per-execution revalidation; for lower-sensitivity assets periodic revalidation may be acceptable). Revocation signals must be handled promptly by participants; the DSGA or chosen DTFs should document expected propagation and verification intervals for different risk classes.

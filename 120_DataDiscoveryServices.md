@@ -59,11 +59,11 @@ evaluate their capabilities:
 #### Access policies
 
 A best practice of access security is for an IT system to show users
-only what they need to know - to minimize the potential attack surface.
+only what they need to know - to minimise the potential attack surface.
 The same is true for data contract offers (DCO) in a data space:
-Participants should only see the DCOs for which they are authorized to
+Participants should only see the DCOs for which they are authorised to
 request a contract negotiation. This does not imply that the participant
-already has authorization for the data but only that a participant is
+already has authorisation for the data but only that a participant is
 allowed to see that the data exists. The permission to access is part of
 the data contract negotiation. Any catalog must implement
 attribute-based access control (ABAC) through access policies.

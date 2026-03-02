@@ -23,7 +23,7 @@ of the more common ones:
     range of participants?
 
 - Do you want a central party with additional privileges (e.g.,
-    exclusion of participants for bad behavior) or is the independence
+    exclusion of participants for bad behaviour) or is the independence
     of the participants and their autonomy the most important design
     factor?
 
@@ -36,13 +36,13 @@ architectures and deployment patterns of data spaces.
 
 Once all design decisions are made, the following functional elements must be specified and documented:
 
-- **Rules:** Define the expected behaviours, roles, and minimum technical and organizational capabilities required of participants (for example, required legal contracts, organizational certifications, staff skills, security practices, or operational governance targets).
+- **Rules:** Define the expected behaviours, roles, and minimum technical and organisational capabilities required of participants (for example, required legal contracts, organisational certifications, staff skills, security practices, or operational governance targets).
 
 - **Policies:** Specify the participation, access, contract, and usage policies that will be enforced by the data space participants and describe how these policies are verified and evolved.
 
 - **Membership certification:** Describe the mechanism and evidence required to verify and certify membership (for example, identity documentation, audits, or third-party attestations), including issuance, renewal, and revocation processes.
 
-- **Participant registry:** Establish if, where and how authorized participants and their self-descriptions are published or discoverable, and which attributes are visible to different query roles.
+- **Participant registry:** Establish if, where and how authorised participants and their self-descriptions are published or discoverable, and which attributes are visible to different query roles.
 
 - **Identity system:** Decide whether identities will be managed via decentralized identifiers (DIDs), centralized identity services (not recommended), or a hybrid approach, and document the control, governance, and privacy implications of each option.
 
@@ -58,7 +58,7 @@ to be implemented to create the data space:
 
     The self-description for the data space should include the following documented elements:
 
-    - **Membership policies:** The eligibility criteria and evidence required for organizations to join, including any onboarding checks, audit requirements, and renewal conditions.
+    - **Membership policies:** The eligibility criteria and evidence required for organisations to join, including any onboarding checks, audit requirements, and renewal conditions.
 
     - **Trust anchors and trust frameworks:** A list of accepted credential issuers, Dataspace Trust Frameworks (DTFs), and the rules by which claims and attestations are validated.
 
@@ -73,7 +73,7 @@ to be implemented to create the data space:
 3. Provide a discovery mechanism for the data space (website, contact
     form, etc.)
 
-Once at least one Onboarding Service implementing the DSGA is instantiated, organizations can apply for membership.
+Once at least one Onboarding Service implementing the DSGA is instantiated, organisations can apply for membership.
 The functional elements listed above are mandatory capabilities for a functioning data space, but they may be implemented in decentralized or centralized ways. When a centralized or federated implementation is chosen, the DSGA must document the reasons for that choice and describe mitigating measures to protect participant autonomy and agency.
 After a participant joins, there are two main activities that all
 participants are interested in: discovering data shared by others and

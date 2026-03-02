@@ -1,6 +1,6 @@
 # Summary and outlook
 
-The IDSA Rulebook recognizes the growing need for structural
+The IDSA Rulebook recognises the growing need for structural
 approaches to accessing and sharing data while maintaining data
 sovereignty. The use of guiding principles helps identify solutions for
 this growing market. It includes the understanding of the plurality the current
