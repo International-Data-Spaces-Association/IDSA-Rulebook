@@ -1,6 +1,6 @@
 # Data space membership
 
-Technically the membership in a data space is just a credential. Nothing more than that. If a data space connector can show the membership credential it acts on behalf of an organization which is a member of the data space.
+Technically the membership in a data space is just a credential. Nothing more than that. If a data space software agent can show the membership credential it acts on behalf of an organization which is a member of the data space.
 
 However, on the business and legal layer things can get more complicated. There the membership in a data space can be a complex set of business process that need to be followed and legal documents that need to be signed.
 

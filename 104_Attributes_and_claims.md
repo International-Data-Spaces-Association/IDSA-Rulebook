@@ -58,6 +58,6 @@ list of examples is:
 
 Self-descriptions can also be used to convey purely technical
 information about a participant. For example, at what address can
-another participant communicate with its catalog or connector with this
+another participant communicate with its catalog or software agent with this
 participant, what encryption techniques are supported. Whether this
 information is stored and distributed in the same way as claims about attributes is a question of the data space requirements and tools used. 

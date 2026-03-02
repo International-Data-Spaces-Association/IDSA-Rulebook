@@ -62,7 +62,7 @@ The data transfer technology depends on the type of data asset, trust
 level, availability of technical protocols, infrastructure environment,
 and other factors. All data transfer technologies must be able to be
 orchestrated. Orchestration at this level means having technical control
-over the data sharing process, allowing the connector to start and stop
+over the data sharing process, allowing the software agent to start and stop
 the transfer, as well as having the necessary technical capabilities to
 monitor the progress of the transfer and to receive information about
 compliance with usage policies.

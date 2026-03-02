@@ -126,7 +126,7 @@ Policies can also act as a fine filter to segment data sharing scenarios and use
 
 - **Individual participant filtering:** Apply policies that target specific participants by identity attributes or credentials (for example, to whitelist a participant).
 
-- **Technology compatibility:** Limit interactions to connectors or endpoints that meet defined technical interoperability or security profiles, ensuring compatible communications.
+- **Technology compatibility:** Limit interactions to software agents or endpoints that meet defined technical interoperability or security profiles, ensuring compatible communications.
 
 - **Geographic constraints:** Require credentials or attributes indicating jurisdictional compliance, preventing access where legal or regulatory restrictions apply.
 

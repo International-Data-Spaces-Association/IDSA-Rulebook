@@ -64,7 +64,7 @@ to be implemented to create the data space:
 
     - **Attributes used for trust decisions:** A clear listing of attributes, their meaning, and how they map to policy constraints so participants can determine how trust levels are calculated.
 
-    - **Technical component requirements:** The required interfaces, protocols, and implementations (for example, connector capabilities) necessary to interact with the data space.
+    - **Technical component requirements:** The required interfaces, protocols, and implementations (for example, software agent capabilities) necessary to interact with the data space.
 
     - **Participant registry:** If a participant registry is required; the location and format of the participant registry or discovery endpoints, and which attributes are published for discovery versus private ones accessible only to existing members.
 
