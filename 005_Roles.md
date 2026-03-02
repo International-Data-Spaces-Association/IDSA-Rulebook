@@ -7,7 +7,7 @@ As established in the chapter on [Layers](004_Layers.md) the only technical role
 
 The Data Space Governance Authority (DSGA) is a special, functional role within a data space. It can be understood as the "legislative" of the data space by having the functional responsibility to define the rules and processes of the data space. 
 
-It serves a logical purpose within the Data Space Governance Framework but has no single definition of how it is implemented. To fully explain the role of the DSGA and not to distract from the Participant roles it is described in detail in its own chapter: [Data Space Governance Authority(DSG)](http://link-to-dsga-chapter.md)
+It serves a logical purpose within the Data Space Governance Framework but has no single definition of how it is implemented. To fully explain the role of the DSGA and not to distract from the Participant roles it is described in detail in its own chapter: [Data Space Governance Authority(DSGA)](http://link-to-dsga-chapter.md)
 
 ## Common Business Roles
 

@@ -20,7 +20,7 @@ A conforming decentralized data space must not assume the following as sufficien
 
 - **A central authority, broker, registry, or trust anchor:** Centralized services may provide useful evidence or convenience, but reliance on them creates a single point of control and does not replace per-contract, evidence-based trust decisions.
 
-- **Pre-established federation membership:** Membership in a federation may indicate a baseline of trustworthiness but does not guarantee that a specific participant satisfies the policy or technical requirements of any given contract or context.
+- **Pre-established federation membership:** Membership in a federation (infrastructure, data space, business, etc...) may indicate a baseline of trustworthiness but does not guarantee that a specific participant satisfies the policy or technical requirements of any given contract or context.
 
 - **Static certification or onboarding events as sufficient for trust:** One-off certifications or onboarding checks are useful provenance, but they do not capture runtime behaviour, compliance drift, or post-issuance changes and therefore cannot alone assure ongoing trust.
 
@@ -31,7 +31,9 @@ A conforming decentralized data space must not assume the following as sufficien
 Any architecture that depends exclusively on the assumptions above is not representative of a fully decentralized data space and is likely to fail to provide robust, context-aware trust.
 
 ## Separation of Concerns
-Trust assessment must be confined to the control plane.
+Trust assessment must be confined to the control plane. 
+
+The transfer process defined by the [Dataspace Protocol (DSP)](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/) involves two logical constructs: a control plane and a data plane. Their characteristics are explained in detail in the [Planes](010_Planes.md) section.
 
 The data plane is agnostic to trust logic and trust state.
 Trust decisions may influence if, when, and how data plane interactions are initiated or continued.

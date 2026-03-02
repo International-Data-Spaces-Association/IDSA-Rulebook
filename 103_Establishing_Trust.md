@@ -5,7 +5,7 @@ Humans build trust with each other by evaluating attributes of the other person:
 **Establishing trust is the fundamental reason for data spaces to exist!**
 
 To create value, data needs to interact with other data and then support decision
-making to enable actions that will create value. The potential to create value increases if data is more diverse, which often requires that multiple actors need to come together and share their data with each other. However, like in any human relationship: Before sharing comes trust. Without trust the risk of something going wrong seems to high and unmanageable. Creating trust reduces risk. Reduced risk lowers the barrier for sharing data.
+making to enable actions that will create value. The potential to create value increases if data is more diverse, which often requires that multiple actors need to come together and share their data with each other. However, like in any human relationship: Before sharing comes trust. Without trust, the risk of something going wrong seems too high and unmanageable. Creating trust reduces risk. Reduced risk lowers the barrier for sharing data.
 
 **Increaseing Trust lowers Risk**
 
@@ -21,7 +21,7 @@ It's mechanism can be summarized in a couple of simple statements:
 - A data sharing contract is a collection of policies
 - When negotiating a data sharing contract attributes are matched to policies
 
-A participants trustworthiness is determined by evaluating their participant
+A participant's trustworthiness is determined by evaluating their participant
 attributes. This evaluates the potential risk of sharing data with another participant. Lower risk means higher trust.
 
 In addition to the attributes of the participant the trust level is also based on additional context: the attributes of the data space and the attributes of the data shared in the data space, the applicable trust anchors and trust
