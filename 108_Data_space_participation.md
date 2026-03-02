@@ -12,13 +12,13 @@ The procedure to join a space will likely include the following steps
 for the applicant (details can vary due to the design and purpose of the
 data space):
 
-1. Candidate discovers the data space and the corresponding DSSD\
+1. Candidate discovers the data space and a description of the data space that specifies its participation requirements.
     This can be achieved through human interaction, a website of the
     data space, finding the [DID](https://www.w3.org/TR/did-core/) of the data space in some registry
-    or through automated discovery protocol of existing participants
+    or through automated, machine-readable discovery protocols of existing participants
     among other things.
 
-2. Candidate reads the DSSD and receives information about the policies
+2. Candidate reads the requirements and receives information about the policies
     and rules of the data space, as well as technical configuration
     information for endpoints and protocols.
 
