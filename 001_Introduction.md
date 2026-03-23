@@ -42,7 +42,7 @@ The central objectives for data spaces is the establishment of trustworthiness i
 - Your Data, Your Choice (Actors shall have full autonomy in deciding with whom they share data with and under what conditions)
 - With great responsibility comes great power (Actors shall be responsible for ensuring their freedom to act autonomously)
 - Data Spaces are Decentralized & Neutral (All actors shall be treated equitable in their rights and obligations)
-- Data does not flow through the Dataspace (Sharing of data is executed on private channels)
+- Data does not flow through the Data Space (Sharing of data is executed on private channels)
 - Unity in Standards - Freedom in Implementation (Data Spaces shall be based on international standards)
 - There is no single platform to rule them all (Data Spaces shall be infrastructure agnostic)
 - Data Spaces are not Data Ecosystems (Data Spaces are building blocks for data ecosystems)
