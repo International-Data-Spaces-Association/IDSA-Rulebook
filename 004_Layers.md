@@ -54,7 +54,7 @@ Participants in a data space are defined by their ability to automate the negoti
 
 Note: For technical participation, "organisation" includes incorporated entities, not-for-profit bodies, public sector organisations, and registered sole traders or self-employed individuals acting as legal entities. Individuals may participate only when acting as a legal entity and if they are able to operate all required software agents directly or via an organisation that represents them (for example, a service provider).
 
-- **Natural persons** interact with data spaces indirectly through applications or services operated by organisations. Their participation is strictly limited to the Economic and Legislative Layer. Software agents can represent a natural person but not impersonate it.
+- **Natural persons** shall interact with data spaces only indirectly through applications or services operated by organisations, and their participation shall be limited to the Economic and Legislative Layer. The services may include e.g. personal data intermediation (including consent management) or data wallet provision. Software agents may act on behalf of a natural person, but shall not impersonate or assume the identity of that person in the technical layer.
 
 - As data spaces are fully decentralized and participants are responsible for their own **decentralized identity (DID)**, there are **no identity providers** in a data space. Participants provide proof of their identity to others through the use of claims (e.g. expressed through verifiable credentials) and not through a common identity provider. Access to resources is managed through authentication tokens issued directly by the participants sharing those resources.
 
