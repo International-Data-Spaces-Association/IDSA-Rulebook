@@ -48,7 +48,7 @@ The data holder and data provider can be separate organisations (e.g. in cases w
 
 In a data space optional service providers can offer [optional capabilities](http://link_to__value_added_services_chapter) to enable data sharing or to provide business services. Fundamentally, all such service providers are considered to be a participant in a data space and therefore bound to the agreed policies and rules of a given data space. Their implementation must be representable as a participant at the technical level.
 
-**Intermediaries** are services that are acting on behalf of participants in the data space. This can be a range of activities within the data space: negotiating a data sharing contract on behalf of a participant, implementing technical infrastructure on behalf of the participant and making decisions on behalf of a participant, thus impacting their digital sovereingnty.
+**Intermediaries** are services that are acting on behalf of participants in the data space. This can be a range of activities within the data space: negotiating a data sharing contract on behalf of a participant, implementing technical infrastructure on behalf of the participant and making decisions on behalf of a participant, thus impacting their digital sovereignty.
 
 Such intermediaries may be regulated by local governments like the EU Data Governance Act in the European Union, which defines a specific "Data Intermediary" role. A detailed analysis can be found in the paper [Reflections on the DGA and Data Intermediaries](https://internationaldataspaces.org/download/42325/?tmstv=1708096468).
 
