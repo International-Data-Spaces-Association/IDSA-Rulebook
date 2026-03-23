@@ -15,7 +15,7 @@ identified through a correlation ID linking them. This log data can be shared wi
 matches the corresponding logging information and reports any irregularities to the parties participating in the sharing contract (or to the
 respective regulator if required). The same mechanism can also be used for example for billing and notary functions.
 
-An observer is a third party participant in the data space identifiable through a specific credential, which qualifies them as a trusted observer, such as an industry auditor,rooted in a governmental trust anchor for auditors.
+An observer is a third party participant in the data space identifiable through a specific credential, which qualifies them as a trusted observer, such as an industry auditor, rooted in a governmental trust anchor for auditors.
 
 To audit the contracts of a participant, the auditor
 requests the log data which is published as data contract
