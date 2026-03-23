@@ -14,14 +14,14 @@ Data Sharing does not require a physical move of the data asset,
 although this will be frequently the case.
 
 However, before data can be shared, a data contract offer needs to be
-negotiated to reach a data contract agreement (DCA) which specifies all
+negotiated to reach a Data Contract Agreement (DCA) which specifies all
 policies and details of the data sharing process.
 
 #### Contract negotiation
 
 A contract negotiation (CN) serves the purpose of reaching an agreement
 to share a data asset between two participants of the data space. During
-the CN policies of the DCO are evaluated against the attributes of the
+the CN policies of the Data Contract Offer (DCO) are evaluated against the attributes of the
 requesting participant, and VCs are verified with their issuers. Note
 that while any trust anchor is an issuer of VCs that can be used to
 evaluate policies, there might be additional external issuers that need
