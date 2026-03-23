@@ -37,7 +37,7 @@ jurisdiction = country) or contain statements about proofs of technical capabili
 
 Many situations require attributes that are complex and may involve additional workflows, including human intervention. ```
 require additional workflows that can include human intervention. It is not
-possible to generally prescribe in the IDSA Rulebook how to handle extended, composite and complex attributes. This is a question of the design of the data space and its rules. Further guidance can be found in the [IDS RAM](https://link2RAM).
+The IDSA Rulebook cannot prescribe a general approach for handling extended, composite, or complex attributes. Their management depends on the specific design and governance rules of the respective data space. Further guidance can be found in the [IDS RAM](https://link2RAM).
 
 >Attribute-based trust provides a dynamic, context- and risk-aware trust
 >model, that enables precise control by including attributes from many
