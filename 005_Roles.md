@@ -20,7 +20,7 @@ emerge over time. In this section we define the most important and
 common roles without claiming to be exhaustive. In practice, it has
 proven useful to first implement the essential roles that are necessary
 for the data space to function. Three roles should be established first:
-provider, consumer, and intermediary services.
+data provider, data consumer, and intermediary services.
 
 ### Data consumer
 
