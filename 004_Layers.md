@@ -78,7 +78,7 @@ The Rulebook reflects these principles clearly:
 
 - The only **technical role** is the **participant**, which may act as data provider, consumer, or both.
 
-- **Business roles** are supplementary and must be defined within the economic or legal layers.
+- **Business roles** are supplementary and must be defined within the economic or regulation layers.
 
 - **Clarity:** Visual representations and descriptions in the IDSA Rulebook must be clearly labeled to indicate whether they depict technical, business, or legal perspectives.
 
