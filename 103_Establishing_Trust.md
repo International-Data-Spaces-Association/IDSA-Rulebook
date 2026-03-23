@@ -7,7 +7,7 @@ Humans build trust with each other by evaluating attributes of the other person:
 To create value, data needs to interact with other data and then support decision
 making to enable actions that will create value. The potential to create value increases if data is more diverse, which often requires that multiple actors need to come together and share their data with each other. However, like in any human relationship: Before sharing comes trust. Without trust, the risk of something going wrong seems too high and unmanageable. Creating trust reduces risk. Reduced risk lowers the barrier for sharing data.
 
-**Increaseing Trust lowers Risk**
+**Increasing trust lowers risk**
 
 Data spaces can create context-specific trust where trust did not exist before or where it is difficult to establish -- for example between competitors. Therefore data spaces reduce the risk of sharing data and through that enable the creation of value.
 
