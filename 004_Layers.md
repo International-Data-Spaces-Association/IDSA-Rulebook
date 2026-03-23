@@ -76,7 +76,7 @@ Participation requires **governance commitment** and **technical integration**.
 
 The Rulebook reflects these principles clearly:
 
-- The only **technical role** is the **participant**, which may act as data provider, consumer, or both.
+- The only **technical role** is the **participant**, which may act as data provider, data consumer, or both.
 
 - **Business roles** are supplementary and must be defined within the economic or legal governance layers.
 
