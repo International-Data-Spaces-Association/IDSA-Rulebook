@@ -7,7 +7,7 @@ Humans build trust with each other by evaluating attributes of the other person:
 To create value, data needs to interact with other data and then support decision
 making to enable actions that will create value. The potential to create value increases if data is more diverse, which often requires that multiple actors need to come together and share their data with each other. However, like in any human relationship: Before sharing comes trust. Without trust, the risk of something going wrong seems too high and unmanageable. Creating trust reduces risk. Reduced risk lowers the barrier for sharing data.
 
-**Increaseing Trust lowers Risk**
+**Increasing trust lowers risk**
 
 Data spaces can create context-specific trust where trust did not exist before or where it is difficult to establish -- for example between competitors. Therefore data spaces reduce the risk of sharing data and through that enable the creation of value.
 
@@ -30,14 +30,14 @@ frameworks, and potentially others.
 It can be expressed by complex rule sets that can evaluate many attributes and understand their provenance and who is providing guarantees about them. There is no limit to the attributes that can be defined and the expression of policy rules to evaluate those attributes. It is also possible to define policies that branch into additional workflows, e.g. human approvals, for evaluating claims about the participant attributes.
 
 Depending on the level of tolerable risk (and thus required trustworthiness) for sharing an asset, restrictions need to be put in place. The restrictions are expressed through policies as described above. The proofs of adherence
-to the policies and rules are expressed through cryptographically signed claims, as well as additional attributes that might be provided by the participant directly or indirectly represented through the claims presentation process during the trust negotiation (e.g., proof that commercial contract for the data exists and that payment for the data has been submitted; proof of technical capabilities (e.g. encryption at rest, secure communication channels, etc...)).
+to the policies and rules are expressed through cryptographically signed claims, as well as additional attributes that might be provided by the participant directly or indirectly represented through the claims presentation process during the trust negotiation (e.g., proof that commercial contract for the data exists and that payment for the data has been submitted, or proof of technical capabilities: encryption at rest, secure communication channels, etc.).
 
 Attributes can be expressions representing a single claim (e.g., membership credentials of an association) or a set of multiple claims (e.g., the other entity is under a specific jurisdiction and the destination for the data transfer in a specific country). Claims can represent static values (e.g.,
 jurisdiction = country) or contain statements about proofs of technical capabilities (e.g., support a specific encryption algorithm).
 
-Many situations will required attributes that are rather complex and might
+Many situations require attributes that are complex and may involve additional workflows, including human intervention. ```
 require additional workflows that can include human intervention. It is not
-possible to generally prescribe in the IDSA Rulebook how to handle extended, composite and complex attributes. This is a question of the design of the data space and its rules. Further guidance can be found in the [IDS RAM](https://link2RAM).
+The IDSA Rulebook cannot prescribe a general approach for handling extended, composite, or complex attributes. Their management depends on the specific design and governance rules of the respective data space. Further guidance can be found in the [IDS RAM](https://link2RAM).
 
 >Attribute-based trust provides a dynamic, context- and risk-aware trust
 >model, that enables precise control by including attributes from many
