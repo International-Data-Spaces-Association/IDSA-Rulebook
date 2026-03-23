@@ -85,7 +85,7 @@ additional governance.
 
 **Value-adding services** may be realized by intermediaries or as function
 of a data space participant. Such value-adding services are not subject
-to the IDSA Rulebook, but are explained in the [DSSC Blueprint Version 1](https://dssc.eu/)
+to the IDSA Rulebook, but are explained in the [DSSC Blueprint Version 3.0](https://dssc.eu/)
 in more detail. The IDSA Rulebook provides a limited explanation below.
 
 
