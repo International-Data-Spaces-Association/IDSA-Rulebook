@@ -32,7 +32,7 @@ Data spaces can overlap or be aligned hierarchically. As an example, the communi
 
 No matter which community an organisation wants to participate in, it needs to have the technical means for participation. This includes, for example, operating a data space connector that supports the required foundational protocols and having knowledge of the relevant semantic models. In addition, the organisation needs to possess the appropriate credentials that prove its membership in the respective community.
 
-Some communities will require significant effort to join (e.g. becoming part of a not-for-profit association, signing legal documents, etc...) while others might be relatively lightweight and offer a low friction onboarding process (e.g. sharing open data for scientific research).
+Some communities will require significant effort to join (e.g. becoming part of a not-for-profit association, signing legal documents). Others may offer a more lightweight, low-friction onboarding process, for example when sharing open data for scientific research.
 
 ### International Cross-Border Data Sharing
 Special attention is necessary when the community consists of organisations operating under different jurisdictions as this might create legal conflicts in the policies required to share data. While some might be relatively easy to resolve (e.g. data sharing within the member states of the European Union) other will require more investments to resolve conflicts and clarify ambigous rules (e.g. sharing data between a Chinese and a German company as part of a supply chain data space).
