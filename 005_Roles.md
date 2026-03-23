@@ -7,7 +7,7 @@ As established in the chapter on [Layers](004_Layers.md) the only technical role
 
 The Data Space Governance Authority (DSGA) is a special, functional role within a data space. It can be understood as the "legislative" of the data space by having the functional responsibility to define the rules and processes of the data space. 
 
-It serves a logical purpose within the Data Space Governance Framework but has no single definition of how it is implemented. To fully explain the role of the DSGA and not to distract from the Participant roles it is described in detail in its own chapter: [Data Space Governance Authority(DSGA)](http://link-to-dsga-chapter.md)
+It serves a logical purpose within the Data Space Governance Framework but has no single definition of how it is implemented. To fully explain the role of the DSGA and not to distract from the Participant roles it is described in detail in its own chapter: [Data Space Governance Authority(DSGA)](006_DSGA.md)
 
 ## Common Business Roles
 
@@ -46,7 +46,7 @@ The data holder and data provider can be separate organisations (e.g. in cases w
 
 ### Service Provider (intermediary, value-adding services)
 
-In a data space optional service providers can offer [optional capabilities](http://link_to__value_added_services_chapter) to enable data sharing or to provide business services. Fundamentally, all such service providers are considered to be a participant in a data space and therefore bound to the agreed policies and rules of a given data space. Their implementation must be representable as a participant at the technical level.
+In a data space optional service providers can offer optional capabilities to enable data sharing or to provide business services. Fundamentally, all such service providers are considered to be a participant in a data space and therefore bound to the agreed policies and rules of a given data space. Their implementation must be representable as a participant at the technical level.
 
 **Intermediaries** are services that are acting on behalf of participants in the data space. This can be a range of activities within the data space: negotiating a data sharing contract on behalf of a participant, implementing technical infrastructure on behalf of the participant and making decisions on behalf of a participant, thus impacting their digital sovereingnty.
 
