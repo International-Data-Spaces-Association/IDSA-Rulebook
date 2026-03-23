@@ -20,7 +20,7 @@ The most important aspect of data spaces is the **autonomy** and **agency** of a
 
 However, full autonomy and agency come at a price. The participating party needs to have the ability and technical means to control all technical, business and legal elements of participating in the data space and negotiating contracts. For many participants this will be too expensive or too cumbersome in relation to the value of the data shared. In those cases data intermediaries can be used which will perform data space access functions and perform the sharing or use of data. As each function that is provided by a service provider impairs the participants digital sovereignty it needs to be carefully weighted which functions can and should be handed over to a service provider. 
 
-Especially for smaller organisations that need to share data in data spaces that mostly serve regulatory purposes it might be a good option to not participate directly but use the services of an aggregator / portal provider who then shares their data on their behalf to the data space.
+Especially for smaller organisations participating in data spaces that primarily serve regulatory purposes, it may be preferable not to connect directly, but instead to use an aggregator or portal provider that shares data with the data space on their behalf.
 
 The IDSA Rulebook will explain the functionality, mechanics and processes of a data space from the perspective of a fully autonomous participant with full agency. Where applicable additional explanation will be provided how intermediaries, aggregators and other service providers can be leveraged to trade digital sovereignty for ease of access and operation.
 
