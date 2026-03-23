@@ -30,7 +30,7 @@ Data spaces are data ecosystems built on the concept of communities of trusted p
 
 Data spaces can overlap or be aligned hierarchically. As an example, the community of all European Healthcare Organisations is organised in the European Healthcare Data Space (EHDS), which can be segmented into smaller healthcare data spaces by country, while at the same time being segmented into separate data spaces by industry (e.g. pharma, hospitals, medical device manufacturers) and again be also segmented by a specific use case (e.g. cancer research, disease tracking).
 
-No matter which community a organisation wants to participate in they need to have the technical means (e.g. operating a data space connector that understand the two foundational protocols, knowledge of the respective semantic models). It needs to have the necessary credentials that proof that it is a member of this specific community. 
+No matter which community an organisation wants to participate in, it needs to have the technical means for participation. This includes, for example, operating a data space connector that supports the required foundational protocols and having knowledge of the relevant semantic models. In addition, the organisation needs to possess the appropriate credentials that prove its membership in the respective community.
 
 Some communities will require significant effort to join (e.g. becoming part of a not-for-profit association, signing legal documents, etc...) while others might be relatively lightweight and offer a low friction onboarding process (e.g. sharing open data for scientific research).
 
