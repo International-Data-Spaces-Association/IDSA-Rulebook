@@ -195,7 +195,7 @@ applied to Data Spaces.
 ### Technical
 
 The basis for technical interoperability in Data Spaces is the [Dataspace
-Protocol(DSP)](https://docs.internationaldataspaces.org/ids-knowledgebase/v/dataspace-protocol). This protocol provides a set of specifications
+Protocol (DSP)](https://docs.internationaldataspaces.org/ids-knowledgebase/v/dataspace-protocol). This protocol provides a set of specifications
 designed to facilitate interoperable data sharing between entities
 governed by usage control and is based on web technologies. These
 specifications define the schemas and protocols required for entities to
