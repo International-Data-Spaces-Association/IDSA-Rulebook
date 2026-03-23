@@ -26,7 +26,7 @@ data provider, data consumer, and intermediary services.
 
 Data consumers are the recepients of a data sharing activity. In the IDSA Rulebook the data consumer is the party acting as the consumer of a data sharing contract. 
 
-The closely realted term "data user" describes a natural or legal person who has lawful access to certain personal or non-personal data and has the right,  to use that data for commercial or non-commercial purposes.
+The closely related term "data user" describes a natural or legal person who has lawful access to certain personal or non-personal data, and has the right to use that data for commercial or non-commercial purposes.
 
 The data user and data consumer can be separate organisations but often will be two perspectives on the roles of the same participant, depending on the context.
 
