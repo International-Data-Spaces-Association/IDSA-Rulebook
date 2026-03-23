@@ -13,7 +13,7 @@ Encompasses the architecture and protocols (e.g., Dataspace Protocol (DSP), Dece
 Manages the services, interactions, and workflows that enable value generation. Alternative terms for this layer are also *Business* or *Operational Layer*.
 
 ### Legislative Layer
-Enforces rights, obligations, and regulatory compliance across participants. Alternative terms for this layer are also *Regulatory* or *Governance Layer*.
+Enforces rights, obligations, and regulatory compliance across participants. Alternative term for this layer is *Regulatory Layer*.
 
 While at the technical layer all participants are equal the layers building on top can lead to segmentation into individual communities as described in the chapter [What is a Data Space - Communities](003_WhatIsADataspace.md#communities)
 
