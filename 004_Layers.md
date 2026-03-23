@@ -54,7 +54,7 @@ Participants in a data space are defined by their ability to automate the negoti
 
 Note: For technical participation, "organisation" includes incorporated entities, not-for-profit bodies, public sector organisations, and registered sole traders or self-employed individuals acting as legal entities. Individuals may participate only when acting as a legal entity and if they are able to operate all required software agents directly or via an organisation that represents them (for example, a service provider).
 
-- **Natural persons** interact with data spaces indirectly through applications or services operated by organisations. Their participation is strictly limited to the Economic and Legislative Layer. Software agents can represent a natural person but not impersonate it.
+- **Natural persons** shall interact with data spaces only indirectly through applications or services operated by organisations, and their participation shall be limited to the Economic and Legislative Layer. The services may include e.g. personal data intermediation (including consent management) or data wallet provision. Software agents may act on behalf of a natural person, but shall not impersonate or assume the identity of that person in the technical layer.
 
 - As data spaces are fully decentralized and participants are responsible for their own **decentralized identity (DID)**, there are **no identity providers** in a data space. Participants provide proof of their identity to others through the use of claims (e.g. expressed through verifiable credentials) and not through a common identity provider. Access to resources is managed through authentication tokens issued directly by the participants sharing those resources.
 
@@ -66,7 +66,7 @@ Entities that provide static resources (such as ontologies, schemas, or public c
 
 - A dataspace trust framework provider usually acts as an external reference. However, it may act as a **participant** if it delivers services subject to data space governance policies provided through an implementation of standardised data space protocols.
 
-- **Trust anchors**, **regulators** and similar legal entities may influence data transactions but do not participate directly unless they act through technical interfaces governed by data space rules. Most commonly they provide external services which are referenced in the data space (e.g. common data lookup services, registries, etc...)
+- **Trust anchors**, **regulators** and similar legal entities may influence data transactions but do not participate directly unless they act through technical interfaces governed by data space rules. Most commonly they provide external services which are referenced in the data space (e.g. common data lookup services, registries).
 
 This model guarantees the adherance to the governance model and thus supports trust while preserving digital sovereignty of each participant and the integrity of technical interactions. Flexibility is created through processes in the economic layer which supports extensive customisation. The DSGA must not mandate central or federated services that restrict participant autonomy or agency without explicit justification; any such choice must be documented and accompanied by mitigation measures to preserve participant control.
 
@@ -76,7 +76,7 @@ Participation requires **governance commitment** and **technical integration**.
 
 The Rulebook reflects these principles clearly:
 
-- The only **technical role** is the **participant**, which may act as data provider, consumer, or both.
+- The only **technical role** is the **participant**, which may act as data provider, data consumer, or both.
 
 - **Business roles** are supplementary and must be defined within the economic or regulation layers.
 
