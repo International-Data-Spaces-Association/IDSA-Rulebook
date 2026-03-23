@@ -66,7 +66,7 @@ Entities that provide static resources (such as ontologies, schemas, or public c
 
 - A dataspace trust framework provider usually acts as an external reference. However, it may act as a **participant** if it delivers services subject to data space governance policies provided through an implementation of standardised data space protocols.
 
-- **Trust anchors**, **regulators** and similar legal entities may influence data transactions but do not participate directly unless they act through technical interfaces governed by data space rules. Most commonly they provide external services which are referenced in the data space (e.g. common data lookup services, registries, etc...)
+- **Trust anchors**, **regulators** and similar legal entities may influence data transactions but do not participate directly unless they act through technical interfaces governed by data space rules. Most commonly they provide external services which are referenced in the data space (e.g. common data lookup services, registries).
 
 This model guarantees the adherance to the governance model and thus supports trust while preserving digital sovereignty of each participant and the integrity of technical interactions. Flexibility is created through processes in the economic layer which supports extensive customisation. The DSGA must not mandate central or federated services that restrict participant autonomy or agency without explicit justification; any such choice must be documented and accompanied by mitigation measures to preserve participant control.
 
