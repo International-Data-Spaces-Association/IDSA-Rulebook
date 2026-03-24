@@ -29,7 +29,9 @@ Trust within the data space is governed by at least one [**Dataspace Trust Frame
 
 DTFs can be built hierachically by partial DTFs, external DTFs, DTF building blocks, etc. It is the responsibility of the [**DSGA**](006_DSGA.md) and/or the participant to resolve any potential conflicts between the applied DTFs and to ensure a final, unambiguous set of rules. If a data asset is offered under two different rule sets, it shall be treated as two separate contract offers.
 
-Instead of maintaining membership lists, the architecture relies on onboarding credentials — requested/issued and managed by participants themselves, checked and validated by onboarding services and signed by signatory services, the credential issuance service of the DTFs. This model ensures that each participant is responsible for their own credential lifecycle, promoting autonomy and reducing administrative overhead.
+Instead of maintaining membership lists, the architecture relies on onboarding credentials — requested/issued and managed by participants themselves, checked and validated by onboarding services and signed by signatory services, the credential issuance service of the DTFs. This model ensures that each participant is responsible for their own credential lifecycle, promoting autonomy and reducing administrative overhead. 
+
+The model also assumes that the membership criteria set by the DSGA can be expressed as verifiable credentials, and that the dynamic nature of both membership criteria and credentials is taken into account.
 
 Credential verification is handled on-demand, reinforcing the decentralized nature of the data space and minimising the risk of single points of failure or control.
 
