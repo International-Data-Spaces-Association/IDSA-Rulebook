@@ -33,7 +33,7 @@ The Data Management Plane encompasses the organisational functions responsible f
 
 The Data Management Plane encompasses the functions responsible for the lifecycle, quality, and governance of data within a data sharing solution.
 
-It operates independently of data transmission (data plane) and orchestration (control plane), focusing on ensuring data integrity, compliance, and usability. In data spaces, it supports integration with governance mechanisms across the data user organisation.
+While it operates separately from data transmission (data plane) and orchestration (control plane), the Data Management Plane supports participation in the data space by integrating governance requirements into the organisation’s internal processes and systems.
 
 ### Typical Functions of Data Management
 
