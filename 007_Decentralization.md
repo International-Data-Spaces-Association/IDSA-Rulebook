@@ -27,7 +27,7 @@ There is no need for custom technical architectures or specialised protocols to 
 ## Trust Frameworks and Credential Management
 Trust within the data space is governed by at least one [**Dataspace Trust Framework (DTF)**](009_Dataspace_Trust_Frameworks.md). DTFs contain the rules that are fundamental to trust creation within the data space. An empty DTF/no DTF also qualifies as a DTF as no rules can be interpreted as data being shared with anyone without conditions (e.g.: Open Data). 
 
-DTFs can be built hierachically by partial DTFs, external DTFs, DTF building blocks, etc. It is the responsibility of the [**DSGA**](006_DSGA.md) to and/or the participant to resolve potential conflicts between used DTFs to arrive at a final set of rules without ambiguity. If a data asset is offered under two different rule sets it is being represented as two different contract offers.
+DTFs can be built hierachically by partial DTFs, external DTFs, DTF building blocks, etc. It is the responsibility of the [**DSGA**](006_DSGA.md) and/or the participant to resolve any potential conflicts between the applied DTFs and to ensure a final, unambiguous set of rules. If a data asset is offered under two different rule sets, it shall be treated as two separate contract offers.
 
 Instead of maintaining membership lists, the architecture relies on onboarding credentials — requested/issued and managed by participants themselves, checked and validated by onboarding services and signed by signatory services, the credential issuance service of the DTFs. This model ensures that each participant is responsible for their own credential lifecycle, promoting autonomy and reducing administrative overhead.
 
