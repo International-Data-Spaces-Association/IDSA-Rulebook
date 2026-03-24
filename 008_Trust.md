@@ -144,5 +144,5 @@ A decentralized dataspace conforming to this model therefore must uphold:
 - No mandatory central trust services.
 - No implicit trust via participation alone.
 
-**These invariants take precedence over compatibility with prior dataspaces models.**
+**These invariants take precedence over compatibility with prior data space models.**
 
