@@ -51,7 +51,7 @@ While it operates separately from data transmission (data plane) and orchestrati
 
 - **Risk Management and Data Sovereignty Protection**: Identifying and mitigating risks, including sovereignty violations, by enforcing participant controls. It prioritises conservative approaches, such as deny-by-default for sensitive data.
 
-These functions are clearly separated from other planes. However, interaction and integration with other planes is necessary for building full governance and mangement capabilities.
+These functions are clearly separated from other planes. However, interaction and integration with other planes is necessary for building full governance and management capabilities.
 
 ## Application Plane
 
