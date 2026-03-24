@@ -24,7 +24,7 @@ A DSGA is a formal specification of the governance model and rules of a data spa
 
 - **Service Providers**: multiple service providers operate value added data space services or external Oracles that enable the enforcment of the governance model provided by the DSGA. The participants of the data space are responsible to choose which services providers to use and are free to reject interactions with participants where a common set of accepted service providers cannot be identified. An example of such a service can be the issuance of a data space participant credential.
 
-- **Operations Company**: in a very centralized designed data space the DSGA functions can be implemented by a single operations company which provides mandatory governance enforcement services. Note, that this is the least recommended design as it creates centralized control and single points of failure, thus impacting the autonomy and agency of participants.
+- **Operations Company**: in a centrally governed data space the DSGA functions can be implemented by a single operations company which provides mandatory governance enforcement services. Note, that this creates centralized control and single points of failure, thus impacting the autonomy and agency of participants.
 
 ## Additional considerations for DSGA design
 
