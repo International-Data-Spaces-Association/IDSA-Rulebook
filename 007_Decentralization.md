@@ -44,7 +44,7 @@ Advanced business cases such as participant matching, observer roles, and data m
 When designing the data space business functions it is important to pay attention that the introduction of mandatory value-added services might introduce unwanted centralization or federation thus leading to undesirable concentration of control and accidental single point of failures/attack that can negatively affect the participants in the data space. It is highly recommended to enable an open market of competing value-added services to ensure higher resiliency and avoid centralization of control.
 
 ## Global data space mesh
-As decentralized architectures proliferate, a global mesh of data space agents (e.g.: connectors) is emerging. Each data space maintains its own legal and trust boundaries, ensuring that governance and compliance are localised and context-specific. At the same time, the underlying technologies—agents, protocols, credential management systems—are reusable across multiple data spaces, maximising efficiency and reducing duplication.
+As decentralized architectures proliferate, a global mesh of data space agents (e.g. connectors) is emerging. Each data space maintains its own legal and trust boundaries, ensuring that governance and compliance are localised and context-specific. At the same time, the underlying technologies — agents, protocols, credential management systems — are reusable across multiple data spaces, maximising efficiency and reducing duplication.
 This mesh enables organisations to participate in multiple data spaces seamlessly, leveraging consistent standards and interoperable technologies.
 
 ## Use Case Segmentation
