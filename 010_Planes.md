@@ -29,7 +29,7 @@ Sovereign capabilities depend on the specific implementation of a data plane and
 
 Once data has been shared it usually needs to be managed to enforce governance models and ensure the adherance to policies negotiated in the control plane.
 
-**The Data Management Plane is not a part of the data space**, but rather a necessary organisational capability, it might have to be aware of data space elements to enable the organisation to fulfil obligations associated with the shared data or to enable the management of data to be shared with others.
+The Data Management Plane encompasses the organisational functions responsible for managing the lifecycle, quality, and governance of data within a data sharing solution. This includes ensuring data integrity, compliance with contractual obligations, and usability across internal systems.
 
 The Data Management Plane encompasses the functions responsible for the lifecycle, quality, and governance of data within a data sharing solution.
 
