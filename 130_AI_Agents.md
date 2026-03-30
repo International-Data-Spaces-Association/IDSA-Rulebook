@@ -43,8 +43,8 @@ The resource protected through a decentralized attribute-based access control ca
 Same as the negotiation of data sharing contracts an AI Agent access contract could be negotiated. The data plane for that contract then would have to be an A2A protocol implementation.
 
 ## Semantic Interoperability and Compliance
-As it will be impossible to create a globally standardised semantic model for data sharing contracts AI can help with the interpretation of different models and therefore aid in the fulfilment of the data sharing contract.
-AI’s ability to map different semantic models reduces the need for manual standardisation, enabling automatic policy negotiation and compliance verification. Dataspaces often leverage domain-specific knowledge graphs and ontologies, providing the context layer essential for meaningful AI integration.
+As it will be impossible to create a globally standardized semantic model for data sharing contracts AI can help with the interpretation of different models and therefore aid in the fulfillment of the data sharing contract.
+AI’s ability to map different semantic models reduces the need for manual standardization, enabling automatic policy negotiation and compliance verification. Dataspaces often leverage domain-specific knowledge graphs and ontologies, providing the context layer essential for meaningful AI integration.
 
 ## Strategic Recommendations
 1.	**Invest in Protocol Standardisation:** Support the development and adoption of MCP, A2A, DSP and DCP to enable secure, scalable AI integration.
