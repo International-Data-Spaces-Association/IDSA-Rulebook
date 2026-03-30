@@ -68,7 +68,7 @@ Trust formation must be repeatable and enable auditable by the evaluating partic
 
 Trust outcomes must be explainable in terms of accepted and rejected claims.
 
-Trust mechanisms must support decentralized identities without mandatory reliance on a centralized or federated identity provider, gatekeeper, or broker. Participants and the DSGA may define and accept multiple trust anchors (credential issuers) as part of the Dataspace Trust Framework; reliance on an accepted anchor is a deliberate governance choice and does not imply implicit central control. Policy and claims exchange uses interoperable, machine-readable protocols and formats.
+Trust mechanisms shall not require mandatory reliance on a single centralized or federated identity provider. The DSGA may define and accept multiple trust anchors (credential issuers) as part of the Dataspace Trust Framework. Acceptance of a given anchor is a governance decision and does not grant structural control over the data space to that issuer. Policy and claims exchange uses interoperable, machine-readable protocols and formats.
 Centralized-only identity architectures are not aligned with the autonomy and agency objectives of decentralized data spaces.
 
 
