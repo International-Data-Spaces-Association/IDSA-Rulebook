@@ -1,6 +1,13 @@
 # Understanding the planes of a data sharing solution
+A data sharing solution comprises of several layers:
 
-A data sharing solution can be described as a set of interacting planes with distinct responsibilities: the **Control Plane** for discovery and contract negotiation, the **Data Plane** for data transfer/access execution, the **Data Management Plane** for lifecycle and governance within organisations, and the **Application Plane** for user-facing value creation. The separation clarifies responsibilities and reduces architectural coupling.
+- **Control Plane:** enabling core capabilities in a data space, for managing the discovery of available assets and the negotiation of data sharing contracts and orchestration of data sharing
+
+- **Data Plane:** where peer-to-peer data sharing happens outside the data space, providing access to or transmitting data according to the policies agreed upon in the data sharing contract
+
+- **Data Management Plane:** Organisational functions responsible for managing the lifecycle, quality, and governance of data within a data sharing solution; a capability out of scope of the dataspace, but very essential for the data space participants
+
+- **Application Plane:** The user-facing layer that consumes and processes data from the Data Management Plane to deliver value to the participant
 
 ## Control Plane
 
