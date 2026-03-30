@@ -20,3 +20,5 @@ The architecture and functional requirements of data spaces as depicted in the I
 >
 > **This underlines the need for all parties involved in a data space and in the sharing, and usage of data to adhere to a common set of rules, the policies provided by the DSGA, and the data provider.**
 
+The concrete mandatory and optional functional areas are detailed in [Foundational concepts of a data space](102_Foundational_concepts_of_a_data_space.md).
+

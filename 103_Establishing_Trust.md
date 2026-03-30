@@ -35,8 +35,7 @@ to the policies and rules are expressed through cryptographically signed claims,
 Attributes can be expressions representing a single claim (e.g., membership credentials of an association) or a set of multiple claims (e.g., the other entity is under a specific jurisdiction and the destination for the data transfer in a specific country). Claims can represent static values (e.g.,
 jurisdiction = country) or contain statements about proofs of technical capabilities (e.g., support a specific encryption algorithm).
 
-Many situations require attributes that are complex and may involve additional workflows, including human intervention. ```
-require additional workflows that can include human intervention. It is not
+Many situations require attributes that are complex and may involve additional workflows, including human intervention.
 The IDSA Rulebook cannot prescribe a general approach for handling extended, composite, or complex attributes. Their management depends on the specific design and governance rules of the respective data space. Further guidance can be found in the [IDS RAM](https://link2RAM).
 
 >Attribute-based trust provides a dynamic, context- and risk-aware trust
@@ -45,5 +44,5 @@ The IDSA Rulebook cannot prescribe a general approach for handling extended, com
 >participants flexibility to build and use different implementations
 >based on their requirements.
 >
->It eliminates the need for an identity provider that >controls absolute decisions and thus removes a single point of control and >potential failure. It enables autonomy, agency and thus digital sovereignty of >the individual participant.
+>It eliminates the need for an identity provider that controls absolute decisions and thus removes a single point of control and potential failure. It enables autonomy, agency and thus digital sovereignty of the individual participant.
 

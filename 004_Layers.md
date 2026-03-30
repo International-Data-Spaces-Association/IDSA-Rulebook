@@ -36,6 +36,15 @@ The term **"role"** is context-dependent and must be clearly scoped:
 
 Maintaining this distinction ensures that governance models remain technically sound while accommodating diverse business scenarios.
 
+## Clarifying Policies and Contracts Across Layers
+
+The terms **"policy"** and **"contract"** are also layer-dependent and should be interpreted explicitly in context:
+
+- At the **technical layer**, policies and contracts are represented as machine-readable constraints and negotiated agreement artefacts used by software agents.
+- At the **economic and legislative layers**, policies and contracts express legal and business intent, obligations, liabilities, and governance commitments between organisations.
+
+The Rulebook therefore distinguishes between technical representations and legal/business meaning to avoid ambiguity and to support interoperability across implementations.
+
 ## Distinguishing Data Spaces from Trusted Data Transactions
 
 A clear differentiation must be made between **Data Spaces** and **Trusted Data Transactions (TDTs)**:

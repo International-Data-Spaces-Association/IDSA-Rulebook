@@ -24,7 +24,7 @@ Interoperability is achieved through minimal shared semantics, such as a common 
 ### Trust Establishment and Maintenance
 
 Trust is established through iterative claim exchange and policy reconciliation as described in the [Trust](008_Trust.md) section. Summarisable by those important points:
-1. **Claim Issuance and Verification**: Participants issue claims about themselves or their data. Verification occurs via cryptographic proofs (e.g., digital signatures) or decentralized oracles, without reliance on central authorities.
+1. **Claim Issuance and Verification**: Participants issue claims about themselves or their data. Verification occurs via cryptographic proofs (e.g., digital signatures) or decentralized oracles (services that provide verifiable external assertions, such as status or reference facts), without reliance on central authorities.
 2. **Policy Alignment**: Policies are expressed as logical constraints. Reconciliation uses a negotiation protocol to find mutually acceptable terms.
 3. **Runtime Monitoring**: Trust is maintained through continuous monitoring of invariants, such as data usage logs or revocation signals. Violations trigger automatic revocation or escalation to human oversight.
 

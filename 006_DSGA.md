@@ -2,11 +2,11 @@
 
 ## Definition
 
-A Dataspace Governance Authority (DSGA) is a functional role. It is responsible for providing the basic governance framework, defining which [Dataspace Trust Frameworks (DTFs)](009_Dataspace_Trust_Frameworks.md) are being used for the data space, potentially defining an explicit DTF by defining business processes, policies and semantic models to be used by participants in the dataspace. 
+A Dataspace Governance Authority (DSGA) is a functional role representing the collective governance function of a data space. It is responsible for providing the basic governance framework, defining which [Dataspace Trust Frameworks (DTFs)](009_Dataspace_Trust_Frameworks.md) are used for the data space, and where needed defining explicit business processes, policies, and semantic models to be used by participants in the dataspace.
 
 The DSGA ensures interoperability through minimal shared semantics.
 
-The DSGA is NOT the legal entity which provides runtime-enforcement. It is the collection of DTFs used within the dataspace and any additional provisions, definitions and processes specific to the individual data space.
+The DSGA is not by itself a runtime-enforcement entity. Normatively, it is expressed by the set of DTFs used within the dataspace together with any additional provisions, definitions, and processes specific to the individual data space.
 
 While the DSGA is a logical role defining a governance model, this governance model needs to be enforced. There are multiple options how this can be achieved.
 
@@ -20,11 +20,15 @@ A DSGA is a formal specification of the governance model and rules of a data spa
 
 ## Implementation of the DSGA
 
+In this context, an external **Oracle** is a participant-operated or independent service that provides verifiable, authoritative statements needed by participants to evaluate policies or claims (for example status, compliance, or reference data).
+
 - **By the Participants**: each participant has full knowledge of the DSGA and can enforce the rules of the DSGA in interactions with other participants. Value-Added Services or external Oracles might provide additional information needed to implement the governance model defined by the DSGA.
 
 - **Service Providers**: multiple service providers operate value added data space services or external Oracles that enable the enforcment of the governance model provided by the DSGA. The participants of the data space are responsible to choose which services providers to use and are free to reject interactions with participants where a common set of accepted service providers cannot be identified. An example of such a service can be the issuance of a data space participant credential.
 
-- **Operations Company**: in a centrally governed data space the DSGA functions can be implemented by a single operations company which provides mandatory governance enforcement services. Note, that this creates centralized control and single points of failure, thus impacting the autonomy and agency of participants.
+- **Operations Company**: in a centrally governed data space the DSGA functions can be implemented by a single operations company which provides mandatory governance enforcement services. This creates centralized control and single points of failure and therefore impacts participant autonomy and agency.
+
+The list above is illustrative, not exhaustive. Which implementation model is appropriate depends on the legal, business, and operational context of the specific data space.
 
 ## Additional considerations for DSGA design
 

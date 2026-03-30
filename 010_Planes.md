@@ -1,5 +1,7 @@
 # Understanding the planes of a data sharing solution
 
+A data sharing solution can be described as a set of interacting planes with distinct responsibilities: the **Control Plane** for discovery and contract negotiation, the **Data Plane** for data transfer/access execution, the **Data Management Plane** for lifecycle and governance within organisations, and the **Application Plane** for user-facing value creation. The separation clarifies responsibilities and reduces architectural coupling.
+
 ## Control Plane
 
 The control plane in a data space is the layer responsible for managing the discovery of available assets and the negotiation and orchestration data sharing interactions contracts. 

@@ -4,9 +4,9 @@
 
 International Data Spaces Association
 
-Anna-Louisa-Karsch-Str. 2
+Emil-Figge-Str. 80
 
-10178 Berlin
+44227 Dortmund
 
 Germany
 
@@ -29,6 +29,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 ## Authors and Contributors ##
 
 * Sebastian Steinbuss, IDSA
+* Ilknur Chulani, IDSA
 * Marko Turpeinen, 1001 Lakes
 * Olaf-Gerd Gemein
 * Peter Koen, Microsoft

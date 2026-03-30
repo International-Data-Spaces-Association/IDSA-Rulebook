@@ -42,11 +42,11 @@ Once all design decisions are made, the following functional elements must be sp
 
 - **Membership certification:** Describe the mechanism and evidence required to verify and certify membership (for example, identity documentation, audits, or third-party attestations), including issuance, renewal, and revocation processes.
 
-- **Participant registry:** Establish if, where and how authorised participants and their self-descriptions are published or discoverable, and which attributes are visible to different query roles.
+- **Participant discovery and self-description:** Establish if, where, and how authorised participants and their self-descriptions are published or discoverable, and which attributes are visible to different query roles.
 
 - **Identity system:** Decide whether identities will be managed via decentralized identifiers (DIDs), centralized identity services (not recommended), or a hybrid approach, and document the control, governance, and privacy implications of each option.
 
-- **Catalog(s):** Specify the catalog model (single central catalog(note recommended), multiple federated catalogs, or per-participant catalogs), their APIs, metadata standards, and how catalog visibility and access controls will be applied.
+- **Catalog(s):** Specify the catalog model (single central catalog (not recommended), multiple federated catalogs, or per-participant catalogs), their APIs, metadata standards, and how catalog visibility and access controls will be applied.
 
 Working through the above list of mandatory functional elements will
 clarify the architecture pattern for the data space, which will also
@@ -66,7 +66,7 @@ to be implemented to create the data space:
 
     - **Technical component requirements:** The required interfaces, protocols, and implementations (for example, software agent capabilities) necessary to interact with the data space.
 
-    - **Participant registry:** If a participant registry is required; the location and format of the participant registry or discovery endpoints, and which attributes are published for discovery versus private ones accessible only to existing members.
+    - **Participant discovery and self-description endpoints:** If participant discovery is required, define the location and format of discovery endpoints and self-description publication, and which attributes are public versus private and only accessible to existing members.
 
     - **Registration service and related workflows:** The documented workflow to request membership, the validation procedures used to determine compliance with membership requirements, the process for issuance of membership credentials, and the rules and procedures to revoke credentials when necessary.
 

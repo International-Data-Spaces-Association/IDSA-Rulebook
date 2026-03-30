@@ -10,7 +10,7 @@ The mandatory foundational concepts and functional areas of a data space are:
 
 - **Sharing contract negotiation:** Establishing the processes and protocols—ranging from automated negotiation to manual escalation—used to reach mutually acceptable contract terms and policy alignments.
 
-- **Decentralized identities:** Implementing DIDs and verifiable credentials to represent participants and assert attributes in a verifiable and privacy-preserving manner.
+- **Decentralized identity capabilities:** Ensuring participants can represent identity and attributes in a verifiable and privacy-preserving manner; DIDs and verifiable credentials are the recommended approach, while functionally equivalent implementations may be acceptable if they preserve participant autonomy and interoperability.
 
 - **Observability:** Ensuring auditability and runtime monitoring capabilities to detect violations, gather evidence for disputes, and support continuous trust evaluation.
 
@@ -25,5 +25,8 @@ Additional value-adding services that support these main functions of a data spa
 - **Data trustees and escrow services:** Neutral service providers that hold, mediate, or process data under predefined governance constraints (for example, confined compute or escrowed storage) to enable joint analysis while preserving confidentiality.
 
 - **Other optional value-added services:** Additional capabilities such as notary, or auditing services, and specialised domain-specific tooling which may be selected to meet particular participant requirements.
+
+- **Semantic Models:**
+Semantic models are listed as optional because their required depth and degree of harmonisation are context-dependent and should be determined by the DSGA and participant needs. In many data spaces, a shared core vocabulary will still be practically necessary for interoperability, even where complete domain harmonisation is not mandated.
 
 ![Foundational Concepts in data spaces](./media/Foundational_Concepts_in_data_spaces.png)

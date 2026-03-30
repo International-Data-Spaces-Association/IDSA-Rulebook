@@ -3,11 +3,13 @@
 ## Definition
 Trust in a decentralized data space is a situational, time-bound, and purpose-specific assessment of whether another participant can be relied upon to act within declared constraints for a specific interaction.
 
+Trust is always created locally by each participant through its own evaluation of evidence, claims, and policies.
+
 Trust is:
 
 - **Not global:** Trust determinations are specific to a single data sharing contract and apply only to the parties that negotiate and execute that contract; they do not automatically extend to other contracts or to different counter-parties.
 
-- **Not transitive:** A trust relationship established between two participants (for example, A trusts B) does not imply or create trust between either party and a third party (for example, B and C); each relationship requires its own independent assessment.
+- **Not transitive:** A trust relationship established between two participants (for example, A trusts B) does not imply or create trust between either party and a third party (for example, B and C); each relationship requires its own independent assessment. Trust anchors can simplify evidence verification chains but do not create automatic trust transfer between participants.
 
 - **Not reciprocal:** A unilateral decision by participant A to trust participant B does not compel B to trust A; mutual trust requires independent and explicit evaluations by each party.
 
@@ -67,6 +69,7 @@ Trust formation must be repeatable and enable auditable by the evaluating partic
 Trust outcomes must be explainable in terms of accepted and rejected claims.
 
 Trust mechanisms must support decentralized identities without mandatory reliance on a centralized or federated identity provider, gatekeeper, or broker. Participants and the DSGA may define and accept multiple trust anchors (credential issuers) as part of the Dataspace Trust Framework; reliance on an accepted anchor is a deliberate governance choice and does not imply implicit central control. Policy and claims exchange uses interoperable, machine-readable protocols and formats.
+Centralized-only identity architectures are not aligned with the autonomy and agency objectives of decentralized data spaces.
 
 
 ## Trust is a Runtime Property
