@@ -8,7 +8,7 @@ component to implement data discoverability. It can be implemented as a
 managed service by one or more selected participants, hosted by the data
 space governance authority, or operated in a fully decentralized fashion by every
 participant that offers data contracts (see the visual representation of
-various implementation designs of the DSGA above). The type of catalog
+various implementation designs of the DSGA in [Creating a Data Space9](114_Creating_a_data_space.md)). The type of catalog
 architecture used depends on the design of the data space as well as the
 needs and capabilities of the participants.
 
