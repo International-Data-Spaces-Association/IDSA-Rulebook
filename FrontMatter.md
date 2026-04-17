@@ -1,4 +1,4 @@
-# IDSA Rulebook V2 #
+# IDSA Rulebook 2026-1 #
 
 ## Publisher ##
 
@@ -20,7 +20,7 @@ International Data Spaces Association
 
 International Data Spaces Association,
 
-Dortmund, Germany, 2023
+Dortmund, Germany, 2026
 
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
@@ -35,4 +35,9 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 * Peter Koen, Microsoft
 * Markus Spiekermann, Huawei
 * Jim Marino, Metaform Systems
+* Anil Turkmayali, IDSA
+* Kai Meinke, deltaDAO
+* Andreas Krimbacher, nexyo
+* Mario Holesch, IDSA
+* Petteri Kivimäki, Nordic Institute of Interoperability Solutions
 
