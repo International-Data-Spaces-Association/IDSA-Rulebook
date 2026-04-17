@@ -1,6 +1,6 @@
-# IDSA Rulebook #
+# IDSA Rulebook
 
-## Table of contents #
+## Table of contents
 
 Below are the primary documents in this repository; each entry links to the file and includes a one-sentence description to help readers understand the document's purpose.
 
@@ -59,5 +59,4 @@ Below are the primary documents in this repository; each entry links to the file
 | --- | --- |
 | [Front Matter](FrontMatter.md) | Imprint and editorial credits. |
 | [Contributing Projects](Contributing_Projects.md) | Projects contributing to the Rulebook. |
-| IDSA Rulebook GitHub | https://github.com/International-Data-Spaces-Association/IDSA-Rulebook |
-
+| IDSA Rulebook GitHub | [IDSA Rulebook on GitHub](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook) |
