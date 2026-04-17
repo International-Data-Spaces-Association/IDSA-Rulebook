@@ -37,7 +37,7 @@ allow to process data under the condition only anonymized results are
 produced, and then permits to share the results with a third party for
 further processing if they meet a set of security standards.
 
-![Different policies  in data spaces](./media/Different_policies_in_data_spaces.jpg)
+![Different policies  in data spaces](../media/Different_policies_in_data_spaces.jpg)
 
 ### Membership Policies
 

@@ -20,7 +20,7 @@ Enforces rights, obligations, and regulatory compliance across participants. Alt
 
 While at the technical layer all participants are equal the layers building on top can lead to segmentation into individual communities as described in the chapter [What is a Data Space - Communities](003_WhatIsADataspace.md#communities)
 
-![Layers of Data Spaces](./media/Layers.png)
+![Layers of Data Spaces](../media/Layers.png)
 
 These layers interact but must be conceptually separated to ensure clarity and reduce ambiguity in roles and responsibilities.
 

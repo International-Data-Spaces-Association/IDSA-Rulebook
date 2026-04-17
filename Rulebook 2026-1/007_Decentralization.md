@@ -18,7 +18,7 @@ Technical interoperability between individual participants can be guaranteed irr
 
 Let’s revisit the mental model of layers of a data space. At the technical layer a data space consists of a decentralized mesh of individual nodes, which are acting with full autonomy and agency. Only in the higher layers of business and legislation processes the segmentation into separated trust contexts are manifesting. Such trust contexts can be “strong borders”, representing boundaries between data spaces in different nations, but also can be “weaker borders”, representing a segmentation into individual use cases within a data space. No matter where the segmentation takes place, all use cases are unified by the common, interoperable technology, founded on a solid base of the DSP and DCP.
 
-![Layers of a data space](./media/Layers.png)
+![Layers of a data space](../media/Layers.png)
 
 ## Roles in the data space: Governance Authority and Participant
 

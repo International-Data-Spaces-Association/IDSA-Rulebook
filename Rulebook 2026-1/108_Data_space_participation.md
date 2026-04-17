@@ -34,4 +34,4 @@ data space):
     (sharing data, browsing the catalog(s) for data assets of others,
     negotiating data contracts).
 
-![Onboarding in data spaces](./media/DataSpaceOnboarding.jpg)
+![Onboarding in data spaces](../media/DataSpaceOnboarding.jpg)
