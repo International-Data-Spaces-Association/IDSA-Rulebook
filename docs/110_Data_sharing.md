@@ -41,7 +41,7 @@ consumed until the event in questions has occurred).
 
 ![Data sharing contract negotiation](../media/DataSharing.png)
 
-**Data sharing execution**
+### Data sharing execution
 
 When it is time to share the data, it might be necessary to re-validate
 the policies of the data contract agreement as significant time might

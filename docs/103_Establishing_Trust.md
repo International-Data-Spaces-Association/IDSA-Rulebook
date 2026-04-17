@@ -2,12 +2,12 @@
 
 Humans build trust with each other by evaluating attributes of the other person: attributes that are immediately verifiable (e.g., a language spoken) or attributes that require an external authority to verify them (e.g., a passport). To build trust, these attributes are matched against rules (personal, internal, implicit and/or explicit). If a sufficient number of policies are met, trust is established. Based on the attributes that have been evaluated, different levels of trust can be negotiated.
 
-**Establishing trust is the fundamental reason for data spaces to exist!**
+## Establishing trust is the fundamental reason for data spaces to exist
 
 To create value, data needs to interact with other data and then support decision
 making to enable actions that will create value. The potential to create value increases if data is more diverse, which often requires that multiple actors need to come together and share their data with each other. However, like in any human relationship: Before sharing comes trust. Without trust, the risk of something going wrong seems too high and unmanageable. Creating trust reduces risk. Reduced risk lowers the barrier for sharing data.
 
-**Increasing trust lowers risk**
+## Increasing trust lowers risk
 
 Data spaces can create context-specific trust where trust did not exist before or where it is difficult to establish -- for example between competitors. Therefore data spaces reduce the risk of sharing data and through that enable the creation of value.
 
