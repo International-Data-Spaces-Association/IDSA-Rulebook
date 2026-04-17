@@ -1,4 +1,4 @@
-### Identity
+# Identity
 
 The design of the identity provider is the first decision for the design
 of the data space. If a central identity provider is chosen to manage
@@ -11,18 +11,18 @@ design decision. It impacts policies on autonomy and sovereignty as well
 as technical solution architectures for other components of a data
 space.
 
-| **Identity System**       | **Advantages**            | **Disadvantages**        |
-|--- |--- | --- |
-| **Centralized identity**  | Simple management for DSGA | Low autonomy and sovereignty of participants |
-|  | High degree of control for DSGA    | Single point of failure |
-|  | Traditional, well-known technology stack | Single point of attack |
-|  |  | Harder to manage for participants |
-| **Decentralized  identities**       | Full autonomy and overeignty for participants | Complexity: DSGA management requires decentralized protocols |
-|  | Low resourcing need for DSGA | Lower degree of control for DSGA |
-|  | Easy to manage for participants | New and partially unfamiliar technology stack|
-|  | Harder to attack |  |
+| **Identity System** | **Advantages** | **Disadvantages** |
+| --- | --- | --- |
+| **Centralized identity** | Simple management for DSGA | Low autonomy and sovereignty of participants |
+| | High degree of control for DSGA | Single point of failure |
+| | Traditional, well-known technology stack | Single point of attack |
+| | | Harder to manage for participants |
+| **Decentralized  identities** | Full autonomy and overeignty for participants | Complexity: DSGA management requires decentralized protocols |
+| | Low resourcing need for DSGA | Lower degree of control for DSGA |
+| | Easy to manage for participants | New and partially unfamiliar technology stack |
+| | Harder to attack | |
 
-#### Attributes & self-description
+## Attributes & self-description
 
 Attributes and self-description should always be available as verified
 presentations. The exact serialization format and service endpoints
