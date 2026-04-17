@@ -6,7 +6,7 @@ spaces. It highlights the design decisions necessary to build and
 operate data spaces in decentralized architectures and deployment patterns to show how various solutions are enabled by the building blocks of data spaces.
 
 Data sharing in a data space is not limited to sending data from one
-participant to another but can be more complex, like code to data scenarios. Fundamentally, all sharing of data consists of peer-to-peer interactions. All business scenarios consisting of multiple actors are built on peer-to-peer data contracts of two participants. 
+participant to another but can be more complex, like code to data scenarios. Fundamentally, all sharing of data consists of peer-to-peer interactions. All business scenarios consisting of multiple actors are built on peer-to-peer data contracts of two participants.
 
 A data space adds value beyond individual data sharing by enabling collective trust and thus enabling complex, cooperative data services and applications. These capabilities have functional requirements which need to be included in
 the design of a data space.
@@ -21,4 +21,3 @@ The architecture and functional requirements of data spaces as depicted in the I
 > **This underlines the need for all parties involved in a data space and in the sharing, and usage of data to adhere to a common set of rules, the policies provided by the DSGA, and the data provider.**
 
 The concrete mandatory and optional functional areas are detailed in [Foundational concepts of a data space](102_Foundational_concepts_of_a_data_space.md).
-

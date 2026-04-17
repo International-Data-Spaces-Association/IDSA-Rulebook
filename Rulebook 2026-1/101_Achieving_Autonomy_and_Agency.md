@@ -1,10 +1,10 @@
-## Achieving Participant Autonomy and Agency
+# Achieving Participant Autonomy and Agency
 
-**Participant Autonomy and Agency**, commonly referred to as **Digital Sovereignty** starts with control over each participants own identity. Only participants that are in control of their own identity can be truly autonomous and have the agency to act in a data space. 
+**Participant Autonomy and Agency**, commonly referred to as **Digital Sovereignty** starts with control over each participants own identity. Only participants that are in control of their own identity can be truly autonomous and have the agency to act in a data space.
 
 The [Manifesto of international data spaces](https://docs.internationalDataSpaces.org/ids-knowledgebase/manifesto-for-international-dataspaces/) articulates the fundamental principles. The [functional requirements](100_Functional_Requirements.md) section of the IDSA Rulebook details the mechanisms required to achieve this goal
 
-> Any central or federated control impairs the participant autonomy & agency, reducing their ability to act within the data space. 
+> Any central or federated control impairs the participant autonomy & agency, reducing their ability to act within the data space.
 
 IDSA recommends decentralized architectures and decentralized identities (DIDs) as the preferred approach to maximise participant autonomy and agency. In practice, the DSGA may define acceptable forms of identity evidence, trust anchors, and onboarding processes as governance constraints; these are documented governance choices that participants can evaluate when deciding whether to join or interact in a data space.
 
@@ -21,7 +21,7 @@ Instead on relying on a central party to manage authentication and authorisation
 Every participant is free to choose whether to trust the claims provided by another participant. The core of data spaces is about the mechanisms that enable the verification of participant claims to foster trust.
 
 A core functional mechanism of a data space is the agreement on a common set of processes, reference and rules within a community of participants. The [Data Space Governance Authority (DSGA)](006_DSGA.md) is a crucial function to support the management of the governance framework of the Data Space by establishing the
-policies and rules of the data space. 
+policies and rules of the data space.
 
 When evaluating different data space architectures and deployment
 models, the individual set of rules that serve as the basis is

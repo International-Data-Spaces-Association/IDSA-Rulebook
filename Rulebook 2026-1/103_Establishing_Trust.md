@@ -13,7 +13,7 @@ Data spaces can create context-specific trust where trust did not exist before o
 
 ## Attribute-based trust
 
-Attribute-based trust is a way to establish trustworthiness between two parties based on specific attributes rather than a fixed identity. It functions as a control mechanism with minimal disclosure -  proving that certain conditions are met without revealing full details on every interaction. 
+Attribute-based trust is a way to establish trustworthiness between two parties based on specific attributes rather than a fixed identity. It functions as a control mechanism with minimal disclosure -  proving that certain conditions are met without revealing full details on every interaction.
 
 It's mechanism can be summarised in a couple of simple statements:
 
@@ -25,7 +25,7 @@ A participant's trustworthiness is determined by evaluating their participant
 attributes. This evaluates the potential risk of sharing data with another participant. Lower risk means higher trust.
 
 In addition to the attributes of the participant the trust level is also based on additional context: the attributes of the data space and the attributes of the data shared in the data space, the applicable trust anchors and trust
-frameworks, and potentially others. 
+frameworks, and potentially others.
 
 It can be expressed by complex rule sets that can evaluate many attributes and understand their provenance and who is providing guarantees about them. There is no limit to the attributes that can be defined and the expression of policy rules to evaluate those attributes. It is also possible to define policies that branch into additional workflows, e.g. human approvals, for evaluating claims about the participant attributes.
 
@@ -45,4 +45,3 @@ The IDSA Rulebook cannot prescribe a general approach for handling extended, com
 >based on their requirements.
 >
 >It eliminates the need for an identity provider that controls absolute decisions and thus removes a single point of control and potential failure. It enables autonomy, agency and thus digital sovereignty of the individual participant.
-

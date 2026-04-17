@@ -1,4 +1,4 @@
-### Data space participation
+# Data space participation
 
 Participation in a data space is based on fulfilling all the policies,
 rules and procedures that are mandatory for membership. In its simplest

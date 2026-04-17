@@ -42,10 +42,9 @@ Each has its own advantages and disadvantages. Compare the three main
 types of catalogs, depending on the implementation design of the DSGA, to
 evaluate their capabilities:
 
-
 | **Catalog architecture** | **Advantages**           | **Disadvantages**         |
 | ---                  |   ---                | ---|
-| **Centralized catalog**  | No deployment by individual participants   | A central gatekeeper can arbitrarily exclude participants and their data from the catalog  | 
+| **Centralized catalog**  | No deployment by individual participants   | A central gatekeeper can arbitrarily exclude participants and their data from the catalog  |
 |  | Central control – a gatekeeper can regulate which entries are permissible and which are not | Single point of failure  |
 | | Easy discovery as only one catalog needs to be queried | Potential performance bottle neck |
 |  |  | Security issues will affect all members at once |

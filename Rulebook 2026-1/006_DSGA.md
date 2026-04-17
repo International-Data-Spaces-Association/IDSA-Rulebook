@@ -35,4 +35,3 @@ The list above is illustrative, not exhaustive. Which implementation model is ap
 - **Minimal Semantics**: Interoperability is achieved through shared core concepts (e.g., participant identity attributes, data space operations), not comprehensive ontologies (e.g. semantic models of the data being shared in the data space) to reduce complexity.
 
 - **Socio-Technical Coupling**: Governance rules need to integrate technical feasibility with legal participant agreements. Ambiguities in policy interpretation are resolved through defined rules in the DSGA or its referenced DTFs. DSGA can provide procedures and escalation paths, assuming reasonable consensus thresholds to resolve conflicts in the data space.
-

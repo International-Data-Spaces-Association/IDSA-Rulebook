@@ -1,4 +1,4 @@
-### Creating a data space
+# Creating a data space
 
 After discussing how to join a data space the question is: How do you
 create a data space? The answer depends again on the purpose of your

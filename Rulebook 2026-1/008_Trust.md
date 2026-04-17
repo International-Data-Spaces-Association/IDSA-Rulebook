@@ -1,6 +1,7 @@
 # Trust in Data Spaces
 
 ## Definition
+
 Trust in a decentralized data space is a situational, time-bound, and purpose-specific assessment of whether another participant can be relied upon to act within declared constraints for a specific interaction.
 
 Trust is always created locally by each participant through its own evaluation of evidence, claims, and policies.
@@ -18,6 +19,7 @@ Trust is:
 - **Not equivalent to identity, certification, or prior membership:** Identity credentials, certifications, and membership status can serve as evidence for trust but are not alone sufficient to establish trust without additional contextual evidence, policy alignment, and runtime verification.
 
 ## Non-Assumptions
+
 A conforming decentralized data space must not assume the following as sufficient or universal substitutes for trust. Each item below explains why it is insufficient on its own:
 
 - **A central authority, broker, registry, or trust anchor:** Centralized services may provide useful evidence or convenience, but reliance on them creates a single point of control and does not replace per-contract, evidence-based trust decisions.
@@ -33,15 +35,16 @@ A conforming decentralized data space must not assume the following as sufficien
 Any architecture that depends exclusively on the assumptions above is not representative of a fully decentralized data space and is likely to fail to provide robust, context-aware trust.
 
 ## Separation of Concerns
-Trust assessment must be confined to the control plane. 
+
+Trust assessment must be confined to the control plane.
 
 The transfer process defined by the [Dataspace Protocol (DSP)](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/) involves two logical constructs: a control plane and a data plane. Their characteristics are explained in detail in the [Planes](010_Planes.md) section.
 
 The data plane is agnostic to trust logic and trust state.
 Trust decisions may influence if, when, and how data plane interactions are initiated or continued.
 
-
 ## Claims
+
 Trust is derived by claim reconciliation at interaction time.
 Valid claim inputs include:
 
@@ -54,7 +57,8 @@ Valid claim inputs include:
 By default, and unless a DSGA/DTF explicitly specifies an alternative, the absence of an input SHOULD be treated as negative (or unknown) for the purposes of trust evaluation; DSGAs and DTFs must document the chosen default and any exceptions.
 
 ## Trust establishment mechanisms
-Trust establishment in data spaces relies on the exchange and verification of claims, dynamic policy negotiation, and evidence collection. 
+
+Trust establishment in data spaces relies on the exchange and verification of claims, dynamic policy negotiation, and evidence collection.
 
 Trust formation is an explicit, local process.
 
@@ -71,8 +75,8 @@ Trust outcomes must be explainable in terms of accepted and rejected claims.
 Trust mechanisms shall not require mandatory reliance on a single centralized or federated identity provider. The DSGA may define and accept multiple trust anchors (credential issuers) as part of the Dataspace Trust Framework. Acceptance of a given anchor is a governance decision and does not grant structural control over the data space to that issuer. Policy and claims exchange uses interoperable, machine-readable protocols and formats.
 Centralized-only identity architectures are not aligned with the autonomy and agency objectives of decentralized data spaces.
 
-
 ## Trust is a Runtime Property
+
 Trust exists only while its assumptions hold.
 Therefore:
 
@@ -83,6 +87,7 @@ Cached trust decisions should have explicit validity bounds. A participant MAY r
 There is no concept of “once trusted, always trusted”. Participants should define verification frequency according to the sensitivity of the data and the risk of the interaction (for high-sensitivity assets require on-demand or per-execution revalidation; for lower-sensitivity assets periodic revalidation may be acceptable). Revocation signals must be handled promptly by participants; the DSGA or chosen DTFs should document expected propagation and verification intervals for different risk classes.
 
 ## Trust and Policy Interaction
+
 Policies do not enforce trust; they express expectations.
 Trust emerges from:
 
@@ -94,6 +99,7 @@ Policy compliance must be treated as probabilistic unless directly observable.
 Trust decisions should explicitly capture residual risk.
 
 ## Revocation and Trust Withdrawal
+
 Trust can be revoked at any time.
 Triggers for withdrawal include:
 
@@ -102,13 +108,14 @@ Triggers for withdrawal include:
 - Context changes invalidating prior assumptions.
 - Inability to re-validate critical assertions.
 
-### Revocation:
+### Revocation
 
 - Propagates to ongoing interactions.
 - Can require termination, degradation, or isolation of data access.
 - Doesn't depend on centralized revocation services.
 
 ## Failure Modes
+
 Architectures implementing Trust should explicitly handle:
 
 - False-positive trust due to over-reliance on credentials.
@@ -120,6 +127,7 @@ Architectures implementing Trust should explicitly handle:
 Ignoring these failure modes renders trust claims non-credible.
 
 ## Interoperability Constraints
+
 To remain interoperable:
 
 - Trust mechanisms must rely on minimal shared and discoverable semantics.
@@ -129,6 +137,7 @@ To remain interoperable:
 Interoperability emerges at the protocol boundary, not the trust model.
 
 ## Governance Implications
+
 Trust is inseparable from governance.
 Therefore:
 
@@ -139,6 +148,7 @@ Therefore:
 Consensus on outcomes is optional; consistency of process is mandatory.
 
 ## Explicit Invariants
+
 A decentralized dataspace conforming to this model therefore must uphold:
 
 - Local autonomy of trust decisions.
@@ -148,4 +158,3 @@ A decentralized dataspace conforming to this model therefore must uphold:
 - No implicit trust via participation alone.
 
 **These invariants take precedence over compatibility with prior data space models.**
-

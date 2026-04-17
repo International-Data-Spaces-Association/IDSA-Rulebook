@@ -19,6 +19,7 @@ The IDSA Rulebook supports the creation, operation, and growth of data spaces by
 - Perspectives on implementing and complying with international legal and regulatory obligations to facilitate trusted, cross-border data sharing.
 
 Reading guide for normative language used in this Rulebook:
+
 - “must” indicates a mandatory requirement for conforming implementations or for compliance where explicitly stated.
 - “should” indicates a recommended best practice that is expected unless a justified exception is documented.
 - “may” indicates an option or permissive practice.
@@ -35,7 +36,7 @@ The Rulebook describes how technical roles (for example, Participant and Data Sp
 The International Data Spaces Association (IDSA) aims to cultivate a vibrant practitioner community and to provide concrete guidance that enables the realization of data spaces across a range of capabilities and organisational models.
 
 To that end, IDSA develops the Data Space Requirements (the IDSA Rulebook), the Reference Architecture Models (RAMs), complementary implementation and operations guidance. IDSA also engages with international standardisation bodies and open-source initiatives to harmonise and share the knowledge contributed by its members, thereby supporting the global adoption and interoperability of data space technologies and business models.
- 
+
 The central objectives for data spaces is the establishment of trustworthiness in data sharing. The [Manifesto of international data spaces](https://docs.internationalDataSpaces.org/ids-knowledgebase/manifesto-for-international-dataspaces/) articulates the fundamental principles that underpin these objectives:
 
 - Data Spaces are a mechanism of Trust (Data Spaces enable Trusted Data Sharing)
@@ -61,11 +62,13 @@ You can find additional information about data space elements from IDSA in the f
 ## Relationship with other organisations, projects & initiatives
 
 ### How do initiatives relate in the field of Data Spaces?
+
 The field of Data Spaces and trusted data sharing is rapidly evolving. As industries, research institutions, and governments seek to collaborate across organisational and national boundaries, the need for interoperable approaches to data exchange has become critical. Multiple initiatives and groups are contributing to this ecosystem, each playing a distinct but complementary role. Together, they create the foundation for standardised, reliable, and scalable Data Space solutions.
 This section explains how these initiatives relate to one another, highlighting their contributions to specifications, standards, open-source implementations, and testing frameworks.
 It includes organisations, projects or standards that have made a significant contribution to or own a dependency for the IDSA Rulebook. This section will be regularly updated as the ecosystem grows and further contributions are made or when new dependencies arise.
 
 ### International Data Spaces Association (IDSA)
+
 The International Data Spaces Association (IDSA) brings together global members from both industry and research. Its mission is to develop and promote the concept of data spaces, covering the full spectrum from legal frameworks and business models to technology foundations.
 
 IDSA provides a unique forum for aligning perspectives across its community. By collecting and structuring requirements, the association ensures that the needs of diverse stakeholders are represented in discussions about data space architecture. The value of this end-to-end perspective lies in its ability to integrate legal, organisational, and technical considerations into a coherent vision. At the technical level, IDSA emphasizes the importance of a common core for specification and standardisation. This core is designed to foster interoperability between data space solutions at the protocol level. To achieve this, IDSA aggregates member requirements and channels them into international specification projects (e.g., within the Eclipse Foundation) and formal standardisation activities (such as ISO/IEC JTC 1/SC 38 or CEN/CENELEC Joint Technical Committee (JTC) 25).
@@ -73,19 +76,22 @@ IDSA provides a unique forum for aligning perspectives across its community. By 
 In short, IDSA serves as the bridge between conceptual discussions, community requirements, and downstream technical specifications.
 
 ### ISO/IEC 20151: A Common Foundation
+
 One of the major cornerstones in formal standardisation of data spaces is **ISO/IEC 20151, Information Technology – Cloud Computing and Distributed Platforms – Dataspace Concepts and Characteristics**.
 This standard provides a clear and authoritative definition of Data Space concepts, distinguishing them from related ideas such as data warehouses, data lakes, data fabrics, or data meshes. By describing the essential characteristics and requirements of a data space, ISO/IEC 20151 reduces ambiguity and helps ensure consistency in design and implementation.
 The standard is not only conceptual; it also provides the baseline for interoperability. By establishing common ground, it enables both intra-data space (within a single ecosystem) and inter-data space (across ecosystems) technical compatibility. In doing so, it creates the foundation on which further specifications and open-source implementations can build.
 
 ### Dataspace Protocol (DSP) and Decentralized Claims Protocol (DCP)
-The Dataspace Protocol (DSP) and Decentralized Claims Protocol (DCP) are two key specification projects that operationalise the concepts defined by IDSA and ISO/IEC 20151.	
 
-- DSP focuses on the communication mechanisms required for trusted data sharing between participants in a data space. 
+The Dataspace Protocol (DSP) and Decentralized Claims Protocol (DCP) are two key specification projects that operationalise the concepts defined by IDSA and ISO/IEC 20151.
+
+- DSP focuses on the communication mechanisms required for trusted data sharing between participants in a data space.
 - DCP addresses decentralized identity and claims management, which are central to ensuring trustworthiness and accountability.
 
 Both protocols are developed under the governance of the Eclipse Foundation, ensuring transparent processes and adherence to rigorous intellectual property rules. While they are rooted in the requirements articulated by IDSA, their development is open to a broad community beyond the association. This open governance model fosters collaboration and ensures that the specifications can evolve in line with real-world needs.
 
 ### Eclipse Dataspace Working Group (EDWG)
+
 To coordinate and endorse data space-related efforts, the Eclipse Foundation has established the Eclipse Dataspace Working Group (EDWG).
 The EDWG serves several purposes:
 
@@ -96,6 +102,7 @@ The EDWG serves several purposes:
 By bringing specifications and open source implementations under one umbrella, the EDWG provides coherence and continuity. It is a key mechanism that, through the participation of its members, it ensures data space technologies remain consistent, interoperable, and aligned with global standards.
 
 ### Eclipse Dataspace Components (EDC)
+
 Specifications alone are not enough; they must be validated through implementation. This is where the Eclipse Dataspace Components (EDC) project plays a vital role.
 EDC is a reference implementation of both DSP and DCP. It provides a framework for developers to build data space components with a common core and extensibility mechanism. This design allows rapid integration with existing technologies, such as storage systems, vault services, event processing platforms, or policy engines.
 Compliance is a central focus of EDC. Each release version of the framework, together with a defined set of core extensions, is tested against a Technical Compatibility Kit (TCK). Successful test results are published openly, ensuring transparency and building trust in the framework’s conformity to the specifications.
@@ -106,6 +113,7 @@ For solution providers, EDC offers two key benefits:
 - Confidence that their solutions can achieve compliance with DSP and DCP with minimal integration cost.
 
 ### Technical Compatibility Kit (TCK)
+
 The Technical Compatibility Kit (TCK) is the backbone of compliance verification. It is a test harness and collection of tools designed to automate the validation of data space implementations against DSP and DCP.
 By leveraging shared core libraries, the TCK provides comprehensive tests that cover protocol compliance and interoperability scenarios. Solution providers can run their implementations against the TCK to obtain evidence of compliance. Passing results serve as an objective and transparent proof that a solution adheres to the agreed specifications.
 
@@ -114,6 +122,7 @@ The availability of the TCK ensures that the ecosystem does not fragment into in
 ## The Data Space Landscape
 
 ### Data Space Connector Report
+
 The [Data Space Connector Report](https://internationaldataspaces.org/idsa-data-space-connector-report/) is a key regular publication from IDSA offering a comprehensive overview of Data Space Connectors and their role in interoperable data spaces.
 
 In particular, the Data Space Connector Report:
@@ -124,8 +133,9 @@ In particular, the Data Space Connector Report:
 - it is the reference point for learning and fostering interoperability in data sharing ecosystems.
 
 ### Data Spaces Radar
+
 The [Data Spaces Radar](https://internationaldataspaces.org/use/data-spaces-radar/) serves as the central repository for all data space endeavors. It is an accessible tool designed to provide a comprehensive view of various data space initiatives worldwide. Offering insights into the 18 different sectors, global expansion, technical transparency and new stages of development of the data spaces featured in the radar.
 
 ## How to contribute
-The IDSA Rulebook is published under the [CC-BY license](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/LICENSE.md). If you wish to contribute, please, take a look at our [Contribution Guidelines](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/CONTRIBUTING.md) and also take our [Code of Conduct](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/CODE_OF_CONDUCT.md) into account.
 
+The IDSA Rulebook is published under the [CC-BY license](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/LICENSE.md). If you wish to contribute, please, take a look at our [Contribution Guidelines](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/CONTRIBUTING.md) and also take our [Code of Conduct](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/CODE_OF_CONDUCT.md) into account.

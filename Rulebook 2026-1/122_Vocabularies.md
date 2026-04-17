@@ -30,7 +30,7 @@ multiple levels:
     additional contracts. It could be an access policy that specifies
     access for direct suppliers of this participant.
 
- - Within the Data contract as a machine-readable specification that describes the contractual terms, associated policy constraints, and the semantic models required to interpret the asset. The data model, vocabulary, or usage rules that must be understood to correctly interpret and enforce contract-specific policies (for example, an industry-specific usage restriction expressed as a domain ontology).
+- Within the Data contract as a machine-readable specification that describes the contractual terms, associated policy constraints, and the semantic models required to interpret the asset. The data model, vocabulary, or usage rules that must be understood to correctly interpret and enforce contract-specific policies (for example, an industry-specific usage restriction expressed as a domain ontology).
 
 The vocabularies for each level can be easily referenced by the metadata
 publishing mechanism at the respective level. A data space can reference
@@ -62,7 +62,7 @@ synchronization mechanisms.
 
 ![Vocabularies and their relationship to data assets](../media/Vocabularies_and_data_assets.jpg)
 
-### Optional functions
+## Optional functions
 
 In addition to the functional elements of a data space, many optional
 roles and components exist. The entities providing these functions must
@@ -87,9 +87,3 @@ additional governance.
 of a data space participant. Such value-adding services are not subject
 to the IDSA Rulebook, but are explained in the [DSSC Blueprint Version 3.0](https://dssc.eu/)
 in more detail. The IDSA Rulebook provides a limited explanation below.
-
-
-
-
-
-

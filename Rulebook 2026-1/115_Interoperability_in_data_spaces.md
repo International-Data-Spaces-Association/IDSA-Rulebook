@@ -344,11 +344,11 @@ applicable protocol versions and semantic models are clearly defined.
 
 As already established above, the main responsibility for interoperability in Data Spaces is with the participant, however, everyone involved in a Data Space can support interoperability by aligning with other parties.
 
-Aspects of interoperability in Data Spaces can be achieved by utilising common frameworks, models, standards, processes, or services, like Trust Frameworks. 
-Those need to be mandated by participants of a Data Space as agreements in the Data Space Governance Framework executed and managed by the Data Space Governance Authority. 
+Aspects of interoperability in Data Spaces can be achieved by utilising common frameworks, models, standards, processes, or services, like Trust Frameworks.
+Those need to be mandated by participants of a Data Space as agreements in the Data Space Governance Framework executed and managed by the Data Space Governance Authority.
 
-The agreements in the Data Space Governance Framework of one Data Space can and should be reused or acknowledged by other Data Spaces. 
-This leads eventually to commonly adopted concepts and standards. 
+The agreements in the Data Space Governance Framework of one Data Space can and should be reused or acknowledged by other Data Spaces.
+This leads eventually to commonly adopted concepts and standards.
 
 Recognising the different levels of interoperability as described above, a general adoption or maturity model can be derived:
 
@@ -364,9 +364,9 @@ Recognising the different levels of interoperability as described above, a gener
 
 **6 Agreements between different Data Space Governance Authorities** establish bridges between data spaces.
 
-* **Data Space to other Data Space**: negotiate legal equivalency of processes and rules between the two organisations.
-* **Data Space to Trust Frameworks and Trust Anchors:** Align on mapping between policies and legal provisions and processes.
-* **Data Spaces to DSGAs:** Align on governance models and organisational processes.
-* **Trust Framework to other Trust Frameworks:** Share semantic models for policies and align on identity and trust protocols required.
-* **Trust Framework to DSGAs:** Agree on standardised identity and trust protocols and a common set of semantic models.
-* **DSGA to other DSGAs:** Share semantic models for policies and agree on functional processes.
+- **Data Space to other Data Space**: negotiate legal equivalency of processes and rules between the two organisations.
+- **Data Space to Trust Frameworks and Trust Anchors:** Align on mapping between policies and legal provisions and processes.
+- **Data Spaces to DSGAs:** Align on governance models and organisational processes.
+- **Trust Framework to other Trust Frameworks:** Share semantic models for policies and align on identity and trust protocols required.
+- **Trust Framework to DSGAs:** Agree on standardised identity and trust protocols and a common set of semantic models.
+- **DSGA to other DSGAs:** Share semantic models for policies and agree on functional processes.

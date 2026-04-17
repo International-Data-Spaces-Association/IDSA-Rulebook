@@ -7,12 +7,15 @@ Data spaces are multi-layered data ecosystems that rely on the seamless integrat
 Data spaces can be structured into three primary layers, each serving distinct functions:
 
 ### Technical Layer
+
 Encompasses the architecture and protocols (e.g., Dataspace Protocol (DSP), Decentralized Claims Protocol (DCP)) that facilitate trusted and interoperable data sharing. Software agents, representing the participants of the data space, form a decentralized mesh of autonomous nodes.
 
 ### Economic Layer
+
 Manages the services, interactions, and workflows that enable value generation. Alternative terms for this layer are also *Business* or *Operational Layer*.
 
 ### Legislative Layer
+
 Enforces rights, obligations, and regulatory compliance across participants. Alternative term for this layer is *Regulatory Layer*.
 
 While at the technical layer all participants are equal the layers building on top can lead to segmentation into individual communities as described in the chapter [What is a Data Space - Communities](003_WhatIsADataspace.md#communities)
@@ -25,8 +28,8 @@ These layers interact but must be conceptually separated to ensure clarity and r
 
 The term **"role"** is context-dependent and must be clearly scoped:
 
-- At the **technical level**, there is only one fundamental role: **participant**. 
-    
+- At the **technical level**, there is only one fundamental role: **participant**.
+
     A participant acts as a **data provider**, a **data consumer**, or both within the Dataspace Protocol.
 
     Note: In this Rulebook, **"participant"** denotes the technical role representing a legal organisation that operates software agents on behalf of that organisation. When the document discusses business or legal roles (e.g., provider, consumer, DSGA functions), those usages are explicitly qualified and belong to higher layers (economic or regulatory).

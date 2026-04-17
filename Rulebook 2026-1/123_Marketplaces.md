@@ -1,5 +1,5 @@
 
-#### Marketplaces
+# Marketplaces
 
 Data sharing always takes place peer-to-peer in a data space with data
 discovery being provided via catalogs. This basic functionality does not

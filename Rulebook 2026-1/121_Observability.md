@@ -7,7 +7,8 @@ Many times it is necessary to make the data sharing process observable. This can
 To enable observability in practice, related business processes between participants (for example log exchange, evidence retention, dispute handling, and escalation paths) should be defined and, where required, included in the governance framework of the data space.
 
 Depending on the architecture of the data space, multiple solutions are
-possible. 
+possible.
+
 - Centralized or federated observer model, which has two main shortcomings when implementing large-scale data spaces: It presents an additional vulnerability that could affect the sharing of mission-critical data. Also, a central observer with information on all data sharing contracts represents potentially valuable knowledge about participants. This can be exploited for financial gain, making it a target for bad actors.
 
 - Decentralized architecture can minimise the risks associated with a centralized or federated observer model.
@@ -39,4 +40,3 @@ Following the same pattern, additional optional functional roles can be
 implemented: invoicing, billing and  payment clearance services, notary services, regulator reporting, and the like.
 
 Reference: [Observability in Data Spaces (IDSA Position Paper)](https://internationaldataspaces.org/download/51606/?tmstv=1773925364)
-

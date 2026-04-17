@@ -1,4 +1,4 @@
-#### Processing services
+# Processing services
 
 A data space can have participants that do not offer their data and are
 not the end users of data. At its most basic level, these can be
@@ -15,7 +15,7 @@ before reaching the end user. The implementation and capability of these
 services again depends on the architecture, policies, and rules of the
 data space.
 
-#### Data escrow, data trustee
+## Data escrow, data trustee
 
 For many applications, data assets and algorithms from multiple sources
 need to be combined to generate value. This will lead to trusted service

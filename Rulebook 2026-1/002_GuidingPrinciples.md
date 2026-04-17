@@ -1,7 +1,7 @@
 # Guiding principles
 
 The IDSA Rulebook is based on a set of fundamental principles and underlying
-values, described in detail in the [Manifesto of international data spaces](https://docs.internationalDataSpaces.org/ids-knowledgebase/manifesto-for-international-dataspaces/). 
+values, described in detail in the [Manifesto of international data spaces](https://docs.internationalDataSpaces.org/ids-knowledgebase/manifesto-for-international-dataspaces/).
 Key aspects are the autonomy and agency of participants in dataspaces and their governance, as well as the responsibilities of participants in a data space.
 
 Additionally several core principles apply to the guidance presented in the IDSA Rulebook:

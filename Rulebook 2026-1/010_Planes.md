@@ -1,4 +1,5 @@
 # Understanding the planes of a data sharing solution
+
 A data sharing solution comprises of several layers:
 
 - **Control Plane:** enabling core capabilities in a data space, for managing the discovery of available assets and the negotiation of data sharing contracts and orchestration of data sharing
@@ -11,20 +12,21 @@ A data sharing solution comprises of several layers:
 
 ## Control Plane
 
-The control plane in a data space is the layer responsible for managing the discovery of available assets and the negotiation and orchestration data sharing interactions contracts. 
+The control plane in a data space is the layer responsible for managing the discovery of available assets and the negotiation and orchestration data sharing interactions contracts.
 
-It operates independently of the actual data access, focusing on establishing and maintaining the data sharing contracts that provide the requirements for the data sharing execution. The core capability of data spaces, the dynamic trust negotiation through policy reconciliation are executed in the control plane. 
+It operates independently of the actual data access, focusing on establishing and maintaining the data sharing contracts that provide the requirements for the data sharing execution. The core capability of data spaces, the dynamic trust negotiation through policy reconciliation are executed in the control plane.
 
-The control plane influences (orchestrates) but does not directly handle data flows (data plane), data lifecycle management (data management plane), or application logic (application plane). 
+The control plane influences (orchestrates) but does not directly handle data flows (data plane), data lifecycle management (data management plane), or application logic (application plane).
 
 ## Data Plane
+
 The Data Plane is the actual technical data access technology. Its role is to provide access to or transmit data according to the policies agreed upon in the data sharing contract.
 
 ### Examples of Data Planes
 
-- **RESTful APIs**: A common data plane implementation using HTTP-based protocols for synchronous data retrieval. 
+- **RESTful APIs**: A common data plane implementation using HTTP-based protocols for synchronous data retrieval.
 
-- **Message Queues (e.g., AMQP or MQTT)**: Asynchronous data transmission via publish-subscribe models. 
+- **Message Queues (e.g., AMQP or MQTT)**: Asynchronous data transmission via publish-subscribe models.
 
 - **Peer-to-Peer Protocols (e.g., IPFS or BitTorrent-like systems)**: Decentralized file sharing without central servers.
 
@@ -48,15 +50,15 @@ While it operates separately from data transmission (data plane) and orchestrati
 
 - **Data Ingestion and Storage**: Collecting, validating, and storing data from various sources, ensuring format consistency and metadata attachment. It enforces invariants like data provenance and traceability to support sovereignty.
 
-- **Data Processing and Transformation**: Applying algorithms for cleansing, aggregation, or anonymization, while adhering to policies reconciled in the control plane. 
+- **Data Processing and Transformation**: Applying algorithms for cleansing, aggregation, or anonymization, while adhering to policies reconciled in the control plane.
 
-- **Data Cataloging and Discovery**: Maintaining metadata registries for asset discovery, ensuring that policies from data sharing contracts are being enforced. 
+- **Data Cataloging and Discovery**: Maintaining metadata registries for asset discovery, ensuring that policies from data sharing contracts are being enforced.
 
 ### Typical Functions of Data Governance
 
-- **Policy Enforcement and Compliance**: Monitoring adherence to governance rules, such as retention policies or usage constraints, through runtime checks. 
+- **Policy Enforcement and Compliance**: Monitoring adherence to governance rules, such as retention policies or usage constraints, through runtime checks.
 
-- **Quality Assurance and Auditing**: Assessing data accuracy, completeness, and lineage, with audit trails for trust verification. 
+- **Quality Assurance and Auditing**: Assessing data accuracy, completeness, and lineage, with audit trails for trust verification.
 
 - **Risk Management and Data Sovereignty Protection**: Identifying and mitigating risks, including sovereignty violations, by enforcing participant controls. It prioritises conservative approaches, such as deny-by-default for sensitive data.
 
@@ -68,18 +70,18 @@ The Application Plane is the user-facing layer that consumes and processes data 
 
 ### Key Characteristics
 
-- **Data Consumption**: Retrieves processed data from the Data Management Plane, applying policies for access and usage in coordination with the data management plane based on the permissions and access controls associated with the identified user. 
+- **Data Consumption**: Retrieves processed data from the Data Management Plane, applying policies for access and usage in coordination with the data management plane based on the permissions and access controls associated with the identified user.
 
 - **Service Provision**: Provides services such as analytics, visualization, and reporting to end-users, enabling decision-making and insights. These services are built on top of managed data, prioritising usability and performance while adhering to governance rules managed by the data management plane.
 
-- **User Interaction**: Supports interfaces for human or machine users (agents), including dashboards, APIs, or automated workflows. 
+- **User Interaction**: Supports interfaces for human or machine users (agents), including dashboards, APIs, or automated workflows.
 
 ### Examplary Functions
 
-- **Analytics**: Performs computational analysis on data from the Data Management Plane, such as statistical modelling or machine learning, to generate insights. 
+- **Analytics**: Performs computational analysis on data from the Data Management Plane, such as statistical modelling or machine learning, to generate insights.
 
 - **Visualization**: Renders data into graphical representations (e.g., charts, maps) for user consumption.
 
-- **Reporting**: Generates structured reports or alerts based on processed data, integrating audit trails for traceability. 
+- **Reporting**: Generates structured reports or alerts based on processed data, integrating audit trails for traceability.
 
-The Application Plane must maintain clear boundaries with other planes, interacting via standardised interfaces. It can support dynamic trust by propagating policy constraints, mitigating risks such as sovereignty breaches and manage user consent mechanisms. 
+The Application Plane must maintain clear boundaries with other planes, interacting via standardised interfaces. It can support dynamic trust by propagating policy constraints, mitigating risks such as sovereignty breaches and manage user consent mechanisms.

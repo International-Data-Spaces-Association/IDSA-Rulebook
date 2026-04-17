@@ -5,6 +5,7 @@
 A **Dataspace Trust Framework (DTF)** consists of a set of policies and reconciliation mechanisms for claims, as well as business process definitions that enable data space participants to establish trust and maintain mutual assurance in data sharing interactions. Trust is treated as a dynamic runtime property, derived from verifiable claims and policy alignments, rather than static certifications or centralized attestations.
 
 Key terms:
+
 - **Claim:** A machine-readable, cryptographically verifiable assertion issued by a trusted authority about a participant or an asset (for example, an identity attribute, certification, or dataset provenance). Claims serve as primary evidence in trust evaluations and must include provenance and validity metadata.
 
 - **Policy:** A formal expression of rules and constraints that govern data access, usage, and sharing. Policies must be expressed in machine-readable languages and define required attributes, permitted actions, obligations, and enforcement expectations.
@@ -24,11 +25,13 @@ Interoperability is achieved through minimal shared semantics, such as a common 
 ### Trust Establishment and Maintenance
 
 Trust is established through iterative claim exchange and policy reconciliation as described in the [Trust](008_Trust.md) section. Summarisable by those important points:
+
 1. **Claim Issuance and Verification**: Participants issue claims about themselves or their data. Verification occurs via cryptographic proofs (e.g., digital signatures) or decentralized oracles (services that provide verifiable external assertions, such as status or reference facts), without reliance on central authorities.
 2. **Policy Alignment**: Policies are expressed as logical constraints. Reconciliation uses a negotiation protocol to find mutually acceptable terms.
 3. **Runtime Monitoring**: Trust is maintained through continuous monitoring of invariants, such as data usage logs or revocation signals. Violations trigger automatic revocation or escalation to human oversight.
 
 Failure modes may include:
+
 - **Policy Incompatibility**: If reconciliation fails, interactions are aborted with clear error codes.
 - **Claim Compromise**: Detected via integrity checks; compromised claims invalidate trust chains.
 
@@ -37,11 +40,13 @@ When multiple Dataspace Trust Frameworks (DTFs) apply to an interaction, the DSG
 ### Governance Coupling
 
 DTFs integrate technical and governance layers:
+
 - **Socio-Technical Invariants**: Rules must be enforceable either through technological means or business processes at both protocol and organisational levels (e.g., a policy requiring audit logs must have corresponding legal agreements and data sharing agreements for the audit log data).
 - **Evolution Handling**: DTFs support versioned policies and claims.
 - **Revocation Mechanisms**: Participants can revoke trust unilaterally.
 
 Trade-offs:
+
 - Decentralization increases resilience but complicates reconciliation.
 - Minimal semantics reduce overhead but require a robust negotiation protocol.
 - Dynamic trust enables adaptability but demands continuous verification resources.
@@ -49,6 +54,7 @@ Trade-offs:
 ### Implementation Considerations
 
 DTFs should be designed with common base standards:
+
 - Use standards like DID (Decentralized Identifiers), VCs (Verifiable Credentials).
 - Avoid assumptions of global information, or synchronous communication.
 - Not assume the availability of centralized services or components (e.g., member registries)

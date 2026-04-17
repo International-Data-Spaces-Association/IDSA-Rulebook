@@ -15,6 +15,6 @@ subject to continuous debate and will be part of this Rulebook in future
 versions.
 
 Based on the recent IDSA work, additional publications provide more
-insights into data spaces. As concept of data spaces evolves updates to the IDSA Rulebook will be made. As many aspects of data spaces are updated separately and the urgency of discussions reflects and ever changing landscape of focus points of attention the IDSA Rulebook has been structured in a way that allows for fine granular update of the presented concepts. 
+insights into data spaces. As concept of data spaces evolves updates to the IDSA Rulebook will be made. As many aspects of data spaces are updated separately and the urgency of discussions reflects and ever changing landscape of focus points of attention the IDSA Rulebook has been structured in a way that allows for fine granular update of the presented concepts.
 
 The IDSA Rulebook will no longer feature a fixed version number. The published version always reflects the latest design aspects and will be updated as new contributions are made to the GitHub Repository, discussed in the Working Group Meetings and approved and published. A versioned history of each document is available through the detailed version management mechanisms of GitHub.

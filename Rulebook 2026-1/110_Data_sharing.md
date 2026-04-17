@@ -1,4 +1,4 @@
-### Data sharing
+# Data sharing
 
 Once a participant has joined a data space and discovered available data
 contract offers, the mechanism of data sharing is initiated. Data
@@ -17,7 +17,7 @@ However, before data can be shared, a data contract offer needs to be
 negotiated to reach a Data Contract Agreement (DCA) which specifies all
 policies and details of the data sharing process.
 
-#### Contract negotiation
+## Contract negotiation
 
 A contract negotiation (CN) serves the purpose of reaching an agreement
 to share a data asset between two participants of the data space. During

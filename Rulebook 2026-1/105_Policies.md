@@ -18,7 +18,7 @@ Ultimately, the sum of all policies (data space, participant, asset) form the tr
 Therefore, data spaces and participants must define their own policies and communicate them clearly. Participants may always choose additional policies in
 their data contracts to further restrict access and use.
 
-Dataspace Trust Frameworks (DTFs) can provide policy building blocks to simplify the design and selection of effective policies to reach the desired trust level. 
+Dataspace Trust Frameworks (DTFs) can provide policy building blocks to simplify the design and selection of effective policies to reach the desired trust level.
 
 ## Policy Design
 
@@ -40,6 +40,7 @@ further processing if they meet a set of security standards.
 ![Different policies  in data spaces](./media/Different_policies_in_data_spaces.jpg)
 
 ### Membership Policies
+
 As discussed above, the first line of policy constraints are the membership
 policies and processes required to join a data space. These policies
 ensure that only organisations with specific attributes they can verifiably
@@ -49,11 +50,12 @@ associations, but also policies that would require human interactions
 and complex workflows, such as a valid contract with an organisation implementing the DSGA that must be negotiated before an applicant can become a participant.
 
 ### Access policies for data discovery
+
 Once an applicant becomes a participant, the next layer of policies
 becomes relevant: access policies. An access policy defines which attributes
-must be available to discover and access data contracts within a data catalog. A participant that does not have access to a specific data contract should also not be able to discover the contract offer in the catalog. 
+must be available to discover and access data contracts within a data catalog. A participant that does not have access to a specific data contract should also not be able to discover the contract offer in the catalog.
 
-Optional services, like a marketplace, must adhere to this principle as well and only show items based on matching access policies and participant attributes. 
+Optional services, like a marketplace, must adhere to this principle as well and only show items based on matching access policies and participant attributes.
 
 From a functional perspective, an access policy always
 needs to be present, even if it grants access to everyone. A common
@@ -63,7 +65,7 @@ catalog endpoint is publicly accessible).
 
 In a scenario where contract offers should be made visible to everyone (even non-participants), the
 access policy can also be expressed as an empty policy, not triggering
-any restrictions and thus making the contract visible to everyone (e.g. Open Data). 
+any restrictions and thus making the contract visible to everyone (e.g. Open Data).
 
 Each participant can define such policies, whether providing or
 consuming data. For example, a participant interested in data could
@@ -71,6 +73,7 @@ define filter based on a policy to see only data with a distinct proof of origin
 members residing within a specific jurisdiction. This is often referred to as provider policy and consumer policy.
 
 ### Contract Policies
+
 When a participant has access to a data contract offer the next
 set of policies comes into play. A data contract offer can have contract policies
 that define what attributes are needed for a data contract agreement. Contract policies review attributes that must be provided at the contract
@@ -83,6 +86,7 @@ push of data, mandating a data sink in a specific geographic area and
 other details.
 
 ### Usage Policies
+
 Contract policies may also include usage policies that take effect when the data
 is shared and control how the data can be used by the consumer. Depending on the value of the data, use cases, trust levels, contracts in place and many more attributes, there are different possibilities to enforce usage policies which come at varying costs.
 
@@ -100,6 +104,7 @@ appropriate level of technical components that ensure proper handling of
 the data without inccuring unnecessary cost or constructing detrimental barrieres to sharing.
 
 **Enforcement guidance (example mapping):**
+
 - **Low sensitivity:** Monitoring and contractual remedies; participants are expected to perform periodic verification and rely on legal enforcement when misuse is detected.
 - **Medium sensitivity:** Robust logging, decentralized observability, periodic automated checks, and contractual remediation; independent observers or auditors can be used for dispute resolution.
 - **High sensitivity:** Strong technical enforcement (e.g., confined compute, mandatory encryption, short trust validity), on-demand revalidation of claims, and involvement of observers/auditors as participants. Real-time or per-execution checks are recommended.
@@ -118,6 +123,7 @@ of restrictions against which machine-readable attributes can be
 compared.
 
 ### Policies for segmentation
+
 Policies can also act as a fine filter to segment data sharing scenarios and use cases. Adding a single policy that checks for the membership credential of a distinct group is the equivalent to restricting this specific contract to that closed group of organisations. Segmentation through policies can be used by an organisation to easily manage the sharing context of their data assets and can be applied at many different layers and segments. Here are some examples of what segmentation can be achieved with policies:
 
 - **Data space boundary:** Enforce segmentation by membership credentials, ensuring only participants who possess a valid membership credential for the data space can access protected resources.
