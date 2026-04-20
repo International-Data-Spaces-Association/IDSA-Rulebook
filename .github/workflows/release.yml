@@ -1,0 +1,13 @@
+name: Release export
+on:
+  release:
+    types: [ published ]
+permissions:
+  contents: write
+jobs:
+  export:
+    uses: International-Data-Spaces-Association/.github/.github/workflows/reusable-release-export.yml@v1
+    with:
+      content_dir: ${{ vars.CONTENT_DIR }}
+      summary_path: ${{ vars.SUMMARY_PATH }}
+      output_basename: ${{ github.event.repository.name }}
