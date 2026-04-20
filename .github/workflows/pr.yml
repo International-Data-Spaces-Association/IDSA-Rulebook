@@ -1,0 +1,11 @@
+name: PR checks
+on:
+  pull_request:
+    branches: [ main ]
+permissions:
+  contents: read
+jobs:
+  quality:
+    uses: International-Data-Spaces-Association/.github/.github/workflows/reusable-pr-quality.yml@v1
+    with:
+      content_dir: ${{ vars.CONTENT_DIR }}
