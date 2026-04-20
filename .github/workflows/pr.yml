@@ -7,5 +7,6 @@ permissions:
 jobs:
   quality:
     uses: International-Data-Spaces-Association/.github/.github/workflows/reusable-pr-quality.yml@main
+
     with:
       content_dir: ${{ vars.CONTENT_DIR }}
