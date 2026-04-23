@@ -86,6 +86,6 @@ Roles might also be described by legal regulation. An example of such regulation
 
 In line with the description of the [role models](005_Roles.md) and the [layered approach](004_Layers.md), the diagram below presents an overview on roles in data spaces and their affilation to the layers.
 
-![Overview on roles and their affiliation to layers in data spaces](../media/Role%20Overview%20Rulebook.jpg)
+![Overview on roles and their affiliation to layers in data spaces](./media/Role%20Overview%20Rulebook.jpg)
 
 This diagram is a foundation to depict the typical use cases of the roles in relation to data spaces.

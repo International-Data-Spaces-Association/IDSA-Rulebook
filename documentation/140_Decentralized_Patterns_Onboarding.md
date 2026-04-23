@@ -5,13 +5,13 @@
 
 Decentralized data space architecture emphasizes the autonomy and agency of participants, thus it must be a voluntary decision of a participant to join a data space.
 
-![a new organisation wants to join a decentralized data space](../media/Decentralized1.png)
+![a new organisation wants to join a decentralized data space](./media/Decentralized1.png)
 
 ## Selecting a hosting model and provider
 
 However, with great power also comes great responsibility, so the participant has some work to do. It’s not like joining a centralized platform, where one creates an account and that’s it. The participant needs to actively make a decision on where to operate the technology that’s needed to be active in a data space: The data space software agent (e.g.: connector), the wallet, data staging areas, etc… Although this seems to be a complex and difficult task to accomplish it is ultimately what enables digital sovereignty. Every participant can operate on the infrastructure of their choice and they can make an autonomous decision on how much agency to have. Any operating model available - from on premises to  classical cloud computing is also possible for data space technologies: starting at a fully customised hosting model on one end of the spectrum, a platform as a service model for software agents (connectors) and wallets, all the way to fully managed use case services (e.g. a data intermediary offering a Digital Product Passport service including sharing capabilities to a manufacturing data space) on the other side of the spectrum. Further, such components might be operated for an individual data space or reusable for a multitude of data spaces by leveraging dynamic contexts and configuration capabilities.
 
-![the organisation provisions data space resources with the infrastructure provider of their choice](../media/Decentralized2.png)
+![the organisation provisions data space resources with the infrastructure provider of their choice](./media/Decentralized2.png)
 
 ## Onboarding to a data space
 
@@ -19,7 +19,7 @@ Once the future participant has all technical components up and running they nee
 
 It is important to understand that in a decentralized architecture, no ongoing dependency on a central or federated services should be mandated. As this example illustrates on popular mechanism to realize a decentralized architecture there are other solution paths as well.
 
-![An On-boarding Service verifies compliance with the rules of the data space](../media/Decentralized3.png)
+![An On-boarding Service verifies compliance with the rules of the data space](./media/Decentralized3.png)
 
 If the data space relies on an onboarding entity to manage the onboarding process this entity can ensure the adherance to membership rules and potential additional steps like checking the validity of external DTF credentials.
 
@@ -39,10 +39,10 @@ Once issued the data space participant can use this credential together with the
 
 It is important to note that many variations of this process can exist and it is part of the role of the DSGA to define the exact business process which leads to the set of credentials that are then resulting in a membership credential for the data space in question. This process can be influenced by business needs, regulation, and other external factors.
 
-![Credential Issuer issues credentials](../media/Decentralized4.png)
+![Credential Issuer issues credentials](./media/Decentralized4.png)
 
 ## Using credentials in the data space
 
 When two participants of a data space interact it will be necessary to match policy constraints of one party to the claims that the other party presents. In most cases it will be sufficient to verify the signature of the credential issuer and the expiration date as the claim is presented by the participant. After all cryptographical methods will enable the other party to verify that the presented credential is representing the counterparty and has been signed by the credential issuer. However, in more complex cases it might be necessary to check the validity of a signature synchronously with the Credential Issuer. One such example can be the necessity of near real-time checks of the revocation of a credential.
 
-![Credentials are verified by other participants](../media/Decentralized5.png)
+![Credentials are verified by other participants](./media/Decentralized5.png)

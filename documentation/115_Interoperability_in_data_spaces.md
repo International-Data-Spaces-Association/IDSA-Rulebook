@@ -59,8 +59,8 @@ practices for Data Spaces.
 
 ## Guiding principles for Data Spaces
 
-As described in the previous sections, there are [guiding principles](../2.%20Guiding_Principles/)
-in Data Spaces that are not only shaping the [functional requirements](../3.%20Functional_Requirements/), but also take effect in reasoning over interoperability. Those guiding
+As described in the previous sections, there are [guiding principles](./2.%20Guiding_Principles/)
+in Data Spaces that are not only shaping the [functional requirements](./3.%20Functional_Requirements/), but also take effect in reasoning over interoperability. Those guiding
 principles are the foundation of any interoperability framework for
 Data Spaces. Let's have a closer look at those fundamental principles
 again:
@@ -126,7 +126,7 @@ the discussion between two main interoperability models:
 2. the cross-Data Space interoperability where a participant wants to
     access data from two different Data Spaces.
 
-![Interoperability Models](../media/Interoperability_Models.png)
+![Interoperability Models](./media/Interoperability_Models.png)
 
 Intra Data Space interoperability is about the interoperability within a
 Data Space. This focuses on how participants interact with each other,
@@ -177,11 +177,11 @@ standards a bit closer.
 
 First the ISO 19941 Interoperability facets:
 
-![ISO 19941 - Cloud Computing Interoperability and Portability](../media/ISO19941.png)
+![ISO 19941 - Cloud Computing Interoperability and Portability](./media/ISO19941.png)
 
 And second the European Interoperability Framework facets:
 
-![European Interoperability Framework](../media/EIF.png)
+![European Interoperability Framework](./media/EIF.png)
 
 Note, that while the EIF has only four layers, it is clearly visible
 that with the five layers of ISO/IEC 19941 the technical layer is split

@@ -29,4 +29,4 @@ Additional value-adding services that support these main functions of a data spa
 - **Semantic Models:**
 Semantic models are listed as optional because their required depth and degree of harmonisation are context-dependent and should be determined by the DSGA and participant needs. In many data spaces, a shared core vocabulary will still be practically necessary for interoperability, even where complete domain harmonisation is not mandated.
 
-![Foundational Concepts in data spaces](../media/Foundational_Concepts_in_data_spaces.png)
+![Foundational Concepts in data spaces](./media/Foundational_Concepts_in_data_spaces.png)
