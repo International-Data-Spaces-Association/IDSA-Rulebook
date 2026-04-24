@@ -62,15 +62,13 @@ Such intermediaries may be regulated by local governments like the EU Data Gover
 
 **Value-added service providers** act as participants in the data space and therefore conform to the data space governance framework. Such services support value creation with a broad set of discovery, processing, and governance capabilities. Common examples and their expected functions include:
 
-- **Data Discovery Services (catalogs, search engines, registries):** Provide standardised metadata, search interfaces, and registry functions that allow participants to locate datasets and service offerings. These services should provide interoperable metadata schemas, and support attribute-based-access-control visibility rules.
+- **[Data Discovery Services (catalogs, search engines, registries)](120_DataDiscoveryServices.md):** Provide standardised metadata, search interfaces, and registry functions that allow participants to locate datasets and service offerings. These services should provide interoperable metadata schemas, and support attribute-based-access-control visibility rules.
 
-- **Lookup Services (vocabularies, shared information):** Maintain authoritative semantic resources such as controlled vocabularies, ontologies, and code lists that ensure consistent interpretation of attributes and data elements across participants. Lookup services should be versioned, discoverable, and accompanied by governance information describing scope and maintenance procedures.
+- **[Lookup Services (vocabularies, shared information)](122_Vocabularies.md):** Maintain authoritative semantic resources such as controlled vocabularies, ontologies, and code lists that ensure consistent interpretation of attributes and data elements across participants. Lookup services should be versioned, discoverable, and accompanied by governance information describing scope and maintenance procedures.
 
-- **Observability Services (audit, notary):** Offer verifiable logging, attestation, and auditing capabilities that help detect misuse, support dispute resolution, and provide forensic evidence. Observability services must balance provenance and transparency with privacy and minimisation principles.
+- **[Observability Services (audit, notary)](121_Observability.md):** Offer verifiable logging, attestation, and auditing capabilities that help detect misuse, support dispute resolution, and provide forensic evidence. Observability services must balance provenance and transparency with privacy and minimisation principles.
 
-- **Commercial Services (marketplaces, auctions, match-making):** Facilitate commercial discovery, negotiation, and transaction orchestration for data products and value-added services while operating within the governance and policy constraints of the data space. These services must not introduce mandatory central controls unless such centralization is explicitly justified and documented by the DSGA.
-
-Such optional functionalities are described in the section on [value-added services](http://link-to-value-added-services).
+- **[Commercial Services (marketplaces, auctions, match-making)](123_Marketplaces.md):** Facilitate commercial discovery, negotiation, and transaction orchestration for data products and value-added services while operating within the governance and policy constraints of the data space. These services must not introduce mandatory central controls unless such centralization is explicitly justified and documented by the DSGA.
 
 #### Potential roles from legal defintions
 
