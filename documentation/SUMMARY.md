@@ -44,21 +44,7 @@ Below are the primary documents in this repository; each entry links to the file
 
 - [Summary and Outlook](999_Summary_Outlook.md) — Summary & Outlook: summarises key takeaways and outlines future work and open questions.
 
-## Governance & repository documents
-
-- [Code of Conduct](CODE_OF_CONDUCT.md) — Expected community behaviour, reporting channels, and enforcement principles.
-- [Contributing](CONTRIBUTING.md) — Contribution workflow, issue and PR guidelines for the Rulebook.
-- [Contributing Projects](Contributing_Projects.md) — List of projects and initiatives that contributed material to the Rulebook.
-- [Front Matter](FrontMatter.md) — Publication metadata, imprint, and editorial credits for the Rulebook.
-- [License](LICENSE.md) — License terms and reuse permissions for repository content.
-- [Readme](README.md) — Repository overview and quick links to published Rulebook resources.
-- [Summary](SUMMARY.md) — Publication structure used by the GitBook build and high-level navigation.
-- [Style Guide](STYLE_GUIDE.md) — Editorial conventions and style guidance used for consistent wording across the Rulebook.
-- [Edit Summary](EDIT_SUMMARY.md) — Draft summary of recent editorial edits for reviewer convenience.
-- [TOC](TOC.md) — This file: the repository Table of Contents with per-file descriptions.
-
 ## Imprint & external links
 
 - [Front Matter](FrontMatter.md) — Imprint and editorial credits.
-- [Contributing Projects](Contributing_Projects.md) — Projects contributing to the Rulebook.
 - [IDSA Rulebook GitHub](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook)
