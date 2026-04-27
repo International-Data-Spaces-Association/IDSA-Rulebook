@@ -1,12 +1,12 @@
-# IDSA Rulebook V2 #
+# IDSA Rulebook 2026-1 #
 
 ## Publisher ##
 
 International Data Spaces Association
 
-Anna-Louisa-Karsch-Str. 2
+Emil-Figge-Str. 80
 
-10178 Berlin
+44227 Dortmund
 
 Germany
 
@@ -20,7 +20,7 @@ International Data Spaces Association
 
 International Data Spaces Association,
 
-Dortmund, Germany, 2023
+Dortmund, Germany, 2026
 
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
@@ -28,4 +28,14 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 ## Authors and Contributors ##
 
-* tbd
+* Sebastian Steinbuss, IDSA
+* Ilknur Chulani, IDSA
+* Marko Turpeinen, 1001 Lakes
+* Olaf-Gerd Gemein
+* Peter Koen, Microsoft
+* Markus Spiekermann, Huawei
+* Jim Marino, Metaform Systems
+* Anil Turkmayali, IDSA
+* Andreas Krimbacher, nexyo
+* Mario Holesch, IDSA
+* Petteri Kivimäki, Nordic Institute of Interoperability Solutions

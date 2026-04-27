@@ -20,7 +20,7 @@
             <mxPoint x="593" y="849" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v-rACcy6dhY0BIH-EYVq-31" value="TEchnical Layer" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="v-rACcy6dhY0BIH-EYVq-31" value="Technical Layer" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="940" width="790" height="170" as="geometry" />
         </mxCell>
         <mxCell id="v-rACcy6dhY0BIH-EYVq-32" value="Economic Layer" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
