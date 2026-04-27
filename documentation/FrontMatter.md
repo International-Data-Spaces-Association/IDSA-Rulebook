@@ -36,7 +36,6 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 * Markus Spiekermann, Huawei
 * Jim Marino, Metaform Systems
 * Anil Turkmayali, IDSA
-* Kai Meinke, deltaDAO
 * Andreas Krimbacher, nexyo
 * Mario Holesch, IDSA
 * Petteri Kivimäki, Nordic Institute of Interoperability Solutions
