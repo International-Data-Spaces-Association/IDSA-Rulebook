@@ -1,36 +1,38 @@
 # IDSA Rulebook
-Welcome to the IDSA Rulebook page on Github! This is a live document and will continue to evolve over time based on feedback and input from our community. 
+
+Welcome to the IDSA Rulebook page on Github! This is a live document and will continue to evolve over time based on feedback and input from our community.
 
 ## IDSA Rulebook on the IDSA Website
-:blue_book: [IDSA Rulebook](https://docs.internationaldataspaces.org/idsa-rulebook-v3/) 
-If you prefer a rendered and easier-to-read version of this content (rather than reading it via Github), we invite you to [check out our page on IDSA Website](https://docs.internationaldataspaces.org/idsa-rulebook-v3/), where you can access the same information available on Github in a more reader-friendly format. 
 
-## Purpose & Motivation ##
+:blue_book: [IDSA Rulebook](https://docs.internationaldataspaces.org/idsa-rulebook-v3/)
+If you prefer a rendered and easier-to-read version of this content (rather than reading it via Github), we invite you to [check out our page on IDSA Website](https://docs.internationaldataspaces.org/idsa-rulebook-v3/), where you can access the same information available on Github in a more reader-friendly format.
+
+## Purpose & Motivation
 
 The IDSA Rulebook serves several purposes regarding the development and operation of data spaces. The aim is to describe clearly which rules are mandatory and which are optional guidelines. This governance framework includes functional, technical, and operational dimensions:
 
 * Core Concepts of Data Spaces
-    * Governance of a Data Space 
-    * Autonomy and Agency of Participants
-    * Creating Trust between Participants
+  * Governance of a Data Space
+  * Autonomy and Agency of Participants
+  * Creating Trust between Participants
 
 * Guidelines on the core operation of a dataspace
-    * Onboarding Participants
-    * Discovering Data Sharing Offers
-    * Negotiating Data Sharing Agreements
-    * Sharing Data
+  * Onboarding Participants
+  * Discovering Data Sharing Offers
+  * Negotiating Data Sharing Agreements
+  * Sharing Data
 
 * Guidelines for the operation of common value-adding services
-    * Observability
-    * Vocabularies
-    * Marketplaces
+  * Observability
+  * Vocabularies
+  * Marketplaces
 
 * Guidlines for the integration of Dataspace Trust Frameworks
-    * Role of Trust Frameworks
-    * Functionality of Trust Frameworks
-    * Multiplicity of Trust Frameworks
+  * Role of Trust Frameworks
+  * Functionality of Trust Frameworks
+  * Multiplicity of Trust Frameworks
 
-## How to Contribute to IDS Rulebook? ##
+## How to Contribute to IDS Rulebook?
 
 We value your feedback and encourage all interested parties to review, comment, and contribute to the ongoing development of this Rulebook. Collaboration and open communication are essential to our success, and your input is vital to refining and enhancing the Rulebook, making it a more comprehensive and valuable resource for all. You can provide feedback on IDS Rulebook by [creating an issue in this repository](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/issues/new).
 
@@ -38,7 +40,6 @@ One can become a contributor by joining the Rulebook Working Group as a member o
 
 Please also visit our [Code of Conduct](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/CODE_OF_CONDUCT.md) and the [Contibuting information](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/CONTRIBUTING.md).
 
-## License ##
+## License
 
 The IDSA Rulebook is published under the [Creative Commons License 4 CC-BY](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/blob/main/LICENSE.md).
-

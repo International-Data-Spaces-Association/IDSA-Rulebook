@@ -22,23 +22,22 @@ The [labels](https://github.com/International-Data-Spaces-Association/idsa/label
 There are two types of labels: one describes the content of the issue and should be used by the
 developer that creates the issue. The other one, starting with `status`, will be added from the
 developer that takes on the issue. New issues should be initially marked with `status:open`.
-*  Basic labels: `bug`, `documentation` `duplicate`, `enhancement`, `good first issue`, `help wanted`, `invalid`, `question`, `wontfix`
-*  `bug`: Something isn't working
-*  `documentation`: Improvements or additions to documentation
-*  `duplicate`: This issue or pull request already exists
-*  `enhancement`: New feature or request
-*  `good first issue`: Good for newcomers
-*  `help wanted`: Extra attention is needed
-*  `invalid`: This doesn't seem right
-*  `question`: Further information is requested
-*  `wontfix`: This will not be worked on
 
+* Basic labels: `bug`, `documentation` `duplicate`, `enhancement`, `good first issue`, `help wanted`, `invalid`, `question`, `wontfix`
+* `bug`: Something isn't working
+* `documentation`: Improvements or additions to documentation
+* `duplicate`: This issue or pull request already exists
+* `enhancement`: New feature or request
+* `good first issue`: Good for newcomers
+* `help wanted`: Extra attention is needed
+* `invalid`: This doesn't seem right
+* `question`: Further information is requested
+* `wontfix`: This will not be worked on
 
 ## Branches
 
 After creating an issue yourself or if you want to address an existing issue, you have to create a
-branch with a unique number and name that assigns it to an issue. Therefore, follow the guidelines
-at https://deepsource.io/blog/git-branch-naming-conventions/. 
+branch with a unique number and name that assigns it to an issue. Therefore, follow the [guidelines](https://deepsource.io/blog/git-branch-naming-conventions/).
 Make your changes in your branch, invite others to collaborate on those changes.
 Then, create a pull request and note that **committing to the main branch is not allowed**. Please use the feature `linked issues` to
 link issues and pull requests.
@@ -48,19 +47,22 @@ Pull requests have to be approved by 2 reviews from either the IDSA Head Office 
 ## Commits
 
 We encourage all contributors to stick to the commit convention following the specification on
-[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). In general, use  the imperative in the present tense. 
+[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). In general, use  the imperative in the present tense.
 
 ## Figures
 
-Please be aware that figures with a transparent background are displayed differently when the user decides to use the dark or the light mode. 
-Figures should always use a non transparent background. 
+Please be aware that figures with a transparent background are displayed differently when the user decides to use the dark or the light mode.
+Figures should always use a non transparent background.
 
 ## Versioning
-The IDSA Rulebook will adopt an incremental and flexible update model rather than adhering to a rigid versioning scheme, as different sections will evolve at varying speeds. 
-Leveraging Git as the version control system (VCS), all modifications will be fully traceable, ensuring a transparent audit trail of historical changes. Periodically, we will tag and publish release versions to provide a stable reference point for discussions beyond the core contributor group.
+
+The IDSA Rulebook follows a release approach based on the approval of the IDSA Working Group Rulebook. The versioning follows the scheme 'year-sequence - YYYY-N', e.g., 2026-1 for the first release in 2026.
+
+Older releases can be found on in the IDSA GitHub repository knowledge base.
 
 ## Non-linear layout
-The IDSA Rulebook is a non-linear document. Sections should reference other sections as needed and link to those referenced sections. 
+
+The IDSA Rulebook is a non-linear document. Sections should reference other sections as needed and link to those referenced sections.
 
 Each topic of the IDSA Rulebook shall be created in its own file for easier linking and asynchronous updating. Additional new topics can be added.
 
