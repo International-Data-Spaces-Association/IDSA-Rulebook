@@ -1,10 +1,10 @@
-# IDSA Rulebook #
+# IDSA Rulebook
 
-## Table of contents #
+## Table of contents
 
 Below are the primary documents in this repository; each entry links to the file and includes a one-sentence description to help readers understand the document's purpose.
 
-# Fundamentals
+## Fundamentals
 
 - [Introduction](001_Introduction.md) — Orientation: explains the Rulebook's purpose, intended audience, and how to read its normative language.
 - [Guiding Principles](002_GuidingPrinciples.md) — Core Principles: articulates the governance principles and values that guide design and operational choices.
@@ -17,7 +17,7 @@ Below are the primary documents in this repository; each entry links to the file
 - [Dataspace Trust Frameworks](009_Dataspace_Trust_Frameworks.md) — Trust Frameworks: defines Dataspace Trust Frameworks (DTFs), reconciliation rules, and evidence categories.
 - [Planes](010_Planes.md) — Planes Overview: details control, data, management, and application planes and their interactions.
 
-# Functional Requirements
+## Functional Requirements
 
 - [Functional Requirements](100_Functional_Requirements.md) — Functional Requirements: lists mandatory and optional technical and operational requirements for data spaces.
 - [Achieving Autonomy and Agency](101_Achieving_Autonomy_and_Agency.md) — Autonomy & Agency: practical mechanisms and design considerations to preserve participant sovereignty.
@@ -40,11 +40,11 @@ Below are the primary documents in this repository; each entry links to the file
 - [AI Agents](130_AI_Agents.md) — AI Agents: considerations for autonomous agents interacting with data spaces and governance implications.
 - [Decentralized Patterns Onboarding](140_Decentralized_Patterns_Onboarding.md) — Onboarding Patterns: decentralized onboarding best practices and reference patterns.
 
-# Summary
+## Summary
 
 - [Summary and Outlook](999_Summary_Outlook.md) — Summary & Outlook: summarises key takeaways and outlines future work and open questions.
 
-# Governance & repository documents
+## Governance & repository documents
 
 - [Code of Conduct](CODE_OF_CONDUCT.md) — Expected community behaviour, reporting channels, and enforcement principles.
 - [Contributing](CONTRIBUTING.md) — Contribution workflow, issue and PR guidelines for the Rulebook.
