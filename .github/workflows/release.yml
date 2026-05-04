@@ -6,7 +6,7 @@ permissions:
   contents: write
 jobs:
   export:
-    uses: International-Data-Spaces-Association/.github/.github/workflows/reusable-release-export.yml@v1
+    uses: International-Data-Spaces-Association/.github/.github/workflows/reusable-release-export.yml@main
     with:
       content_dir: ${{ vars.CONTENT_DIR }}
       summary_path: ${{ vars.SUMMARY_PATH }}
