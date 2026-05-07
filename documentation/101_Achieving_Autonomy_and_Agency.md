@@ -2,7 +2,7 @@
 
 **Participant Autonomy and Agency**, commonly referred to as **Digital Sovereignty** starts with control over each participants own identity. Only participants that are in control of their own identity can be truly autonomous and have the agency to act in a data space.
 
-The [Manifesto of international data spaces](https://docs.internationalDataSpaces.org/ids-knowledgebase/manifesto-for-international-dataspaces/) articulates the fundamental principles. The [functional requirements](100_Functional_Requirements.md) section of the IDSA Rulebook details the mechanisms required to achieve this goal
+The [Manifesto of international data spaces](https://kb.internationaldataspaces.org/external/manifesto/manifesto/) articulates the fundamental principles. The [functional requirements](100_Functional_Requirements.md) section of the IDSA Rulebook details the mechanisms required to achieve this goal
 
 > Any central or federated control impairs the participant autonomy & agency, reducing their ability to act within the data space.
 
