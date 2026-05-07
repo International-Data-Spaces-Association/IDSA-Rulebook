@@ -4,8 +4,8 @@ Welcome to the IDSA Rulebook page on Github! This is a live document and will co
 
 ## IDSA Rulebook on the IDSA Website
 
-:blue_book: [IDSA Rulebook](https://docs.internationaldataspaces.org/idsa-rulebook-v3/)
-If you prefer a rendered and easier-to-read version of this content (rather than reading it via Github), we invite you to [check out our page on IDSA Website](https://docs.internationaldataspaces.org/idsa-rulebook-v3/), where you can access the same information available on Github in a more reader-friendly format.
+:blue_book: [IDSA Rulebook](https://kb.internationaldataspaces.org/external/rulebook/001_Introduction/)
+If you prefer a rendered and easier-to-read version of this content (rather than reading it via Github), we invite you to [check out our page on IDSA Website](https://kb.internationaldataspaces.org/external/rulebook/001_Introduction/), where you can access the same information available on Github in a more reader-friendly format.
 
 ## Purpose & Motivation
 
