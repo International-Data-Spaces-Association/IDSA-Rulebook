@@ -131,7 +131,7 @@ the discussion between two main interoperability models:
 Intra Data Space interoperability is about the interoperability within a
 Data Space. This focuses on how participants interact with each other,
 and as well as with the DSGA. The DSGA defines what rules govern the
-Data Space. This includes also which version of the [Data Space Protocol](https://docs.internationaldataspaces.org/ids-knowledgebase/v/dataspace-protocol)
+Data Space. This includes also which version of the [Data Space Protocol](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/)
 needs to be used, what identity protocols and standards to use, which
 Trust Frameworks are accepted, what semantic models need to be
 understood, and so on. Participants have the responsibility to at least
@@ -195,7 +195,7 @@ applied to Data Spaces.
 ### Technical
 
 The basis for technical interoperability in Data Spaces is the [Dataspace
-Protocol (DSP)](https://docs.internationaldataspaces.org/ids-knowledgebase/v/dataspace-protocol). This protocol provides a set of specifications
+Protocol (DSP)](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/). This protocol provides a set of specifications
 designed to facilitate interoperable data sharing between entities
 governed by usage control and is based on web technologies. These
 specifications define the schemas and protocols required for entities to
