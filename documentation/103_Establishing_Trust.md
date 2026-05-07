@@ -36,7 +36,7 @@ Attributes can be expressions representing a single claim (e.g., membership cred
 jurisdiction = country) or contain statements about proofs of technical capabilities (e.g., support a specific encryption algorithm).
 
 Many situations require attributes that are complex and may involve additional workflows, including human intervention.
-The IDSA Rulebook cannot prescribe a general approach for handling extended, composite, or complex attributes. Their management depends on the specific design and governance rules of the respective data space. Further guidance can be found in the [IDS RAM](https://github.com/International-Data-Spaces-Association/RAM5).
+The IDSA Rulebook cannot prescribe a general approach for handling extended, composite, or complex attributes. Their management depends on the specific design and governance rules of the respective data space. Further guidance can be found in the [IDS RAM](https://kb.internationaldataspaces.org/external/ram/Introduction/).
 
 >Attribute-based trust provides a dynamic, context- and risk-aware trust
 >model, that enables precise control by including attributes from many
