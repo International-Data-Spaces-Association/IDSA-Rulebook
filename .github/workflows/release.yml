@@ -1,13 +1,68 @@
-name: Release export
+name: Release (Export + Cover)
+
 on:
   release:
-    types: [ published ]
+    types: [published]
+  workflow_dispatch:
+
 permissions:
   contents: write
+
+env:
+  BASENAME: documentation           # <-- this is the directory/basename you mean
+  EXPORT_DIR: dist                  # where we download artifacts to
+
 jobs:
   export:
     uses: International-Data-Spaces-Association/.github/.github/workflows/reusable-release-export.yml@main
     with:
-      content_dir: ${{ vars.CONTENT_DIR }}
-      summary_path: ${{ vars.SUMMARY_PATH }}
-      output_basename: ${{ github.event.repository.name }}
+      summary_path: summary.md
+      output_basename: documentation  # must match BASENAME above
+
+  add-cover-and-publish:
+    needs: export
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository (for assets/cover.pdf)
+        uses: actions/checkout@v4
+
+      - name: Download export artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: release-export
+          path: ${{ env.EXPORT_DIR }}
+
+      - name: Verify expected files exist
+        run: |
+          ls -la "${{ env.EXPORT_DIR }}"
+          test -f "assets/cover.pdf"
+          test -f "${{ env.EXPORT_DIR }}/${{ env.BASENAME }}.pdf"
+          test -f "${{ env.EXPORT_DIR }}/${{ env.BASENAME }}.docx"
+
+      - name: Merge cover + body PDF (create additional artifact)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pypdf
+          python - <<'PY'
+          from pypdf import PdfWriter
+
+          cover = "assets/cover.pdf"
+          body  = "${{ env.EXPORT_DIR }}/${{ env.BASENAME }}.pdf"
+          out   = "${{ env.EXPORT_DIR }}/${{ env.BASENAME }}-with-cover.pdf"
+
+          writer = PdfWriter()
+          writer.append(cover)   # cover can be 1 or multiple pages
+          writer.append(body)
+          writer.write(out)
+          print(f"Created {out}")
+          PY
+          # pypdf merges PDFs by appending inputs with PdfWriter.append() and writing output. [2](https://bing.com/search?q=material+for+mkdocs+custom+404+page+setup)
+
+      - name: Upload release assets (keep ALL artifacts)
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ${{ env.EXPORT_DIR }}/${{ env.BASENAME }}.pdf
+            ${{ env.EXPORT_DIR }}/${{ env.BASENAME }}-with-cover.pdf
+            ${{ env.EXPORT_DIR }}/${{ env.BASENAME }}.docx
