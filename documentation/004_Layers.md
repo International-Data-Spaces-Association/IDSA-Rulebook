@@ -54,7 +54,7 @@ A clear differentiation must be made between **Data Spaces** and **Trusted Data 
 
 - **Data Spaces** are decentralized environments that enable participants to share data while ensuring their autonomy and agency. See the chapter [What is a Data Space](003_WhatIsADataspace.md) for details.
 
-- **Trusted Data Transactions**, as under current standardisation in the European Commission's Standardisation Request on a Trusted Data Framework in CEN/CENELEC JTC 25, can also be  associated with the EU *Data Governance Act*. They can also be related to data intermediaries and service orchestration. Such models prioritise regulatory alignment and controlled environments.
+- **Trusted Data Transactions** are currently being standardised through the European Commission's Standardisation Request on a Trusted Data Framework in CEN/CENELEC JTC 25 and can also be associated with the EU *Data Governance Act*. They can also be related to data intermediaries and service orchestration. Such models prioritise regulatory alignment and controlled environments.
 
 While TDTs may operate within data spaces, they are conceptually distinct. Equating them risks narrowing the scope of data space implementations and excluding more decentralized or peer-to-peer configurations. Data spaces designed, built and operated according to the IDSA Rulebook enable the implementation of TDTs but don't mandate it. Also the implementation of a TDT is not dependent on the use of a data space. Both are independent concepts that can be used at the same time.
 

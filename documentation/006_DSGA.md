@@ -24,7 +24,7 @@ In this context, an external **Oracle** is a participant-operated or independent
 
 - **By the Participants**: each participant has full knowledge of the DSGA and can enforce the rules of the DSGA in interactions with other participants. Value-Added Services or external Oracles might provide additional information needed to implement the governance model defined by the DSGA.
 
-- **Service Providers**: multiple service providers operate value added data space services or external Oracles that enable the enforcment of the governance model provided by the DSGA. The participants of the data space are responsible to choose which services providers to use and are free to reject interactions with participants where a common set of accepted service providers cannot be identified. An example of such a service can be the issuance of a data space participant credential.
+- **Service Providers**: multiple service providers operate value added data space services or external Oracles that enable the enforcement of the governance model provided by the DSGA. The participants of the data space are responsible to choose which services providers to use and are free to reject interactions with participants where a common set of accepted service providers cannot be identified. An example of such a service can be the issuance of a data space participant credential.
 
 - **Operations Company**: in a centrally governed data space the DSGA functions can be implemented by a single operations company which provides mandatory governance enforcement services. This creates centralized control and single points of failure and therefore impacts participant autonomy and agency.
 
