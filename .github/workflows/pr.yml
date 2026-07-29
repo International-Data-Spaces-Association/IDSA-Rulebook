@@ -45,4 +45,4 @@ jobs:
             --config .lychee.toml
             --no-progress
             --accept 200,206,301,302,429
-            docs
+            documentation
