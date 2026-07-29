@@ -57,7 +57,7 @@ jobs:
         with:
           args: >-
             documentation/FrontMatter.md
-            --from=markdown
+            --from=markdown-implicit_figures
             --standalone
             --pdf-engine=xelatex
             -V papersize=a4
