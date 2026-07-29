@@ -5,8 +5,44 @@ on:
 permissions:
   contents: read
 jobs:
-  quality:
-    uses: International-Data-Spaces-Association/.github/.github/workflows/reusable-pr-quality.yml@main
+  lint:
+    name: Markdown Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
 
-    with:
-      content_dir: ${{ vars.CONTENT_DIR }}
+      - name: Markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v15
+        with:
+          globs: |
+            **/*.md
+            !_sources/**
+
+  linkcheck:
+    name: Broken Link Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Cache lychee
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: lychee-${{ runner.os }}-${{ hashFiles('.lychee.toml') }}
+
+      - name: Run lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: >-
+            --config .lychee.toml
+            --no-progress
+            --accept 200,206,301,302,429
+            docs
