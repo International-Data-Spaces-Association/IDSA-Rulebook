@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 env:
-  BASENAME: documentation
+  BASENAME: IDSA-Rulebook-latest
 
 jobs:
   export-pdf:
@@ -50,7 +50,20 @@ jobs:
             -V sansfont="Noto Sans"
             -V monofont="Fira Code"
             --resource-path=documentation
-            --output=${{ env.BASENAME }}.pdf
+            --output=body.pdf
+
+      - name: Prepend cover page
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pypdf
+          python - <<'PY'
+          from pypdf import PdfWriter
+
+          writer = PdfWriter()
+          writer.append(".github/assets/coverpage.pdf")
+          writer.append("body.pdf")
+          writer.write("${{ env.BASENAME }}.pdf")
+          PY
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4

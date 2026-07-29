@@ -41,6 +41,18 @@ def collect_referenced_files(summary_path: str) -> list[str]:
     return ordered
 
 
+def frontmatter_first(paths: list[str]) -> list[str]:
+    """Pin FrontMatter.md to the front for PDF output.
+
+    SUMMARY.md lists it last for the published site's nav order; the PDF
+    wants it as a cover/imprint page up front instead. Reordering here keeps
+    SUMMARY.md itself untouched.
+    """
+    front = [p for p in paths if os.path.basename(p).lower() == "frontmatter.md"]
+    rest = [p for p in paths if os.path.basename(p).lower() != "frontmatter.md"]
+    return front + rest
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--summary", required=True, help="Path to SUMMARY.md")
@@ -48,15 +60,18 @@ def main() -> None:
     parser.add_argument("--fail-on-missing", action="store_true")
     args = parser.parse_args()
 
-    referenced = collect_referenced_files(args.summary)
+    referenced = frontmatter_first(collect_referenced_files(args.summary))
     missing = [p for p in referenced if not os.path.exists(p)]
     if missing and args.fail_on_missing:
         raise SystemExit("Missing referenced Markdown files:\n" + "\n".join(missing))
 
     parts: list[str] = []
-    for path in referenced:
+    for index, path in enumerate(referenced):
+        if index > 0:
+            # Start each top-level document on a fresh page.
+            parts.append("\\newpage\n\n")
         if not os.path.exists(path):
-            parts.append(f"\n\n<!-- MISSING: {path} -->\n\n")
+            parts.append(f"<!-- MISSING: {path} -->\n\n")
             continue
         with open(path, encoding="utf-8") as f:
             parts.append(f.read().rstrip() + "\n\n")
