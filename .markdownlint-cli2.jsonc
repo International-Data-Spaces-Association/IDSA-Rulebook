@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint-cli2/main/schema/markdownlint-cli2-config-schema.json",
+  "config": {
+    "default": true,
+    "MD013": false, // line length
+    "MD033": false, // inline HTML (used in overrides)
+    "MD041": false  // first line h1 (legal docs)
+  },
+  "globs": [
+    "**/*.md",
+    "!_sources/**",
+    "!site/**"
+  ]
+}
