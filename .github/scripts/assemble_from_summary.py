@@ -41,16 +41,15 @@ def collect_referenced_files(summary_path: str) -> list[str]:
     return ordered
 
 
-def frontmatter_first(paths: list[str]) -> list[str]:
-    """Pin FrontMatter.md to the front for PDF output.
+def exclude_frontmatter(paths: list[str]) -> list[str]:
+    """Keep FrontMatter.md out of the numbered/ToC'd body.
 
-    SUMMARY.md lists it last for the published site's nav order; the PDF
-    wants it as a cover/imprint page up front instead. Reordering here keeps
-    SUMMARY.md itself untouched.
+    SUMMARY.md lists it for the published site's nav order; for the PDF it's
+    rendered separately (unnumbered, outside the Table of Contents) and
+    merged in right after the cover page — see release.yml. Excluding it
+    here keeps SUMMARY.md itself untouched.
     """
-    front = [p for p in paths if os.path.basename(p).lower() == "frontmatter.md"]
-    rest = [p for p in paths if os.path.basename(p).lower() != "frontmatter.md"]
-    return front + rest
+    return [p for p in paths if os.path.basename(p).lower() != "frontmatter.md"]
 
 
 def main() -> None:
@@ -60,7 +59,7 @@ def main() -> None:
     parser.add_argument("--fail-on-missing", action="store_true")
     args = parser.parse_args()
 
-    referenced = frontmatter_first(collect_referenced_files(args.summary))
+    referenced = exclude_frontmatter(collect_referenced_files(args.summary))
     missing = [p for p in referenced if not os.path.exists(p)]
     if missing and args.fail_on_missing:
         raise SystemExit("Missing referenced Markdown files:\n" + "\n".join(missing))

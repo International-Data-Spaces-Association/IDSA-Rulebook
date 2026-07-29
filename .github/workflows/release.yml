@@ -52,7 +52,24 @@ jobs:
             --resource-path=documentation
             --output=body.pdf
 
-      - name: Prepend cover page
+      - name: Export Front Matter (Pandoc + XeLaTeX, unnumbered, no ToC)
+        uses: docker://ghcr.io/international-data-spaces-association/pandoc-latex-fonts:3.9
+        with:
+          args: >-
+            documentation/FrontMatter.md
+            --from=markdown
+            --standalone
+            --pdf-engine=xelatex
+            -V papersize=a4
+            -V geometry:margin=2.5cm
+            -V fontsize=11pt
+            -V mainfont="Noto Sans"
+            -V sansfont="Noto Sans"
+            -V monofont="Fira Code"
+            --resource-path=documentation
+            --output=frontmatter.pdf
+
+      - name: Assemble final PDF (cover + front matter + body)
         run: |
           python -m pip install --upgrade pip
           python -m pip install pypdf
@@ -61,6 +78,7 @@ jobs:
 
           writer = PdfWriter()
           writer.append(".github/assets/coverpage.pdf")
+          writer.append("frontmatter.pdf")
           writer.append("body.pdf")
           writer.write("${{ env.BASENAME }}.pdf")
           PY
