@@ -1,0 +1,28 @@
+# Changelog
+
+## Unreleased
+
+### Changed
+
+- `documentation/009_Dataspace_Trust_Frameworks.md`: full revision of the page.
+
+  Normative changes:
+
+  - Claims must now carry issuer provenance, validity, a revocation or status mechanism, and holder binding, and verification explicitly checks issuer authority and holder binding using published, cacheable artefacts instead of an interactive issuer session. Previously, claims only had to "include provenance and validity metadata," with no holder-binding or revocation-mechanism requirement, and verification was described as "cryptographic proofs... or decentralized oracles" with no issuer-authority check and no cacheable-artefact language.
+  - "Decentralized oracles" removed as a misconception: the rulebook's own Oracle definition (`006_DSGA.md`) allows a single participant-operated or independent service, which is not inherently decentralized and can itself be a governance-plane dependency; external facts now enter the evaluation as claims from attested services with an explicit trust model (for example remote attestation per IETF RFC 9334), not as unattributed oracle input.
+  - Automatic policy transformation and attribute mapping are downgraded from an assumed reconciliation capability to a governance artefact the DTF must define explicitly. Absent such an explicit mapping, reconciliation across profiles or vocabularies is negotiation or escalation, not auto-mapping — a false-equivalence auto-map can silently leak data under a policy that doesn't actually match, or block a legitimate exchange, with no visible failure.
+  - Policy alignment stated as non-optional: an interaction without stated constraints is itself a policy — allow-all — and still passes through the agreement state machine.
+  - Runtime monitoring narrowed to signals a party legitimately observes; monitoring grants no visibility into a counterparty's systems unless contractually and technically defined; "automatic revocation" replaced by defined withdrawal and termination duties; revocation cannot undo completed transfers.
+  - Failure modes extended from two to eleven, each with required handling ("must" instead of "may"); error responses must be disclosure-minimising instead of carrying "clear error codes" — a specific per-claim rejection code lets a prober vary one input at a time and reconstruct the full policy surface (required claims, thresholds, accepted trust anchors) from rejections alone, handing an attacker a precise target for forged or stolen credentials instead of a generic "denied."
+  - New trust-anchor model: trust anchor and trust-anchor register defined as key terms; register entries must state identity and key discovery, authorised claim types, status mechanism, accountability terms, admission and removal rules, and update propagation; the anchor role is scoped per claim type — e.g. a certifier trusted for "ISO-9001-certified" claims is not thereby trusted for "GDPR-compliant" or identity claims, and signing outside its authorised claim types is not accepted as evidence; removal propagates with the urgency of a claim revocation.
+  - New issuer-accountability obligations: attestation correctness, key publication and status infrastructure, compromise reporting, timely revocation, liability for false or negligent attestations. Previously there was no trust-anchor or issuer-accountability concept at all — only participant-driven unilateral revocation and integrity-based "claim compromise" detection, neither of which obligated the issuer itself; these are added because the trust-anchor model only works if someone is answerable when a vouched-for claim turns out false or an anchor's key is compromised.
+  - New conformance requirement: the DSGA defines how conformance is assessed; conformance attestations are themselves claims within the framework.
+  - "Fully decentralized" corrected: control and data planes are decentralized, residual governance-plane dependencies must be made explicit; when multiple DTFs yield an empty constraint intersection — e.g. one DTF requiring 30-day deletion and another requiring 90-day retention, with no retention period satisfying both — the expected outcome is abort-and-escalate, not silently proceeding under only one framework's rules.
+  - Closing position reversed from "invalidates legacy models" to subsumption: certifications and broker or catalogue outputs become claims and evidence within the framework.
+
+  Structural and editorial changes:
+
+  - New sections: "What a DTF Must Define", "From Framework to Operating Data Space" (binding questions a concrete data space must answer), "Verified Self-Description Catalogues" (the framework as a configurable bundle; verification reports as conformance attestations with defined producer and readers), and "What a Trust Framework Cannot Guarantee" (limits).
+  - Core principles named and expanded: local trust decisions without a global trust state, evidence-based and runtime-bounded trust, coupled governance, plane separation matching the Dataspace Protocol, and minimal shared semantics as core-plus-profiles (following DCAT application profiles and the DSSC Blueprint Data Models building block), with the reconciliation cost of minimal semantics stated.
+  - Implementation considerations expanded from two bullets (DID, VC) into a linked standards catalogue — SD-JWT VC, DCP, OpenID4VC with EUDI Wallet and eIDAS, status lists, ODRL and DPV, DSP, ETSI trusted lists and AdES/LTA, PROV, with PACT and the Eclipse XFSC Federated Catalogue as examples — using version-free references only.
+  - Cross-links to sibling pages added throughout.
