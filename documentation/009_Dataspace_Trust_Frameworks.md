@@ -2,19 +2,19 @@
 
 ## Definition
 
-A **Dataspace Trust Framework (DTF)** is the binding set of rules that tells data space participants how trust evidence is created, checked, accepted, rejected, and governed for data-sharing interactions. It combines policies, accepted claims, trust anchors, reconciliation rules, and business procedures into one operational framework.
+A **Dataspace Trust Framework (DTF)** is the set of policies and claim definitions that state which trust evidence exists for data-sharing interactions and what it represents — it defines what must hold, not how it is implemented. It combines policies, accepted claims, trust anchors, and reconciliation rules; business processes are expressed as policies, not as mandatory procedures.
 
-The DTF sits between the general concept of [Trust](008_Trust.md) and the concrete mechanisms for [Establishing Trust](103_Establishing_Trust.md). Those sections explain what trust means in a data space and why attribute-based trust is the preferred model. The DTF makes that model executable: it states which evidence counts, which rules the evidence is checked against, who may issue that evidence, how disagreements are handled, and what happens when checks fail.
+The DTF sits between the general concept of [Trust](008_Trust.md) and the concrete mechanisms for [Establishing Trust](103_Establishing_Trust.md). Those sections explain what trust means in a data space and why attribute-based trust is the preferred model. The DTF enables a concrete implementation of that model; it does not provide one. It states which evidence counts, which rules the evidence is checked against, who may issue that evidence, how disagreements are handled, and what happens when checks fail.
 
 Trust in a DTF is not a permanent status. It is a local, purpose-specific, and time-bound assessment made by each participant for a concrete interaction. Certifications, membership credentials, and onboarding results may be accepted as evidence, but they do not create standing trust by themselves. They are claims whose issuer, validity, scope, holder binding, and revocation status must be checked according to the framework. This follows the zero-trust principle that access decisions depend on current evidence and explicit policy alignment, not on prior admission alone ([NIST SP 800-207](https://csrc.nist.gov/pubs/sp/800/207/final)).
 
-A DTF therefore does not make participants trustworthy. It makes the grounds for trust explicit, verifiable, repeatable, revocable, and auditable.
+A DTF therefore does not make participants trustworthy. It provides the semantic model and definitions against which an implementation can make trust explicit, verifiable, revocable, and auditable — the properties belong to the implementation.
 
 Key terms:
 
 - **Claim**: A machine-readable, cryptographically verifiable assertion about a participant, service, asset, or event, issued by an identifiable issuer. Claims can express identity attributes, membership, certifications, dataset provenance, compliance results, or operational facts. The relation between attributes, claims, and trust anchors is described in [Attributes & Claims](104_Attributes_and_claims.md).
 
-- **Policy**: A machine-readable expression of rules that govern data discovery, access, contract negotiation, usage, obligations, and enforcement expectations. Policy design is covered in [Policies](105_Policies.md).
+- **Policy**: A machine-readable expression of rules that govern data discovery, negotiation, and sharing. The full policy definition is covered in [Policies](105_Policies.md).
 
 - **Trust anchor**: An issuer, or a defined set of issuers, whose claims a verifier accepts as evidence for specified claim types. A trust anchor is not a general authority over the data space. Its role is scoped by the DTF: which claims it may issue, how its keys are discovered, how status is checked, and which accountability obligations it accepts.
 
@@ -34,45 +34,31 @@ Trust frameworks assume that data spaces are decentralized socio-technical syste
 
 **Trust decisions are local.** Each participant evaluates evidence and policies for its own interaction. A DTF can define common evidence, policy profiles, and procedures, but it does not create a global trust state that all participants must share.
 
-**Trust is evidence-based.** Identity, membership, certification, and prior successful interactions are inputs to trust evaluation. None of them is sufficient on its own unless the DTF explicitly defines it as sufficient for a particular interaction class.
+**Trust is evidence-based.** Identity, membership, certification, and prior successful interactions are inputs to trust evaluation. The DTF defines the vocabulary of evidence and what each item represents; whether presented evidence is sufficient for a given interaction is the participant's own decision.
 
 **Trust is runtime-bounded.** Long-running interactions need re-evaluation rules, validity windows, status checks, and revocation handling. Cached decisions may be used only within documented scope and time limits.
 
 **Technical and governance mechanisms are coupled.** Signature validation, policy evaluation, claim exchange, and status checks require governance decisions about issuers, liability, escalation, and conformance. A DTF must make these dependencies visible instead of describing the data space as fully decentralized without qualification.
-
-**Control-plane trust logic is separated from data-plane transfer.** Policy negotiation, claim verification, agreement creation, and revocation checks belong to the control plane. Data transfer or resource access happens in the data plane. This separation matches the architecture of the [Dataspace Protocol](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/) and is introduced in [Planes](010_Planes.md).
-
-**Interoperability depends on minimal shared semantics.** A DTF should define a small shared core vocabulary for claims and policies, then allow domain-specific extensions through profiles, following the pattern established by [DCAT](https://www.w3.org/TR/vocab-dcat-3/) application profiles and the [Data Models building block of the DSSC Blueprint](https://archive.dssc.eu/space/BVE2/1071255252/Data+Models). Domain-specific extensions should be governed where the domain expertise sits. The smaller the shared core, the more important explicit reconciliation and escalation rules become. Two parties can only be deterministically reconciled over the vocabulary they share; everything outside it requires negotiation or human escalation. Semantic models for policies and shared data assets are covered in [Vocabularies](122_Vocabularies.md).
 
 ### What a DTF Must Define
 
 A DTF is operational only if it answers the following questions:
 
 - **Evidence model**: Which claims are accepted, what they mean, which formats and schemas they use, and which metadata they must carry, including issuer provenance, validity, revocation or status mechanism, and holder binding.
-- **Policy profile**: Which policy language or profile is used, which constraints are valid, and how constraints map to claims.
 - **Trust anchors**: Who may issue which claims, how their keys and status information are found, and how the trust-anchor register is updated.
 - **Verification**: How signatures, holder binding, issuer authority, validity periods, and revocation or status information are checked.
 - **Reconciliation**: How parties determine whether presented claims satisfy applicable policies, including what happens when policies conflict.
 - **Lifecycle**: How claims, schemas, policy profiles, trust anchors, and framework versions are introduced, deprecated, migrated, revoked, or retired.
 - **Failure handling**: Which failure modes are recognised, which response is required, which information may be disclosed, and when escalation is triggered.
 - **Accountability**: What issuers, participants, service providers, auditors, and the DSGA are responsible for.
-- **Conformance**: How implementations prove that they follow the framework, and how conformance evidence is published or verified.
 
-Without these definitions, a DTF remains a conceptual trust model rather than an operating framework.
-
-This list defines the framework content. A concrete data space still has to bind those choices to specific protocol versions, interaction types, credential schemas, and governance procedures; that operational binding is described in [From Framework to Operating Data Space](#from-framework-to-operating-data-space).
+Binding these definitions to concrete protocols and schemas happens when a data space adopts the DTF, outside the DTF itself — see [From Framework to Operating Data Space](#from-framework-to-operating-data-space).
 
 ### Trust Establishment and Maintenance
 
 Trust is established through iterative claim exchange, verification, policy alignment, and agreement creation.
 
-**Claim issuance and presentation starts the evidence flow.** Participants obtain claims from accepted issuers and present them when an interaction requires evidence. A concrete exchange protocol for issuance and presentation is the [Decentralized Claims Protocol (DCP)](https://eclipse-dataspace-dcp.github.io/decentralized-claims-protocol/), an Eclipse Dataspace Working Group specification.
-
 **Claim verification is performed by the verifier.** It includes checking the issuer, signature or equivalent proof, holder binding, validity period, status or revocation information, and whether the issuer is authorised to issue that claim type. Verification does not require an interactive issuer session at decision time. It relies on published and cacheable artefacts with bounded staleness.
-
-**External facts enter the evaluation as claims.** Facts from registries, measurement systems, compliance checks, catalogues, or other services must carry provenance and an explicit trust model. They must not appear as unattributed oracle input. If runtime integrity of such services matters, remote attestation such as the model described in [IETF RFC 9334](https://www.rfc-editor.org/rfc/rfc9334) can be used.
-
-**Policy alignment determines whether the interaction can proceed.** Policies express the constraints that must be satisfied before data is discovered, negotiated, accessed, transferred, or used. Agreement is reached through a defined negotiation process. In DSP-based data spaces, contract negotiation provides a state machine for offers, counter-offers, and agreements. Policy alignment is not optional: an interaction without stated constraints is itself a policy — allow-all — and still passes through the agreement state machine.
 
 **Runtime maintenance is limited to legitimate signals.** Trust is maintained by observing status changes of relied-upon claims, revocation lists, protocol events, own access logs, agreed audit data, and conformance evidence. Monitoring does not grant visibility into a counterparty's internal systems unless that visibility is contractually and technically defined. Observer models and audit mechanisms are covered in [Observability](121_Observability.md).
 
@@ -106,9 +92,9 @@ Trust frameworks integrate technical rules with organisational and legal commitm
 
 **Trust anchors must accept issuer-accountability obligations.** These include correctness of attestations, secure key publication, status infrastructure, compromise reporting, timely revocation, and liability for false or negligent attestations.
 
-**Governance rules must preserve participant sovereignty.** This includes independent policy choices, provider selection where the framework allows it, and withdrawal of future access according to the participant's own governance and legal constraints.
+**Governance rules must preserve participant sovereignty.** This includes independent policy choices, provider selection, and withdrawal of future access according to the participant's own governance and legal constraints.
 
-**Policies, claims, schemas, and trust-anchor registers change over time.** A DTF must define versioning, deprecation windows, migration procedures, compatibility rules, and the expected cost of schema churn.
+**Policies, claims, and schemas change over time.** A DTF must define versioning, deprecation windows, migration procedures, compatibility rules, and the expected cost of schema churn for the policies and claims under its own purview.
 
 **The DSGA defines how DTF conformance is assessed.** Options include self-assessment with published evidence, third-party audit, automated test suites, or a combination of these. Conformance attestations are themselves claims within the framework, keeping assessment inside the same trust model.
 
@@ -138,50 +124,19 @@ These answers bind only inside the data space's own governance perimeter. Betwee
 
 ### Implementation Considerations
 
-Trust frameworks should use common standards and profiles where possible:
-
-- **Identity**: [W3C Decentralized Identifiers (DIDs)](https://www.w3.org/TR/did-core/), including method choices suitable for organisational participants.
-- **Claim format**: [W3C Verifiable Credentials](https://www.w3.org/TR/vc-overview/), with holder binding through verifiable presentations and selective-disclosure formats such as [IETF SD-JWT VC](https://datatracker.ietf.org/doc/draft-ietf-oauth-sd-jwt-vc/) where individual attributes must be disclosed independently.
-- **Claim exchange**: DCP for data space participant interactions; the [OpenID for Verifiable Credentials](https://openid.net/sg/openid4vc/) family where wallet-ecosystem interoperability is required, including interaction with the [EUDI Wallet](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework) under [eIDAS](https://eur-lex.europa.eu/eli/reg/2024/1183/oj), which offers legal entities in the EU an attestation path independent of any single data space's membership.
-- **Revocation and status**: [W3C status-list mechanisms](https://www.w3.org/TR/vc-bitstring-status-list/) or equivalent status mechanisms with documented outage behaviour.
-- **Policy**: [ODRL](https://www.w3.org/TR/odrl-model/) with a domain profile; the [Data Privacy Vocabulary (DPV)](https://w3id.org/dpv), a W3C Community Group vocabulary, where personal-data and consent semantics are involved.
-- **Negotiation and transfer**: [Dataspace Protocol (DSP)](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/) for catalogue, contract-negotiation, and transfer-process state machines.
-- **Trust-anchor publication**: Signed trust lists or equivalent registers, with [ETSI trusted lists (TS 119 612)](https://www.etsi.org/deliver/etsi_ts/119600_119699/119612/) as prior art. Where claims must remain verifiable beyond issuer lifetime, long-term signature profiles such as [ETSI AdES/LTA](https://www.etsi.org/deliver/etsi_en/319100_319199/31910201/) may apply.
-- **Provenance**: [W3C PROV](https://www.w3.org/TR/prov-o/) or equivalent provenance models for claim and evidence metadata.
-
 Design constraints:
 
 - Avoid assumptions of global information or synchronous communication.
-- Keep verification robust under partial outage through bounded caching, status validity windows, and explicit fail-open or fail-closed rules.
 - Keep the claim layer transport-independent so that trust evidence can work across full data space connectors, domain APIs, and simpler REST-based exchanges, for example the [PACT Technical Specification](https://wbcsd.github.io/data-exchange-protocol/) for product-carbon-footprint exchange.
-- Do not assume the availability of centralized runtime services or components, such as member registries, on the control or data plane. Where a governance-plane registry exists — trust lists, DSGA directories, or verified self-description catalogues such as the [Federated Catalogue](https://github.com/eclipse-xfsc/federated-catalogue) of the Eclipse Cross Federation Services Components (XFSC) — design verification to degrade gracefully when it is unreachable: cached lists and bounded validity windows rather than hard runtime dependencies.
-
-#### Verified Self-Description Catalogues
-
-A verified self-description catalogue can operationalise the trust framework. The framework is supplied to the catalogue as a configurable bundle: trust anchors, compliance checks, schemas, and the rules for interpreting verification results. Entries are verified against that bundle at listing time or on demand. Each verification produces a report — a conformance attestation in the sense of Governance Coupling — recording which checks ran, against which framework configuration, and when. The report is produced by the verification machinery, not by the submitting participant, and is retained with the entry it assesses.
-
-Three parties consult this report:
-
-- the registry operator when enforcing the listing policy,
-- relying parties when deciding what weight an entry carries, and
-- the governance authority or an auditor when a listing decision must be reconstructed after the fact.
-
-Catalogue content therefore remains evidence verified under a stated configuration, not ground truth that relieves participants of their own verification.
-
-Certification- and broker-based models are not invalidated by this definition. They are subsumed into it. A certification becomes one claim among others, and a broker or catalogue becomes a service whose outputs require provenance, trust-anchor governance, and status handling.
 
 ### What a Trust Framework Cannot Guarantee
 
-A DTF defines the mechanics of evidence and evaluation. It does not solve every trust problem.
+A DTF defines the vocabulary of evidence and evaluation. It does not solve every trust problem.
 
 - **Recognition between data spaces**: Whether one data space accepts another data space's trust anchors is a governance decision involving liability, semantics, risk tolerance, and business incentives. No protocol can force recognition. Cross-data-space common agreements are discussed in [Interoperability in Data Spaces](115_Interoperability_in_data_spaces.md).
 
-- **Participation**: A DTF lowers the cost and risk of trusting, but it does not create a business reason to share data. Adoption depends on demand, regulation, incentives, and implementation quality.
-
 - **Post-transfer enforcement**: Once data has been delivered to another participant, technical control is limited. Deletion, non-onward-sharing, and usage limits are contractual or legal obligations unless the data is processed in a controlled technical environment.
 
-- **Claim truth**: Verification proves that an accepted issuer signed a claim and that the claim satisfies technical checks. It does not prove that the issuer was correct. Truthfulness depends on issuer competence, accountability, audit, and liability.
+- **Claim truth**: Verification proves that an issuer signed a claim — it authenticates the claim as the evidence presented. It makes no statement about the validity, truthfulness, completeness, or trustworthiness of the evidence, and whether the issuer is accepted is the participant's own evaluation. Truthfulness depends on issuer competence, accountability, audit, and liability.
 
-- **Implementation quality**: A DTF does not build, operate, secure, or fund the software and processes required to execute it. The gap between framework and dependable operation is closed by engineering, governance, and investment.
-
-A good DTF is therefore judged by whether it makes trust decisions explicit, checkable, limited, revocable, and accountable; not by whether it removes all central components or all residual risk.
+- **Implementation quality**: A DTF does not build, operate, secure, or fund the software and processes required to execute it.
