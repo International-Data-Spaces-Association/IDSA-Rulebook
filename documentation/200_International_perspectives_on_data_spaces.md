@@ -50,9 +50,9 @@ Each annex follows a common nine-section structure so that regions can be compar
 
 ## Contact
 
-Marko Turpeinen (1001 Lakes) — Co-Chair, IDSA Rulebook Working Group — marko.turpeinen@1001lakes.com
+Marko Turpeinen (1001 Lakes) — Co-Chair, IDSA Rulebook Working Group — <marko.turpeinen@1001lakes.com>
 
-Mario Holesch (IDSA) — Senior Consultant & Innovation Manager — mario.holesch@internationaldataspaces.org
+Mario Holesch (IDSA) — Senior Consultant & Innovation Manager — <mario.holesch@internationaldataspaces.org>
 
 To get involved, open an issue in this repository or contact the Working Group through the IDSA community channels.
 
