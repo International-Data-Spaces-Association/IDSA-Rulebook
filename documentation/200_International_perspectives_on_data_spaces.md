@@ -1,6 +1,6 @@
 # IDSA Rulebook — International Perspectives
 
-*A subgroup of the IDSA Rulebook Working Group*
+A subgroup of the IDSA Rulebook Working Group
 
 ## Why this exists
 
