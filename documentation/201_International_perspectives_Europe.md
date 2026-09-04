@@ -28,8 +28,6 @@ Europe's data space ecosystem is characterised by multi-actor coordination rathe
 | Gaia-X Association | Provides data governance models, trust framework, and interoperability guidance. Gaia-X solutions are frequently combined with IDS standards to build sovereign data spaces. |
 | Data Spaces Support Centre (DSSC) | EU-backed support and coordination hub: publishes blueprints, building blocks, starter kits and toolboxes; fosters interoperable data spaces across sectors and supports implementers (e.g. SMEs, public sector). The DSSC continues in its second phase in 2026 with IDSA remaining a member of the consortium. |
 
-
-
 ### 2.2 Technical Infrastructure and Building Blocks
 
 | Initiative | Role |
