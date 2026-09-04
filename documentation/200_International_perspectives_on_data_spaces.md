@@ -5,7 +5,6 @@ A subgroup of the IDSA Rulebook Working Group
 ## Why this exists
 
 IDSA is a truly global organisation, but the data space movement is not evolving uniformly. Standards converge through formal bodies: ISO/IEC 20151, the Dataspace Protocol, CEN/CENELEC JTC 25. What diverges is everything underneath: governance philosophy, legal regimes, market structures, and geopolitical positioning. 
-
 The IDSA Rulebook was developed primarily in and for the European context. Several of its assumptions - harmonised horizontal legislation, institutional trust anchored in public bodies, federated multi-stakeholder consortia as the default market structure - are European characteristics, not universal ones. For the Rulebook to serve a global community, those assumptions must be made explicit, and the conditions in other regions must be described by the people who work in them.
 
 That is what this subgroup produces: **regional annexes to the IDSA Rulebook**, each describing how data spaces actually work (legally, institutionally, commercially) in one region of the world.
@@ -56,3 +55,4 @@ Marko Turpeinen (1001 Lakes) — Co-Chair, IDSA Rulebook Working Group — marko
 Mario Holesch (IDSA) — Senior Consultant & Innovation Manager — mario.holesch@internationaldataspaces.org
 
 To get involved, open an issue in this repository or contact the Working Group through the IDSA community channels.
+
