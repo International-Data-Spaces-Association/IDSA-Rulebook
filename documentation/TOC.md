@@ -37,6 +37,8 @@ Below are the primary documents in this repository; each entry links to the file
 | [AI Agents](130_AI_Agents.md) | AI Agents: considerations for autonomous agents interacting with data spaces and governance implications. |
 | [Decentralized Patterns Onboarding](140_Decentralized_Patterns_Onboarding.md) | Onboarding Patterns: decentralized onboarding best practices and reference patterns. |
 | [Summary and Outlook](999_Summary_Outlook.md) | Summary & Outlook: summarises key takeaways and outlines future work and open questions. |
+| [Annex — International Perspectives](200_International_perspectives_on_data_spaces.md) | Overview on international perspectives. |
+| [International Perspectives: Europe](201_International_perspectives_Europe.md) | European perspective on Data Spaces. |
 
 ## Imprint & external links
 

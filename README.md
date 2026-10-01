@@ -32,6 +32,8 @@ The IDSA Rulebook serves several purposes regarding the development and operatio
   * Functionality of Trust Frameworks
   * Multiplicity of Trust Frameworks
 
+The Annex of the Rulebook on the International Perspectives provides insights into relevant international considerations of data spaces.
+
 ## How to Contribute to IDS Rulebook?
 
 We value your feedback and encourage all interested parties to review, comment, and contribute to the ongoing development of this Rulebook. Collaboration and open communication are essential to our success, and your input is vital to refining and enhancing the Rulebook, making it a more comprehensive and valuable resource for all. You can provide feedback on IDS Rulebook by [creating an issue in this repository](https://github.com/International-Data-Spaces-Association/IDSA-Rulebook/issues/new).
