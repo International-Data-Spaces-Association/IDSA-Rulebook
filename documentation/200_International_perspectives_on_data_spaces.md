@@ -55,4 +55,3 @@ Marko Turpeinen (1001 Lakes) — Co-Chair, IDSA Rulebook Working Group — <mark
 Mario Holesch (IDSA) — Senior Consultant & Innovation Manager — <mario.holesch@internationaldataspaces.org>
 
 To get involved, open an issue in this repository or contact the Working Group through the IDSA community channels.
-
