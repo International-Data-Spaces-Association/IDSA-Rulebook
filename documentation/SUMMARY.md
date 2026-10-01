@@ -44,6 +44,11 @@ Below are the primary documents in this repository; each entry links to the file
 
 - [Summary and Outlook](999_Summary_Outlook.md) — Summary & Outlook: summarises key takeaways and outlines future work and open questions.
 
+## International Perspectives
+
+- [IDSA Rulebook — International Perspectives](200_International_perspectives_on_data_spaces.md) - Overview on international perspectives.
+- [International Perspectives: Europe](201_International_perspectives_Europe.md) - European perspective on Data Spaces.
+
 ## Imprint & external links
 
 - [Front Matter](FrontMatter.md) — Imprint and editorial credits.
