@@ -1,4 +1,4 @@
-# IDSA Rulebook 2026-2 #
+# IDSA Rulebook 2026-3 #
 
 ## Publisher ##
 
