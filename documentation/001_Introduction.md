@@ -25,7 +25,7 @@ Reading guide for normative language used in this Rulebook:
 - “may” indicates an option or permissive practice.
 - “recommended” and “preferred” are non-binding guidance intended to reduce risk or improve interoperability.
 
-The Rulebook describes how technical roles (for example, Participant and Data Space Governance Authority — DSGA) relate to economic and legal responsibilities, and how these roles may map to obligations under instruments such as the [EU Data Governance Act](https://eur-lex.europa.eu/eli/reg/2022/868/oj/eng), the [EU Data Act](https://eur-lex.europa.eu/eli/reg/2023/2854/oj), and international programms like the [Data Free Flow with Trust (DTFF)](https://www.oecd.org/en/about/programmes/data-free-flow-with-trust.html)
+The Rulebook describes how technical roles (for example, Participant and Data Space Governance Authority — DSGA) relate to economic and legal responsibilities, and how these roles may map to obligations under instruments such as the [EU Data Governance Act](https://eur-lex.europa.eu/eli/reg/2022/868/oj/eng), the [EU Data Act](https://eur-lex.europa.eu/eli/reg/2023/2854/oj), and international programs like the [Data Free Flow with Trust (DTFF)](https://www.oecd.org/en/about/programmes/data-free-flow-with-trust.html)
 
 ### Goals of the IDSA
 
