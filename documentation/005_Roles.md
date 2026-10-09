@@ -25,7 +25,7 @@ data provider, data consumer, and intermediary services.
 
 ### Data consumer
 
-Data consumers are the recepients of a data sharing activity. In the IDSA Rulebook the data consumer is the party acting as the consumer of a data sharing contract.
+Data consumers are the recipients of a data sharing activity. In the IDSA Rulebook the data consumer is the party acting as the consumer of a data sharing contract.
 
 The closely related term "data user" describes a natural or legal person who has lawful access to certain personal or non-personal data, and has the right to use that data for commercial or non-commercial purposes.
 
@@ -70,7 +70,7 @@ Such intermediaries may be regulated by local governments like the EU Data Gover
 
 - **[Commercial Services (marketplaces, auctions, match-making)](123_Marketplaces.md):** Facilitate commercial discovery, negotiation, and transaction orchestration for data products and value-added services while operating within the governance and policy constraints of the data space. These services must not introduce mandatory central controls unless such centralization is explicitly justified and documented by the DSGA.
 
-#### Potential roles from legal defintions
+#### Potential roles from legal definitions
 
 Roles might also be described by legal regulation. An example of such regulation that defines roles in data sharing are the European Union regulations, like GDPR or DGA:
 
@@ -82,7 +82,7 @@ Roles might also be described by legal regulation. An example of such regulation
 
 ## Summary
 
-In line with the description of the [role models](005_Roles.md) and the [layered approach](004_Layers.md), the diagram below presents an overview on roles in data spaces and their affilation to the layers.
+In line with the description of the [role models](005_Roles.md) and the [layered approach](004_Layers.md), the diagram below presents an overview on roles in data spaces and their affiliation to the layers.
 
 ![Overview on roles and their affiliation to layers in data spaces](./media/Role%20Overview%20Rulebook.jpg)
 
