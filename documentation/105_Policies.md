@@ -138,4 +138,4 @@ Policies can also act as a fine filter to segment data sharing scenarios and use
 
 - **Industry association or certification requirements:** Enforce access based on membership of an industry association or possession of required security certifications.
 
-... and many more. The possiblities to enforce control and segmentation are unbounded.
+... and many more. The possibilities to enforce control and segmentation are unbounded.

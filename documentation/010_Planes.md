@@ -38,7 +38,7 @@ Sovereign capabilities depend on the specific implementation of a data plane and
 
 ## Data Management Plane
 
-Once data has been shared it usually needs to be managed to enforce governance models and ensure the adherance to policies negotiated in the control plane.
+Once data has been shared it usually needs to be managed to enforce governance models and ensure the adherence to policies negotiated in the control plane.
 
 The Data Management Plane encompasses the organisational functions responsible for managing the lifecycle, quality, and governance of data within a data sharing solution. This includes ensuring data integrity, compliance with contractual obligations, and usability across internal systems.
 
@@ -76,7 +76,7 @@ The Application Plane is the user-facing layer that consumes and processes data 
 
 - **User Interaction**: Supports interfaces for human or machine users (agents), including dashboards, APIs, or automated workflows.
 
-### Examplary Functions
+### Exemplary Functions
 
 - **Analytics**: Performs computational analysis on data from the Data Management Plane, such as statistical modelling or machine learning, to generate insights.
 

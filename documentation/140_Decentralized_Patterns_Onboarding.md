@@ -21,7 +21,7 @@ It is important to understand that in a decentralized architecture, no ongoing d
 
 ![An On-boarding Service verifies compliance with the rules of the data space](./media/Decentralized3.png)
 
-If the data space relies on an onboarding entity to manage the onboarding process this entity can ensure the adherance to membership rules and potential additional steps like checking the validity of external DTF credentials.
+If the data space relies on an onboarding entity to manage the onboarding process this entity can ensure the adherence to membership rules and potential additional steps like checking the validity of external DTF credentials.
 
 If there is no onboarding entity a new participant could simply prove their eligibility to be a member of the data space by providing claims to another participant who accepts the membership after evaluating all membership rules and the claims provided.
 

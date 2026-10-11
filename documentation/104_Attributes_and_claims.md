@@ -5,13 +5,13 @@ As described in the section [Establishing Trust](103_Establishing_Trust.md) Attr
 >**Attributes** describe a participant and are presented to other participants as claims. A **claim** is a **credential**, which must be verified by cryptographic means that it has been issued by a specific party. This issuing party thus acts as a root of trust and is a **Trust Anchor** for this claim.
 >**If a verified claim and its trust anchor are accepted, evidence about the attribute has been established.**
 
-Each credential must be verifiable, which means it needs to be rooted in one (or more) trust anchor(s). This is a mechanisms that citizens of every country use in their daily lives: Trust depends on the authority that issues them, such as a department of traffic issuing drivers licenses or a government issueing citizen ID cards or passports. The driver license contains the information, like date of birth and name of the holder, but what makes this information trustworthy is the believe that it is not a fake id but one issued by a trusted organisation, the department of traffic. Digital credentials have a big advantage versus the analog examples used here: it can be cryptographically verified whether they are real or fake.
+Each credential must be verifiable, which means it needs to be rooted in one (or more) trust anchor(s). This is a mechanisms that citizens of every country use in their daily lives: Trust depends on the authority that issues them, such as a department of traffic issuing drivers licenses or a government issuing citizen ID cards or passports. The driver license contains the information, like date of birth and name of the holder, but what makes this information trustworthy is the believe that it is not a fake id but one issued by a trusted organisation, the department of traffic. Digital credentials have a big advantage versus the analog examples used here: it can be cryptographically verified whether they are real or fake.
 
 Using a trust anchor does not imply dependence on a single central authority. Participants, together with the DSGA and the applicable DTFs, define which trust anchors are acceptable. Multiple anchors may be accepted to preserve decentralization and choice; the DTF and DSGA should document acceptable anchors and any validation procedures.
 
 A trust anchor is an entity that issues certifications about an attribute. Dataspace Trust Frameworks (DTFs) often contain a list of credential issuers which are accepted as trust anchors for that DTF.
 
-Trust anchors are well known by the DTF, DSGA or Participant accepting them for their capability to verify attributes and for being trustworthy that they enforce compliance with the party that they issued a credential for. For example, a company must follow the laws of the country it is based in to obtain a valid company registry ID issued by its government. Therefore the goverment of this country can act as the trust anchor for company registration information.
+Trust anchors are well known by the DTF, DSGA or Participant accepting them for their capability to verify attributes and for being trustworthy that they enforce compliance with the party that they issued a credential for. For example, a company must follow the laws of the country it is based in to obtain a valid company registry ID issued by its government. Therefore the government of this country can act as the trust anchor for company registration information.
 
 Deciding which trust anchors, and thus which rulesand procedures of issuing and validating attributes are used, is the responsibility of each participant and can be greatly simplified by the [DSGA](006_DSGA.md) and the DTFs.
 
@@ -23,7 +23,7 @@ accepted as roots of trust. This can be done by pointing to DTFs as a shortcut f
 Information about a participant must be discoverable and understandable
 for other participants - also to enable a clear understanding of the
 attributes of the participant. Therefore, a participant needs to be able to provide a self-description that follows a known format and
-protocol, as well as a semantic model that describes the meaning, naming and formt of the attributes.
+protocol, as well as a semantic model that describes the meaning, naming and format of the attributes.
 
 The format of the self-description can be defined through the onboarding process for a specific data space and may be a part of the membership policies. In many cases, the format and semantic model of the self-description also depend on the selected trust anchors and DTF.
 
