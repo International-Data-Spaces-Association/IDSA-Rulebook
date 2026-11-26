@@ -4,8 +4,8 @@ Welcome to the IDSA Rulebook page on Github! This is a live document and will co
 
 ## IDSA Rulebook on the IDSA Website
 
-:blue_book: [IDSA Rulebook](https://kb.internationaldataspaces.org/external/rulebook/001_Introduction/)
-If you prefer a rendered and easier-to-read version of this content (rather than reading it via Github), we invite you to [check out our page on IDSA Website](https://kb.internationaldataspaces.org/external/rulebook/001_Introduction/), where you can access the same information available on Github in a more reader-friendly format.
+:blue_book: [IDSA Rulebook](https://kb.internationaldataspaces.org/external/rulebook/)
+If you prefer a rendered and easier-to-read version of this content (rather than reading it via Github), we invite you to [check out our page on IDSA Website](https://kb.internationaldataspaces.org/external/rulebook/), where you can access the same information available on Github in a more reader-friendly format.
 
 ## Purpose & Motivation
 
@@ -16,7 +16,7 @@ The IDSA Rulebook serves several purposes regarding the development and operatio
   * Autonomy and Agency of Participants
   * Creating Trust between Participants
 
-* Guidelines on the core operation of a dataspace
+* Guidelines on the core operation of a data space
   * Onboarding Participants
   * Discovering Data Sharing Offers
   * Negotiating Data Sharing Agreements
@@ -27,7 +27,7 @@ The IDSA Rulebook serves several purposes regarding the development and operatio
   * Vocabularies
   * Marketplaces
 
-* Guidlines for the integration of Dataspace Trust Frameworks
+* Guidelines for the integration of Dataspace Trust Frameworks
   * Role of Trust Frameworks
   * Functionality of Trust Frameworks
   * Multiplicity of Trust Frameworks

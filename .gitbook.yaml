@@ -1,6 +1,6 @@
 root: .
 
 structure:
-    readme: documentation/001-introduction.md
+    readme: documentation/README.md
     summary: documentation/SUMMARY.md
     

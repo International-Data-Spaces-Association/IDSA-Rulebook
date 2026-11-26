@@ -4,6 +4,8 @@
 
 Below are the primary documents in this repository; each entry links to the file and includes a one-sentence description to help readers understand the document's purpose.
 
+- [Overview](README.md) — Overview: purpose, intended audience, relationship to other IDSA documents and how to contribute.
+
 ## Fundamentals
 
 - [Introduction](001_Introduction.md) — Orientation: explains the Rulebook's purpose, intended audience, and how to read its normative language.

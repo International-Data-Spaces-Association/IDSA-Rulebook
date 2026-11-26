@@ -41,15 +41,20 @@ def collect_referenced_files(summary_path: str) -> list[str]:
     return ordered
 
 
-def exclude_frontmatter(paths: list[str]) -> list[str]:
-    """Keep FrontMatter.md out of the numbered/ToC'd body.
+EXCLUDED_FROM_BODY = {"frontmatter.md", "readme.md"}
 
-    SUMMARY.md lists it for the published site's nav order; for the PDF it's
-    rendered separately (unnumbered, outside the Table of Contents) and
-    merged in right after the cover page — see release.yml. Excluding it
-    here keeps SUMMARY.md itself untouched.
+
+def exclude_frontmatter(paths: list[str]) -> list[str]:
+    """Keep FrontMatter.md and README.md out of the numbered/ToC'd body.
+
+    SUMMARY.md lists FrontMatter.md for the published site's nav order; for
+    the PDF it's rendered separately (unnumbered, outside the Table of
+    Contents) and merged in right after the cover page — see release.yml.
+    README.md is the web landing page (overview) and is not part of the PDF,
+    which already has its own cover, front matter and Introduction.
+    Excluding them here keeps SUMMARY.md itself untouched.
     """
-    return [p for p in paths if os.path.basename(p).lower() != "frontmatter.md"]
+    return [p for p in paths if os.path.basename(p).lower() not in EXCLUDED_FROM_BODY]
 
 
 def main() -> None:
